@@ -1,0 +1,15 @@
+# Ignora variables de entorno locales
+.env
+# Ignora reglas para Apache locales
+.htaccess
+# Ignora variables de proyecto
+Core/init.php
+# Ignora archivos de configuración de Sass
+Public/styles/*.css.map
+# Ignora archivo JS
+Public/js/dir.js
+# Ignora Vendors
+Public/vendor/
+# Ignora PHPFactory
+Factory/
+build
