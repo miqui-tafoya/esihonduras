@@ -1,30 +1,32 @@
 <?php
 // tipado fuerte
 declare(strict_types=1);
+// timezone e inicio de sesión
+date_default_timezone_set("America/Mexico_City");
+session_start();
 
 // herramientas dev
-
-/* remover también de htaccess para no ver reporte de errores:
+/* remover de htaccess para no ver reporte de errores:
   php_flag display_startup_errors
   php_flag display_errors */
-
 error_reporting(E_ALL); /*remover para no ver reporte de errores*/
 
 include 'devtools.php'; /*opcional*/
 
 // constantes primarias
-define('PROYECTO', 'nombre_directorio');
+define('PROYECTO', 'cultivandogeneroachonduras');
 define('APP_ROOT', dirname(dirname(__FILE__)));
 define('COREAPP', APP_ROOT . DIRECTORY_SEPARATOR . 'Core' . DIRECTORY_SEPARATOR . 'App' . DIRECTORY_SEPARATOR);
-define('APP_SUBFOLDER', 'prod/' . PROYECTO); /* Importante: sustrae este Path del URI al momento de Request */
+define('APP_SUBFOLDER', 'production/' . PROYECTO); /* Importante: sustrae este Path del URI al momento de Request */
 define('APP_PUBLIC', APP_ROOT . DIRECTORY_SEPARATOR . 'Public' . DIRECTORY_SEPARATOR);
-define('URL_SUB', "http://localhost/produccion/" . PROYECTO . '/');
+define('URL_SUB', "http://localhost/production/" . PROYECTO . '/');
 define('URL_BASE', "http://localhost/" . APP_SUBFOLDER . '/');
 define('URL_PUBLIC', URL_BASE . 'Public/');
 
 // constantes secundarias
 define('SITE_NAME', 'Proyecto ESI Honduras');
 define('VERSION', 'v1.00');
+define('LOG_DIR', APP_PUBLIC . 'logs');
 
 // constantes HTTP
 const ITEMS = [
@@ -43,6 +45,9 @@ $serverRequest = new class () {
         return $this->returns;
     }
 };
+// include Log de errores
+require_once 'errlog.php';
+
 // include Autoload local, y de Composer en caso de haberlo
 require_once 'autoload.php';
 require_once APP_PUBLIC . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
