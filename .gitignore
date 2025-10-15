@@ -13,3 +13,5 @@ Public/vendor/
 # Ignora PHPFactory
 Factory/
 build
+# Ignora Error Logs
+Public/logs
