@@ -9,7 +9,7 @@ RewriteEngine On
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{THE_REQUEST} ^.*/index
-RewriteRule ^(.*)index$ /esihonduras/ [R=301,L]
+RewriteRule ^(.*)index$ /prod/esihonduras/ [R=301,L]
 
 RewriteRule ^Public/ - [L]
 

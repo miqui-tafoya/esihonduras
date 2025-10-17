@@ -1,0 +1,12 @@
+// General
+const URL_BASE = 'http://localhost/prod/esihonduras/'
+const up = '../';
+const URL_PUBLIC = URL_BASE + 'Public/'
+const refresh = 'refresh'
+
+// 
+const log = 'log';
+
+// 
+const exploradormedios = URL_BASE + 'exploradormedios'
+const subirimagen = URL_BASE + 'subirimagen'
