@@ -2,15 +2,7 @@
 
 namespace Controller;
 
-use DateTime;
-
 class MainCtrl {
-  public function fetchErrorController($route) {
-    $route = '_' . $route;
-    $buildClass = '\\Controller\\' . $route;
-    $selectedObject = new $buildClass;
-    return $selectedObject->ERROR_handler($route);
-  }
   public function fetchController($route, $method, $querystring) {
     $route[1][1]['route'] = $route[0]; // agrega ruta a MetaParams
     if ($method == 'get') { // GET

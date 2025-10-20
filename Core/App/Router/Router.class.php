@@ -34,7 +34,7 @@ class Router {
                         $query_string = $this->parseQuery($raw_path); // obtiene los queries del query string
                         $raw_path = \substr($raw_path, 0, $get_position);
                     }
-                    $clean_path = \str_replace(APP_SUBFOLDER . '/', '', $raw_path);
+                    $clean_path = APP_SUBFOLDER ? str_replace(APP_SUBFOLDER . '/', '', $raw_path) : $raw_path;
                     $path = $this->request->getPath($clean_path); // obtiene URI(path)
 
                     if (is_array($path)) { // la ruta obtenida es un array (ruta dinámica)
@@ -60,16 +60,16 @@ class Router {
                     }
                     if ($routeParameters === false) { // la ruta obtenida no existe
                         $status = 404;
-                        \http_response_code($status);
-                        return $this->maincontroller->fetchErrorController($status);
+                        header('Location:' . URL_BASE . 'error/' . $status);
+                        exit;
                     } elseif (\is_string($routeParameters[0])) { // la ruta obtenida es un string (ruta estática)
                         return $this->maincontroller->fetchController($routeParameters, $method, $query_string);
                     }
                     break;
                 default:
                     $status = 405;
-                    \http_response_code($status);
-                    return $this->maincontroller->fetchErrorController($status);
+                    header('Location:' . URL_BASE . 'error/' . $status);
+                    exit;
             }
         }
     }

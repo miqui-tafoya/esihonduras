@@ -16,8 +16,12 @@ abstract class Render {
         $viewFooter = $this->viewFooter($footer);
         $viewModal = $this->viewModal();
         switch ($layout) {
-            case 'main':
             case 'error':
+                $viewMetaError = $this->viewMetaError($metaParams, $body);
+                $templates = [$viewMetaError, $viewMenu, $viewHead, $viewModal, $viewContent, $viewFooter, $viewJs];
+                $markup = ['{{meta}}', '{{menu}}', '{{head}}', '{{modal}}', '{{content}}', '{{footer}}', '{{js}}'];
+                break;
+            case 'main':
                 $viewMeta = $this->viewMeta($metaParams);
                 $templates = [$viewMeta, $viewHead, $viewMenu, $viewModal, $viewContent, $viewFooter, $viewJs];
                 $markup = ['{{meta}}', '{{head}}', '{{menu}}', '{{modal}}', '{{content}}', '{{footer}}', '{{js}}'];
@@ -39,6 +43,11 @@ abstract class Render {
     private function layoutContent($layout) {
         ob_start();
         include_once COREAPP . "View/Layouts/$layout.tpl.php";
+        return ob_get_clean();
+    }
+    private function viewMetaError($metaParams, $body) {
+        ob_start();
+        include_once COREAPP . 'View/Layouts/inc/metaerror.tpl.php';
         return ob_get_clean();
     }
     private function viewMeta($metaParams) {

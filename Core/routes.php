@@ -27,10 +27,154 @@ $routeList = new RouteList($default_styles, $default_js, $default_GET);
 
 $routeList->add(
         'get',
+        '/error/',
+        'error',
+        ['error',
+                ['Error', ['jquery.bbslider', 'portada', 'media-query', 'ads']],
+                [['head' => [], 'footer' => []],
+                        ['pins', 'top', 'posts', 'quotes', 'video', 'infografias']],
+                []],
+        ['ads']
+);
+
+$routeList->add(
+        'get',
         '/',
         'home',
         ['main',
                 ['Inicio ESI Honduras', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/centrosdesalud',
+        'centrosdesalud',
+        ['main',
+                ['Centros de Salud', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/contacto',
+        'contacto',
+        ['main',
+                ['Contacto', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/quienessomos',
+        'quienessomos',
+        ['main',
+                ['Quiénes Somos', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/educadores',
+        'educadores',
+        ['main',
+                ['Quiénes Somos - Educadores', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/madresypadres',
+        'madresypadres',
+        ['main',
+                ['Quiénes Somos - Madres y Padres', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/jovenes',
+        'jovenes',
+        ['main',
+                ['Quiénes Somos - Jóvenes', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/faq',
+        'faq',
+        ['main',
+                ['Preguntas Frecuentes', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/informacionpublica',
+        'informacionpublica',
+        ['main',
+                ['Información Pública', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/multimedia',
+        'multimedia',
+        ['main',
+                ['Multimedia', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/noticias',
+        'noticias',
+        ['main',
+                ['Noticias', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/saludsexual',
+        'saludsexual',
+        ['main',
+                ['Salud Sexual', []],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
