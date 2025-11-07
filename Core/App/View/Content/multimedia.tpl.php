@@ -1,1 +1,1 @@
-Multimedia
+<div id="main">Multimedia</div>

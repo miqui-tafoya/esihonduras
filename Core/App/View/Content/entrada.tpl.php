@@ -1,1 +1,1 @@
-Entrada
+<div id="main">Entrada</div>

@@ -1,8 +1,7 @@
-@use "variables" as vars;
-
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 html,
 body,
 div,
@@ -84,15 +83,15 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 html {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=html.css.map */

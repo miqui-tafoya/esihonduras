@@ -6,9 +6,9 @@ use Router\RouteList;
 use Controller\MainCtrl;
 
 // Instancia Globales
-$default_styles = ['fonts/css/all.min', 'html'];
+$default_styles = ['fonts/css/all.min', 'html','general','mediaquery'];
 $default_GET = [];
-$default_js = ['jquery-3.6.1.min', 'dir', 'general', 'menu', 'modal'];
+$default_js = ['dir', 'menu'];
 
 $routeList = new RouteList($default_styles, $default_js, $default_GET);
 
@@ -30,11 +30,11 @@ $routeList->add(
         '/error/',
         'error',
         ['error',
-                ['Error', ['jquery.bbslider', 'portada', 'media-query', 'ads']],
+                ['Error', []],
                 [['head' => [], 'footer' => []],
-                        ['pins', 'top', 'posts', 'quotes', 'video', 'infografias']],
+                        []],
                 []],
-        ['ads']
+        []
 );
 
 $routeList->add(

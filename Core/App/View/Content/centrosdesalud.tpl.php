@@ -1,1 +1,1 @@
-Centros de Salud
+<div id="main">Centros de Salud</div>

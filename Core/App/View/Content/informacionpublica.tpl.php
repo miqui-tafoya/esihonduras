@@ -1,1 +1,1 @@
-Información Pública
+<div id="main">Información Pública</div>

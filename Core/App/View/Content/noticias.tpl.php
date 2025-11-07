@@ -1,1 +1,1 @@
-Noticias
+<div id="main">Noticias</div>

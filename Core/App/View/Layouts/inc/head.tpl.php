@@ -1,3 +1,3 @@
 <?php
 ?>
-head
+<div id="head"></div>

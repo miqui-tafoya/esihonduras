@@ -1,1 +1,1 @@
-Contacto
+<div id="main">Contacto</div>

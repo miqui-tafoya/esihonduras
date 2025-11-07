@@ -1,3 +1,3 @@
 <?php
 ?>
-Inicio
+<div id="main">Home</div>

@@ -1,1 +1,1 @@
-Preguntas Frecuentes
+<div id="main">Preguntas Frecuentes</div>
