@@ -16,7 +16,7 @@
 <div id="menu-movil" class="slide-out" style="visibility: hidden;">
     <ul>
         <li><a href="index">Inicio</a></li>
-        <li><a href="quienessomos">Quienes Somos prueba</a></li>
+        <li><a href="quienessomos">Quienes Somos</a></li>
         <li><a href="saludsexual">Salud Sexual</a></li>
         <li><a href="centrosdesalud">Centros de Salud</a></li>
         <li><a href="informacionpublica">Información Pública</a></li>

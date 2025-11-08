@@ -6,7 +6,7 @@ use Router\RouteList;
 use Controller\MainCtrl;
 
 // Instancia Globales
-$default_styles = ['fonts/css/all.min', 'html','general','mediaquery'];
+$default_styles = ['fonts/css/all.min', 'html','general','cabecera','mediaquery'];
 $default_GET = [];
 $default_js = ['dir', 'menu'];
 
