@@ -1,6 +1,6 @@
 <?php
 ?>
-<div id="menu-large">
+<div id="menu-large" class="back-menu">
     <ul>
         <li><a href="index">Inicio</a></li>
         <li><a href="quienessomos">Quienes Somos</a></li>
