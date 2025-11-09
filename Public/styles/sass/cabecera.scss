@@ -42,3 +42,26 @@
     justify-content: center;
     align-items: center;
 }
+
+.back-menu ul li{
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin: 0 0.3rem;
+    color: vars.$g;
+}
+
+.back-menu a{
+    background-color: beige;
+     padding: 0.8rem 1rem;
+     border-radius: 40px;
+     
+
+}
+
+.back-menu a:hover{
+    background-color: vars.$g;
+    color: vars.$g0;
+    padding: 0.8rem 1rem;
+    border-radius: 40px;
+    
+}

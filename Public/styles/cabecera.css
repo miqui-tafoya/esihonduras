@@ -39,4 +39,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.back-menu ul li {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin: 0 0.3rem;
+  color: #000;
+}
+
+.back-menu a {
+  background-color: beige;
+  padding: 0.8rem 1rem;
+  border-radius: 40px;
+}
+
+.back-menu a:hover {
+  background-color: #000;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border-radius: 40px;
 }/*# sourceMappingURL=cabecera.css.map */
