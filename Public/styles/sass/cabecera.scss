@@ -46,15 +46,14 @@
 .back-menu ul li{
     font-weight: 600;
     font-size: 0.8rem;
-    margin: 0 0.3rem;
     color: vars.$g;
 }
 
 .back-menu a{
-    background-color: beige;
+    background-color: transparent;
      padding: 0.6rem 1rem;
      border-radius: 40px;
-     
+     color: vars.$g;
 
 }
 
