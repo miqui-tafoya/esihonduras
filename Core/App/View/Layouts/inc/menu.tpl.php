@@ -15,6 +15,7 @@
     </ul>
 </div>
 <div id="menu-movil" class="slide-out back-menu-movil" style="visibility: hidden;">
+     <div class="logo-menu-movil"> <img src="Public/recursos/imagenes/logotipo-bn.png" alt=""></div>
     <ul>
         <li><a href="index">Inicio</a></li>
         <li><a href="quienessomos">Quienes Somos</a></li>

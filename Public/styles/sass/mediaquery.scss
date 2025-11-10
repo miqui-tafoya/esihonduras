@@ -8,10 +8,14 @@
 #toggle-menu {
     display: block;
 }
+#head {
+    height: 3rem;
+}
+
 }
 
 @media only screen and (min-width: 600px) {
-    
+
 #toggle-menu {
     display: none;
 }

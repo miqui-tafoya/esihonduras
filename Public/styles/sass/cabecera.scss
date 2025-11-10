@@ -76,7 +76,7 @@
 .back-menu-movil ul li{
     font-weight: 600;
     font-size: 0.8rem;
-    margin: 1.5rem 0rem 1.5rem 1.5rem;
+    margin: 1.5rem 0rem 1.2rem 1.5rem;
     color: vars.$g;
 }
 
@@ -100,6 +100,11 @@
     color: vars.$g;
     position: absolute;
     left: 10px;
+    font-size: 2rem;
+}
+
+#toggle-menu:hover {
+    color: vars.$g0;
 }
 
 .logo-menu {
@@ -108,6 +113,17 @@ width: 100px;
 }
 
 .logo-menu img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-menu-movil {
+    width: 100px;
+    margin:0.5rem 0 0.3rem 0.5rem;
+
+}
+
+.logo-menu-movil img {
   max-width: 100%;
   height: auto;
 }
