@@ -1,1 +1,23 @@
-/*# sourceMappingURL=footer.css.map */
+.logos-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ul-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110px;
+}
+
+.ul-logos li {
+  margin: 0rem 1rem;
+  width: 100px;
+}
+
+.ul-logos li img {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=footer.css.map */

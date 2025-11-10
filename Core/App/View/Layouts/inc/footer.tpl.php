@@ -2,7 +2,7 @@
 ?>
 <div id="footer">
     <div class="logos-footer">
-        <lu>
+        <lu class="ul-logos">
             <li><img src="Public/recursos/imagenes/sesal.png" alt=""></li>
             <li><img src="Public/recursos/imagenes/stlcc.png" alt=""></li>
             <li><img src="Public/recursos/imagenes/agah.png" alt=""></li>
