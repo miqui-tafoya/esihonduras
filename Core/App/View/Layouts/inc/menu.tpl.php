@@ -1,6 +1,7 @@
 <?php
 ?>
 <div id="menu-large" class="back-menu">
+    <div class="logo-menu"> <img src="Public/recursos/imagenes/logotipo-bn.png" alt=""></div>
     <ul>
         <li><a href="index">Inicio</a></li>
         <li><a href="quienessomos">Quienes Somos</a></li>

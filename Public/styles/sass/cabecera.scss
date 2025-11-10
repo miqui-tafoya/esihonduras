@@ -41,7 +41,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .back-menu ul li{
@@ -101,4 +100,14 @@
     color: vars.$g;
     position: absolute;
     left: 10px;
+}
+
+.logo-menu {
+width: 100px;
+
+}
+
+.logo-menu img {
+  max-width: 100%;
+  height: auto;
 }
