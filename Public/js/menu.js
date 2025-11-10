@@ -1,8 +1,8 @@
 const menuMovil = document.getElementById('menu-movil')
 const CerrarMenuMovil = document.getElementById('cerrar-menu-movil')
-const header = document.getElementById('head')
+const toggle = document.getElementById('toggle-menu')
 
-header.onclick = function () {
+toggle.onclick = function () {
     menuMovil.style.visibility = 'visible';
     menuMovil.classList.add('slide-in');
     menuMovil.classList.remove('slide-out');

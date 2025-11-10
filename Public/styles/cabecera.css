@@ -87,4 +87,11 @@
   color: #fff;
   padding: 0.6rem 1rem;
   border-radius: 40px;
+}
+
+#toggle-menu {
+  cursor: pointer;
+  color: #000;
+  position: absolute;
+  left: 10px;
 }/*# sourceMappingURL=cabecera.css.map */

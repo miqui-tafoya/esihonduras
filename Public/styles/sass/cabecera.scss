@@ -95,3 +95,10 @@
     border-radius: 40px;
     
 }
+
+#toggle-menu {
+    cursor: pointer;
+    color: vars.$g;
+    position: absolute;
+    left: 10px;
+}

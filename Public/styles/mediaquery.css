@@ -5,4 +5,12 @@
   #menu-movil {
     display: block;
   }
+  #toggle-menu {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #toggle-menu {
+    display: none;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
