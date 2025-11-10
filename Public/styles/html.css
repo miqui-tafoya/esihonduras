@@ -109,4 +109,8 @@ p {
 a {
   font-family: "Onest", sans-serif;
   text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
 }/*# sourceMappingURL=html.css.map */

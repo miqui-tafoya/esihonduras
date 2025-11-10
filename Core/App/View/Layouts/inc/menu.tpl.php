@@ -13,7 +13,7 @@
         <li><a href="contacto">Contacto</a></li>
     </ul>
 </div>
-<div id="menu-movil" class="slide-out" style="visibility: hidden;">
+<div id="menu-movil" class="slide-out back-menu-movil" style="visibility: hidden;">
     <ul>
         <li><a href="index">Inicio</a></li>
         <li><a href="quienessomos">Quienes Somos</a></li>

@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .back-menu ul li{
@@ -59,6 +60,35 @@
 }
 
 .back-menu a:hover{
+    background-color: vars.$g;
+    color: vars.$g0;
+    padding: 0.6rem 1rem;
+    border-radius: 40px;
+    
+}
+
+.back-menu-movil {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-menu-movil ul li{
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin: 1.5rem 0rem 1.5rem 1.5rem;
+    color: vars.$g;
+}
+
+.back-menu-movil a{
+    background-color: beige;
+     padding: 0.6rem 1rem;
+     border-radius: 40px;
+     
+}
+
+.back-menu-movil a:hover{
     background-color: vars.$g;
     color: vars.$g0;
     padding: 0.6rem 1rem;
