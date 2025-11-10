@@ -15,6 +15,7 @@
     </ul>
 </div>
 <div id="menu-movil" class="slide-out back-menu-movil" style="visibility: hidden;">
+    <div style="overflow-y:auto">
      <div class="logo-menu-movil"> <img src="Public/recursos/imagenes/logotipo-bn.png" alt=""></div>
     <ul>
         <li><a href="index">Inicio</a></li>
@@ -28,4 +29,5 @@
         <li><a href="contacto">Contacto</a></li>
         <li><a id="cerrar-menu-movil" href="#">X Cerrar</a></li>
     </ul>
+    </div>
 </div>
