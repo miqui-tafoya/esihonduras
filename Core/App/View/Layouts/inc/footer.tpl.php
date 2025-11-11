@@ -13,13 +13,19 @@
 
     <div class="info-footer">
         <div class="uno-info-footer">
-            <p>Plataforma ESI Honduras - 2025</p>
+            <p> ESI Honduras - 2025</p>
         </div>
         <div class="dos-info-footer">
             <p>Nuestras redes sociales</p>
+            <div class="redes-footer">
+                <a href=""> <i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""> <i class="fa-brands fa-instagram"></i></a>
+            </div>
         </div>
         <div class="tres-info-footer">
             <div class="mapa-sitio-footer">
+                <p>Mapa de sitio</p>
                 <ul>
                     <li><a href="index">Inicio</a></li>
                     <li><a href="quienessomos">Quienes Somos</a></li>

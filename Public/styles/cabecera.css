@@ -7,7 +7,7 @@
 
 .elementos-head {
   display: flex;
-  padding: 0 1.5rem;
+  padding: 0rem 1.5rem;
 }
 
 .elementos-head p {
@@ -18,13 +18,13 @@
 
 .elementos-head a {
   font-size: 0.8rem;
-  padding: 0 0.3rem;
+  padding: 0rem 0.3rem;
   color: #424242;
 }
 
 .elementos-head a:hover {
   font-size: 0.8rem;
-  padding: 0 0.3rem;
+  padding: 0rem 0.3rem;
   color: #000;
 }
 
