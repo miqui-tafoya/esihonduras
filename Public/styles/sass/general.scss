@@ -15,7 +15,7 @@ body {
 #menu-large {
     width: 100%;
     min-height: 80px;
-    background-color: white;
+    background-color: vars.$g300;
 }
 #menu-large ul li {
     display: inline;
@@ -44,12 +44,12 @@ body {
     width: 100%;
     height: 1500px;
     flex-grow: 1;
-    background-color: yellow;
+
 }
 #footer {
     width: 100%;
     min-height: 300px;
-    background-color: vars.$g700;
+    background-color: vars.$g300;
     display: flex;
     flex-direction: column;
     align-items: center;
