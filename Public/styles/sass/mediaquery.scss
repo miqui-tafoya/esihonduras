@@ -12,6 +12,8 @@
     height: 3rem;
 }
 
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -24,15 +26,50 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    
+
+
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+ 
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+       .info-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+    padding-top: 1.2rem;
+    flex-direction: unset;
+}
+
+    .uno-info-footer {
+    width: 20%;
+     padding: 0rem 0rem;
+}
+
+    .dos-info-footer {
+    width: 20%;
+}
+
+    .tres-info-footer {
+    width: 60%;
+    align-items: start;
+}
+
+.mapa-sitio-footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
     
 }
