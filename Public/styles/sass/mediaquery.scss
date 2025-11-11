@@ -40,7 +40,13 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-       .info-footer {
+    
+   .ul-logos li {
+   margin: 0rem 1rem;
+   width: 100px;
+}
+
+    .info-footer {
     display: flex;
     align-items: center;
     justify-content: center;
