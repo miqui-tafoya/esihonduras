@@ -2,9 +2,19 @@
 ?>
 <div id="menu-large" class="back-menu">
     <div class="logo-menu"> <img src="Public/recursos/imagenes/logotipo-bn.png" alt=""></div>
-    <ul>
+    <ul >
         <li><a href="index">Inicio</a></li>
-        <li><a href="quienessomos">Quienes Somos</a></li>
+        <div  class="dropdown">
+        <li>  
+                <a href="quienessomos" class="dropbtn">Quiénes somos</a>
+                <div class="dropdown-content">
+                    <a href="#">Educadores</a>
+                    <a href="#">Madres y Padres</a>
+                    <a href="#">Jóvenes</a>
+                </div>
+          
+        </li>
+        </div>
         <li><a href="saludsexual">Salud Sexual</a></li>
         <li><a href="centrosdesalud">Centros de Salud</a></li>
         <li><a href="informacionpublica">Información Pública</a></li>

@@ -128,3 +128,41 @@ width: 100px;
   max-width: 100%;
   height: auto;
 }
+
+////// dropdown escritorio ////////
+
+.dropbtn {
+  color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: vars.$g300;
+  min-width: 160px;
+  margin-top: 0.5rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 0 !important;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ccc; border-radius: 0 !important;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:vars.$g; color: #fff;}
