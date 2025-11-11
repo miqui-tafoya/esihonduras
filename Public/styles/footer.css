@@ -3,14 +3,15 @@
   align-items: end;
   justify-content: center;
   width: 100%;
-  height: 140px;
+  height: 100%;
+  padding: 2rem 0;
 }
 
 .ul-logos {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 110px;
+  height: 100%;
 }
 
 .ul-logos li {
@@ -28,7 +29,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 160px;
+  height: 100%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   flex-direction: column;
@@ -84,6 +85,11 @@
   justify-content: center;
   width: 100%;
   height: 100%;
+}
+
+.grid-mapa-sitio {
+  display: flex;
+  flex-direction: column;
 }
 
 .mapa-sitio-footer {

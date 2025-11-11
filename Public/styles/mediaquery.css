@@ -48,4 +48,8 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
+  .grid-mapa-sitio {
+    display: flex;
+    flex-direction: unset;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
