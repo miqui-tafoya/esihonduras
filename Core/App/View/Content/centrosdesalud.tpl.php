@@ -1,5 +1,11 @@
 <div id="main">
     <div class="contenedor-centros">
+        <div class="txt-centros">
+            <p class="centros-uno">Centros de Salud</p>
+            <p class="centros-dos">Conoce el mapa interactivo Derechos ESI, en el podrás encontrar la ubicación de hospitales y centros de salud que brindan servicios de salud sexual y reproductiva en Honduras.
+</p>
+        </div>
+
         <div class="grid-centros">
             <div class="side-centros">
                 <ul>
