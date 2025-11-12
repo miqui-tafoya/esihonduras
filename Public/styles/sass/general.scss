@@ -88,13 +88,13 @@ body {
 
 .imagen-perfil {
     width: 380px;
-   
 }
 
 .imagen-perfil img{
     width: 100%;
     height: auto;
-     border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .info-item-perfiles {
