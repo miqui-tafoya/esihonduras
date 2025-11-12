@@ -6,9 +6,9 @@ use Router\RouteList;
 use Controller\MainCtrl;
 
 // Instancia Globales
-$default_styles = ['fonts/css/all.min', 'html','general','cabecera','footer','mediaquery'];
+$default_styles = ['start' => ['fonts/css/all.min', 'html','general','cabecera','footer'], 'end' => ['mediaquery']];
 $default_GET = [];
-$default_js = ['dir', 'menu'];
+$default_js = ['start' => ['dir', 'menu'], 'end' => []];
 
 $routeList = new RouteList($default_styles, $default_js, $default_GET);
 
@@ -42,7 +42,7 @@ $routeList->add(
         '/',
         'home',
         ['main',
-                ['Inicio ESI Honduras', ['home','mediaquery' ]],
+                ['Inicio ESI Honduras', ['home']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
@@ -53,6 +53,18 @@ $routeList->add(
         'get',
         '/centrosdesalud',
         'centrosdesalud',
+        ['main',
+                ['Centros de Salud', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/regionsalud/',
+        'regionsalud',
         ['main',
                 ['Centros de Salud', []],
                 [['head' => [], 'footer' => []],

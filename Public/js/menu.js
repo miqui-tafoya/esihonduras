@@ -4,13 +4,13 @@ const toggle = document.getElementById('toggle-menu')
 const body = document.body
 
 toggle.onclick = function () {
-    body.style.overflow = 'hidden'
+    body.style.overflowX = 'hidden'
     menuMovil.style.visibility = 'visible'
     menuMovil.classList.add('slide-in')
     menuMovil.classList.remove('slide-out')
 };
 CerrarMenuMovil.onclick = function () {
-    body.style.overflow = 'auto'
+    body.style.overflowX = 'hidden'
     menuMovil.classList.add('slide-out')
     menuMovil.classList.remove('slide-in')
     setTimeout(() => {

@@ -16,10 +16,13 @@ class RouteList {
     }
 
     public function add($method, $path, $callback, $params, $js = []) { // agrega ruta al listado y acomoda parámetros para lectura de Router
-        empty($js) ? $js = $this->js : $js = array_merge($this->js, $js); //agregar default js
+        // agregar js default
+        $js = empty($js) ? array_merge($this->js['start'], $this->js['end']) : array_merge($this->js['start'], $js, $this->js['end']);
         if (!is_callable($callback)) { // el callback de la ruta NO es función
-            empty($params[1][1]) ? $params[1][1] = $this->params : $params[1][1] = array_merge($this->params, $params[1][1]); // agregar estilos default
-            empty($params[2][0]) ? $params[2][0] = $this->get : $params[2][0] = array_merge($this->get, $params[2][0]); // agregar GET default
+            // agregar estilos default
+            $params[1][1] = empty($params[1][1]) ? array_merge($this->params['start'], $this->params['end']) : array_merge($this->params['start'], $params[1][1], $this->params['end']);
+            // agregar GET default
+            $params[2][0] = empty($params[2][0]) ? $this->get : array_merge($this->get, $params[2][0]);
         }
         $this->routes[$method][$path] = [$callback, $params, $js];
     }
