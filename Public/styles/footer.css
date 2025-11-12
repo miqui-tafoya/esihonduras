@@ -122,4 +122,14 @@
 
 .mapa-sitio-footer a:hover {
   color: #fff;
+}
+
+.sub-menu-footer {
+  flex-direction: column;
+}
+
+.sub-menu-footer a {
+  padding: 0rem 0rem 0.3rem 0rem;
+  color: #000;
+  font-weight: 400;
 }/*# sourceMappingURL=footer.css.map */

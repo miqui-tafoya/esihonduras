@@ -34,7 +34,13 @@
                 <div class="grid-mapa-sitio">
                     <ul>
                         <li><a href="index">Inicio</a></li>
-                        <li><a href="quienessomos">Quienes Somos</a></li>
+                        <li style="flex-direction:column"><a href="quienessomos">Quienes Somos</a>
+                            <ul class="sub-menu-footer">
+                                <li><a href="">Educadores</a></li>
+                                <li><a href="">Madres y Padres</a></li>
+                                <li><a href="">Jóvenes</a></li>
+                            </ul>
+                        </li>
                         <li><a href="saludsexual">Salud Sexual</a></li>
                     </ul>
                     <ul>

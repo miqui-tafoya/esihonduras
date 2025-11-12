@@ -117,6 +117,7 @@
     font-weight: 600;
     font-size: 0.6rem;
     color: #000;
+   
 }
 
 .mapa-sitio-footer a{
@@ -126,4 +127,14 @@
 
 .mapa-sitio-footer a:hover{
     color: vars.$g0;
+}
+
+.sub-menu-footer{
+    flex-direction: column;
+}
+
+.sub-menu-footer a{
+    padding: 0rem 0rem 0.3rem 0rem;
+    color: #000;
+    font-weight: 400;
 }
