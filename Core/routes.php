@@ -42,7 +42,7 @@ $routeList->add(
         '/',
         'home',
         ['main',
-                ['Inicio ESI Honduras', []],
+                ['Inicio ESI Honduras', ['home']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],

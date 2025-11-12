@@ -59,45 +59,4 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.contenedor-home {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-  width: 90%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.perfiles-home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 2rem 0rem 2rem 0rem;
-}
-
-.item-perfiles-home {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  margin: 0rem 2rem;
-}
-
-.imagen-perfil {
-  width: 380px;
-}
-
-.imagen-perfil img {
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-.info-item-perfiles {
-  display: flex;
-  flex-direction: column;
 }/*# sourceMappingURL=general.css.map */
