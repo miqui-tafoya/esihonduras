@@ -54,7 +54,7 @@ $routeList->add(
         '/centrosdesalud',
         'centrosdesalud',
         ['main',
-                ['Centros de Salud', []],
+                ['Centros de Salud', ['centros']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],

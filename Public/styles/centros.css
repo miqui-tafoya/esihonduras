@@ -1,0 +1,30 @@
+.contenedor-centros {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.grid-centros {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.side-centros {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=centros.css.map */
