@@ -1,6 +1,7 @@
 <?php
 ?>
-<div id="menu-large" class="back-menu">
+<div id="menu-large">
+    <div class="back-menu">
     <div class="logo-menu"> <img src="Public/recursos/imagenes/logotipo-bn.png" alt=""></div>
     <ul >
         <li><a href="index">Inicio</a></li>
@@ -23,7 +24,10 @@
         <li><a href="noticias">Noticias</a></li>
         <li><a href="contacto">Contacto</a></li>
     </ul>
+    </div>
 </div>
+
+
 <div id="menu-movil" class="slide-out back-menu-movil" style="visibility: hidden;">
     <div class="logo-menu-movil"> <img src="Public/recursos/imagenes/logotipo-bn.png" alt=""></div>
     <div class="menu-area">
