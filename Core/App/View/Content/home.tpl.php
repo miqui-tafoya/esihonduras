@@ -3,8 +3,8 @@
 <div id="main">
     <div class="contenedor-home">
         <div class="txt-bienvenida">
-            <h1>Esi Honduras</h1>
-            <p>Plataforma de educación sexual integral</p>
+            <p class="bienvenida-uno">ESI Honduras</p>
+            <p class="bienvenida-dos">Plataforma de educación sexual integral</p>
         </div>
 
         <div class="perfiles-home">
@@ -15,7 +15,7 @@
                     <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
                 </div>
                 <div class="info-item-perfiles">
-                    <h3>Educadores</h3>
+                    <p class="titulo-item">Educadores</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -34,7 +34,7 @@
                     </a>
                 </div>
                 <div class="info-item-perfiles">
-                    <h3>Madres y Padres</h3>
+                     <p class="titulo-item">Madres y Padres</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -54,7 +54,7 @@
                     </a>
                 </div>
                 <div class="info-item-perfiles">
-                    <h3>Jóvenes</h3>
+                    <p class="titulo-item">Jóvenes</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam,
