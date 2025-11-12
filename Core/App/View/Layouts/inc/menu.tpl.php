@@ -33,7 +33,13 @@
     <div class="menu-area">
         <ul>
             <li><a href="index">Inicio</a></li>
-            <li><a href="quienessomos">Quienes Somos</a></li>
+            <li style="flex-direction:column"><a href="quienessomos">Quienes Somos</a>
+                            <ul class="sub-menu-movil">
+                                <li><a href="">Educadores</a></li>
+                                <li><a href="">Madres y Padres</a></li>
+                                <li><a href="">Jóvenes</a></li>
+                            </ul>
+                        </li>
             <li><a href="saludsexual">Salud Sexual</a></li>
             <li><a href="centrosdesalud">Centros de Salud</a></li>
             <li><a href="informacionpublica">Información Pública</a></li>

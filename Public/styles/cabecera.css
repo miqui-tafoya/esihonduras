@@ -162,4 +162,28 @@
 .dropdown:hover .dropbtn {
   background-color: #000;
   color: #fff;
+}
+
+.sub-menu-movil {
+  flex-direction: column;
+}
+
+.sub-menu-movil li {
+  margin: 1rem 0rem 0.3rem 1rem !important;
+}
+
+.sub-menu-movil a {
+  padding: 1rem 0rem 0rem 0rem;
+  border-radius: 0 !important;
+  color: #000;
+  font-weight: 400;
+  margin: 0rem 0rem 0.3rem 1rem;
+}
+
+.sub-menu-movil a:hover {
+  padding: 0rem 0rem 0rem 0rem;
+  background-color: transparent;
+  border-radius: 0 !important;
+  color: grey;
+  font-weight: 400;
 }/*# sourceMappingURL=cabecera.css.map */
