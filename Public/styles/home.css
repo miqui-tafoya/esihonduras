@@ -8,12 +8,30 @@
   margin: 0 auto;
 }
 
+.txt-bienvenida {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0rem;
+}
+
+.txt-bienvenida h1 {
+  color: #616161;
+  margin: 0;
+}
+
+.txt-bienvenida p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: -1.5rem;
+}
+
 .perfiles-home {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   padding: 2rem 0rem 2rem 0rem;
+  flex-direction: column;
 }
 
 .item-perfiles-home {
