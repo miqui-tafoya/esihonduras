@@ -25,12 +25,12 @@
 .item-perfiles-home{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    margin: 0rem 2rem;
+    width: 100%;
+    margin: 0rem 2.5rem;
 }
 
 .imagen-perfil {
-    width: 380px;
+    width: 100%;
 }
 
 .imagen-perfil img{
@@ -43,4 +43,23 @@
 .info-item-perfiles {
     display: flex;
     flex-direction: column;
+}
+
+.btn-perfiles{
+    display: flex;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.btn-perfiles a{
+    color: #fff;
+    background-color:vars.$g600;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.btn-perfiles a:hover{
+    color: #fff;
+    background-color:vars.$g;
 }

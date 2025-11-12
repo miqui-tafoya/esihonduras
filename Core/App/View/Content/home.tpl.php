@@ -17,11 +17,14 @@
                         elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco.</p>
+                   <div class="btn-perfiles">
+                        <a href="madresypadres">Ir a Educadores</a>
+                    </div>
 
                 </div>
             </div>
 
-             <div class="item-perfiles-home">
+            <div class="item-perfiles-home">
                 <div class="imagen-perfil">
                     <img src="Public/recursos/imagenes/padres.jpg" alt="">
                 </div>
@@ -32,10 +35,14 @@
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco.</p>
 
+                    <div class="btn-perfiles">
+                        <a href="madresypadres">Ir a Madres y Padres</a>
+                    </div>
+
                 </div>
             </div>
 
-             <div class="item-perfiles-home">
+            <div class="item-perfiles-home">
                 <div class="imagen-perfil">
                     <img src="Public/recursos/imagenes/jovenes.jpg" alt="">
                 </div>
@@ -45,6 +52,9 @@
                         elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco.</p>
+                    <div class="btn-perfiles">
+                        <a href="madresypadres">Ir a Jóvenes</a>
+                    </div>
 
                 </div>
             </div>
