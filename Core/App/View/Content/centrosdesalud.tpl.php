@@ -8,6 +8,7 @@
 
         <div class="grid-centros">
             <div class="side-centros">
+                <div class="listado-enlaces">
                 <ul>
                     <li><a href="regionsalud/1">Región 1</a></li>
                     <li><a href="regionsalud/2">Región 2</a></li>
@@ -15,12 +16,15 @@
                     <li><a href="regionsalud/4">Región 4</a></li>
                     <li><a href="regionsalud/5">Región 5</a></li>
                 </ul>
+                </div>
             </div>
 
         </div>
 
-        <div class="mapa">
-            aqui va mapa
+        <div class="contenedor-mapa">
+            <div class="mapa">
+            <img src="Public/recursos/imagenes/mapa-honduras.png" alt="">
+            </div>
         </div>
     </div>
 </div>
