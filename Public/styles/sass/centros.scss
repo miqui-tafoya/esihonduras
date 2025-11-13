@@ -72,3 +72,17 @@
     display: flex;
     padding: 1rem;
 }
+
+.listado-enlaces ul li{
+    padding: 0.5rem;
+}
+
+.listado-enlaces a{
+    font-size: 0.9rem;
+    color: vars.$g;
+    font-weight: 500;
+}
+
+.listado-enlaces a:hover{
+    color: vars.$g700;
+}

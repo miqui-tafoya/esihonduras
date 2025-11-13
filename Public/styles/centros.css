@@ -68,4 +68,18 @@
 .listado-enlaces {
   display: flex;
   padding: 1rem;
+}
+
+.listado-enlaces ul li {
+  padding: 0.5rem;
+}
+
+.listado-enlaces a {
+  font-size: 0.9rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.listado-enlaces a:hover {
+  color: #616161;
 }/*# sourceMappingURL=centros.css.map */
