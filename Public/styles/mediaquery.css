@@ -75,6 +75,9 @@
   .contenedor-mapa {
     width: 70%;
   }
+  .grid-bloque-dos-home {
+    flex-direction: unset;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
