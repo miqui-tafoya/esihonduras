@@ -12,7 +12,7 @@
             <div class="item-perfiles-home">
                 <div class="imagen-perfil">
                     <a href="educadores">
-                    <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
+                        <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
                 </div>
                 <div class="info-item-perfiles">
                     <p class="titulo-item">Educadores</p>
@@ -30,11 +30,11 @@
             <div class="item-perfiles-home">
                 <div class="imagen-perfil">
                     <a href="madresypadres">
-                    <img src="Public/recursos/imagenes/padres.jpg" alt="">
+                        <img src="Public/recursos/imagenes/padres.jpg" alt="">
                     </a>
                 </div>
                 <div class="info-item-perfiles">
-                     <p class="titulo-item">Madres y Padres</p>
+                    <p class="titulo-item">Madres y Padres</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                         elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -50,7 +50,7 @@
             <div class="item-perfiles-home">
                 <div class="imagen-perfil">
                     <a href="jovenes">
-                    <img src="Public/recursos/imagenes/jovenes.jpg" alt="">
+                        <img src="Public/recursos/imagenes/jovenes.jpg" alt="">
                     </a>
                 </div>
                 <div class="info-item-perfiles">
@@ -66,5 +66,31 @@
                 </div>
             </div>
         </div>
+
+        <div class="bloque-dos-home">
+            <div class="grid-bloque-dos-home">
+                <div class="img-bloque-dos-home">
+                    <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                </div>
+
+                <div class="info-bloque-dos-home">
+                    <div class="txt-centros">
+                        <p class="centros-uno">¿Por qué hablamos
+                            de salud sexual integral?</p>
+                        <p class="centros-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce el
+                            derecho a la protección de la salud en el artículo 145. La salud sexual y reproductiva es un
+                            derecho muy amplio que nos lleva a hablar de servicios de salud de buena calidad, educación,
+                            consentimiento, información, prevención.
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
     </div>
 </div>

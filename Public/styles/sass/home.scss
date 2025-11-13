@@ -78,12 +78,14 @@
 }
 
 .btn-perfiles a{
+     font-weight: 600;
     color: #fff;
+    font-size: 0.8rem;
     background-color:vars.$g600;
     padding: 0.5rem 0.8rem;
     cursor: pointer;
     border-radius: 40px;
-    font-weight: 600;
+   
 }
 
 .btn-perfiles a:hover{
