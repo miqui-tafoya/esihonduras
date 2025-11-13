@@ -66,6 +66,15 @@
   .bienvenida-dos {
     margin-top: -2rem;
   }
+  .grid-centros {
+    flex-direction: unset;
+  }
+  .side-centros {
+    width: 30%;
+  }
+  .contenedor-mapa {
+    width: 70%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
