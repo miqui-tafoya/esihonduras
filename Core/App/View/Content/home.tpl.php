@@ -69,22 +69,22 @@
 
         <div class="bloque-dos-home">
             <div class="grid-bloque-dos-home">
+                <div class="txt-bloque-dos-home">
+                        <p class="bloque-dos-home-uno">¿Por qué hablamos
+                            de salud sexual integral?</p>
+                            </div>
+
                 <div class="img-bloque-dos-home">
                     <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
                 </div>
 
                 <div class="info-bloque-dos-home">
-                    <div class="txt-centros">
-                        <p class="centros-uno">¿Por qué hablamos
-                            de salud sexual integral?</p>
-                        <p class="centros-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce el
+                        <p class="bloque-dos-home-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce el
                             derecho a la protección de la salud en el artículo 145. La salud sexual y reproductiva es un
                             derecho muy amplio que nos lleva a hablar de servicios de salud de buena calidad, educación,
                             consentimiento, información, prevención.
 
                         </p>
-                    </div>
-
                 </div>
 
             </div>
