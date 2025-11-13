@@ -6,7 +6,7 @@ use Router\RouteList;
 use Controller\MainCtrl;
 
 // Instancia Globales
-$default_styles = ['start' => ['fonts/css/all.min', 'html','general','cabecera','footer'], 'end' => ['mediaquery']];
+$default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer'], 'end' => ['mediaquery']];
 $default_GET = [];
 $default_js = ['start' => ['dir', 'menu'], 'end' => []];
 
@@ -66,9 +66,9 @@ $routeList->add(
         '/regionsalud/',
         'regionsalud',
         ['main',
-                ['Centros de Salud', []],
+                ['Centros de Salud', ['centros','leaflet']],
                 [['head' => [], 'footer' => []],
-                        []],
+                        ['propiedad']],
                 []],
         []
 );
@@ -270,8 +270,8 @@ $routeList->add(
         'post',
         '/exploradormedios',
         function () {
-               // $post = new Medios;
-               // $post->POST_handler_AJAX();
+                // $post = new Medios;
+                // $post->POST_handler_AJAX();
         },
         ['', '', [], []],
         []

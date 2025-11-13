@@ -65,6 +65,21 @@
   height: auto;
 }
 
+.contenedor-openstreetmap {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.openstreetmap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .listado-enlaces {
   display: flex;
   padding: 1rem;
