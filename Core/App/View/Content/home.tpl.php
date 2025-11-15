@@ -80,15 +80,34 @@
 
                 <div class="info-bloque-dos-home">
                     <p class="bloque-dos-home-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce
-                        el
-                        derecho a la protección de la salud en el artículo 145. La salud sexual y reproductiva es un
+                        el derecho a la protección de la salud en el artículo 145. La salud sexual y reproductiva es un
                         derecho muy amplio que nos lleva a hablar de servicios de salud de buena calidad, educación,
                         consentimiento, información, prevención.
-
                     </p>
-                     <div class="btn-enlace">
+
+                    <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley” (joven tolupan, 2025) </p>
+                    <div class="btn-enlace">
                         <a href="#">Leer más</a>
                     </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="bloque-tres-home">
+            <div class="txt-bloque-tres-home">
+                <p class="bloque-tres-home-uno">Datos relevantes de Honduras</p>
+            </div>
+
+            <div class="grid-bloque-tres-home">
+
+
+                <div class="info-bloque-tres-home">
+                    <p class="bloque-tres-home-tres">
+                        Dato uno
+
+                    </p>
                 </div>
 
             </div>
