@@ -78,6 +78,12 @@
   .grid-bloque-dos-home {
     flex-direction: unset;
   }
+  .info-bloque-dos-home {
+    padding: 0rem 2rem;
+  }
+  .txt-bloque-tres-home {
+    flex-direction: column;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {

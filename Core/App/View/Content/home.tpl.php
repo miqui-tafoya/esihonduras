@@ -85,7 +85,8 @@
                         consentimiento, información, prevención.
                     </p>
 
-                    <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley” (joven tolupan, 2025) </p>
+                    <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley”
+                        (joven tolupan, 2025) </p>
                     <div class="btn-enlace">
                         <a href="#">Leer más</a>
                     </div>
@@ -102,13 +103,22 @@
 
             <div class="grid-bloque-tres-home">
 
-
-                <div class="info-bloque-tres-home">
-                    <p class="bloque-tres-home-tres">
-                        Dato uno
-
-                    </p>
+                <div class="bloque-dato">
+                    <p class="p-cifra">24%</p>
+                    <p class="p-info">de adolescentes eran madres o estaban embarazadas </p>
                 </div>
+
+                <div class="bloque-dato">
+                    <p class="p-cifra">3.6% </p>
+                    <p class="p-info">de la población menor de 15 años ha dado a luz alguna vez </p>
+                </div>
+
+                <div class="bloque-dato">
+                     <p class="p-cifra">7.25% </p>
+                    <p class="p-info">la población indígena de Honduras constituye el </p>
+                   
+                </div>
+
 
             </div>
 
