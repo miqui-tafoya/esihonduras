@@ -60,11 +60,11 @@
     flex-direction: unset;
     align-items: start;
   }
-  .item-perfiles-home {
-    margin: 2rem 1rem;
-  }
   .bienvenida-dos {
     margin-top: -2rem;
+  }
+  .item-perfiles-home {
+    margin: 2rem 1rem;
   }
   .grid-centros {
     flex-direction: unset;
@@ -90,6 +90,9 @@
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .item-perfiles-home {
+    margin: 2rem 2rem;
+  }
   #toggle-menu {
     display: none;
   }

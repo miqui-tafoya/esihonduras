@@ -149,10 +149,28 @@
 
                     </div>
 
-
                 </div>
 
 
+            </div>
+
+        </div>
+
+        <div class="bloque-cuatro-home">
+            <div class="contenedor-banner">
+                <div class="banner">
+                    <div class="img-banner"></div>
+                    <div class="info-banner">
+                        <p class="texto-uno-banner">Es normal tener dudas</p>
+                        <p class="texto-dos-banner">aquí puedes encontrar información
+                            relevante sobre la salud sexual.</p>
+
+                        <div class="btn-banner">
+                        <a href="faq">Ir a Preguntas frecuentes<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>    
+                    </div>
+
+                </div>
             </div>
 
         </div>
