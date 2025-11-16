@@ -78,6 +78,9 @@
   .grid-bloque-dos-home {
     flex-direction: unset;
   }
+  .row-datos {
+    flex-direction: unset;
+  }
   .info-bloque-dos-home {
     padding: 0rem 2rem;
   }
@@ -130,5 +133,8 @@
   .grid-mapa-sitio {
     display: flex;
     flex-direction: unset;
+  }
+  .bloque-dos-home-uno {
+    max-width: 80%;
   }
 }/*# sourceMappingURL=mediaquery.css.map */

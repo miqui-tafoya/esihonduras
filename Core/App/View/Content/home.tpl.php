@@ -102,21 +102,54 @@
             </div>
 
             <div class="grid-bloque-tres-home">
+                <div class="row-datos">
+                    <div class="bloque-dato">
+                        <p class="p-cifra">24%</p>
+                        <p class="p-info">de adolescentes eran madres o estaban embarazadas </p>
+                    </div>
 
-                <div class="bloque-dato">
-                    <p class="p-cifra">24%</p>
-                    <p class="p-info">de adolescentes eran madres o estaban embarazadas </p>
+                    <div class="bloque-dato">
+                        <p class="p-cifra">3.6% </p>
+                        <p class="p-info">de la población menor de 15 años ha dado a luz alguna vez </p>
+                    </div>
+
+                    <div class="bloque-dato">
+                        <p class="p-cifra">7.25% </p>
+                        <p class="p-info">la población indígena de Honduras constituye el </p>
+
+                    </div>
+
                 </div>
 
-                <div class="bloque-dato">
-                    <p class="p-cifra">3.6% </p>
-                    <p class="p-info">de la población menor de 15 años ha dado a luz alguna vez </p>
-                </div>
+                <div class="row-datos">
 
-                <div class="bloque-dato">
-                     <p class="p-cifra">7.25% </p>
-                    <p class="p-info">la población indígena de Honduras constituye el </p>
-                   
+                    <div class="bloque-dato">
+                        <p class="p-cifra">1 </p>
+                        <p class="p-info">de cada cuatro embarazos registrados en Honduras corresponde a una menor de 19
+                            años, Fondo de Población de las Naciones Unidas (FPNU), </p>
+
+                    </div>
+
+                    <div class="bloque-dato">
+                        <p class="p-cifra">13,034 </p>
+                        <p class="p-info">denuncias de violencia doméstica y </p>
+                        <p class="p-cifra">15,647 </p>
+                        <p class="p-info">denuncias de maltrato familiar en Honduras, Centro de Derechos de la mujer en
+                            Honduras CDM; del 01 de enero al 30 de abril del 2025
+                        </p>
+
+                    </div>
+
+                    <div class="bloque-dato">
+                        <p class="p-cifra">6,914 </p>
+                        <p class="p-info">niñas, adolescentes y jóvenes, egreso de un hospital de Honduras después de un
+                            parto en los primeros siete meses del 2024
+                        </p>
+
+
+                    </div>
+
+
                 </div>
 
 
