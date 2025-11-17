@@ -160,7 +160,7 @@
             <div class="contenedor-banner">
                 <div class="banner">
                     <div class="img-banner">
-                        <img src="Public/recursos/imagenes/foto_2.jpg" alt="">
+                        <img src="Public/recursos/imagenes/img-banner.png" alt="">
                     </div>
                     <div class="info-banner">
                         <p class="texto-uno-banner">Es normal tener dudas</p>

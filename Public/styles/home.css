@@ -298,8 +298,8 @@
 .img-banner img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   opacity: 0.5;
   border-radius: 2rem 0rem 0rem 2rem;
 }

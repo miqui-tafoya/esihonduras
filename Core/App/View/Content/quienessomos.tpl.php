@@ -5,7 +5,7 @@
         <!-- inicio bloque uno -->
         <div class="bloque-uno-quienes">
             <div class="img-intro-quienes">
-                 <img src="Public/recursos/imagenes/foto_3.jpg" alt=""></a>
+                <img src="Public/recursos/imagenes/foto_3.jpg" alt=""></a>
             </div>
             <div class="txt-intro-quienes">
                 <p class="uno-intro-quienes">
@@ -19,7 +19,6 @@
                     Plataforma de Salud Sexual y Reproductiva “Derechos ESI Honduras” representa una oportunidad
                     innovadora para cerrar estas brechas y fortalecer el sistema de salud en el país.
 
-
                 </p>
 
             </div>
@@ -27,6 +26,60 @@
         </div>
         <!-- fin bloque uno -->
 
+        <!-- inicio bloque dos -->
+        <div class="bloque-dos-quienes">
+            <div class="bloque-frases">
+                <p class="quotes-quienes">"Derechos ESI para todas y todos" </p>
+
+            </div>
+        </div>
+
+
+        <!-- inicio bloque tres -->
+        <div class="bloque-tres-quienes">
+            <div class="intro-bloque-tres">
+                <p class="intro-bloque-tres-uno">
+                    ¿Para quién hicimos esta plataforma?
+                </p>
+                <p class="intro-bloque-tres-dos">Derechos ESI Honduras ha sido pensada como una plataforma para todas
+                    las personas, contreras
+                    información para las y los jóvenes, madres, padres y educadores.
+                    La información es para todas y todos y los derechos ESI también.
+                </p>
+
+            </div>
+
+            <div class="layout-dos-bloque-tres">
+
+                <div class="img-bloque-tres">
+                    <img src="Public/recursos/imagenes/foto_4.jpg" alt=""></a>
+                </div>
+
+                <div class="txt-intro-quienes">
+
+                    <p class="dos-intro-quienes">
+                        Hablar de educación integral en sexualidad es urgente, Derechos ESI Honduras surge por que los
+                        datos
+                        nos preocupan: <br>
+                        En los primeros siete meses de 2024, la Secretaría de Salud de Honduras contabilizó el egreso
+                        hospitalario por parto de 6,914 niñas, adolescentes y jóvenes, evidenciando la continuidad de
+                        esta
+                        problemática que sigue poniendo en riesgo la vida, la salud y limitando los derechos de miles de
+                        niñas y adolescentes. Según el Fondo de Población de las Naciones Unidas (FPNU), uno de cada
+                        cuatro
+                        embarazos registrados en esta nación centroamericana corresponde a una menor de 19 años, lo que
+                        convierte a Honduras en el segundo país de América Latina con la tasa más alta de embarazos en
+                        adolescentes.
+
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- fin bloque tres -->
 
     </div>
 
