@@ -90,7 +90,7 @@ $routeList->add(
         '/quienessomos',
         'quienessomos',
         ['main',
-                ['Quiénes Somos', []],
+                ['Quiénes Somos', ['quienes']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],

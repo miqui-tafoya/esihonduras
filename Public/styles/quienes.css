@@ -1,0 +1,9 @@
+.contenedor-home {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}/*# sourceMappingURL=quienes.css.map */
