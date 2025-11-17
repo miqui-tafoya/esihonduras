@@ -183,8 +183,8 @@
             <div class="grid-bloque-cinco">
 
                 <div class="textos-intro-bloque-cinco">
-                    <p class="texto-dos-banner">Todas las personas tenemos derechos sexuales y reproductivos</p>
-                    <p class="texto-uno-banner">Te compartimos información importante</p>
+                    <p class="txt-uno-bloque-cinco">Todas las personas tenemos derechos sexuales y reproductivos</p>
+                    <p class="txt-dos-bloque-cinco">Te compartimos información importante</p>
                 </div>
 
                 <div class="items-bloque-cinco">
