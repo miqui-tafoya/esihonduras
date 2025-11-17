@@ -474,3 +474,95 @@
     
 }
 
+/////////////////seis/////////
+
+.bloque-seis-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 3rem 0rem;
+}
+
+
+.grid-bloque-seis-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    width: 100%;
+    height: auto;
+    padding: 2rem 0rem;
+
+}
+
+.txt-bloque-seis-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+.info-bloque-seis-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
+
+.bloque-seis-home-uno{
+    color: vars.$g700;
+    margin: 0;
+    font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
+    font-family: "Baloo 2", sans-serif !important;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    max-width: 100%;
+}
+
+.bloque-seis-home-seis{
+    font-weight: 400;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+
+
+.video-bloque-seis-home {
+    position: relative;
+    width: 100%;
+}
+
+.video-bloque-seis-home iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 420px;
+    border: 0;
+}
+
+
+.info-bloque-seis-home{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 1rem 0rem;
+
+}
+
+.bloque-seis-home-seis{
+    font-weight: 400;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+    width: 100%;
+    padding: 1rem 0rem;
+}

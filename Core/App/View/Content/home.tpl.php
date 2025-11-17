@@ -188,7 +188,7 @@
                 </div>
 
                 <div class="items-bloque-cinco">
-                    
+
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
@@ -197,13 +197,14 @@
 
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
-                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea
                                 commodo consequat.</p>
                         </div>
 
                     </div>
 
-                     <div class="item-info-cinco">
+                    <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
                             <img src="Public/recursos/imagenes/foto_2.jpg" alt="">
@@ -211,13 +212,14 @@
 
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
-                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea
                                 commodo consequat.</p>
                         </div>
 
                     </div>
 
-                     <div class="item-info-cinco">
+                    <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
                             <img src="Public/recursos/imagenes/foto_2.jpg" alt="">
@@ -225,7 +227,8 @@
 
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
-                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea
                                 commodo consequat.</p>
                         </div>
 
@@ -234,9 +237,38 @@
 
                 </div>
 
+                <div class="bloque-seis-home">
+                    <div class="txt-bloque-seis-home">
+                        <p class="bloque-seis-home-uno">Testimonios</p>
+                    </div>
+
+                    <div class="grid-bloque-seis-home">
+                        <div class="video-bloque-seis-home">
+                            <iframe class="video" src="https://www.youtube.com/embed/RcnksOUugcA" allowfullscreen></iframe>
+
+                        </div>
+
+                        <div class="info-bloque-seis-home">
+                            <p class="bloque-seis-home-seis">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.
+                            </p>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
+
+
 
 
     </div>
