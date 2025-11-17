@@ -85,6 +85,11 @@
     width: 70%;
 }
 
+.bloque-dos-home{
+    padding: 3rem 1rem;
+}
+
+
 .grid-bloque-dos-home{
     flex-direction: unset;
 }
@@ -105,7 +110,33 @@
     flex-direction: column;
 }
 
+.img-bloque-dos-home {
+    width: 80%;
+}
 
+.bloque-dos-home-dos{
+    padding: 0rem 0rem;
+}
+
+.bloque-tres-home{
+    padding: 3rem 1rem;
+}
+
+.banner {
+    width: 100%;
+    flex-direction: unset;
+    height: 400px;
+}
+
+.img-banner{
+    width: 100%;
+    height: auto;
+}
+
+.info-banner{
+    width: 100%;
+    padding: 0rem 0rem;
+}
 
 
 }
@@ -165,5 +196,8 @@
     .bloque-dos-home-uno{
     max-width: 80%;
 }
- 
+ .banner {
+    width: 90%;
+}
+
 }
