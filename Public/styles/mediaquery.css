@@ -110,9 +110,6 @@
   .info-banner {
     width: 100%;
   }
-  .items-bloque-cinco {
-    flex-direction: unset;
-  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -168,5 +165,8 @@
   }
   .banner {
     width: 90%;
+  }
+  .items-bloque-cinco {
+    flex-direction: unset;
   }
 }/*# sourceMappingURL=mediaquery.css.map */

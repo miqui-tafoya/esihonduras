@@ -188,6 +188,7 @@
                 </div>
 
                 <div class="items-bloque-cinco">
+                    
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
@@ -229,7 +230,7 @@
                         </div>
 
                     </div>
-                    
+
 
                 </div>
 
