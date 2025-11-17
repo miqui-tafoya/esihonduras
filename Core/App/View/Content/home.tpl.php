@@ -168,11 +168,71 @@
                             relevante sobre la salud sexual.</p>
 
                         <div class="btn-banner">
-                        <a href="faq">Ir a Preguntas frecuentes<i class="fa-solid fa-arrow-right"></i></a>
-                    </div>    
+                            <a href="faq">Ir a Preguntas frecuentes<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
 
                 </div>
+            </div>
+
+        </div>
+
+
+        <div class="bloque-cinco-home">
+
+            <div class="grid-bloque-cinco">
+
+                <div class="textos-intro-bloque-cinco">
+                    <p class="texto-dos-banner">Todas las personas tenemos derechos sexuales y reproductivos</p>
+                    <p class="texto-uno-banner">Te compartimos información importante</p>
+                </div>
+
+                <div class="items-bloque-cinco">
+                    <div class="item-info-cinco">
+
+                        <div class="img-item-cinco">
+                            <img src="Public/recursos/imagenes/foto_2.jpg" alt="">
+                        </div>
+
+                        <div class="info-item-cinco">
+                            <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
+                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p>
+                        </div>
+
+                    </div>
+
+                     <div class="item-info-cinco">
+
+                        <div class="img-item-cinco">
+                            <img src="Public/recursos/imagenes/foto_2.jpg" alt="">
+                        </div>
+
+                        <div class="info-item-cinco">
+                            <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
+                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p>
+                        </div>
+
+                    </div>
+
+                     <div class="item-info-cinco">
+
+                        <div class="img-item-cinco">
+                            <img src="Public/recursos/imagenes/foto_2.jpg" alt="">
+                        </div>
+
+                        <div class="info-item-cinco">
+                            <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
+                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                commodo consequat.</p>
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
             </div>
 
         </div>
