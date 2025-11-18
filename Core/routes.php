@@ -186,7 +186,7 @@ $routeList->add(
         '/saludsexual',
         'saludsexual',
         ['main',
-                ['Salud Sexual', []],
+                ['Salud Sexual', ['saludsexual']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
