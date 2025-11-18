@@ -94,9 +94,73 @@
 
             </div>
 
+            <div class="perfiles-quienes">
+
+                <div class="item-perfiles-quienes">
+                    <div class="img-item-quienes">
+                        <a href="educadores">
+                            <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
+                    </div>
+                    <div class="info-item-quienes">
+                        <p class="titulo-item-quienes">Educadores</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco.</p>
+                        <div class="btn-perfiles">
+                            <a href="educadores">Ir a Educadores</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="item-perfiles-quienes">
+                    <div class="img-item-quienes">
+                        <a href="educadores">
+                            <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
+                    </div>
+                    <div class="info-item-quienes">
+                        <p class="titulo-item-quienes">Educadores</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco.</p>
+                        <div class="btn-perfiles">
+                            <a href="educadores">Ir a Educadores</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="item-perfiles-quienes">
+                    <div class="img-item-quienes">
+                        <a href="educadores">
+                            <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
+                    </div>
+                    <div class="info-item-quienes">
+                        <p class="titulo-item-quienes">Educadores</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco.</p>
+                        <div class="btn-perfiles">
+                            <a href="educadores">Ir a Educadores</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
 
         </div>
         <!-- fin bloque tres -->
+
+
 
     </div>
 

@@ -119,6 +119,9 @@
   .bloque-seis-home-seis {
     padding: 0rem 0rem;
   }
+  .perfiles-quienes {
+    flex-direction: unset;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
