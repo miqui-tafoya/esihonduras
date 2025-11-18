@@ -119,8 +119,11 @@
   .bloque-seis-home-seis {
     padding: 0rem 0rem;
   }
-  .perfiles-quienes {
+  .item-perfiles-quienes {
     flex-direction: unset;
+  }
+  .perfiles-quienes {
+    width: 90%;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -196,5 +199,8 @@
   }
   .txt-intro-quienes {
     padding: 2rem 1rem;
+  }
+  .perfiles-quienes {
+    width: 60%;
   }
 }/*# sourceMappingURL=mediaquery.css.map */

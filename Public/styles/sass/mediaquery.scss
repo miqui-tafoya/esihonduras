@@ -148,8 +148,12 @@
     padding: 0rem 0rem;
 }
 
-.perfiles-quienes{
+.item-perfiles-quienes{
     flex-direction: unset;
+}
+
+.perfiles-quienes{
+    width: 90%;
 }
 
 
@@ -242,5 +246,8 @@
     padding: 2rem 1rem;
 }
 
+.perfiles-quienes{
+    width: 60%;
+}
 
 }

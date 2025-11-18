@@ -98,8 +98,7 @@
 
                 <div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                        <a href="educadores">
-                            <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
+                            <img src="Public/recursos/imagenes/maestra.jpg" alt="">
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">Educadores</p>
@@ -117,11 +116,10 @@
 
                 <div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                        <a href="educadores">
-                            <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
+                            <img src="Public/recursos/imagenes/padres.jpg" alt="">
                     </div>
                     <div class="info-item-quienes">
-                        <p class="titulo-item-quienes">Educadores</p>
+                        <p class="titulo-item-quienes">Madres y Padres</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -136,17 +134,16 @@
 
                 <div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                        <a href="educadores">
-                            <img src="Public/recursos/imagenes/maestra.jpg" alt=""></a>
+                            <img src="Public/recursos/imagenes/jovenes.jpg" alt="">
                     </div>
                     <div class="info-item-quienes">
-                        <p class="titulo-item-quienes">Educadores</p>
+                        <p class="titulo-item-quienes">Jóvenes</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt
                             ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                             quis nostrud exercitation ullamco.</p>
                         <div class="btn-perfiles">
-                            <a href="educadores">Ir a Educadores</a>
+                            <a href="educadores">Ir a Jóvenes</a>
                         </div>
 
                     </div>
