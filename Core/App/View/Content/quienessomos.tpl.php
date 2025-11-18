@@ -8,7 +8,7 @@
                 <img src="Public/recursos/imagenes/foto_3.jpg" alt=""></a>
             </div>
             <div class="txt-intro-quienes">
-                <p class="uno-intro-quienes">
+                <p class="cabecera-uno">
                     Quiénes Somos
                 </p>
                 <p class="dos-intro-quienes">
@@ -45,7 +45,7 @@
         <!-- inicio bloque tres -->
         <div class="bloque-tres-quienes">
             <div class="intro-bloque-tres">
-                <p class="intro-bloque-tres-uno">
+                <p class="cabecera-uno">
                     ¿Para quién hicimos esta plataforma?
                 </p>
                 <p class="intro-bloque-tres-dos">Derechos ESI Honduras ha sido pensada como una plataforma para todas
@@ -165,7 +165,7 @@
         <!-- inicio bloque cinco -->
         <div class="bloque-cinco-quienes">
             <div class="info-bloque-cinco-quienes">
-                <p class="bloque-cinco-quienes-uno">Créditos y agradecimientos: </p>
+                <p class="cabecera-uno">Créditos y agradecimientos: </p>
 
                 <p class="bloque-cinco-quienes-dos">Red de jóvenes miskitu MIWATIA, <br>
                     Redes de jóvenes indígenas Pech, Tawahka, Maya Chortí y afro, <br>

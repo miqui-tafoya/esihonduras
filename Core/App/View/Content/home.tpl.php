@@ -69,7 +69,7 @@
 
         <div class="bloque-dos-home">
             <div class="txt-bloque-dos-home">
-                <p class="bloque-dos-home-uno">¿Por qué hablamos
+                <p class="cabecera-uno">¿Por qué hablamos
                     de salud sexual integral?</p>
             </div>
 
@@ -98,7 +98,7 @@
 
         <div class="bloque-tres-home">
             <div class="txt-bloque-tres-home">
-                <p class="bloque-tres-home-uno">Datos relevantes de Honduras</p>
+                <p class="cabecera-uno">Datos relevantes de Honduras</p>
             </div>
 
             <div class="grid-bloque-tres-home">
@@ -239,7 +239,7 @@
 
                 <div class="bloque-seis-home">
                     <div class="txt-bloque-seis-home">
-                        <p class="bloque-seis-home-uno">Testimonios</p>
+                        <p class="cabecera-uno">Testimonios</p>
                     </div>
 
                     <div class="grid-bloque-seis-home">
@@ -249,7 +249,7 @@
                         </div>
 
                         <div class="info-bloque-seis-home">
-                            <p class="bloque-seis-home-seis">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p class="cuerpo-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore

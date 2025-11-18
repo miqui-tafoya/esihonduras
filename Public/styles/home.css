@@ -484,17 +484,16 @@
   padding: 1rem 0rem;
 }
 
-.bloque-seis-home-uno {
-  color: #616161;
-  margin: 0;
-  font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
-  font-family: "Baloo 2", sans-serif !important;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  max-width: 100%;
-}
-
+/* .bloque-seis-home-uno{
+    color: vars.$g700;
+    margin: 0;
+    font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
+    font-family: "Baloo 2", sans-serif !important;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    max-width: 100%;
+} */
 .bloque-seis-home-seis {
   font-weight: 400;
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
@@ -525,9 +524,10 @@
   padding: 1rem 0rem;
 }
 
-.bloque-seis-home-seis {
-  font-weight: 400;
-  font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
-  width: 100%;
-  padding: 1rem 0rem;
-}/*# sourceMappingURL=home.css.map */
+/* .bloque-seis-home-seis{
+    font-weight: 400;
+      font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
+    width: 100%;
+    padding: 1rem 0rem;
+}
+ *//*# sourceMappingURL=home.css.map */

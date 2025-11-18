@@ -96,6 +96,21 @@
     
 }
 
+.btn-130 a {
+     background-color: vars.$g;
+     padding:0.6rem 1rem;
+     border-radius: 40px;
+     color: #fff;
+}
+
+.btn-130 a:hover{
+    background-color: vars.$g700;
+    color: vars.$g0;
+    padding: 0.6rem 1rem;
+    border-radius: 40px;
+    
+}
+
 #toggle-menu {
     cursor: pointer;
     color: vars.$g;
