@@ -78,6 +78,23 @@
 
             </div>
 
+            <div class="intro-bloque-tres">
+                <p class="intro-bloque-tres-uno">
+                    Ademas:
+                </p>
+                <p class="intro-bloque-tres-dos">
+                    24% de adolescentes eran madres o estaban embarazadas <br>
+                    3.6% de la población menor de 15 años ha dado a luz alguna vez <br>
+                    la población indígena de Honduras constituye el 7.25%<br>
+                    1 de cada cuatro embarazos registrados en Honduras corresponde a una menor de 19 años, Fondo de
+                    Población de las Naciones Unidas (FPNU)<br>
+                    13,034 denuncias de violencia doméstica y 15,647 denuncias de maltrato familiar en Honduras, Centro
+                    de Derechos de la mujer en Honduras CDM; del 01 de enero al 30 de abril del 2025
+
+
+            </div>
+
+
         </div>
         <!-- fin bloque tres -->
 

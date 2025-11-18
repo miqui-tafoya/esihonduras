@@ -300,6 +300,8 @@
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
+  -o-object-position: left;
+     object-position: left;
   opacity: 0.5;
   border-radius: 2rem 0rem 0rem 2rem;
 }
