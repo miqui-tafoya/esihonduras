@@ -13,9 +13,9 @@
                 </p>
                 <p class="dos-intro-quienes">
                     La salud sexual y reproductiva es un componente esencial del bienestar humano, el desarrollo social
-                    y la equidad de género. En Honduras, garantizar el acceso a información confiable y servicios
+                    y la equidad de género.<br> <br>En Honduras, garantizar el acceso a información confiable y servicios
                     adecuados en esta área sigue siendo un desafío significativo, especialmente para poblaciones
-                    vulnerables como jóvenes, mujeres en situación de pobreza y comunidades rurales. La creación de una
+                    vulnerables como jóvenes, mujeres en situación de pobreza y comunidades rurales.<br> <br>La creación de una
                     Plataforma de Salud Sexual y Reproductiva “Derechos ESI Honduras” representa una oportunidad
                     innovadora para cerrar estas brechas y fortalecer el sistema de salud en el país.
 
@@ -30,10 +30,11 @@
         <div class="bloque-dos-quienes">
             <div class="bloque-frases">
                 <div class="anima-frases">
-                    <div class="frase">“Me gustaría saber sobre la virginidad,<br> sobre muchas cosas, pero me da pena preguntar” <br>(joven Maya Chortí, 2025).</div>
-                    <div class="frase">“Yo quiero saber qué hacer en esos casos,<br> ya sabe de lo que hablo, es que no puedo decir la palabra <br>porque luego dicen que es pecado” <br>(Mujer miskitu,2025).</div>
-                    <div class="frase">“Nos encontramos en una zona lejana, <br>en una comunidad con diversidad cultural donde me ha tocado por mi propia cuenta <br>averiguar cómo abordar un embarazo adolescente, <br>ya sabe las guirras (niñas) que no quieren ser mamás y las obligan”<br> (joven garífuna,2025).</div>
-                    <div class="frase">“Me gustaría encontrar información sobre la virginidad, <br>sobre los mitos,<br> sobre el derecho a decidir” <br>(joven tolupan,2025)</div>
+                    <div class="frase">“Me gustaría saber sobre la virginidad, sobre muchas cosas, pero me da pena preguntar” <br>(joven Maya Chortí, 2025).</div>
+                    <div class="frase">“Yo quiero saber qué hacer en esos casos, ya sabe de lo que hablo, es que no puedo decir la palabra porque luego dicen que es pecado” <br>(Mujer miskitu,2025).</div>
+                    <div class="frase">“Nos encontramos en una zona lejana, en una comunidad con diversidad cultural donde me ha tocado por mi propia cuenta averiguar cómo abordar un embarazo adolescente, ya sabe las guirras (niñas) que no quieren ser mamás y las obligan”<br> (joven garífuna,2025).</div>
+                    <div class="frase">“Me gustaría encontrar información sobre la virginidad, sobre los mitos, sobre el derecho a decidir” <br>(joven tolupan,2025)</div>
+                    <!-- <div class="frase">“Quiero leer información sobre si tener hijos o no es una imposición” </div> -->
                 </div>
 
 
@@ -66,18 +67,14 @@
 
                     <p class="dos-intro-quienes">
                         Hablar de educación integral en sexualidad es urgente, Derechos ESI Honduras surge por que los
-                        datos
-                        nos preocupan: <br>
+                        datos nos preocupan: <br><br>
                         En los primeros siete meses de 2024, la Secretaría de Salud de Honduras contabilizó el egreso
                         hospitalario por parto de 6,914 niñas, adolescentes y jóvenes, evidenciando la continuidad de
-                        esta
-                        problemática que sigue poniendo en riesgo la vida, la salud y limitando los derechos de miles de
-                        niñas y adolescentes. Según el Fondo de Población de las Naciones Unidas (FPNU), uno de cada
-                        cuatro
-                        embarazos registrados en esta nación centroamericana corresponde a una menor de 19 años, lo que
+                        esta problemática que sigue poniendo en riesgo la vida, la salud y limitando los derechos de miles de
+                        niñas y adolescentes. <br>Según el Fondo de Población de las Naciones Unidas (FPNU), uno de cada
+                        cuatro embarazos registrados en esta nación centroamericana corresponde a una menor de 19 años, lo que
                         convierte a Honduras en el segundo país de América Latina con la tasa más alta de embarazos en
                         adolescentes.
-
 
                     </p>
 
