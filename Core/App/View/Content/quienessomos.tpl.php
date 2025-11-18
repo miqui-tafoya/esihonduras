@@ -29,7 +29,13 @@
         <!-- inicio bloque dos -->
         <div class="bloque-dos-quienes">
             <div class="bloque-frases">
-                <p class="quotes-quienes">"Derechos ESI para todas y todos" </p>
+                <div class="anima-frases">
+                    <div class="frase">“Me gustaría saber sobre la virginidad,<br> sobre muchas cosas, pero me da pena preguntar” <br>(joven Maya Chortí, 2025).</div>
+                    <div class="frase">“Yo quiero saber qué hacer en esos casos,<br> ya sabe de lo que hablo, es que no puedo decir la palabra <br>porque luego dicen que es pecado” <br>(Mujer miskitu,2025).</div>
+                    <div class="frase">“Nos encontramos en una zona lejana, <br>en una comunidad con diversidad cultural donde me ha tocado por mi propia cuenta <br>averiguar cómo abordar un embarazo adolescente, <br>ya sabe las guirras (niñas) que no quieren ser mamás y las obligan”<br> (joven garífuna,2025).</div>
+                    <div class="frase">“Me gustaría encontrar información sobre la virginidad, <br>sobre los mitos,<br> sobre el derecho a decidir” <br>(joven tolupan,2025)</div>
+                </div>
+
 
             </div>
         </div>
