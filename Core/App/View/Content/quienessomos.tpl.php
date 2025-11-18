@@ -33,6 +33,7 @@
 
             </div>
         </div>
+        <!-- fin bloque dos -->
 
 
         <!-- inicio bloque tres -->
@@ -78,7 +79,7 @@
 
             </div>
 
-            <div class="intro-bloque-tres">
+            <!--       <div class="intro-bloque-tres">
                 <p class="intro-bloque-tres-uno">
                     Ademas:
                 </p>
@@ -90,15 +91,13 @@
                     Población de las Naciones Unidas (FPNU)<br>
                     13,034 denuncias de violencia doméstica y 15,647 denuncias de maltrato familiar en Honduras, Centro
                     de Derechos de la mujer en Honduras CDM; del 01 de enero al 30 de abril del 2025
-
-
-            </div>
+            </div> -->
 
             <div class="perfiles-quienes">
 
                 <div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                            <img src="Public/recursos/imagenes/maestra.jpg" alt="">
+                        <img src="Public/recursos/imagenes/maestra.jpg" alt="">
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">Educadores</p>
@@ -116,7 +115,7 @@
 
                 <div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                            <img src="Public/recursos/imagenes/padres.jpg" alt="">
+                        <img src="Public/recursos/imagenes/padres.jpg" alt="">
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">Madres y Padres</p>
@@ -134,7 +133,7 @@
 
                 <div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                            <img src="Public/recursos/imagenes/jovenes.jpg" alt="">
+                        <img src="Public/recursos/imagenes/jovenes.jpg" alt="">
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">Jóvenes</p>
@@ -156,6 +155,31 @@
 
         </div>
         <!-- fin bloque tres -->
+
+        <!-- inicio bloque cinco -->
+        <div class="bloque-cinco-quienes">
+            <div class="info-bloque-cinco-quienes">
+                <p class="bloque-cinco-quienes-uno">Créditos y agradecimientos: </p>
+
+                <p class="bloque-cinco-quienes-dos">Red de jóvenes miskitu MIWATIA, <br>
+                    Redes de jóvenes indígenas Pech, Tawahka, Maya Chortí y afro, <br>
+                    Jóvenes universitarios Tolupanes, <br>
+                    Voluntariado cultural Educa, <br>
+                    Mujeres en las artes, <br>
+                    AMIR asociación de mujeres intibucanas. <br><br>
+
+                    Por participar en los grupos focales<br><br>
+
+                    Secretaría de Transparencia y Lucha Contra la Corrupción, <br>
+                    Secretaria de Salud (SESAL), <br>
+                    Secretaría de Educación Secretaría de Desarrollo Social (SEDESOL), <br>
+                    Secretaría de Educación (SEDUC), <br>
+                    Instituto Nacional de la Juventud (INJUVE). <br>
+                </p>
+
+            </div>
+        </div>
+        <!-- fin bloque cinco -->
 
 
 
