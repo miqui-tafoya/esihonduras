@@ -174,7 +174,7 @@ $routeList->add(
         '/noticias',
         'noticias',
         ['main',
-                ['Noticias', []],
+                ['Noticias', ['noticias']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
