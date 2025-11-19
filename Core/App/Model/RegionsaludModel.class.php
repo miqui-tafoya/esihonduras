@@ -7,7 +7,7 @@ class RegionsaludModel extends Model {
 
     private Database $db;
     public array $existe;
-       public $propiedad;
+    public $propiedad;
 
     public function __construct($query = null) {
         $this->db = new Database();
@@ -18,34 +18,14 @@ class RegionsaludModel extends Model {
     }
     // GETTERS
     private function getPropiedad($query) {
-        switch ($query) {
-            case 1:
-                $data = [
-                    0 => [
-                        'municipio' => 'Arizona',
-                        'aldea' => 'Mezapa',
-                        'nombre' => 'Mezapa del Lean',
-                        'coordenadas' => '15.59045000,-87.3621599996'
-                    ],
-                    1 => [
-                        'municipio' => 'Arizona',
-                        'aldea' => 'Jilamo Nuevo',
-                        'nombre' => 'Jilamo Nuevo',
-                        'coordenadas' => '15.62159293,-87.3407018581'
-                    ],
-                ];
-                break;
-
-            default:
-                $data = [];
-                break;
-        }
+        $col = 'all';
+        $data = $this->db->dbCall('all', false, $col, 'tb_centros', ['region' => $query]);
         return $data;
     }
 
     // SETTERS
     public function setIds() {
-        $data = [1, 2, 3, 4, 5];
+        $data = range(1,20);
         $this->existe = $data;
     }
     public function validateId($id) {

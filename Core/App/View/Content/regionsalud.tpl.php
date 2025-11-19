@@ -1,6 +1,34 @@
 <?php
 $centrosalud = $body['propiedad'];
-// dd($centrosalud);
+$regiones = [
+    1 => 'Atlántida',
+    2 => 'Colón',
+    3 => 'Comayagua',
+    4 => 'Copan',
+    5 => 'Cortés',
+    6 => 'Choluteca',
+    7 => 'El Paraíso',
+    8 => 'Francisco Morazán',
+    9 => 'Gracias a Dios',
+    10 => 'Intibucá',
+    11 => 'Islas de la Bahía',
+    12 => 'La Paz',
+    13 => 'Lempira',
+    14 => 'Ocotepeque',
+    15 => 'Olancho',
+    16 => 'Santa Barbara',
+    17 => 'Valle',
+    18 => 'Yoro',
+    19 => 'Metropolitana Tegucigalpa',
+    20 => 'Metropolitana San Pedro Sula',
+];
+$query = $body['query'] ?? null;
+$region = $regiones[$query] ?? null;
+$coordenadas = [];
+foreach ($centrosalud as $key => $value) {
+    [$latStr, $lngStr] = array_map('trim', explode(',', $value['coordenadas']));
+    $coordenadas[] = [(float)$latStr, (float)$lngStr];
+}
 ?>
 <div class="contenedor-centros">
     <div class="txt-centros">
@@ -8,6 +36,7 @@ $centrosalud = $body['propiedad'];
         <p class="centros-dos">Conoce el mapa interactivo Derechos ESI, en el podrás encontrar la ubicación de
             hospitales y centros de salud que brindan servicios de salud sexual y reproductiva en Honduras.
         </p>
+        <h3><?php echo $region ?></h3>
     </div>
 
     <div class="grid-centros">
@@ -39,26 +68,12 @@ $centrosalud = $body['propiedad'];
         </div>
 
         <div class="contenedor-openstreetmap">
+            <div id="map-overlay" style="display:block"></div>
             <div id="mapa" class="openstreetmap"></div>
         </div>
     </div>
 
 </div>
-<script type="text/javascript" src="http://localhost/prod/esihonduras/Public/js/leaflet.js"></script>
-<script>
-    let map = L.map('mapa').setView([15.59045000, -87.3621599996], 10)
-
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map)
-
-    // L.marker([15.59045000, -87.3621599996]).addTo(map)
-</script>
-<script>
-    <?php
-    foreach ($centrosalud as $key => $value) {
-        echo 'L.marker([' . $value['coordenadas'] . ']).addTo(map);';
-    }
-    ?>
+<script id="coords-data" type="application/json">
+    <?php echo json_encode($coordenadas, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>
 </script>

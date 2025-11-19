@@ -66,11 +66,11 @@ $routeList->add(
         '/regionsalud/',
         'regionsalud',
         ['main',
-                ['Centros de Salud', ['centros','leaflet']],
+                ['Centros de Salud', ['centros', 'leaflet']],
                 [['head' => [], 'footer' => []],
                         ['propiedad']],
                 []],
-        []
+        ['leaflet', 'regionsaludHandler']
 );
 
 $routeList->add(
