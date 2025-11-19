@@ -203,4 +203,7 @@
   .perfiles-quienes {
     width: 60%;
   }
+  .bloque-fr2 {
+    flex-direction: unset;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
