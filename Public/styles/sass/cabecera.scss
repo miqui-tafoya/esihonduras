@@ -1,7 +1,7 @@
 @use "variables" as vars;
 
 .back-head{
-    background-color: grey;
+    background-color: vars.$primario;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -13,7 +13,8 @@
 }
 
 .elementos-head p{
-   font-weight: 200;
+   color: vars.$secundario;
+   font-weight: 300;
    font-size: 0.8rem;
    padding-right: 0.5rem;
 }
@@ -21,13 +22,13 @@
 .elementos-head a{
    font-size: 0.8rem;
    padding: 0rem 0.3rem;
-   color: vars.$g800; 
+   color: vars.$secundario; 
 }
 
 .elementos-head a:hover{
    font-size: 0.8rem;
    padding: 0rem 0.3rem;
-   color: vars.$g; 
+   color: vars.$secundario300; 
 }
 
 .elementos-head p{
@@ -37,7 +38,7 @@
 }
 
 .back-menu {
-    background-color:vars.$g300;
+    background-color:vars.$secundario;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,19 +47,18 @@
 .back-menu ul li{
     font-weight: 600;
     font-size: 0.8rem;
-    color: #000;
 }
 
 .back-menu a{
     background-color: transparent;
      padding: 0.6rem 0.8rem;
      border-radius: 40px;
-     color: vars.$g;
+     color: vars.$primario;
 
 }
 
 .back-menu a:hover{
-    background-color: vars.$g700;
+    background-color: vars.$primario;
     color: vars.$g0;
     padding: 0.6rem 0.8rem;
     border-radius: 40px;

@@ -1,5 +1,5 @@
 .back-head {
-  background-color: grey;
+  background-color: #c2984b;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -11,7 +11,8 @@
 }
 
 .elementos-head p {
-  font-weight: 200;
+  color: #f0e1d1;
+  font-weight: 300;
   font-size: 0.8rem;
   padding-right: 0.5rem;
 }
@@ -19,13 +20,13 @@
 .elementos-head a {
   font-size: 0.8rem;
   padding: 0rem 0.3rem;
-  color: #424242;
+  color: #f0e1d1;
 }
 
 .elementos-head a:hover {
   font-size: 0.8rem;
   padding: 0rem 0.3rem;
-  color: #000;
+  color: #a05500;
 }
 
 .elementos-head p {
@@ -35,7 +36,7 @@
 }
 
 .back-menu {
-  background-color: #e0e0e0;
+  background-color: #f0e1d1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,18 +45,17 @@
 .back-menu ul li {
   font-weight: 600;
   font-size: 0.8rem;
-  color: #000;
 }
 
 .back-menu a {
   background-color: transparent;
   padding: 0.6rem 0.8rem;
   border-radius: 40px;
-  color: #000;
+  color: #c2984b;
 }
 
 .back-menu a:hover {
-  background-color: #616161;
+  background-color: #c2984b;
   color: #fff;
   padding: 0.6rem 0.8rem;
   border-radius: 40px;
