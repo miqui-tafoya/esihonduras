@@ -84,15 +84,15 @@
   font-weight: 600;
   color: #fff;
   font-size: 0.8rem;
-  background-color: #e74eed;
+  background-color: #c2984b;
   padding: 0.5rem 0.8rem;
   cursor: pointer;
   border-radius: 40px;
 }
 
 .btn-perfiles a:hover {
-  color: #fff;
-  background-color: #aa00d3;
+  color: #c2984b;
+  background-color: #f0e1d1;
 }
 
 .bloque-dos-home {

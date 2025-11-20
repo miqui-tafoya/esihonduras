@@ -89,7 +89,7 @@
      font-weight: 600;
     color:vars.$g0;
     font-size: 0.8rem;
-    background-color:vars.$com;
+    background-color:vars.$primario;
     padding: 0.5rem 0.8rem;
     cursor: pointer;
     border-radius: 40px;
@@ -97,8 +97,8 @@
 }
 
 .btn-perfiles a:hover{
-    color: vars.$g0;
-    background-color:vars.$com700;
+    color: vars.$primario;
+    background-color:vars.$secundario;
 }
 
 
