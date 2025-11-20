@@ -97,14 +97,14 @@
 }
 
 .btn-130 a {
-     background-color: vars.$g;
+     background-color: vars.$complementario;
      padding:0.6rem 0.8rem;
      border-radius: 40px;
-     color: #fff;
+     color:vars.$g0;
 }
 
 .btn-130 a:hover{
-    background-color: vars.$g700;
+    background-color: vars.$complementario600;
     color: vars.$g0;
     padding: 0.6rem 0.8rem;
     border-radius: 40px;
@@ -113,14 +113,14 @@
 
 #toggle-menu {
     cursor: pointer;
-    color: vars.$g;
+    color: vars.$secundario;
     position: absolute;
     left: 10px;
     font-size: 2rem;
 }
 
 #toggle-menu:hover {
-    color: vars.$g0;
+    color: vars.$secundario400;
 }
 
 .logo-menu {
@@ -160,7 +160,8 @@ width: 100px;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: vars.$g300;
+  background-color: vars.$secundario;
+  color: vars.$primario;
   min-width: 160px;
   margin-top: 0.5rem;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -168,18 +169,18 @@ width: 100px;
 }
 
 .dropdown-content a {
-  color: #000;
+  color: vars.$primario;
   font-size: 0.8rem;
   text-decoration: none;
   border-radius: 0 !important;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ccc; border-radius: 0 !important;}
+.dropdown-content a:hover {background-color:vars.$primario; color:vars.$g0; border-radius: 0 !important;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color:vars.$g; color: #fff;}
+.dropdown:hover .dropbtn {background-color:vars.$primario; color:vars.$g0;}
 
 
 .sub-menu-movil{
