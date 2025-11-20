@@ -16,10 +16,12 @@
                 </div>
                 <div class="info-item-perfiles">
                     <p class="titulo-item">Educadores</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco.</p>
+                    <p>Las y los maestros son parte fundamental en la formación de las chicas y chicos. Educar no solo
+                        es leer información, su rol es transmitir conocimientos que abonen a la empatía, el respeto a
+                        todas las personas, a desarrollarse en sociedades sin violencia, creando espacios seguros y de
+                        confianza donde todas las dudas sobre la sexualidad integral puedan ser escuchadas y que la
+                        información se comparta sin estigmas.
+                    </p>
                     <div class="btn-perfiles">
                         <a href="educadores">Ir a Educadores</a>
                     </div>
@@ -35,10 +37,13 @@
                 </div>
                 <div class="info-item-perfiles">
                     <p class="titulo-item">Madres y Padres</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco.</p>
+                    <p>Hablar de derechos sexuales y reproductivos de manera abierta, respetuosa es muy importante para
+                        brindarle a tus hijas e hijos toda la información que necesitan para tomar decisiones informadas
+                        y responsables.<br>
+
+                        Puede que tu como madre y padre tengas dudas, lo sabemos, tener dudas es parte de acompañar, es
+                        válido preguntar y buscar información.
+                    </p>
 
                     <div class="btn-perfiles">
                         <a href="madresypadres">Ir a Madres y Padres</a>
@@ -55,10 +60,9 @@
                 </div>
                 <div class="info-item-perfiles">
                     <p class="titulo-item">Jóvenes</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco.</p>
+                    <p>Muchas veces la información que reciben las y los jóvenes es confusa, inexacta, genera miedo o
+                        desinforma sobre relaciones sexuales, embarazo, enfermedades de transmisión sexual.<br> Contar con
+                        información clara y precisa es tu derecho. </p>
                     <div class="btn-perfiles">
                         <a href="jovenes">Ir a Jóvenes</a>
                     </div>
@@ -244,7 +248,8 @@
 
                     <div class="grid-bloque-seis-home">
                         <div class="video-bloque-seis-home">
-                            <iframe class="video" src="https://www.youtube.com/embed/RcnksOUugcA" allowfullscreen></iframe>
+                            <iframe class="video" src="https://www.youtube.com/embed/RcnksOUugcA"
+                                allowfullscreen></iframe>
 
                         </div>
 
