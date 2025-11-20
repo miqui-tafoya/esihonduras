@@ -1,13 +1,17 @@
 # Ignora variables de entorno locales
 .env
+.env-prod
 # Ignora reglas para Apache locales
 .htaccess
+.htaccess-prod
 # Ignora variables de proyecto
 Core/init.php
+Core/init-prod.php
 # Ignora archivos de configuración de Sass
 Public/styles/*.css.map
 # Ignora archivo JS
 Public/js/dir.js
+Public/js/dir-prod.js
 # Ignora Vendors
 Public/vendor/
 # Ignora PHPFactory
