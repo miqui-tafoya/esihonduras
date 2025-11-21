@@ -49,7 +49,7 @@ body {
 #footer {
     width: 100%;
     height: 100%;
-    background-color: vars.$g300;
+    background-color: vars.$primario50;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,6 +78,7 @@ body {
 
 .cuerpo-texto {
     font-weight: 400;
+    color: vars.$dark;
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
     width: 100%;
     padding: 1rem 0rem;
