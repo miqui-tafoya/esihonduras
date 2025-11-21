@@ -6,10 +6,10 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
-  /*  background-image: url('../recursos/imagenes/fondo_1.png');
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover; */
+  background-image: url("../recursos/imagenes/fondo.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .bloque-uno-home {

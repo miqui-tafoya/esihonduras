@@ -25,14 +25,16 @@
                 <div class="img-grid-noticias">
 
                     <div class="link-destacada">
-                        <a href="">
-                            <p class="txt-destacada-uno">Titulo artículo</p>
-                            <p class="txt-destacada-dos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. </p>
-                        </a>
+
+                        <p class="txt-destacada-uno">Titulo artículo</p>
+                        <p class="txt-destacada-dos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. </p>
+                        <div class="link-info-destacado">
+                            <a href="">Leer más</a>
+                        </div>
                     </div>
 
                     <img src="Public/recursos/imagenes/foto_3.jpg" alt="">
