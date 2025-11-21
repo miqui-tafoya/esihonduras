@@ -7,7 +7,7 @@
     align-items: start;
     justify-content: center;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
    /*  background-image: url('../recursos/imagenes/fondo_1.png');
@@ -15,6 +15,16 @@
     background-repeat: no-repeat;
     background-size: cover; */
 
+}
+
+.bloque-uno-home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
 .txt-bienvenida {
@@ -111,7 +121,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 0rem 0rem;
+    padding: 0 1.5rem;
 }
 
 .grid-bloque-dos-home{
@@ -142,16 +152,7 @@
     padding: 1rem 0rem;
 }
 
-.bloque-dos-home-uno{
-    color: vars.$g700;
-    margin: 0;
-    font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
-    font-family: "Baloo 2", sans-serif !important;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-    max-width: 100%;
-}
+
 
 .bloque-dos-home-dos{
     font-weight: 400;
@@ -219,7 +220,8 @@
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
+    background-color: vars.$primario50;
 }
 
 .grid-bloque-tres-home{
@@ -240,16 +242,6 @@
 }
 
 
-.bloque-tres-home-uno{
-    color: vars.$g700;
-    margin: 0;
-    font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
-    font-family: "Baloo 2", sans-serif !important;
-    font-weight: 700;
-    line-height: 1;
-    text-align: center;
-}
-
 .row-datos {
     display: flex;
     justify-content: center;
@@ -269,10 +261,11 @@
 }
 
 .p-cifra{
-     font-family: "Baloo 2", sans-serif !important;
+    font-family: "Baloo 2", sans-serif !important;
     font-weight: 700;
     font-size: clamp(2rem, 0.8966rem + 5.5172vw, 4rem);
     line-height: 1; 
+    color: vars.$com-dos;
 }
 
 .p-info{
@@ -280,6 +273,7 @@
     font-size: 1.1rem;
     max-width: 300px;
     text-align: center;
+    color: vars.$dark;
 }
 //////// bloque cuatro ////////////////
 
@@ -290,7 +284,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 3rem 1rem 5rem 1rem;
+    padding: 5rem 1.5rem;
 }
 
 .contenedor-banner {
@@ -348,12 +342,13 @@
 
 .btn-banner a{
      font-weight: 600;
-    color: #fff;
+    color:vars.$g0;
     font-size: 1rem;
-    background-color:#e74eed;
+    background-color:vars.$com-dos;
     padding: 0.5rem 1.5rem;
     cursor: pointer;
     border-radius: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    
 }
 
@@ -363,13 +358,14 @@
 }
 
 .btn-banner a:hover{
-    color: #fff;
-    background-color:vars.$g;
+    color:vars.$g0;
+    background-color:vars.$com-dos-800;
 }
 
 .texto-uno-banner{
      font-family: "Baloo 2", sans-serif !important;
     font-weight: 700;
+    color: vars.$com-dos;
     font-size: clamp(1rem, 0.8966rem + 5.5172vw, 3rem);
     line-height: 1; 
 }
@@ -391,7 +387,8 @@
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 3rem 1rem 5rem 1rem;
+    padding: 3rem 2rem 5rem 2rem;
+    background-color: vars.$com50;
 }
 
 .grid-bloque-cinco {
@@ -409,6 +406,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem 0rem;
+    text-align: center;
 }
 
 .txt-dos-bloque-cinco{
@@ -439,7 +437,7 @@
 .item-info-cinco{
     width: 100%;
     height: 600px;
-    background-color: #e0e0e0;
+    background-color: vars.$com;
     margin: 2rem 2rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
@@ -471,6 +469,7 @@
     font-weight: 600;
     text-align: center;
     padding-bottom: 0.5rem;
+    color: vars.$g0;
     
 }
 
@@ -478,6 +477,7 @@
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
+    color: vars.$g0;
     
 }
 
@@ -490,7 +490,7 @@
     align-items: center;
     width: 100%;
     height: auto;
-    padding: 3rem 0rem;
+    padding: 3rem 3rem;
 }
 
 
@@ -557,10 +557,3 @@
 
 }
 
-/* .bloque-seis-home-seis{
-    font-weight: 400;
-      font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
-    width: 100%;
-    padding: 1rem 0rem;
-}
- */

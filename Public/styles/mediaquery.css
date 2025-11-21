@@ -75,8 +75,11 @@
   .contenedor-mapa {
     width: 70%;
   }
+  .bloque-uno-home {
+    padding: 0 1.5rem;
+  }
   .bloque-dos-home {
-    padding: 3rem 1rem;
+    padding: 3rem 1.5rem;
   }
   .grid-bloque-dos-home {
     flex-direction: unset;
@@ -175,8 +178,8 @@
     display: flex;
     flex-direction: unset;
   }
-  .bloque-dos-home-uno {
-    max-width: 80%;
+  .bloque-dos-home {
+    padding: 3rem 3rem;
   }
   .banner {
     width: 90%;
@@ -205,5 +208,8 @@
   }
   .bloque-fr2 {
     flex-direction: unset;
+  }
+  .bloque-uno-home {
+    padding: 0 3rem;
   }
 }/*# sourceMappingURL=mediaquery.css.map */
