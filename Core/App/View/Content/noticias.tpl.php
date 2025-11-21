@@ -36,13 +36,46 @@
                             <a href="">Leer más</a>
                         </div>
                     </div>
-
                     <img src="Public/recursos/imagenes/foto_3.jpg" alt="">
                 </div>
             </div>
 
             <div class="bloque-destacadas">
                 <p class="cabecera-blog-uno">Entradas destacadas</p>
+
+                <div class="items-destacadas">
+                    <div class="img-item-destacada">
+                        <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+
+                    </div>
+                    <div class="txt-item-destacadas">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+
+                </div>
+
+                  <div class="items-destacadas">
+                    <div class="img-item-destacada">
+                        <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+
+                    </div>
+                    <div class="txt-item-destacadas">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+
+                </div>
+
+                  <div class="items-destacadas">
+                    <div class="img-item-destacada">
+                        <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+
+                    </div>
+                    <div class="txt-item-destacadas">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+
+                </div>
+                
             </div>
 
         </div>
