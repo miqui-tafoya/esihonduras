@@ -26,7 +26,8 @@
 .img-intro-quienes img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
@@ -38,17 +39,6 @@
   align-items: start;
   flex-direction: column;
   padding: 2rem 0rem;
-}
-
-.uno-intro-quienes {
-  color: #616161;
-  margin: 0;
-  font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
-  font-family: "Baloo 2", sans-serif !important;
-  font-weight: 700;
-  line-height: 1;
-  text-align: left;
-  max-width: 100%;
 }
 
 .dos-intro-quienes {
@@ -101,17 +91,6 @@
   padding: 1rem 0rem;
 }
 
-.intro-bloque-tres-uno {
-  color: #616161;
-  font-size: clamp(1.5rem, 0.6724rem + 4.1379vw, 3rem);
-  font-family: "Baloo 2", sans-serif !important;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  width: 100%;
-  padding: 0rem 0rem 1rem 0rem;
-}
-
 .intro-bloque-tres-dos {
   font-weight: 400;
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
@@ -140,7 +119,8 @@
 .img-bloque-tres img {
   width: 350px;
   height: 350px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
@@ -172,8 +152,10 @@
 .img-item-quienes img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .info-item-quienes {
@@ -225,13 +207,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.bloque-cinco-quienes-uno {
-  font-family: "Baloo 2", sans-serif !important;
-  font-weight: 700;
-  font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
-  line-height: 1;
 }
 
 .bloque-cinco-quienes-dos {

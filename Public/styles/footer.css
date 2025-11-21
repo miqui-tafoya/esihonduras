@@ -70,12 +70,12 @@
 .redes-footer a {
   font-size: 0.9rem;
   padding: 0 0.3rem;
-  color: #424242;
+  color: #25282a;
 }
 
 .redes-footer a:hover {
   padding: 0 0.3rem;
-  color: #000;
+  color: #c2984b;
 }
 
 .tres-info-footer {
@@ -111,16 +111,16 @@
   display: flex;
   font-weight: 600;
   font-size: 0.6rem;
-  color: #000;
+  color: #25282a;
 }
 
 .mapa-sitio-footer a {
   padding: 0.6rem 0.6rem 0.6rem 0rem;
-  color: #000;
+  color: #25282a;
 }
 
 .mapa-sitio-footer a:hover {
-  color: #fff;
+  color: #c2984b;
 }
 
 .sub-menu-footer {
@@ -129,6 +129,6 @@
 
 .sub-menu-footer a {
   padding: 0rem 0rem 0.3rem 0rem;
-  color: #000;
+  color: #25282a;
   font-weight: 400;
 }/*# sourceMappingURL=footer.css.map */

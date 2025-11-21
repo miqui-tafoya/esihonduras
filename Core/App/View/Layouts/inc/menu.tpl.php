@@ -2,7 +2,7 @@
 ?>
 <div id="menu-large">
     <div class="back-menu">
-        <div class="logo-menu"> <img src="<?php echo URL_PUBLIC ?>recursos/imagenes/logotipo-bn.png" alt=""></div>
+        <div class="logo-menu"> <img src="<?php echo URL_PUBLIC ?>recursos/imagenes/logo_color.png" alt=""></div>
         <ul>
             <li><a href="<?php echo URL_BASE ?>">Inicio</a></li>
             <div class="dropdown">
