@@ -4,6 +4,7 @@ use Router\RouteList;
 
 // Instancia Controllers
 use Controller\MainCtrl;
+use Controller\Captcha;
 
 // Instancia Globales
 $default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer'], 'end' => ['mediaquery']];
@@ -230,7 +231,29 @@ $routeList->add(
         ['admin']
 );
 
+$routeList->add(
+        'get',
+        '/login',
+        'login',
+        ['main',
+                ['Login Administrativo', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                []],
+        ['login']
+);
 
+$routeList->add(
+        'post',
+        '/login',
+        'login',
+        ['main',
+                ['Login Administrativo', []],
+                [['head' => [], 'footer' => []],
+                        []],
+                $_POST],
+        ['login']
+);
 
 // pseudorutas y/o llamadas AJAX
 
