@@ -53,7 +53,7 @@
     background-color: transparent;
      padding: 0.6rem 0.8rem;
      border-radius: 40px;
-     color: vars.$primario;
+     color: vars.$dark;
 
 }
 
@@ -68,7 +68,7 @@
 /////////////////////Menú móvil/////////////
 
 .back-menu-movil {
-    background-color: beige;
+    background-color:vars.$secundario;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,11 +85,11 @@
     background-color: transparent;
      padding:0.6rem 1rem;
      border-radius: 40px;
-     color: #000;
+     color: vars.$dark;
 }
 
 .back-menu-movil a:hover{
-    background-color: vars.$g700;
+    background-color: vars.$primario;
     color: vars.$g0;
     padding: 0.6rem 1rem;
     border-radius: 40px;

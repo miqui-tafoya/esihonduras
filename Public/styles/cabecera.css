@@ -51,7 +51,7 @@
   background-color: transparent;
   padding: 0.6rem 0.8rem;
   border-radius: 40px;
-  color: #c2984b;
+  color: #25282a;
 }
 
 .back-menu a:hover {
@@ -62,7 +62,7 @@
 }
 
 .back-menu-movil {
-  background-color: beige;
+  background-color: #f0e1d1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,11 +79,11 @@
   background-color: transparent;
   padding: 0.6rem 1rem;
   border-radius: 40px;
-  color: #000;
+  color: #25282a;
 }
 
 .back-menu-movil a:hover {
-  background-color: #616161;
+  background-color: #c2984b;
   color: #fff;
   padding: 0.6rem 1rem;
   border-radius: 40px;

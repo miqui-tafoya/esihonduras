@@ -41,7 +41,7 @@
             <div class="bloque-destacadas">
                 <p class="cabecera-blog-uno">Entradas destacadas</p>
 
-                 <div class="items-destacadas">
+                <div class="items-destacadas">
                     <div class="img-item-destacada">
                         <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
                     </div>
@@ -54,7 +54,7 @@
 
                 </div>
 
-                 <div class="items-destacadas">
+                <div class="items-destacadas">
                     <div class="img-item-destacada">
                         <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
                     </div>
@@ -86,28 +86,105 @@
         <!-- Fin uno -->
 
         <!-- Inicio uno -->
-         <div class="grid-dos-noticias">
-             <p class="cuerpo-texto">Entradas recientes</p>
+        <div class="grid-dos-noticias">
+            <p class="cuerpo-texto">Entradas recientes</p>
 
-             <div class="bloque-items-recientes">
+            <div class="bloque-items-recientes">
+
                 <div class="item-reciente">
                     <div class="img-item-reciente">
                         <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
                     </div>
-                   <div class="txt-item-destacadas">
+                    <div class="txt-item-reciente">
                         <a href="#">
                             <p>Título artículo <span>Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit, sed do eiusmod tempor incididunt. </span></p>
                         </a>
                     </div>
 
+                    <div class="publicado">
+                        <div class="foto-publicado">
+
+                            <div class="img-publicado">
+                                <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="nombre-publicado">
+                            <p>Publicado por administrador</p>
+                        </div>
+                        <div class="fecha-publicado">
+                            <p>00-00-00</p>
+                        </div>
+
+                    </div>
+
                 </div>
 
-             </div>
+                <div class="item-reciente">
+                    <div class="img-item-reciente">
+                        <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                    </div>
+                    <div class="txt-item-reciente">
+                        <a href="#">
+                            <p>Título artículo <span>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt. </span></p>
+                        </a>
+                    </div>
+
+                    <div class="publicado">
+                        <div class="foto-publicado">
+
+                            <div class="img-publicado">
+                                <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="nombre-publicado">
+                            <p>Publicado por administrador</p>
+                        </div>
+                        <div class="fecha-publicado">
+                            <p>00-00-00</p>
+                        </div>
+
+                    </div>
+
+                </div>
 
 
-         </div>
-         <!-- Fin dos -->
+                <div class="item-reciente">
+                    <div class="img-item-reciente">
+                        <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                    </div>
+                    <div class="txt-item-reciente">
+                        <a href="#">
+                            <p>Título artículo <span>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt. </span></p>
+                        </a>
+                    </div>
+
+                    <div class="publicado">
+                        <div class="foto-publicado">
+
+                            <div class="img-publicado">
+                                <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="nombre-publicado">
+                            <p>Publicado por administrador</p>
+                        </div>
+                        <div class="fecha-publicado">
+                            <p>00-00-00</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <!-- Fin dos -->
 
     </div>
 </div>

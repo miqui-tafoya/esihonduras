@@ -237,4 +237,7 @@
     width: 30%;
     margin: 0 1rem 0 1rem;
   }
+  .bloque-items-recientes {
+    flex-wrap: nowrap;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
