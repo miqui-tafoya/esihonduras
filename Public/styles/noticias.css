@@ -51,6 +51,7 @@
   width: 100%;
   display: flex;
   flex-direction: unset;
+  flex-wrap: wrap;
 }
 
 .bloque-list-categorias li {
@@ -130,10 +131,10 @@
 .bloque-destacadas {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 100%;
   justify-content: center;
   align-items: start;
-  margin: 0 1rem;
+  margin: 1rem 0 1rem 0;
   background-color: #f8fae9;
   padding: 1rem;
   border-radius: 20px;

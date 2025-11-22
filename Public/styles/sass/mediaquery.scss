@@ -279,6 +279,7 @@
 
 .bloque-list-categorias {
     flex-direction: column;
+    
 }
 
 .bloque-list-categorias li {
@@ -289,6 +290,12 @@
 .bloque-foto-noticias {
     width: 50%;
     margin: 0 0.5rem 0 0.5rem;
+}
+
+.bloque-destacadas{
+    width: 30%;
+    margin: 0 0.5rem 0 0.5rem;
+  
 }
 
 }
