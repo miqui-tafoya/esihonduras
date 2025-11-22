@@ -264,4 +264,26 @@
     padding: 0 3rem;
 }
 
+.grid-uno-noticias {
+
+    flex-direction: unset;
+}
+  .list-categorias {  
+     width: 20%;
+    height: 540px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.bloque-list-categorias {
+    flex-direction: column;
+}
+
+.bloque-list-categorias li {
+    padding: 0.5rem 0;
+
+}
+
 }
