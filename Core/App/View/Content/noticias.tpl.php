@@ -29,7 +29,7 @@
                         <p class="txt-destacada-uno">Titulo artículo</p>
                         <p class="txt-destacada-dos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris. </p>
+                            quis nostrud exercitation ullamco laboriss. </p>
                         <div class="link-info-destacado">
                             <a href="">Leer más</a>
                         </div>
@@ -84,6 +84,30 @@
 
         </div>
         <!-- Fin uno -->
+
+        <!-- Inicio uno -->
+         <div class="grid-dos-noticias">
+             <p class="cuerpo-texto">Entradas recientes</p>
+
+             <div class="bloque-items-recientes">
+                <div class="item-reciente">
+                    <div class="img-item-reciente">
+                        <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                    </div>
+                   <div class="txt-item-destacadas">
+                        <a href="#">
+                            <p>Título artículo <span>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt. </span></p>
+                        </a>
+                    </div>
+
+                </div>
+
+             </div>
+
+
+         </div>
+         <!-- Fin dos -->
 
     </div>
 </div>
