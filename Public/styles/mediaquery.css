@@ -240,4 +240,7 @@
   .bloque-items-recientes {
     flex-wrap: nowrap;
   }
+  .item-reciente {
+    padding: 0 1rem;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
