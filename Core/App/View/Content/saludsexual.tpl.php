@@ -232,19 +232,23 @@
                     <p class="cabecera-uno">¿Y esos derechos dónde están en Honduras? </p>
                     <p class="cuerpo-texto">
                         Están en diferentes artículos como:<br><br>
-                        <span class="cabecera-seis-dos">El Derecho a la vida Artículo 61: </span><br>“Se garantiza a los hondureños y extranjeros residentes en el
+                        <span class="cabecera-seis-dos">El Derecho a la vida Artículo 61: </span><br>“Se garantiza a los
+                        hondureños y extranjeros residentes en el
                         país, el derecho a la inviolabilidad de la vida, a la seguridad individual, a la libertad, a la
                         igualdad ante la ley y a la propiedad”.
                         <br><br>
-                        <span class="cabecera-seis-dos">Artículo 145:</span> <br>“Se reconoce el derecho a la protección de la salud. Es deber de todos participar
+                        <span class="cabecera-seis-dos">Artículo 145:</span> <br>“Se reconoce el derecho a la protección
+                        de la salud. Es deber de todos participar
                         en la promoción y prevención de la salud personal y de la comunidad. El Estado conservará el
                         medio ambiente adecuado para proteger la salud de las personas.<br><br>
-                        <span class="cabecera-seis-dos">Artículo 149:</span> “El Poder Ejecutivo por medio del Ministerio de Salud Pública y Asistencia Social,
+                        <span class="cabecera-seis-dos">Artículo 149:</span> “El Poder Ejecutivo por medio del
+                        Ministerio de Salud Pública y Asistencia Social,
                         coordinará todas las actividades públicas de los organismos centralizados y descentralizados de
                         dicho sector, mediante un plan nacional de salud, en el cual se dará prioridad a los grupos más
                         necesitados. Corresponde al Estado supervisar las actividades privadas de salud conforme a la
                         ley.”.<br><br>
-                        <span class="cabecera-seis-dos">Artículo 68: </span>“Toda persona tiene derecho a que se respete su integridad física, psíquica y
+                        <span class="cabecera-seis-dos">Artículo 68: </span>“Toda persona tiene derecho a que se respete
+                        su integridad física, psíquica y
                         moral”
                         <br><br>
 
@@ -262,6 +266,92 @@
         </div>
 
         <!-- Fin bloque siete -->
+
+        <!-- Inicio bloque ocho -->
+
+        <div class="bloque-seis-ss">
+
+            <div class="info-seis-uno">
+                <p class="cabecera-seis-uno">¿Es lo mismo sexo, salud sexual, sexualidad y derechos sexuales?</p>
+                <p class="cuerpo-seis-uno">
+                    Para que exista uno, deben existir los demás. <br> <br>
+                    El <span class="cuerpo-seis-blod">sexo</span> son las características biológicas que nos definen y
+                    diferencian como mujeres u hombres.
+                    La Organización Mundial de la Salud señala: <span class="cuerpo-seis-italic">Aunque estos conjuntos
+                        de características biológicas no
+                        son excluyentes entre sí, ya que hay personas que poseen características de ambos conjuntos,
+                        estos
+                        tienden a diferenciar a los seres humanos como hombres o mujeres.En el uso general de muchos
+                        idiomas, el término «sexo» significa «actividad sexual», pero a los fines técnicos, en el
+                        contexto
+                        de las deliberaciones sobre sexualidad y salud sexual, se prefiere la definición
+                        precedente.</span>
+                    <br>
+                    <br>
+                    La <span class="cuerpo-seis-blod">salud sexual</span> hace referencia al estado de bienestar físico,
+                    mental y social en relación con la
+                    sexualidad.
+                    <br>
+                    La Organización Mundial de la Salud señala: <span class="cuerpo-seis-italic"> La salud sexual
+                        requiere un enfoque positivo y respetuoso de la sexualidad y de las relaciones sexuales, así
+                        como la posibilidad de tener experiencias sexuales placenteras y seguras, libres de toda
+                        coacción, discriminación y violencia. Para que la salud sexual se logre y se mantenga, los
+                        derechos sexuales de todas las personas deben ser respetados, protegidos y ejercidos a
+                        plenitud.</span>
+                    <br>
+                    <br>
+                    Entonces ¿dónde queda la sexualidad?
+                    La <span>sexualidad</span> es parte importante pero debe considerarse en un sentido amplio, no como
+                    un elemento
+                    solitario:
+                    <br>
+                    <br>
+                    ¿Qué nos dice la Organización Mundial de la Salud?, <span class="cuerpo-seis-italic">“la salud
+                        sexual no se puede definir, comprender ni poner en práctica si no se considera la sexualidad en
+                        sentido amplio, como un elemento subyacente de importantes comportamientos y resultados
+                        relativos a la salud sexual. Según la definición de trabajo, la sexualidad es: <br><br>
+                        «...un aspecto central del ser humano, presente a lo largo de su vida. Abarca al sexo, las
+                        identidades y los papeles de género, el erotismo, el placer, la intimidad, la reproducción y la
+                        orientación sexual. Se vivencia y se expresa a través de pensamientos, fantasías, deseos,
+                        creencias, actitudes, valores, conductas, prácticas, papeles y relaciones interpersonales. La
+                        sexualidad puede incluir todas estas dimensiones, no obstante, no todas ellas se vivencian o se
+                        expresan siempre. La sexualidad está influida por la interacción de factores biológicos,
+                        psicológicos, sociales, económicos, políticos, culturales, éticos, legales, históricos,
+                        religiosos y espirituales »”</span>
+                    <br><br>
+                    Y llegamos a los <span class="cuerpo-seis-blod">derechos sexuales,</span>  la salud sexual no se puede alcanzar y lograr sin el respeto y la protección de los derechos humanos.
+                    <br><br><span class="cuerpo-seis-italic">“Los derechos sexuales constituyen la aplicación de los derechos humanos existentes a la sexualidad y a la salud sexual. Protegen el derecho de todas las personas a satisfacer y expresar su sexualidad y a disfrutar de la salud sexual, con el debido respeto por los derechos de los demás, dentro de un marco de protección frente a la discriminación»”</span>
+                </p>
+
+            </div>
+        </div>
+        <!-- Fin bloque ocho -->
+
+         <!-- Inicio bloque nueve -->
+
+         <div class="bloque-banner-ss">
+            <div class="contenedor-banner-ss">
+                <div class="banner-ss">
+                    
+                    <div class="info-banner-ss">
+                        <p class="texto-uno-banner-ss">Consulta más información en,</p>
+                        <p class="texto-dos-banner-ss">Organización Mundial de la Salud (OMS), Salud Sexual, definiciones. </p>
+                        <div class="btn-banner">
+                            <a href="https://www.who.int/es/health-topics/sexual-health#tab=tab_2">Ir a Artículo<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="img-banner-ss">
+                        <img src="Public/recursos/imagenes/h-logo.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+         </div>
+
+          <!-- Fin bloque nueve -->
+
 
     </div>
 </div>

@@ -243,4 +243,7 @@
   .item-reciente {
     padding: 0 1rem;
   }
+  .banner-ss {
+    flex-direction: unset;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
