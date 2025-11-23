@@ -192,12 +192,12 @@
 
 .btn-enlace a{
     font-weight: 600;
-    color:vars.$g500;
+    color:vars.$com;
     font-size: 0.8rem;
     background-color:transparent;
     border-style: solid;
-      border-width: 2px;
-      border-color:vars.$g500 ;
+    border-width: 2px;
+    border-color:vars.$com;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 40px;
@@ -205,8 +205,8 @@
 }
 
 .btn-enlace a:hover{
-    color:vars.$g;
-    border-color:vars.$g ;
+    color:vars.$com700;
+    border-color:vars.$com700;
     background-color:transparent;
 }
 
@@ -357,7 +357,7 @@
 
 .btn-banner a:hover{
     color:vars.$g0;
-    background-color:vars.$com-dos-800;
+    background-color:vars.$com-dos800;
 }
 
 .texto-uno-banner{

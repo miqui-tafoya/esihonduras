@@ -110,7 +110,7 @@
                             </div>
                         </div>
                         <div class="nombre-publicado">
-                            <p>Publicado por administrador</p>
+                             <p>Publicado por: <span>Administrador</span> </p>
                         </div>
                         <div class="fecha-publicado">
                             <p>00-00-00</p>
@@ -139,7 +139,7 @@
                             </div>
                         </div>
                         <div class="nombre-publicado">
-                            <p>Publicado por administrador</p>
+                             <p>Publicado por: <span>Administrador</span> </p>
                         </div>
                         <div class="fecha-publicado">
                             <p>00-00-00</p>
@@ -169,7 +169,7 @@
                             </div>
                         </div>
                         <div class="nombre-publicado">
-                            <p>Publicado por administrador</p>
+                            <p>Publicado por: <span>Administrador</span> </p>
                         </div>
                         <div class="fecha-publicado">
                             <p>00-00-00</p>

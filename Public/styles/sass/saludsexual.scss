@@ -9,6 +9,17 @@
     height: auto;
 }
 
+.bloque-uno-ss {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0 1.5rem;
+    background-color: vars.$com-dos;
+}
+
 .bloque-fr2 {
     display: flex;
     width: 90%;
@@ -59,4 +70,75 @@
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
     width: 100%;
     padding: 1rem 0rem;
+}
+
+.cabecera-uno-ss{
+    color: vars.$g0;
+    font-size: clamp(2rem, 1.3103rem + 3.4483vw, 3.25rem);
+    font-family: "Baloo 2", sans-serif !important;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.cuerpo-texto-uno-ss{
+    font-weight: 400;
+    color: vars.$g0;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+    padding: 1rem 0rem;
+}
+
+.bloque-dos-ss{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0 1.5rem;
+    background-color: vars.$primario50;
+
+}
+
+.bloque-tres-ss{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 0 1.5rem;
+    background-color: vars.$primario100;
+
+}
+
+.info-bloque-tres{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+
+.btn-enlace{
+    display: flex;
+}
+
+.btn-enlace a{
+    font-weight: 600;
+    color:vars.$com;
+    font-size: 0.8rem;
+    background-color:transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color:vars.$com;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 40px;
+   
+}
+
+.btn-enlace a:hover{
+    color:vars.$com700;
+    border-color:vars.$com700;
+    background-color:transparent;
 }
