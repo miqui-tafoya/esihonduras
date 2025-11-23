@@ -47,7 +47,7 @@
         <!-- Inicio bloque tres -->
         <div class="bloque-tres-ss">
             <div class="info-bloque-tres">
-                <p class="cabecera-uno">¿Educación sexual integral?, ¿Qué es?</p>
+                <p class="cabecera-uno">¿Educación sexual integral?, <br> ¿Qué es?</p>
                 <p class="cuerpo-texto">La Organización Mundial de la Salud señala que la Educación sexual integral
                     (ESI) “brinda a los
                     jóvenes información precisa y apropiada para su edad sobre la sexualidad y su salud sexual y
@@ -84,13 +84,15 @@
 
             <div class="info-bloque-cuatro-uno">
                 <p class="cabecera-uno-ss">Sabías que…</p>
-                <p class="cuerpo-texto-uno-ss">Honduras reconoce el derecho a la protección de la salud en el artículo 145.
+                <p class="cuerpo-texto-uno-ss">Honduras reconoce el derecho a la protección de la salud en el artículo
+                    145.
                     <br>
                 </p>
             </div>
             <div class="info-bloque-cuatro-dos">
                 <p class="cabecera-uno-ss">Sabías que…</p>
-                <p class="cuerpo-texto-uno-ss">En el 2007 la secretaria de Salud de Honduras inició un proceso para incorporar
+                <p class="cuerpo-texto-uno-ss">En el 2007 la secretaria de Salud de Honduras inició un proceso para
+                    incorporar
                     la salud sexual y reproductiva en situaciones de emergencia, mediante la capacitación y elaboración
                     de planes nacionales y locales a fin de que se lleven a cabo medidas de prevención, tratamiento,
                     apoyo y cuidado en los albergues o lugares donde se protegen las personas.
@@ -101,6 +103,26 @@
         </div>
 
         <!-- Fin bloque cuatro -->
+
+        <!-- Inicio bloque cinco -->
+        <div class="bloque-cinco-ss">
+            <div class="info-bloque-tres">
+                <p class="cabecera-uno">¿Para quién son los derechos sexuales?</p>
+                <p class="cuerpo-texto">¡Para todas las personas!, sin excluir a nadie. <br>
+                    Los derechos sexuales y reproductivos se basan en la autonomía de las personas para tomar decisiones
+                    sobre su vida, cuerpo, sexualidad, reproducción, salud y bienestar y toda esta información es
+                    importante para todas las personas sin importar la edad. <br> <br>
+                    ¿Todas las personas? <br>
+                    Sí, a las niñas y niños se les enseña sobre higiene, que nadie absolutamente nadie puede tocar su
+                    cuerpo, en la adolescencia de la menstruación, del deporte y alimentación sana, en la juventud de
+                    las relaciones sanas y sin violencia en el noviazgo, de enfermedades infecciosas, de sexualidad con
+                    información actualizada, veraz, completa, científica, al decidir ser madres que recibían atención
+                    médica y que nadie puede violentarse.
+                </p>
+            </div>
+
+        </div>
+        <!-- Fin bloque cinco -->
 
     </div>
 </div>
