@@ -64,18 +64,43 @@
                 </p>
                 <p class="cuerpo-texto">Guía práctica de Educación integral en sexualidad</p>
                 <div class="btn-enlace">
-                    <a href="https://csetoolkit.unesco.org/es/toolkit/el-caso/que-es-la-educacion-integral-en-sexualidad" target="_blank">Ir
+                    <a href="https://csetoolkit.unesco.org/es/toolkit/el-caso/que-es-la-educacion-integral-en-sexualidad"
+                        target="_blank">Ir
                         a guía</a>
                 </div>
-                 <p class="cuerpo-texto">Educación sexual integral </p>
+                <p class="cuerpo-texto">Educación sexual integral </p>
                 <div class="btn-enlace">
-                    <a href="https://www.who.int/es/news-room/questions-and-answers/item/comprehensive-sexuality-education" target="_blank">Ir
+                    <a href="https://www.who.int/es/news-room/questions-and-answers/item/comprehensive-sexuality-education"
+                        target="_blank">Ir
                         a guía</a>
                 </div>
             </div>
 
         </div>
         <!-- Fin bloque tres -->
+
+        <!-- Inicio bloque cuatro -->
+        <div class="bloque-cuatro-ss">
+
+            <div class="info-bloque-cuatro-uno">
+                <p class="cabecera-uno-ss">Sabías que…</p>
+                <p class="cuerpo-texto-uno-ss">Honduras reconoce el derecho a la protección de la salud en el artículo 145.
+                    <br>
+                </p>
+            </div>
+            <div class="info-bloque-cuatro-dos">
+                <p class="cabecera-uno-ss">Sabías que…</p>
+                <p class="cuerpo-texto-uno-ss">En el 2007 la secretaria de Salud de Honduras inició un proceso para incorporar
+                    la salud sexual y reproductiva en situaciones de emergencia, mediante la capacitación y elaboración
+                    de planes nacionales y locales a fin de que se lleven a cabo medidas de prevención, tratamiento,
+                    apoyo y cuidado en los albergues o lugares donde se protegen las personas.
+                    <br>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Fin bloque cuatro -->
 
     </div>
 </div>
