@@ -222,5 +222,46 @@
 
         <!-- Fin bloque seis -->
 
+        <!-- Inicio bloque siete -->
+
+        <div class="bloque-cinco-ss">
+
+            <div class="bloque-fr2">
+
+                <div class="txt-intro-fr2">
+                    <p class="cabecera-uno">¿Y esos derechos dónde están en Honduras? </p>
+                    <p class="cuerpo-texto">
+                        Están en diferentes artículos como:<br><br>
+                        <span class="cabecera-seis-dos">El Derecho a la vida Artículo 61: </span><br>“Se garantiza a los hondureños y extranjeros residentes en el
+                        país, el derecho a la inviolabilidad de la vida, a la seguridad individual, a la libertad, a la
+                        igualdad ante la ley y a la propiedad”.
+                        <br><br>
+                        <span class="cabecera-seis-dos">Artículo 145:</span> <br>“Se reconoce el derecho a la protección de la salud. Es deber de todos participar
+                        en la promoción y prevención de la salud personal y de la comunidad. El Estado conservará el
+                        medio ambiente adecuado para proteger la salud de las personas.<br><br>
+                        <span class="cabecera-seis-dos">Artículo 149:</span> “El Poder Ejecutivo por medio del Ministerio de Salud Pública y Asistencia Social,
+                        coordinará todas las actividades públicas de los organismos centralizados y descentralizados de
+                        dicho sector, mediante un plan nacional de salud, en el cual se dará prioridad a los grupos más
+                        necesitados. Corresponde al Estado supervisar las actividades privadas de salud conforme a la
+                        ley.”.<br><br>
+                        <span class="cabecera-seis-dos">Artículo 68: </span>“Toda persona tiene derecho a que se respete su integridad física, psíquica y
+                        moral”
+                        <br><br>
+
+                        Cuando el gobierno reconoce los derechos sexuales eso significa que nadie puede negarte tus
+                        derechos.
+                    </p>
+                </div>
+
+                <div class="img-fr2">
+                    <img src="Public/recursos/imagenes/foto_3.jpg" alt=""></a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Fin bloque siete -->
+
     </div>
 </div>
