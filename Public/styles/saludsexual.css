@@ -166,7 +166,8 @@
 
 .info-bloque-cuatro-dos {
   width: 50%;
-  height: 500px;
+  height: 100%;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -181,4 +182,86 @@
   flex-direction: column;
   padding: 2rem 1rem;
   margin: 0 auto;
+}
+
+.bloque-seis-ss {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  background-color: #fffde6;
+  margin: 0 auto;
+}
+
+.info-seis-uno {
+  width: 80%;
+  display: flex;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.info-seis-dos {
+  width: 80%;
+  display: flex;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cabecera-seis-uno {
+  color: #ff7a00;
+  font-size: clamp(2rem, 1.3103rem + 3.4483vw, 3.25rem);
+  font-family: "Baloo 2", sans-serif !important;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.cabecera-seis-dos {
+  font-weight: 700;
+  color: #25282a;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+  padding: 1rem 0rem;
+}
+
+.cuerpo-seis-uno {
+  font-weight: 400;
+  color: #25282a;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+  padding: 1rem 0rem;
+}
+
+.items-datos {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.grid-items {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  width: 300px;
+  height: 100%;
+  background-color: #ff7a00;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.item p {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
 }/*# sourceMappingURL=saludsexual.css.map */
