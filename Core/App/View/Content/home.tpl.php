@@ -231,15 +231,17 @@
                             <p class="info-dos-item-cinco">El embarazo durante la adolescencia puede cambiar
                                 profundamente la vida de las y los jóvenes. No se trata solo del bebé, sino de su salud,
                                 sus estudios, su futuro y sus emociones.</p>
+                            <div class="btn-enlace-dos">
+                                <a href="#" target="_blank">Ir a información</a>
+                            </div>    
                         </div>
 
                     </div>
 
                     <div class="item-info-cinco">
-                        <div class="contenedor-img">
-                            <div class="img-item-cinco">
-                                <img src="Public/recursos/imagenes/embarazo_adolescente.png" alt="">
-                            </div>
+
+                        <div class="img-item-cinco">
+                            <img src="Public/recursos/imagenes/embarazo_adolescente.png" alt="">
                         </div>
 
                         <div class="info-item-cinco">
@@ -249,6 +251,9 @@
                                 que no, pero si es un riesgo para tu salud, desarrollo, bienestar tener una hija o hijo
                                 siendo adolescente.
                             </p>
+                            <div class="btn-enlace-dos">
+                                <a href="#" target="_blank">Ir a información</a>
+                            </div>
                         </div>
 
                     </div>
@@ -265,6 +270,9 @@
                                 encontrar la ubicación de hospitales y centros de salud que brindan servicios de salud
                                 sexual y reproductiva en Honduras.
                             </p>
+                            <div class="btn-enlace-dos">
+                                <a href="#" target="_blank">Ir a información</a>
+                            </div>
                         </div>
 
                     </div>

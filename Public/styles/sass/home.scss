@@ -84,7 +84,7 @@
 .titulo-item{
     font-family: "Baloo 2", sans-serif !important;
     font-weight: 700;
-    color: vars.$primario;
+    color: vars.$dark;
     font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 2rem);
     line-height: 1; 
     padding: 0rem 0rem 0.8rem 0rem;
@@ -209,6 +209,33 @@
     border-color:vars.$com700;
     background-color:transparent;
 }
+
+
+.btn-enlace-dos{
+    display: flex;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.btn-enlace-dos a{
+    font-weight: 600;
+    color:vars.$g0;
+    font-size: 0.8rem;
+    background-color:transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color:vars.$g0;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 40px;
+   
+}
+
+.btn-enlace-dos a:hover{
+    color:vars.$com900;
+    border-color:vars.$com900;
+    background-color:transparent;
+}
+
 
 //////// bloque tres ///////////
 
@@ -434,36 +461,35 @@
 
 .item-info-cinco{
     width: 100%;
-    height: 600px;
+    height: 100%;
     background-color: vars.$com;
     margin: 2rem 2rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 }
 
-.contenedor-img {
-     width: 100%;
-}
 
 .img-item-cinco {
     width: 100%;
-    height: 300px;
+    height: 50%;
 }
 
 .img-item-cinco img{
     width: 100%;
-    height: auto;
+    height: 50%;
     object-fit: cover;
+    object-position: center;
 }
 
 .info-item-cinco{
     width: 100%;
-    height: 300px;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0rem 2rem;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+    min-height: 340px;
 }
 
 .info-uno-item-cinco {
