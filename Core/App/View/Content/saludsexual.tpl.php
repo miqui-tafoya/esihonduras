@@ -23,13 +23,13 @@
         <!-- Inicio bloque uno -->
         <div class="bloque-dos-ss">
             <div class="info-bloque-tres">
-                <p class="cabecera-uno">¿Qué es la salud sexual? </p>
+                <p class="cabecera-dos-ss">¿Qué es la salud sexual? </p>
                 <p class="cuerpo-texto">La salud sexual es el bienestar físico, mental y social en relación con la
                     sexualidad, para lograrlo es importante que los derechos sexuales de todas las personas se respeten,
                     protejan y se ejerzan plenamente.</p>
                 <br>
                 <br>
-                <p class="cabecera-uno">¿Por qué hablamos de salud sexual integral? </p>
+                <p class="cabecera-dos-ss">¿Por qué hablamos de salud sexual integral? </p>
                 <p class="cuerpo-texto">La salud sexual no se logra solo con un elemento, imagina que es una receta,
                     lograr un gran platillo requiere de varios elementos para lograr lo que se busca, lo mismo pasa con
                     la salud sexual, es un derecho muy amplio que nos lleva a hablar de servicios de salud de buena
@@ -44,7 +44,7 @@
         <!-- Inicio bloque tres -->
         <div class="bloque-tres-ss">
             <div class="info-bloque-tres">
-                <p class="cabecera-uno">¿Educación sexual integral?, <br> ¿Qué es?</p>
+                <p class="cabecera-dos-ss">¿Educación sexual integral?, <br> ¿Qué es?</p>
                 <p class="cuerpo-texto">La Organización Mundial de la Salud señala que la Educación sexual integral
                     (ESI) “brinda a los
                     jóvenes información precisa y apropiada para su edad sobre la sexualidad y su salud sexual y
@@ -59,13 +59,13 @@
                     de los demás; y entender cuáles son sus derechos a lo largo de sus vida y asegurarse de protegerlos”
                     <br>
                 </p>
-                <p class="cuerpo-texto">Guía práctica de Educación integral en sexualidad</p>
+                <p class="cuerpo-seis-blod">Guía práctica de Educación integral en sexualidad</p>
                 <div class="btn-enlace">
                     <a href="https://csetoolkit.unesco.org/es/toolkit/el-caso/que-es-la-educacion-integral-en-sexualidad"
                         target="_blank">Ir
                         a guía</a>
                 </div>
-                <p class="cuerpo-texto">Educación sexual integral </p>
+                <p class="cuerpo-seis-blod">Educación sexual integral </p>
                 <div class="btn-enlace">
                     <a href="https://www.who.int/es/news-room/questions-and-answers/item/comprehensive-sexuality-education"
                         target="_blank">Ir
@@ -110,13 +110,13 @@
                 </div>
 
                 <div class="txt-intro-fr2">
-                    <p class="cabecera-uno">¿Para quién son los derechos sexuales?</p>
+                    <p class="cabecera-dos-ss">¿Para quién son los derechos sexuales?</p>
                     <p class="cuerpo-texto">
                         ¡Para todas las personas!, sin excluir a nadie. <br>
                         Los derechos sexuales y reproductivos se basan en la autonomía de las personas para tomar
                         decisiones sobre su vida, cuerpo, sexualidad, reproducción, salud y bienestar y toda esta
                         información es importante para todas las personas sin importar la edad.<br><br>
-                        ¿Todas las personas?<br><br>
+                        <span class="cuerpo-seis-blod">¿Todas las personas?</span><br><br>
                         Sí, a las niñas y niños se les enseña sobre higiene, que nadie absolutamente nadie puede tocar
                         su cuerpo, en la adolescencia de la menstruación, del deporte y alimentación sana, en la
                         juventud de las relaciones sanas y sin violencia en el noviazgo, de enfermedades infecciosas, de
@@ -134,7 +134,7 @@
         <div class="bloque-seis-ss">
 
             <div class="info-seis-uno">
-                <p class="cabecera-seis-uno">¿Y que incluyen los derechos sexuales y reproductivos?
+                <p class="cabecera-dos-ss">¿Y que incluyen los derechos sexuales y reproductivos?
                 </p>
                 <p class="cuerpo-seis-uno">Incluyen el derecho a tener relaciones sexuales, sin violencia ni bajo
                     presión; a tener hijos cuando lo desea y a expresar la sexualidad. Los Derechos Sexuales y
@@ -229,7 +229,7 @@
             <div class="bloque-fr2">
 
                 <div class="txt-intro-fr2">
-                    <p class="cabecera-uno">¿Y esos derechos dónde están en Honduras? </p>
+                    <p class="cabecera-dos-ss">¿Y esos derechos dónde están en Honduras? </p>
                     <p class="cuerpo-texto">
                         Están en diferentes artículos como:<br><br>
                         <span class="cabecera-seis-dos">El Derecho a la vida Artículo 61: </span><br>“Se garantiza a los
@@ -272,7 +272,7 @@
         <div class="bloque-seis-ss">
 
             <div class="info-seis-uno">
-                <p class="cabecera-seis-uno">¿Es lo mismo sexo, salud sexual, sexualidad y derechos sexuales?</p>
+                <p class="cabecera-dos-ss">¿Es lo mismo sexo, salud sexual, sexualidad y derechos sexuales?</p>
                 <p class="cuerpo-seis-uno">
                     Para que exista uno, deben existir los demás. <br> <br>
                     El <span class="cuerpo-seis-blod">sexo</span> son las características biológicas que nos definen y
@@ -319,7 +319,7 @@
                         psicológicos, sociales, económicos, políticos, culturales, éticos, legales, históricos,
                         religiosos y espirituales »”</span>
                     <br><br>
-                    Y llegamos a los <span class="cuerpo-seis-blod">derechos sexuales,</span>  la salud sexual no se puede alcanzar y lograr sin el respeto y la protección de los derechos humanos.
+                    Y llegamos a los <span class="cuerpo-seis-blod-color">derechos sexuales,</span>  la salud sexual no se puede alcanzar y lograr sin el respeto y la protección de los derechos humanos.
                     <br><br><span class="cuerpo-seis-italic">“Los derechos sexuales constituyen la aplicación de los derechos humanos existentes a la sexualidad y a la salud sexual. Protegen el derecho de todas las personas a satisfacer y expresar su sexualidad y a disfrutar de la salud sexual, con el debido respeto por los derechos de los demás, dentro de un marco de protección frente a la discriminación»”</span>
                 </p>
 

@@ -49,7 +49,7 @@
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  padding: 2rem 2rem;
+  padding: 2rem 1rem;
 }
 
 .uno-intro-fr2 {
@@ -78,6 +78,13 @@
   line-height: 1.2;
 }
 
+.cabecera-dos-ss {
+  color: #25282a;
+  font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
 .cuerpo-texto-uno-ss {
   font-weight: 400;
   color: #fff;
@@ -92,7 +99,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  padding: 0 1.5rem;
+  padding: 3rem 0;
   background-color: #f8fae9;
 }
 
@@ -103,20 +110,22 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  padding: 0 1.5rem;
+  padding: 3rem 0;
   background-color: #eff1ca;
 }
 
 .info-bloque-tres {
   width: 90%;
+  max-width: 980px;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   margin: 0 auto;
 }
 
 .btn-enlace {
   display: flex;
+  padding: 1rem 0;
 }
 
 .btn-enlace a {
@@ -144,6 +153,7 @@
   justify-content: center;
   width: 100%;
   height: auto;
+  flex-direction: column;
 }
 
 .info-bloque-cuatro {
@@ -154,7 +164,7 @@
 }
 
 .info-bloque-cuatro-uno {
-  width: 50%;
+  width: 100%;
   height: 500px;
   display: flex;
   align-items: center;
@@ -165,7 +175,7 @@
 }
 
 .info-bloque-cuatro-dos {
-  width: 50%;
+  width: 100%;
   height: 100%;
   min-height: 500px;
   display: flex;
@@ -177,10 +187,10 @@
 }
 
 .bloque-cinco-ss {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
+  padding: 3rem 0;
   margin: 0 auto;
 }
 
@@ -193,6 +203,7 @@
   flex-direction: column;
   background-color: #fffde6;
   margin: 0 auto;
+  padding: 3rem 0;
 }
 
 .info-seis-uno {
@@ -236,7 +247,7 @@
 }
 
 .cuerpo-seis-italic {
-  font-weight: 400;
+  font-weight: 500;
   color: #25282a;
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
   font-style: italic;
@@ -245,6 +256,12 @@
 .cuerpo-seis-blod {
   font-weight: 800;
   color: #25282a;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+}
+
+.cuerpo-seis-blod-color {
+  font-weight: 800;
+  color: #e74eed;
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
 }
 
