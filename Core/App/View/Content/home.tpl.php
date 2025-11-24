@@ -90,7 +90,7 @@
 
         <div class="bloque-dos-home">
             <div class="txt-bloque-dos-home">
-                <p class="cabecera-uno">¿Por qué hablamos
+                <p class="cabecera-dos-inicio">¿Por qué hablamos
                     de salud sexual integral?</p>
             </div>
 
@@ -278,7 +278,7 @@
         <div class="bloque-seis-home">
 
             <div class="txt-bloque-seis-home">
-                <p class="cabecera-uno">Testimonios</p>
+                <p class="cabecera-dos-inicio">Testimonios</p>
             </div>
 
             <div class="grid-bloque-seis-home">

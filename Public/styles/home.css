@@ -516,4 +516,11 @@
   align-items: start;
   justify-content: center;
   padding: 1rem 0rem;
+}
+
+.cabecera-dos-inicio {
+  color: #25282a;
+  font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.2;
 }/*# sourceMappingURL=home.css.map */

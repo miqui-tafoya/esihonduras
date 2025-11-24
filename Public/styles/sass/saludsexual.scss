@@ -16,17 +16,17 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     background-color: vars.$com-dos;
 }
 
 .bloque-fr2 {
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 0rem;
+    padding: 3rem 1rem;
     margin: 0 auto;
 
 }
@@ -311,6 +311,7 @@
     background-color: vars.$com-dos;
     padding: 1rem;
     margin: 1rem;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
 }
 
 .item p{
