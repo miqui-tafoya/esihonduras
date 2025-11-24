@@ -65,14 +65,12 @@
 
 .intro-bloques{
     width: 100%;
-    max-width: 1050px;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 1rem;
+    padding: 1rem 1rem;
 }
 
 
@@ -97,6 +95,25 @@
     padding: 3rem 1rem;
     margin: 0 auto;
     background-color: vars.$primario50;
+}
+
+.bloque-dos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    margin: 0 auto;
+    background-color: vars.$com50;
+}
+
+.bloque-tres{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    margin: 0 auto;
 }
 
 .bloque-fr2 {
