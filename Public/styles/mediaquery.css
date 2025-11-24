@@ -250,6 +250,7 @@
   }
   .banner-ss {
     flex-direction: unset;
+    width: 90%;
   }
   .bloque-cuatro-ss {
     flex-direction: unset;
