@@ -5,7 +5,7 @@
         <!-- inicio bloque uno -->
         <div class="bloque-uno-quienes">
             <div class="img-intro-quienes">
-                <img src="Public/recursos/imagenes/foto_3.jpg" alt=""></a>
+                <img src="Public/recursos/imagenes/quienes.png" alt=""></a>
             </div>
             <div class="txt-intro-quienes">
                 <p class="cabecera-uno">
