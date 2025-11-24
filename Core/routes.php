@@ -143,7 +143,7 @@ $routeList->add(
                 [['head' => [], 'footer' => []],
                         []],
                 []],
-        []
+        ['acordeon']
 );
 
 $routeList->add(
