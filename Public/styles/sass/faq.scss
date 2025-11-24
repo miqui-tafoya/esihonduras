@@ -154,27 +154,45 @@
 
 ///// acordeon////////////
 
+.lista-faq{
+    padding: 1rem 0;
+
+}
 
 .accordion {
-  background-color: vars.$primario50;
+  background-color: vars.$secundario;
   color: vars.$dark;
   cursor: pointer;
   padding: 18px;
+  margin: 9px 0;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 1.1rem;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
   transition: 0.4s;
+   border: 1px solid vars.$primario;
+ 
 }
 
 .active, .accordion:hover {
-  background-color: #ccc; 
+  background-color:vars.$primario;
+  color:vars.$g0;
 }
 
 .panel {
   padding: 0 18px;
   display: none;
-  background-color: white;
+  background-color:  vars.$primario50;
   overflow: hidden;
+}
+
+.panel p{
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+ 
 }
