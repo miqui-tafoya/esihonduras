@@ -87,4 +87,8 @@ body {
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
   width: 100%;
   padding: 1rem 0rem;
+}
+
+.p-bottom {
+  padding-bottom: 1rem;
 }/*# sourceMappingURL=general.css.map */

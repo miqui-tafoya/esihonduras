@@ -253,4 +253,7 @@
   .bloque-cuatro-ss {
     flex-direction: unset;
   }
+  .lista-faq {
+    padding: 0 1rem;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
