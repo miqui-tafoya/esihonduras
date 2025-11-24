@@ -87,7 +87,7 @@
 
         <!-- Inicio uno -->
         <div class="grid-dos-noticias">
-            <p class="cuerpo-texto">Entradas recientes</p>
+            <p class="cabecera-dos-faq p-vertical">Entradas recientes</p>
 
             <div class="bloque-items-recientes">
 

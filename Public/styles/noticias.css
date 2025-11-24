@@ -305,4 +305,11 @@
 .fecha-publicado p {
   font-size: 0.7rem;
   font-weight: 600;
+}
+
+.cabecera-dos-faq {
+  color: #25282a;
+  font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.2;
 }/*# sourceMappingURL=noticias.css.map */
