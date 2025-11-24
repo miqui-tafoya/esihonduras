@@ -251,7 +251,7 @@
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/foto_2.jpg" alt="">
+                            <img src="Public/recursos/imagenes/centros_de_salud.png" alt="">
                         </div>
 
                         <div class="info-item-cinco">
