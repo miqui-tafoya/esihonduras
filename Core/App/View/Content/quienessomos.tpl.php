@@ -46,7 +46,7 @@
         <!-- inicio bloque tres -->
         <div class="bloque-tres-quienes">
             <div class="intro-bloque-tres">
-                <p class="cabecera-uno">
+                <p class="cabecera-dos-quienes">
                     ¿Para quién hicimos esta plataforma?
                 </p>
                 <p class="intro-bloque-tres-dos">Derechos ESI Honduras ha sido pensada como una plataforma para todas
@@ -81,20 +81,6 @@
                 </div>
 
             </div>
-
-            <!--       <div class="intro-bloque-tres">
-                <p class="intro-bloque-tres-uno">
-                    Ademas:
-                </p>
-                <p class="intro-bloque-tres-dos">
-                    24% de adolescentes eran madres o estaban embarazadas <br>
-                    3.6% de la población menor de 15 años ha dado a luz alguna vez <br>
-                    la población indígena de Honduras constituye el 7.25%<br>
-                    1 de cada cuatro embarazos registrados en Honduras corresponde a una menor de 19 años, Fondo de
-                    Población de las Naciones Unidas (FPNU)<br>
-                    13,034 denuncias de violencia doméstica y 15,647 denuncias de maltrato familiar en Honduras, Centro
-                    de Derechos de la mujer en Honduras CDM; del 01 de enero al 30 de abril del 2025
-            </div> -->
 
             <div class="perfiles-quienes">
 
@@ -162,7 +148,7 @@
         <!-- inicio bloque cinco -->
         <div class="bloque-cinco-quienes">
             <div class="info-bloque-cinco-quienes">
-                <p class="cabecera-uno">Créditos y agradecimientos: </p>
+                <p class="cabecera-dos-quienes">Créditos y agradecimientos: </p>
 
                 <p class="bloque-cinco-quienes-dos">Red de jóvenes miskitu MIWATIA, <br>
                     Redes de jóvenes indígenas Pech, Tawahka, Maya Chortí y afro, <br>

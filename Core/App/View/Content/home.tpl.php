@@ -122,7 +122,7 @@
 
         <div class="bloque-tres-home">
             <div class="txt-bloque-tres-home">
-                <p class="cabecera-uno">Datos relevantes de Honduras</p>
+                <p class="cabecera-dos-inicio">Datos relevantes de Honduras</p>
             </div>
 
             <div class="grid-bloque-tres-home">
