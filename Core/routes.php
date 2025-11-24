@@ -139,7 +139,7 @@ $routeList->add(
         '/faq',
         'faq',
         ['main',
-                ['Preguntas Frecuentes', []],
+                ['Preguntas Frecuentes', ['faq']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
