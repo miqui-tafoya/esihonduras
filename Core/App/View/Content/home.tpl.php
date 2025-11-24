@@ -225,25 +225,30 @@
                         </div>
 
                         <div class="info-item-cinco">
-                            <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
-                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea
-                                commodo consequat.</p>
+                            <p class="info-uno-item-cinco">¿Por qué es un tema importante hablar del embarazo
+                                adolescente?
+                                Información para madres y padres</p>
+                            <p class="info-dos-item-cinco">El embarazo durante la adolescencia puede cambiar
+                                profundamente la vida de las y los jóvenes. No se trata solo del bebé, sino de su salud,
+                                sus estudios, su futuro y sus emociones.</p>
                         </div>
 
                     </div>
 
                     <div class="item-info-cinco">
-
-                        <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/embarazo_adolescente.png" alt="">
+                        <div class="contenedor-img">
+                            <div class="img-item-cinco">
+                                <img src="Public/recursos/imagenes/embarazo_adolescente.png" alt="">
+                            </div>
                         </div>
 
                         <div class="info-item-cinco">
-                            <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
-                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea
-                                commodo consequat.</p>
+                            <p class="info-uno-item-cinco">Sexualidad <br>
+                                Información para las y los jóvenes </p>
+                            <p class="info-dos-item-cinco">¿Tener una hija o hijo es un riesgo?, ¿un problema?, claro
+                                que no, pero si es un riesgo para tu salud, desarrollo, bienestar tener una hija o hijo
+                                siendo adolescente.
+                            </p>
                         </div>
 
                     </div>
@@ -255,10 +260,11 @@
                         </div>
 
                         <div class="info-item-cinco">
-                            <p class="info-uno-item-cinco">¿Cómo comprar métodos anticonceptivos?</p>
-                            <p class="info-dos-item-cinco">Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea
-                                commodo consequat.</p>
+                            <p class="info-uno-item-cinco">Centros de salud </p>
+                            <p class="info-dos-item-cinco">Conoce el mapa interactivo Derechos ESI, en el podrás
+                                encontrar la ubicación de hospitales y centros de salud que brindan servicios de salud
+                                sexual y reproductiva en Honduras.
+                            </p>
                         </div>
 
                     </div>
