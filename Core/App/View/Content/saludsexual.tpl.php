@@ -14,7 +14,7 @@
                 </div>
 
                 <div class="img-fr2">
-                    <img src="Public/recursos/imagenes/foto_3.jpg" alt=""></a>
+                    <img src="Public/recursos/imagenes/sexualidad_integral.png" alt=""></a>
                 </div>
 
             </div>
