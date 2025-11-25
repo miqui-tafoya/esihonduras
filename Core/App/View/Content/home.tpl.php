@@ -1,5 +1,4 @@
-<?php
-?>
+<span id="breadcrumbs">inicio</span>
 <div id="main">
     <div class="contenedor-home">
 

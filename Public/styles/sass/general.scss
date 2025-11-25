@@ -27,6 +27,13 @@ body {
     right: 0;
     width: 100vw;
     height: 100%;
+    z-index:500
+}
+#breadcrumbs {
+    display: none;
+}
+#cerrar-menu-movil{
+cursor: pointer;
 }
 .menu-area{
     overflow-y: auto;

@@ -30,6 +30,7 @@ foreach ($centrosalud as $key => $value) {
     $coordenadas[] = [(float)$latStr, (float)$lngStr];
 }
 ?>
+<span id="breadcrumbs">centrosdesalud</span>
 <div class="contenedor-centros">
     <div class="txt-centros">
         <p class="centros-uno">Centros de Salud</p>

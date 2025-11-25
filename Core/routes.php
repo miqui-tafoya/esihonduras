@@ -9,7 +9,7 @@ use Controller\Captcha;
 // Instancia Globales
 $default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer'], 'end' => ['mediaquery']];
 $default_GET = [];
-$default_js = ['start' => ['dir', 'menu'], 'end' => []];
+$default_js = ['start' => ['dir', 'menu', 'activePage'], 'end' => []];
 
 $routeList = new RouteList($default_styles, $default_js, $default_GET);
 
