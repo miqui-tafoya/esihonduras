@@ -1,0 +1,19 @@
+.contenedor-contacto {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.cabecera-contacto {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+  text-align: center;
+}/*# sourceMappingURL=contacto.css.map */
