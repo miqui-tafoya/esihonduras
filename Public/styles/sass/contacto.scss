@@ -61,13 +61,11 @@
     font-weight: 400;
     color: vars.$dark;
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.3rem);
-    width: 100%;
     padding: 1rem 0rem;
 }
 
 .btn-enlace{
     display: flex;
-    width: 100%;
 }
 
 .btn-enlace a{

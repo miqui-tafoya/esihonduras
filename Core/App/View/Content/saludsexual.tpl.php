@@ -216,7 +216,7 @@
                     <br>
                 </p>
                 <p class="cabecera-seis-dos"> La salud sexual significa poder disfrutar de una vida sexual sin riesgos.
-                    incorporar: </p>
+                    </p>
 
             </div>
         </div>
