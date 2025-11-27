@@ -7,17 +7,17 @@ class RegionsaludModel extends Model {
 
     private Database $db;
     public array $existe;
-    public $propiedad;
+    public $centros;
 
     public function __construct($query = null) {
         $this->db = new Database();
         $this->setIds();
         if ($query != null) {
-            $this->setPropiedad($query);
+            $this->setCentros($query);
         }
     }
     // GETTERS
-    private function getPropiedad($query) {
+    private function getCentros($query) {
         $col = 'all';
         $data = $this->db->dbCall('all', false, $col, 'tb_centros', ['region' => $query]);
         return $data;
@@ -37,8 +37,8 @@ class RegionsaludModel extends Model {
         return $validation;
     }
 
-    private function setPropiedad($query) {
-        $data = $this->getPropiedad($query);
-        $this->propiedad = $data;
+    private function setCentros($query) {
+        $data = $this->getCentros($query);
+        $this->centros = $data;
     }
 }

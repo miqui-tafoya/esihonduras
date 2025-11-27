@@ -1,5 +1,5 @@
 <?php
-$centrosalud = $body['propiedad'];
+$centrosalud = $body['centros'];
 $regiones = [
     1 => 'Atlántida',
     2 => 'Colón',

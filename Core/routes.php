@@ -69,7 +69,7 @@ $routeList->add(
         ['main',
                 ['Centros de Salud', ['centros', 'leaflet']],
                 [['head' => [], 'footer' => []],
-                        ['propiedad']],
+                        ['centros']],
                 []],
         ['leaflet', 'regionsaludHandler']
 );
@@ -177,7 +177,19 @@ $routeList->add(
         ['main',
                 ['Noticias', ['noticias']],
                 [['head' => [], 'footer' => []],
-                        []],
+                        ['hoy', 'destacados', 'noticias', 'categorias']],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/entrada/',
+        'entrada',
+        ['main',
+                ['Centros de Salud', []],
+                [['head' => [], 'footer' => []],
+                        ['entrada']],
                 []],
         []
 );
@@ -192,43 +204,6 @@ $routeList->add(
                         []],
                 []],
         []
-);
-
-$routeList->add(
-        'get',
-        '/pag/',
-        'pag',
-        ['portada',
-                ['', ['jquery.bbslider', 'portada', 'entradas', 'media-query', 'ads']],
-                [['menu' => ['taxonomia', 'categorias', 'legal'], 'head' => ['pagina'], 'descubre' => ['discover', 'comic'], 'footer' => ['top']],
-                        ['pagina']],
-                []],
-        ['share', 'ads']
-);
-
-$routeList->add(
-        'post',
-        '/act',
-        'act',
-        ['simple',
-                ['', ['jquery.bbslider', 'portada', 'entradas', 'media-query']],
-                [['menu' => ['taxonomia', 'categorias', 'legal'], 'head' => ['pagina'], 'footer' => []],
-                        []],
-                $_POST],
-        []
-);
-
-
-$routeList->add(
-        'post',
-        '/entr/',
-        'entr',
-        ['admin',
-                ['', ['jquery.bbslider', 'portada', 'entradas', 'admin', 'media-query']],
-                [['menu' => ['taxonomia', 'categorias', 'legal'], 'head' => ['pagina'], 'footer' => []],
-                        ['paginado', 'posts', 'staff']],
-                $_POST],
-        ['admin']
 );
 
 $routeList->add(
