@@ -41,4 +41,42 @@
   font-weight: 600;
   line-height: 1.2;
   padding: 1rem 0;
+}
+
+.bloque-buscar {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+}
+
+.bloque-filtrar {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  height: 2rem;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #dcdd8a;
+  border-width: 2px;
+  padding: 1rem 0rem;
+}
+
+label {
+  font-weight: 400;
+  color: #25282a;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.3rem);
+  font-family: "Onest", sans-serif;
+  padding: 1rem 0rem;
 }/*# sourceMappingURL=infopublica.css.map */
