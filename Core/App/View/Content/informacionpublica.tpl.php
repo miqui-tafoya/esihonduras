@@ -33,27 +33,42 @@
 
         <div class="bloque-filtrar">
             <p class="cabecera-dos-publica">Filtrar por categoría: </p>
-            <form action="#">
-                <input type="checkbox" id="protocolo" name="protocolo" value="Protocolo">
-                <label for="protocolo"> Protocolo </label><br>
 
-                <input type="checkbox" id="politica" name="politica" value="Política">
-                <label for="politica"> Política </label><br>
+            <form action="#" class="layout-filtros">
 
-                <input type="checkbox" id="norma" name="norma" value="Norma">
-                <label for="norma">  Norma</label><br><br>
+                <div class="item-filtro">
+                    <input type="checkbox" id="protocolo" name="protocolo" value="Protocolo" class="filtro-check">
+                    <label for="protocolo"> Protocolo </label>
+                </div>
 
-                <input type="checkbox" id="lineamientos" name="lineamientos" value="Lineamientos">
-                <label for="lineamientos">  Lineamientos</label><br><br>
+                <div class="item-filtro">
+                    <input type="checkbox" id="politica" name="politica" value="Política" class="filtro-check">
+                    <label for="politica"> Política </label>
+                </div>
 
-                <input type="checkbox" id="guias" name="guias" value="lineamientos">
-                <label for="guias">  Guías</label><br><br>
+                <div class="item-filtro">
+                    <input type="checkbox" id="norma" name="norma" value="Norma" class="filtro-check">
+                    <label for="norma"> Norma</label>
+                </div>
 
-                 <input type="checkbox" id="otros" name="otros" value="Otros">
-                <label for="otros">Otros</label><br><br>
-                
-              
-                <input type="submit" value="Filtrar">
+                <div class="item-filtro">
+                    <input type="checkbox" id="lineamientos" name="lineamientos" value="Lineamientos" class="filtro-check">
+                    <label for="lineamientos"> Lineamientos</label>
+                </div>
+
+                <div class="item-filtro">
+                    <input type="checkbox" id="guias" name="guias" value="lineamientos" class="filtro-check">
+                    <label for="guias"> Guías</label>
+                </div>
+
+                <div class="item-filtro">
+                    <input type="checkbox" id="otros" name="otros" value="Otros" class="filtro-check">
+                    <label for="otros">Otros</label>
+                </div>
+                <div class="btn-enlace">
+                     <button type="submit" value="Filtrar">Filtrar<i class="fa-solid fa-filter"></i></button>
+                   
+                </div>
             </form>
 
         </div>
