@@ -26,17 +26,17 @@ class NoticiasModel extends Model {
     }
     private function getHoy() {
         $cols = ['all'];
-        $data = $this->db->dbCall('one', false, $cols, 'tb_entradas', ['tipo' => 'noticia'], ['DESC' => 'entradas_timestamp']);
+        $data = $this->db->dbCall('one', false, $cols, 'tb_entradas', ['tipo' => 'noticia', 'publicado' => 1], ['DESC' => 'entradas_timestamp']);
         return $data;
     }
     private function getDestacados() {
         $cols = ['all'];
-        $data = $this->db->dbCall('all', false, $cols, 'tb_entradas', ['tipo' => 'noticia', 'destacado' => 1], ['DESC' => 'entradas_timestamp']);
+        $data = $this->db->dbCall('all', false, $cols, 'tb_entradas', ['tipo' => 'noticia', 'publicado' => 1, 'destacado' => 1], ['DESC' => 'entradas_timestamp']);
         return $data;
     }
     private function getNoticias() {
         $cols = ['all'];
-        $data = $this->db->dbCall('all', false, $cols, 'tb_entradas', ['tipo' => 'noticia', 'destacado' => 0], ['DESC' => 'entradas_timestamp']);
+        $data = $this->db->dbCall('all', false, $cols, 'tb_entradas', ['tipo' => 'noticia', 'publicado' => 1, 'destacado' => 0], ['DESC' => 'entradas_timestamp']);
         return $data;
     }
 

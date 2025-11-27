@@ -159,6 +159,18 @@ $routeList->add(
 );
 
 $routeList->add(
+        'post',
+        '/informacionpublica',
+        'informacionpublica',
+        ['main',
+                ['Información Pública', ['infopublica']],
+                [['head' => [], 'footer' => []],
+                        []],
+                $_POST],
+        []
+);
+
+$routeList->add(
         'get',
         '/multimedia',
         'multimedia',
@@ -184,10 +196,22 @@ $routeList->add(
 
 $routeList->add(
         'get',
+        '/categoria/',
+        'categoria',
+        ['main',
+                ['Categiría', []],
+                [['head' => [], 'footer' => []],
+                        ['categoria', 'entradas']],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
         '/entrada/',
         'entrada',
         ['main',
-                ['Centros de Salud', []],
+                ['', []],
                 [['head' => [], 'footer' => []],
                         ['entrada']],
                 []],
