@@ -20,16 +20,16 @@
                 <p class="cabecera-dos-contacto">Presidencia de Honduras</p>
                 <br>
                 <div class="bloque-enlace">
-                    <p class="cuerpo-texto">Sitio oficial</p>
-                    <div class="btn-enlace"> <a href="https://www.presidencia.gob.hn/">Visitar</a></div>
+                    <p class="txt-enlace">Sitio oficial</p>
+                    <div class="btn-enlace"> <a href="https://www.presidencia.gob.hn/" target="_blank">Visitar<i class="fa-solid fa-arrow-right-long"></i></a></div>
                 </div>
                 <div class="bloque-enlace">
-                    <p class="cuerpo-texto">Cuenta oficial de Facebook</p>
-                    <div class="btn-enlace"> <a href="https://www.facebook.com/gobiernohn/">Visitar</a></div>
+                    <p class="txt-enlace">Cuenta oficial de Facebook</p>
+                    <div class="btn-enlace"> <a href="https://www.facebook.com/gobiernohn/" target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                 </div>
                 <div class="bloque-enlace">
-                    <p class="cuerpo-texto">Cuenta oficial de Instagram</p>
-                    <div class="btn-enlace"> <a href="https://www.instagram.com/gobiernohonduras/">Visitar</a></div>
+                    <p class="txt-enlace">Cuenta oficial de Instagram</p>
+                    <div class="btn-enlace"> <a href="https://www.instagram.com/gobiernohonduras/" target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                 </div>
             </div>
             <!--End Presidencia -->
@@ -40,8 +40,8 @@
                 <p class="cabecera-dos-contacto">Secretaria de Salud de Honduras</p>
                 <br>
                 <div class="bloque-enlace">
-                    <p class="cuerpo-texto">Cuenta oficial de Instagram</p>
-                    <div class="btn-enlace"> <a href="https://sshome.salud.gob.hn/">Visitar</a></div>
+                    <p class="txt-enlace">Cuenta oficial de Instagram</p>
+                    <div class="btn-enlace"> <a href="https://sshome.salud.gob.hn/" target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                 </div>
             </div>
             <!-- End Salud -->

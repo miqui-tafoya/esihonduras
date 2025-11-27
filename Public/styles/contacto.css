@@ -30,6 +30,9 @@
 .bloque-organizacion {
   width: 100%;
   padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .cabecera-dos-contacto {
@@ -49,25 +52,38 @@
   padding: 0 1rem 0 0;
 }
 
+.txt-enlace {
+  font-weight: 400;
+  color: #25282a;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.3rem);
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
 .btn-enlace {
   display: flex;
+  width: 100%;
 }
 
 .btn-enlace a {
   font-weight: 600;
   color: #e74eed;
   font-size: 0.8rem;
-  background-color: transparent;
+  background-color: #f8fae9;
   border-style: solid;
   border-width: 2px;
   border-color: #e74eed;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   cursor: pointer;
-  border-radius: 40px;
+  border-radius: 8px;
 }
 
 .btn-enlace a:hover {
   color: #aa00d3;
   border-color: #aa00d3;
   background-color: transparent;
+}
+
+.btn-enlace a i {
+  margin: 0 0 0 0.5rem;
 }/*# sourceMappingURL=contacto.css.map */
