@@ -79,7 +79,7 @@ $routeList->add(
         '/contacto',
         'contacto',
         ['main',
-                ['Contacto', []],
+                ['Contacto', ['contacto']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],

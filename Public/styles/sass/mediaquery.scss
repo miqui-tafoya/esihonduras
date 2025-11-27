@@ -191,11 +191,17 @@
     #head {
         height: 2rem;
     }
+
+  .ul-logos {
+    margin: 0 -20px;
+   }
+
     .ul-logos li {
         margin: 0rem 1rem;
         width: auto;
         height: 120px;
     }
+
     .info-footer {
         padding: 1.2rem 0rem 2rem 0rem;
         flex-direction: unset;

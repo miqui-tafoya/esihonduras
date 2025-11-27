@@ -1,0 +1,89 @@
+.contenedor-contacto {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.cabecera-contacto {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+}
+
+.bloque-info-contacto {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 2rem 0rem;
+  margin: 0 auto;
+}
+
+.bloque-organizacion {
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.cabecera-dos-contacto {
+  color: #25282a;
+  font-size: clamp(1.5rem, 1.3103rem + 3.4483vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.bloque-enlace {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.bloque-enlace p {
+  padding: 0 1rem 0 0;
+}
+
+.txt-enlace {
+  font-weight: 400;
+  color: #25282a;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.3rem);
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.btn-enlace {
+  display: flex;
+  width: 100%;
+}
+
+.btn-enlace a {
+  font-weight: 600;
+  color: #e74eed;
+  font-size: 0.8rem;
+  background-color: #f8fae9;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e74eed;
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-enlace a:hover {
+  color: #aa00d3;
+  border-color: #aa00d3;
+  background-color: transparent;
+}
+
+.btn-enlace a i {
+  margin: 0 0 0 0.5rem;
+}/*# sourceMappingURL=contacto.css.map */
