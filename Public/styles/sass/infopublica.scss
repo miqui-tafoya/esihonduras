@@ -67,6 +67,7 @@
     margin: 0 auto;
 
 }
+
 .layout-filtros{
      width: auto;
     height: 100%;
@@ -81,7 +82,7 @@
     display: flex;
     width: auto;
     height: 100%;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     padding: 0.5rem 0;
 }
@@ -107,6 +108,7 @@ label {
 
 .btn-enlace{
     display: flex;
+    padding: 1rem 0;
 }
 
 .btn-enlace button{

@@ -265,4 +265,16 @@
   .intro-bloques {
     padding: 1rem 5rem;
   }
+  .layout-filtros {
+    flex-direction: unset;
+    align-items: center;
+  }
+  .item-filtro {
+    padding: 0.5rem 0.5rem;
+    justify-content: center;
+  }
+  .btn-enlace {
+    display: flex;
+    padding: 0 2rem;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */
