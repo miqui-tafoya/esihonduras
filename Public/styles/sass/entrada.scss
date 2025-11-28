@@ -1,0 +1,45 @@
+@use "variables" as vars;
+
+.contenedor-publica {
+      display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.cabecera-publica{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    margin: 0 auto;
+}
+
+.btn-back{
+    display: flex;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.btn-back a{
+     font-weight: 600;
+    color:vars.$g0;
+    font-size: 0.8rem;
+    background-color:vars.$primario;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    border-radius: 40px;
+   
+}
+
+.btn-back a:hover{
+    color: vars.$primario;
+    background-color:vars.$secundario;
+}
+
+.btn-back a i{
+    padding: 0 0.4rem 0 0;
+}

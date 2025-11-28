@@ -211,7 +211,7 @@ $routeList->add(
         '/entrada/',
         'entrada',
         ['main',
-                ['', []],
+                ['', ['entrada']],
                 [['head' => [], 'footer' => []],
                         ['entrada']],
                 []],
