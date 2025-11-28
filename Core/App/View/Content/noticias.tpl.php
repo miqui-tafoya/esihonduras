@@ -36,7 +36,7 @@ $categorias = $body['categorias'];
                             <a href="' . URL_BASE . 'entrada/' . $hoy['tb_entradas_id'] . '">Leer más</a>
                         </div>
                     </div>
-                    <img src="Public/recursos/entradas/foto_3.jpg" alt="">
+                    <img src="' . URL_PUBLIC . 'recursos/entradas/' . $hoy['portada'] . '" alt="">
                 </div>';
                 ?>
             </div>
@@ -46,7 +46,7 @@ $categorias = $body['categorias'];
                 <?php foreach ($destacados as $value) {
                     echo '<div class="items-destacadas">
                     <div class="img-item-destacada">
-                        <img src="Public/recursos/entradas/foto_1.jpg" alt="">
+                        <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
                     </div>
                     <div class="txt-item-destacadas">
                         <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
@@ -71,21 +71,22 @@ $categorias = $body['categorias'];
                 } else {
                     $entradasMostrar = array_slice($noticias, 0, 4);
                     foreach ($entradasMostrar as $value) {
-                        echo '<div class="item-reciente">
-                    <div class="img-item-reciente">
-                        <img src="Public/recursos/entradas/foto_1.jpg" alt="">
+                        echo '
+                    <div class="item-reciente">
+                        <div class="img-item-reciente">
+                            <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
+                        </div>
+                        <div class="txt-item-reciente">
+                            <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
+                                <p>' . $value['entradas_titulo'] . '<span>' . substr($value['cuerpo'], 0, 120) . '...</span></p>
+                            </a>
+                        </div>
+
+                        <div class="nombre-publicado">
+                        <p>Publicado el: ' . $value['entradas_timestamp'] . '</p>
+                        </div>
+
                     </div>
-                    <div class="txt-item-reciente">
-                        <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
-                            <p>' . $value['entradas_titulo'] . '<span>' . substr($value['cuerpo'], 0, 120) . '...</span></p>
-                        </a>
-                    </div>
-                    <div class="publicado">
-                <div class="nombre-publicado">
-                <p>Publicado el: ' . $value['entradas_timestamp'] . '</p>
-                </div>
-                </div>
-                </div>
                 ';
                     }
                 }

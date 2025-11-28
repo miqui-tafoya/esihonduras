@@ -15,6 +15,11 @@ class InformacionpublicaModel extends Model {
         $this->setPublicaciones();
     }
     // GETTERS
+    private function getPortada($id) {
+        $cols = ['galeria_url'];
+        $data = $this->db->dbCall('one', false, $cols, 'tb_galeria', ['tb_galeria_id' => $id]);
+        return $data;
+    }
     private function getCategorias() {
         $cols = ['nombre_categoria', 'slug_categoria'];
         $data = $this->db->dbCall('all', false, $cols, 'tb_categorias', ['tipo' => 'publica']);
@@ -23,6 +28,10 @@ class InformacionpublicaModel extends Model {
     private function getPublicaciones() {
         $cols = ['all'];
         $data = $this->db->dbCall('all', false, $cols, 'tb_entradas', ['tipo' => 'publica', 'publicado' => 1], ['DESC' => 'entradas_timestamp']);
+        foreach ($data as &$value) {
+            $portada = $this->getPortada($value['tb_galeria_id']);
+            $value['portada'] = $portada['galeria_url'];
+        }
         return $data;
     }
     // SETTERS

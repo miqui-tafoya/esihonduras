@@ -1,3 +1,9 @@
+<?php
+$categorias = $body['categorias'];
+$publicaciones = $body['publicaciones'];
+// dd($categorias);
+// dd($publicaciones);
+?>
 <span id="breadcrumbs"><?php echo $metaParams['route'] ?></span>
 <div id="main">
 
@@ -86,24 +92,22 @@
             <p class="cabecera-dos-publica">Todas las publicaciones</p>
 
             <div class="publicaciones">
-                <div class="item-perfiles-quienes">
+                <?php foreach ($publicaciones as $value) {
+                    echo '<div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                        <img src="Public/recursos/imagenes/maestra.jpg" alt="">
+                        <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
                     </div>
                     <div class="info-item-quienes">
-                        <p class="titulo-item-quienes">Título de la publicación</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco.</p>
+                        <p class="titulo-item-quienes">'.$value['entradas_titulo'].'</p>
+                        <p>' . substr($value['cuerpo'], 0, 120) . '...</p>
                         <div class="btn-perfiles">
-                            <a href="educadores">Ir a contenido <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">Ir a contenido <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
 
                     </div>
 
-                </div>
-
+                </div>';
+                }?>
             </div>
         </div>
 

@@ -153,7 +153,7 @@ $routeList->add(
         ['main',
                 ['Información Pública', ['infopublica']],
                 [['head' => [], 'footer' => []],
-                        ['categorias']],
+                        ['categorias', 'publicaciones']],
                 []],
         []
 );
@@ -165,7 +165,7 @@ $routeList->add(
         ['main',
                 ['Información Pública', ['infopublica']],
                 [['head' => [], 'footer' => []],
-                        []],
+                        ['categorias', 'publicaciones']],
                 $_POST],
         []
 );
