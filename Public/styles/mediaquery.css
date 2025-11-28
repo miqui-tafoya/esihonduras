@@ -131,6 +131,9 @@
   .txt-intro-fr2 {
     padding: 2rem 2rem;
   }
+  .bloque-entrada {
+    width: 80%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -276,5 +279,8 @@
   .btn-enlace {
     display: flex;
     padding: 0 2rem;
+  }
+  .bloque-entrada {
+    width: 70%;
   }
 }/*# sourceMappingURL=mediaquery.css.map */
