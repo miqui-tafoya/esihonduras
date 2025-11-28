@@ -27,7 +27,13 @@ $region = $regiones[$query] ?? null;
 $coordenadas = [];
 foreach ($centrosalud as $key => $value) {
     [$latStr, $lngStr] = array_map('trim', explode(',', $value['coordenadas']));
-    $coordenadas[] = [(float)$latStr, (float)$lngStr];
+    $coordenadas[] = [
+        'lat' => (float) $latStr,
+        'lng' => (float) $lngStr,
+        'municipio' => $value['municipio'],
+        'aldea' => $value['aldea'],
+        'nombre' => $value['nombre']
+    ];
 }
 ?>
 <span id="breadcrumbs">centrosdesalud</span>

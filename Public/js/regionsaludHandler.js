@@ -10,14 +10,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const coords = JSON.parse(coordScript.textContent);
     console.log(coords);
 
-    coords.forEach(([lat, lng]) => {
-        L.marker([lat, lng]).addTo(map);
+    coords.forEach((lugar) => {
+        const marker = L.marker([lugar.lat, lugar.lng]).addTo(map);
+
+        marker.bindPopup(`
+            <b>${lugar.nombre}</b><br>
+            Municipio: ${lugar.municipio}<br>
+            Aldea: ${lugar.aldea}
+        `);
+
+        marker.bindTooltip(lugar.nombre);
+    });
+
+    window.addEventListener('resize', function () {
+        map.invalidateSize();
     });
 
     const mapOverlay = document.getElementById('map-overlay');
     if (mapOverlay) {
         mapOverlay.addEventListener('click', function () {
             this.style.display = 'none';
+            map.invalidateSize();
         });
     }
 });

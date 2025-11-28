@@ -80,7 +80,13 @@ $categorias = $body['categorias'];
                             <p>' . $value['entradas_titulo'] . '<span>' . substr($value['cuerpo'], 0, 120) . '...</span></p>
                         </a>
                     </div>
-                </div>';
+                    <div class="publicado">
+                <div class="nombre-publicado">
+                <p>Publicado el: ' . $value['entradas_timestamp'] . '</p>
+                </div>
+                </div>
+                </div>
+                ';
                     }
                 }
                 ?>

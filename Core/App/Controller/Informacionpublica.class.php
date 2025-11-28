@@ -9,23 +9,14 @@ use Model\{
 };
 class Informacionpublica extends Render {
     public function GET_handler($route, $params, $js) {
-        // verifica credenciales
-        // $credenciales = new Middleware;
-        // $credenciales->Credencial('login');
-        // permisos
-        // if ($_SESSION['propio']['permisos'][0] !== '1') {
-        //     header("Location: " . URL_BASE);
-        //     exit;
-        // }
         return $this->renderView($route, $params[0], $params[1], $params[2], $params[3], $js);
     }
     public function POST_handler($route, $params, $js) {
-        // operaciones previas al envío de datos al Modelo
         $POST_response = [];
-        // $this->process($params[3]);
-        // manejo de respuesta previa a Render
-        $POST_response['post'] = $params[3];
-        // Renderizado de Frontend
+        unset($_POST['buscar-btn']);
+        $response = empty($_POST['busca']) ? [] : $this->busqueda($_POST);
+        $POST_response['post']['busca'] = $_POST['busca'];
+        $POST_response['response'] = $response;
         return $this->renderView($route, $params[0], $params[1], $params[2], $POST_response, $js);
     }
 
@@ -44,9 +35,26 @@ class Informacionpublica extends Render {
         return $valores;
     }
 
-//////////////////// Funciones secundarias
+    //////////////////// Funciones secundarias
 
-    //public function process($params) {
-    //  exit;
-    //}
+    public function busqueda($params) {
+        $model = new BusquedaModel;
+        $busqueda = $model->getBusqueda();
+        $results = [];
+        foreach ($busqueda as $key => $value) {
+            $arr1 = $this->preparaTitulos($value['p_titulo']);
+            $arr2 = $this->preparaTags($value['pm_tags']);
+            $arr2b = $this->preparaTags2($value['pm_tags']);
+            $sup_arr = array_merge($arr1, $arr2, $arr2b);
+            $sup_arr_unique = array_unique($sup_arr);
+            $sup_arr_unique_esc = preg_replace('/[:,¿,?,¡,!,"]/', "", $sup_arr_unique);
+            $arr3 = $this->preparaBusqueda($params['busca']);
+            $arr3_html = array_map("htmlentities", $arr3);
+            if (array_intersect($arr3_html, $sup_arr_unique_esc)) {
+                array_push($results, $value['post_id']);
+            }
+        }
+        $data = $this->getBusqueda($results);
+        return $data;
+    }
 }

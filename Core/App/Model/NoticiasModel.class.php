@@ -21,7 +21,7 @@ class NoticiasModel extends Model {
     // GETTERS
     private function getCategorias() {
         $cols = ['nombre_categoria', 'slug_categoria'];
-        $data = $this->db->dbCall('all', false, $cols, 'tb_categorias');
+        $data = $this->db->dbCall('all', false, $cols, 'tb_categorias' , ['tipo' => 'noticia']);
         return $data;
     }
     private function getHoy() {
