@@ -2,7 +2,7 @@
 $categorias = $body['categorias'];
 $publicaciones = $body['publicaciones'];
 // dd($categorias);
-// dd($publicaciones);
+dd($publicaciones);
 ?>
 <span id="breadcrumbs"><?php echo $metaParams['route'] ?></span>
 <div id="main">
