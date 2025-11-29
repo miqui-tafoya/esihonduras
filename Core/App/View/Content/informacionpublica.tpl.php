@@ -1,8 +1,12 @@
 <?php
 $categorias = $body['categorias'];
 $publicaciones = $body['publicaciones'];
-// dd($categorias);
-// dd($publicaciones);
+if (isset($responseParams['post']['busca'])) {
+    $busqueda = $responseParams['post']['busca'];
+    $resultados_busqueda = $responseParams['response'];
+    $entradas = $resultados_busqueda;
+    $filtros = $responseParams['post']['filtros'];
+}
 ?>
 <span id="breadcrumbs"><?php echo $metaParams['route'] ?></span>
 <div id="main">
@@ -23,95 +27,80 @@ $publicaciones = $body['publicaciones'];
                 Podrás encontrar información organizada en seis categorías: Protocolo, Políticas públicas, normas,
                 lineamientos, guías y otros.
             </p>
-
         </div>
-
-        <!-- Start bloque buscar -->
-        <div class="bloque-buscar">
-
-            <p class="cabecera-dos-publica">Buscar por palabra </p>
-            <form action="" class="layout-busqueda">
-                <label class="p-bottom">Ingresa una palabra</label>
-                <input type="text" id="" name="fname"><br><br>
-
-            </form>
-
-        </div>
-        <!-- End bloque buscar -->
 
         <!-- Start bloque filtros -->
-        <div class="bloque-filtrar">
-            <p class="cabecera-dos-publica">Filtrar por categoría: </p>
+        <form method="post" class="layout-filtros">
 
-            <form action="#" class="layout-filtros">
-
-                <div class="item-filtro">
-                    <input type="checkbox" id="protocolo" name="protocolo" value="Protocolo" class="filtro-check">
-                    <label for="protocolo"> Protocolo </label>
+            <div class="bloque-filtrar">
+                <div class="bloque-buscar">
+                    <p class="cabecera-dos-publica">Buscar por palabra </p>
+                    <label class="p-bottom">Ingresa una palabra</label>
+                    <input type="text" name="busca" value="<?php echo $busqueda ?? '' ?>"><br><br>
                 </div>
 
-                <div class="item-filtro">
-                    <input type="checkbox" id="politica" name="politica" value="Política" class="filtro-check">
-                    <label for="politica"> Política </label>
-                </div>
+                <p class="cabecera-dos-publica">Filtrar por categoría: </p>
 
-                <div class="item-filtro">
-                    <input type="checkbox" id="norma" name="norma" value="Norma" class="filtro-check">
-                    <label for="norma"> Norma</label>
-                </div>
+                <?php foreach ($categorias as $value) {
+                    $checked = isset($filtros[$value['tb_categorias_id']]) ? 'checked="checked"' : '';
 
-                <div class="item-filtro">
-                    <input type="checkbox" id="lineamientos" name="lineamientos" value="Lineamientos"
-                        class="filtro-check">
-                    <label for="lineamientos"> Lineamientos</label>
-                </div>
+                    echo '<div class="item-filtro">
+                    <input type="checkbox" name="' . $value['tb_categorias_id'] . '" class="filtro-check" ' . $checked . '>
+                    <label for="' . $value['slug_categoria'] . '"> ' . $value['nombre_categoria'] . ' </label>
+                    </div>';
+                } ?>
 
-                <div class="item-filtro">
-                    <input type="checkbox" id="guias" name="guias" value="lineamientos" class="filtro-check">
-                    <label for="guias"> Guías</label>
-                </div>
-
-                <div class="item-filtro">
-                    <input type="checkbox" id="otros" name="otros" value="Otros" class="filtro-check">
-                    <label for="otros">Otros</label>
-                </div>
                 <div class="btn-enlace">
-                    <button type="submit" value="Filtrar">Filtrar<i class="fa-solid fa-filter"></i></button>
-
+                    <button type="submit" name="buscar-btn">Filtrar<i class="fa-solid fa-filter"></i></button>
                 </div>
-            </form>
+            </div>
+        </form>
+    </div>
+    <!-- End bloque filtros -->
 
-        </div>
-
-        <!-- End bloque filtros -->
-
-        <!-- Start bloque información -->
-
-        <div class="bloque-items">
-
-            <p class="cabecera-dos-publica">Todas las publicaciones</p>
-
-            <div class="publicaciones">
-                <?php foreach ($publicaciones as $value) {
+    <!-- Start bloque información -->
+    <div class="bloque-items">
+        <p class="cabecera-dos-publica">Publicaciones</p>
+        <div class="publicaciones">
+            <?php
+            if (!isset($responseParams['post']['busca'])) {
+                foreach ($publicaciones as $value) {
                     echo '<div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
                         <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
                     </div>
                     <div class="info-item-quienes">
-                        <p class="titulo-item-quienes">'.$value['entradas_titulo'].'</p>
+                        <p class="titulo-item-quienes">' . $value['entradas_titulo'] . '</p>
                         <p>' . substr($value['cuerpo'], 0, 120) . '...</p>
                         <div class="btn-perfiles">
                             <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">Ir a contenido <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
-
                     </div>
-
                 </div>';
-                }?>
-            </div>
+                }
+            } else {
+                if (!empty($entradas)) {
+                    foreach ($entradas as $value) {
+                        echo '<div class="item-perfiles-quienes">
+                        <div class="img-item-quienes">
+                            <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
+                        </div>
+                        <div class="info-item-quienes">
+                            <p class="titulo-item-quienes">' . $value['entradas_titulo'] . '</p>
+                            <p>' . substr($value['cuerpo'], 0, 120) . '...</p>
+                            <div class="btn-perfiles">
+                                <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">Ir a contenido <i class="fa-solid fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>';
+                    }
+                } else {
+                    echo 'no existen coincidencias';
+                }
+            }
+            ?>
         </div>
-
-        <!-- End bloque información -->
-
     </div>
+    <!-- End bloque información -->
+</div>
 </div>
