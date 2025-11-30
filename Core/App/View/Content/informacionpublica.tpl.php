@@ -60,8 +60,8 @@ if (isset($responseParams['post']['busca'])) {
 
     <!-- Start bloque información -->
     <div class="bloque-items">
-        <p class="cabecera-dos-publica">Publicaciones</p>
-        <div class="publicaciones">
+        <p class="cabecera-dos-publica"><?php echo !isset($responseParams['post']['busca']) ? 'Publicaciones Recientes' : 'Resultados de Búsqueda' ?></p>
+        <div id="blog-container" class="publicaciones">
             <?php
             if (!isset($responseParams['post']['busca'])) {
                 foreach ($publicaciones as $value) {
@@ -78,29 +78,14 @@ if (isset($responseParams['post']['busca'])) {
                     </div>
                 </div>';
                 }
-            } else {
-                if (!empty($entradas)) {
-                    foreach ($entradas as $value) {
-                        echo '<div class="item-perfiles-quienes">
-                        <div class="img-item-quienes">
-                            <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
-                        </div>
-                        <div class="info-item-quienes">
-                            <p class="titulo-item-quienes">' . $value['entradas_titulo'] . '</p>
-                            <p>' . substr($value['cuerpo'], 0, 120) . '...</p>
-                            <div class="btn-perfiles">
-                                <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">Ir a contenido <i class="fa-solid fa-arrow-right-long"></i></a>
-                            </div>
-                        </div>
-                    </div>';
-                    }
-                } else {
-                    echo 'no existen coincidencias';
-                }
             }
             ?>
         </div>
+        <div id="pagination"></div>
     </div>
     <!-- End bloque información -->
 </div>
 </div>
+<script id="entradas-data" type="application/json">
+    <?php echo json_encode($entradas, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>
+</script>

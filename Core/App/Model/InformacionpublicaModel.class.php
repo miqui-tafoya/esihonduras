@@ -27,7 +27,7 @@ class InformacionpublicaModel extends Model {
     }
     private function getPublicaciones() {
         $cols = ['all'];
-        $data = $this->db->dbCall('all', false, $cols, 'tb_entradas', ['tipo' => 'publica', 'publicado' => 1], ['DESC' => 'entradas_timestamp']);
+        $data = $this->db->dbCall(6, false, $cols, 'tb_entradas', ['tipo' => 'publica', 'publicado' => 1], ['DESC' => 'entradas_timestamp']);
         foreach ($data as &$value) {
             $portada = $this->getPortada($value['tb_galeria_id']);
             $value['portada'] = $portada['galeria_url'];

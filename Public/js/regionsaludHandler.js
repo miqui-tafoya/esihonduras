@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const coordScript = document.getElementById('coords-data');
     const coords = JSON.parse(coordScript.textContent);
-    console.log(coords);
 
     coords.forEach((lugar) => {
         const marker = L.marker([lugar.lat, lugar.lng]).addTo(map);

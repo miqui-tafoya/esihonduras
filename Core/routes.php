@@ -167,7 +167,7 @@ $routeList->add(
                 [['head' => [], 'footer' => []],
                         ['categorias', 'publicaciones']],
                 $_POST],
-        []
+        ['informacionPublicaHandler']
 );
 
 $routeList->add(

@@ -35,7 +35,7 @@ class Database {
     $stmt = $this->conn->prepare($sql);
     $valores = array_values($data);
     if (strpos($sql, 'UNION') !== false) {
-        $valores = array_merge($valores, $valores);
+      $valores = array_merge($valores, $valores);
     }
     $tipo = str_repeat('s', count($valores));
     $stmt->bind_param($tipo, ...$valores);
@@ -196,11 +196,22 @@ class Database {
         $i++;
       }
     }
-    if ($type === 'one') {
+    if ($type == 'one') {
       $sql .= " LIMIT 1";
       $stmt = $this->exeQuery($sql, $data);
       $records = $stmt->get_result()->fetch_assoc();
+    } elseif ($type == 'all') {
+      if (empty($data)) {
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute();
+        $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+      } else {
+        $stmt = $this->exeQuery($sql, $data);
+        $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+      }
     } else {
+      $sql .= " LIMIT ";
+      $sql .= $type;
       if (empty($data)) {
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();
