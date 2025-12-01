@@ -177,7 +177,7 @@ $routeList->add(
         ['main',
                 ['Multimedia', []],
                 [['head' => [], 'footer' => []],
-                        []],
+                        ['audio','video','publicaciones']],
                 []],
         []
 );
