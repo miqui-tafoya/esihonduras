@@ -15,6 +15,8 @@
   flex-direction: column;
   padding: 2rem 0rem;
   margin: 0 auto;
+  padding: 3rem 0rem 2rem 0;
+  margin: 0 auto;
 }
 
 .bloque-info-publica {
@@ -93,11 +95,33 @@
 
 input {
   width: 100%;
-  height: 2rem;
-  border-radius: 20px;
+  height: 2.4rem;
+  border-radius: 28px;
   border-style: solid;
   border-color: #dcdd8a;
-  border-width: 2px;
+  border-width: 3px;
+  outline: none;
+  padding: 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+input::-moz-placeholder {
+  border-color: #c2984b !important;
+  color: #9e9e9e;
+  font-style: italic;
+}
+
+input::placeholder {
+  border-color: #c2984b !important;
+  color: #9e9e9e;
+  font-style: italic;
+}
+
+input:focus {
+  border-color: #c2984b;
+  background: #f8fae9;
+  outline: none;
+  color: #25282a;
 }
 
 label {
@@ -194,13 +218,13 @@ label {
 }
 
 .item-perfiles-quienes {
-  border: 2px solid #c2984b;
+  border: 2px solid #dcdd8a;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   margin: 1rem 1rem;
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .img-item-quienes {
@@ -227,7 +251,7 @@ label {
 
 .titulo-item-quienes {
   font-weight: 700;
-  font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 1.5ssrem);
+  font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 1.5rem);
   line-height: 1;
   color: #25282a;
 }

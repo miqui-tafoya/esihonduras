@@ -289,6 +289,10 @@
     padding: 0 0;
   }
   .bloque-filtrar {
+    align-items: center;
     flex-direction: unset;
+  }
+  .cabecera-publica {
+    width: 80%;
   }
 }/*# sourceMappingURL=mediaquery.css.map */

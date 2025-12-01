@@ -225,13 +225,12 @@
 
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">¿Por qué es un tema importante hablar del embarazo
-                                adolescente?
-                                Información para madres y padres</p>
+                                adolescente?</p>
                             <p class="info-dos-item-cinco">El embarazo durante la adolescencia puede cambiar
                                 profundamente la vida de las y los jóvenes. No se trata solo del bebé, sino de su salud,
                                 sus estudios, su futuro y sus emociones.</p>
                             <div class="btn-enlace-dos">
-                                <a href="<?php echo URL_BASE ?>saludsexual">Ir a información</a>
+                                <a href="<?php echo URL_BASE ?>madresypadres">Ir a información</a>
                             </div>    
                         </div>
 
@@ -244,7 +243,7 @@
                         </div>
 
                         <div class="info-item-cinco">
-                            <p class="info-uno-item-cinco">Sexualidad <br>
+                            <p class="info-uno-item-cinco">
                                 Información para las y los jóvenes </p>
                             <p class="info-dos-item-cinco">¿Tener una hija o hijo es un riesgo?, ¿un problema?, claro
                                 que no, pero si es un riesgo para tu salud, desarrollo, bienestar tener una hija o hijo

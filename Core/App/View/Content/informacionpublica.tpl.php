@@ -13,9 +13,7 @@ if (isset($responseParams['post']['busca'])) {
 
     <div class="contenedor-publica">
         <div class="cabecera-publica">
-            <p class="cabecera-uno">
-                Información Pública
-            </p>
+         
             <p class="cabecera-dos-publica">
                 La información es para todas y todos y los derechos ESI también.
             </p>
@@ -32,32 +30,32 @@ if (isset($responseParams['post']['busca'])) {
         <!-- Start bloque filtros -->
 
         <div class="layout-filtros">
-        <form method="post">
-      
+            <form method="post">
+
                 <div class="bloque-buscar">
                     <p class="cabecera-dos-publica">Buscar por palabra </p>
                     <label class="p-bottom">Ingresa una palabra</label>
-                    <input type="text" name="busca" value="<?php echo $busqueda ?? '' ?>"><br><br>
+                    <input type="text"  placeholder="Buscar..." name="busca" value="<?php echo $busqueda ?? '' ?>"><br><br>
                 </div>
 
-               
-                <p class="cabecera-dos-publica">Filtrar por categoría: </p>
- <div class="bloque-filtrar">
-                <?php foreach ($categorias as $value) {
-                    $checked = isset($filtros[$value['tb_categorias_id']]) ? 'checked="checked"' : '';
 
-                    echo '<div class="item-filtro">
+                <p class="cabecera-dos-publica">Filtrar por categoría: </p>
+                <div class="bloque-filtrar">
+                    <?php foreach ($categorias as $value) {
+                        $checked = isset($filtros[$value['tb_categorias_id']]) ? 'checked="checked"' : '';
+
+                        echo '<div class="item-filtro">
                     <input type="checkbox" name="' . $value['tb_categorias_id'] . '" class="filtro-check" ' . $checked . '>
                     <label for="' . $value['slug_categoria'] . '"> ' . $value['nombre_categoria'] . ' </label>
                     </div>';
-                } ?>
+                    } ?>
 
-                <div class="btn-enlace">
-                    <button type="submit" name="buscar-btn">Filtrar<i class="fa-solid fa-filter"></i></button>
+                    <div class="btn-enlace">
+                        <button type="submit" name="buscar-btn">Filtrar<i class="fa-solid fa-filter"></i></button>
+                    </div>
                 </div>
-            </div>
 
-        </form>
+            </form>
 
         </div>
     </div>
@@ -65,7 +63,9 @@ if (isset($responseParams['post']['busca'])) {
 
     <!-- Start bloque información -->
     <div class="bloque-items">
-        <p class="cabecera-dos-publica"><?php echo !isset($responseParams['post']['busca']) ? 'Publicaciones Recientes' : 'Resultados de Búsqueda' ?></p>
+        <p class="cabecera-dos-publica">
+            <?php echo !isset($responseParams['post']['busca']) ? 'Publicaciones Recientes' : 'Resultados de Búsqueda' ?>
+        </p>
         <div id="blog-container" class="publicaciones">
             <?php
             if (!isset($responseParams['post']['busca'])) {
