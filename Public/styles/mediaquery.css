@@ -190,6 +190,7 @@
   }
   .bloque-dos-home {
     padding: 3rem 3rem;
+    width: 80%;
   }
   .banner {
     width: 90%;
@@ -278,7 +279,6 @@
   }
   .btn-enlace {
     display: flex;
-    padding: 0 2rem;
   }
   .bloque-entrada {
     width: 70%;

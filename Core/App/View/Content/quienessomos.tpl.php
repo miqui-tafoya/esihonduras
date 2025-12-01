@@ -14,9 +14,11 @@
                 </p>
                 <p class="dos-intro-quienes">
                     La salud sexual y reproductiva es un componente esencial del bienestar humano, el desarrollo social
-                    y la equidad de género.<br> <br>En Honduras, garantizar el acceso a información confiable y servicios
+                    y la equidad de género.<br> <br>En Honduras, garantizar el acceso a información confiable y
+                    servicios
                     adecuados en esta área sigue siendo un desafío significativo, especialmente para poblaciones
-                    vulnerables como jóvenes, mujeres en situación de pobreza y comunidades rurales.<br> <br>La creación de una
+                    vulnerables como jóvenes, mujeres en situación de pobreza y comunidades rurales.<br> <br>La creación
+                    de una
                     Plataforma de Salud Sexual y Reproductiva “Derechos ESI Honduras” representa una oportunidad
                     innovadora para cerrar estas brechas y fortalecer el sistema de salud en el país.
 
@@ -31,10 +33,15 @@
         <div class="bloque-dos-quienes">
             <div class="bloque-frases">
                 <div class="anima-frases">
-                    <div class="frase">“Me gustaría saber sobre la virginidad, sobre muchas cosas, pero me da pena preguntar” <br>(joven Maya Chortí, 2025).</div>
-                    <div class="frase">“Yo quiero saber qué hacer en esos casos, ya sabe de lo que hablo, es que no puedo decir la palabra porque luego dicen que es pecado” <br>(Mujer miskitu,2025).</div>
-                    <div class="frase">“Nos encontramos en una zona lejana, en una comunidad con diversidad cultural donde me ha tocado por mi propia cuenta averiguar cómo abordar un embarazo adolescente, ya sabe las guirras (niñas) que no quieren ser mamás y las obligan”<br> (joven garífuna,2025).</div>
-                    <div class="frase">“Me gustaría encontrar información sobre la virginidad, sobre los mitos, sobre el derecho a decidir” <br>(joven tolupan,2025)</div>
+                    <div class="frase">“Me gustaría saber sobre la virginidad, sobre muchas cosas, pero me da pena
+                        preguntar” <br>(joven Maya Chortí, 2025).</div>
+                    <div class="frase">“Yo quiero saber qué hacer en esos casos, ya sabe de lo que hablo, es que no
+                        puedo decir la palabra porque luego dicen que es pecado” <br>(Mujer miskitu,2025).</div>
+                    <div class="frase">“Nos encontramos en una zona lejana, en una comunidad con diversidad cultural
+                        donde me ha tocado por mi propia cuenta averiguar cómo abordar un embarazo adolescente, ya sabe
+                        las guirras (niñas) que no quieren ser mamás y las obligan”<br> (joven garífuna,2025).</div>
+                    <div class="frase">“Me gustaría encontrar información sobre la virginidad, sobre los mitos, sobre el
+                        derecho a decidir” <br>(joven tolupan,2025)</div>
                     <!-- <div class="frase">“Quiero leer información sobre si tener hijos o no es una imposición” </div> -->
                 </div>
 
@@ -71,9 +78,11 @@
                         datos nos preocupan: <br><br>
                         En los primeros siete meses de 2024, la Secretaría de Salud de Honduras contabilizó el egreso
                         hospitalario por parto de 6,914 niñas, adolescentes y jóvenes, evidenciando la continuidad de
-                        esta problemática que sigue poniendo en riesgo la vida, la salud y limitando los derechos de miles de
+                        esta problemática que sigue poniendo en riesgo la vida, la salud y limitando los derechos de
+                        miles de
                         niñas y adolescentes. <br>Según el Fondo de Población de las Naciones Unidas (FPNU), uno de cada
-                        cuatro embarazos registrados en esta nación centroamericana corresponde a una menor de 19 años, lo que
+                        cuatro embarazos registrados en esta nación centroamericana corresponde a una menor de 19 años,
+                        lo que
                         convierte a Honduras en el segundo país de América Latina con la tasa más alta de embarazos en
                         adolescentes.
 
@@ -91,10 +100,11 @@
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">Educadores</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco.</p>
+                        <p>Las y los maestros son parte fundamental en la formación de las chicas y chicos. Educar no
+                            solo es leer información, su rol es transmitir conocimientos que abonen a la empatía, el
+                            respeto a todas las personas, a desarrollarse en sociedades sin violencia, creando espacios
+                            seguros y de confianza donde todas las dudas sobre la sexualidad integral puedan ser
+                            escuchadas y que la información se comparta sin estigmas.</p>
                         <div class="btn-perfiles">
                             <a href="educadores">Ir a Educadores</a>
                         </div>
@@ -109,10 +119,11 @@
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">Madres y Padres</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco.</p>
+                        <p>Hablar de derechos sexuales y reproductivos de manera abierta, respetuosa es muy importante
+                            para brindarle a tus hijas e hijos toda la información que necesitan para tomar decisiones
+                            informadas y responsables.
+                            Puede que tu como madre y padre tengas dudas, lo sabemos, tener dudas es parte de acompañar,
+                            es válido preguntar y buscar información.</p>
                         <div class="btn-perfiles">
                             <a href="educadores">Ir a Educadores</a>
                         </div>
@@ -127,10 +138,11 @@
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">Jóvenes</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco.</p>
+                        <p>Muchas veces la información que reciben las y los jóvenes es confusa, inexacta, genera miedo
+                            o desinforma sobre relaciones sexuales, embarazo, enfermedades de transmisión sexual.
+                            Contar con información clara y precisa es tu derecho.
+
+                        </p>
                         <div class="btn-perfiles">
                             <a href="educadores">Ir a Jóvenes</a>
                         </div>
