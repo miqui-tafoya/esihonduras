@@ -199,7 +199,7 @@ $routeList->add(
         '/archivo',
         'archivo',
         ['main',
-                ['Archivo', ['infopublica']],
+                ['Archivo', ['infopublica', 'paginado']],
                 [['head' => [], 'footer' => []],
                         ['noticias']],
                 []],
