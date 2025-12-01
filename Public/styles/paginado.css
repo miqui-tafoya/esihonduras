@@ -1,18 +1,26 @@
 button {
   font-weight: 600;
-  color: #e74eed;
+  color: #fff;
   font-size: 0.8rem;
-  background-color: #f8fae9;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #e74eed;
+  background-color: #e74eed;
+  /*   border-style: solid;
+    border-width: 2px; */
+  border-color: transparent;
   padding: 0.2rem 1rem;
   cursor: pointer;
   border-radius: 8px;
+  margin: 0.2rem 0;
 }
 
 button:hover {
-  color: #aa00d3;
-  border-color: #aa00d3;
-  background-color: transparent;
+  color: #fff;
+  background-color: #aa00d3;
+}
+
+button:disabled {
+  background-color: #fce4fc; /* Grey background */
+  color: #666666; /* Darker grey text */
+  cursor: not-allowed; /* Change cursor to "not allowed" */
+  opacity: 0.7; /* Reduce opacity to make it appear faded */
+  pointer-events: none; /* Prevent all mouse events, including clicks */
 }/*# sourceMappingURL=paginado.css.map */

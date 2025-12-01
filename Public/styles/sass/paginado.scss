@@ -2,19 +2,27 @@
 
 button {
     font-weight: 600;
-    color:vars.$com;
+    color:vars.$g0;
     font-size: 0.8rem;
-    background-color:vars.$primario50;
-    border-style: solid;
-    border-width: 2px;
-    border-color:vars.$com;
+    background-color:vars.$com;
+  /*   border-style: solid;
+    border-width: 2px; */
+    border-color: transparent;
     padding: 0.2rem 1rem;
     cursor: pointer;
     border-radius: 8px;
+    margin: 0.2rem 0;
 }
 
 button:hover{
-    color:vars.$com700;
-    border-color:vars.$com700;
-    background-color:transparent;
+    color:vars.$g0;
+    background-color:vars.$com700;
+}
+
+button:disabled {
+  background-color:vars.$com50; /* Grey background */
+  color: #666666; /* Darker grey text */
+  cursor: not-allowed; /* Change cursor to "not allowed" */
+  opacity: 0.7; /* Reduce opacity to make it appear faded */
+  pointer-events: none; /* Prevent all mouse events, including clicks */
 }
