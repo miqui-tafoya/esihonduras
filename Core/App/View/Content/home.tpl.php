@@ -231,7 +231,7 @@
                                 profundamente la vida de las y los jóvenes. No se trata solo del bebé, sino de su salud,
                                 sus estudios, su futuro y sus emociones.</p>
                             <div class="btn-enlace-dos">
-                                <a href="#" target="_blank">Ir a información</a>
+                                <a href="<?php echo URL_BASE ?>saludsexual">Ir a información</a>
                             </div>    
                         </div>
 
@@ -251,7 +251,7 @@
                                 siendo adolescente.
                             </p>
                             <div class="btn-enlace-dos">
-                                <a href="#" target="_blank">Ir a información</a>
+                                <a href="<?php echo URL_BASE ?>faq">Ir a información</a>
                             </div>
                         </div>
 
@@ -270,7 +270,7 @@
                                 sexual y reproductiva en Honduras.
                             </p>
                             <div class="btn-enlace-dos">
-                                <a href="#" target="_blank">Ir a información</a>
+                                <a href="<?php echo URL_BASE ?>centrosdesalud">Ir a información</a>
                             </div>
                         </div>
 
