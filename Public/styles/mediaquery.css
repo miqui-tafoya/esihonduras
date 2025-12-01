@@ -283,4 +283,12 @@
   .bloque-entrada {
     width: 70%;
   }
+  .layout-filtros {
+    width: 100%;
+    justify-content: center;
+    padding: 0 0;
+  }
+  .bloque-filtrar {
+    flex-direction: unset;
+  }
 }/*# sourceMappingURL=mediaquery.css.map */

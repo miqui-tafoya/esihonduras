@@ -44,7 +44,7 @@
 }
 
 .bloque-buscar {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -54,7 +54,7 @@
 }
 
 .bloque-filtrar {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -64,16 +64,17 @@
 }
 
 .layout-filtros {
-  width: auto;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  padding: 0 1rem;
 }
 
 .layout-busqueda {
-  width: 80%;
+  width: 90%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -225,9 +226,8 @@ label {
 }
 
 .titulo-item-quienes {
-  font-family: "Baloo 2", sans-serif !important;
   font-weight: 700;
-  font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 2rem);
+  font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 1.5ssrem);
   line-height: 1;
   color: #25282a;
 }

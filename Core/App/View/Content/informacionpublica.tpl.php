@@ -30,17 +30,19 @@ if (isset($responseParams['post']['busca'])) {
         </div>
 
         <!-- Start bloque filtros -->
-        <form method="post" class="layout-filtros">
 
-            <div class="bloque-filtrar">
+        <div class="layout-filtros">
+        <form method="post">
+      
                 <div class="bloque-buscar">
                     <p class="cabecera-dos-publica">Buscar por palabra </p>
                     <label class="p-bottom">Ingresa una palabra</label>
                     <input type="text" name="busca" value="<?php echo $busqueda ?? '' ?>"><br><br>
                 </div>
 
+               
                 <p class="cabecera-dos-publica">Filtrar por categoría: </p>
-
+ <div class="bloque-filtrar">
                 <?php foreach ($categorias as $value) {
                     $checked = isset($filtros[$value['tb_categorias_id']]) ? 'checked="checked"' : '';
 
@@ -54,7 +56,10 @@ if (isset($responseParams['post']['busca'])) {
                     <button type="submit" name="buscar-btn">Filtrar<i class="fa-solid fa-filter"></i></button>
                 </div>
             </div>
+
         </form>
+
+        </div>
     </div>
     <!-- End bloque filtros -->
 
