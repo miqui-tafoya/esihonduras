@@ -132,7 +132,7 @@
 }
 
 .item-perfiles-quienes {
-  border: 2px solid #c2984b;
+  border: 2px solid #e74eed;
   width: 100%;
   height: 100%;
   display: flex;
@@ -156,6 +156,7 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  width: 100%;
 }
 
 .titulo-item-quienes {
@@ -164,6 +165,7 @@
   font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 2rem);
   line-height: 1;
   color: #25282a;
+  padding: 0.5rem 0;
 }
 
 .btn-perfiles {

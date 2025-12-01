@@ -150,7 +150,7 @@
 }
 
 .item-perfiles-quienes{
-    border: 2px solid vars.$primario;
+    border: 2px solid vars.$com;
     width: 100%;
     height: 100%;
     display: flex;
@@ -175,6 +175,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    width: 100%;
 }
 
 .titulo-item-quienes{
@@ -183,6 +184,7 @@
     font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 2rem);
     line-height: 1; 
     color: vars.$dark;
+    padding: 0.5rem 0;
 }
 
 .btn-perfiles{
