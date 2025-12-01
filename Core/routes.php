@@ -175,11 +175,11 @@ $routeList->add(
         '/multimedia',
         'multimedia',
         ['main',
-                ['Multimedia', []],
+                ['Multimedia', ['slider']],
                 [['head' => [], 'footer' => []],
                         ['audio','video','publicaciones']],
                 []],
-        []
+        ['slider']
 );
 
 $routeList->add(
@@ -192,6 +192,18 @@ $routeList->add(
                         ['hoy', 'destacados', 'noticias', 'categorias']],
                 []],
         []
+);
+
+$routeList->add(
+        'get',
+        '/archivo',
+        'archivo',
+        ['main',
+                ['Archivo', ['infopublica']],
+                [['head' => [], 'footer' => []],
+                        ['noticias']],
+                []],
+        ['archivoHandler']
 );
 
 $routeList->add(

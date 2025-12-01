@@ -1,0 +1,70 @@
+@use "variables" as vars;
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 3%;
+  background: url("../recursos/fondo.png") center no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 25px 30px -3px rgb(0, 0, 0);
+}
+
+#ytvideo-slides {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 64vh;
+  margin: 0 auto;
+}
+
+.ytslide {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  z-index: -1;
+  opacity: 0;
+  background-size: cover !important;
+  transition: opacity 0.7s;
+}
+
+.ytslide.active {
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.7s;
+}
+
+.ytvideo {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+.ytslide-arrow {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+.ytleft {
+  position: absolute;
+  left: 0;
+  margin-left: 2%;
+}
+
+.ytright {
+  position: absolute;
+  right: 0;
+  margin-right: 2%;
+}
+
+.ytslide-arrow:hover {
+  color: var(--s);
+}
