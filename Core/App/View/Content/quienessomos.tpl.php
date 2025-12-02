@@ -68,7 +68,7 @@
             <div class="layout-dos-bloque-tres">
 
                 <div class="img-bloque-tres">
-                    <img src="Public/recursos/imagenes/foto_4.jpg" alt=""></a>
+                    <img src="Public/recursos/imagenes/foto_esi_3.jpg" alt=""></a>
                 </div>
 
                 <div class="txt-intro-quienes">

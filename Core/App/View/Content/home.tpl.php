@@ -95,7 +95,7 @@
 
             <div class="grid-bloque-dos-home">
                 <div class="img-bloque-dos-home">
-                    <img src="Public/recursos/imagenes/foto_1.jpg" alt="">
+                    <img src="Public/recursos/imagenes/foto_esi_1.jpg" alt="">
                 </div>
 
                 <div class="info-bloque-dos-home">
