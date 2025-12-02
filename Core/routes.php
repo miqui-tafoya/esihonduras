@@ -163,7 +163,7 @@ $routeList->add(
         '/informacionpublica',
         'informacionpublica',
         ['main',
-                ['Información Pública', ['infopublica']],
+                ['Información Pública', ['infopublica', 'paginado']],
                 [['head' => [], 'footer' => []],
                         ['categorias', 'publicaciones']],
                 $_POST],
