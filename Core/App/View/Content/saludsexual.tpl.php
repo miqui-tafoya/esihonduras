@@ -107,7 +107,7 @@
 
             <div class="bloque-fr2">
                 <div class="img-fr2">
-                    <img src="Public/recursos/imagenes/foto_3.jpg" alt=""></a>
+                    <img src="Public/recursos/imagenes/para_quienes.png" alt=""></a>
                 </div>
 
                 <div class="txt-intro-fr2">
