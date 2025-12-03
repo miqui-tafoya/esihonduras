@@ -95,13 +95,20 @@ body {
   color: #25282a;
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
   width: 100%;
-  padding: 1rem 0rem;
 }
 
 .p-bottom {
-  padding-bottom: 1rem;
+  padding-bottom: 0 0 1rem 0;
 }
 
 .p-vertical {
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+.p-horizontal {
+  padding: 0 1rem;
+}
+
+.p-top {
+  padding-bottom: 1rem 0 0 0;
 }/*# sourceMappingURL=general.css.map */

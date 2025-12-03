@@ -8,28 +8,37 @@ $publicaciones = $body['publicaciones'];
     <div class="contenedor-multimedia">
 
         <!-- inicio bloque uno -->
-        <div class="bloque-uno-quienes">
-            <div class="img-intro-quienes">
-                <img src="Public/recursos/imagenes/quienes.png" alt=""></a>
+        <div class="back-color">
+            <div class="grid-doble">
+                <div class="img-grid-doble">
+                    <img src="Public/recursos/imagenes/multimedia" alt=""></a>
+                </div>
+                <div class="txt-grid-doble">
+                    <p class="cabecera-uno">
+                        Multimedia
+                    </p>
+                    <p class="dos-grid-doble ">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                    </p>
+
+                </div>
+
             </div>
-            <div class="txt-intro-quienes">
-                <p class="cabecera-uno">
-                    Multimedia
-                </p>
-                <p class="dos-intro-quienes">
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                </p>
-
-            </div>
-
         </div>
+
         <!-- fin bloque uno -->
 
         <!-- Start video -->
         <div class="bloque-video">
+            <p class="dos-grid-doble cabecera-multimedia">Video</p>
 
             <div id="youtube-slider" class="video">
+
                 <div id="ytvideo-slides">
                     <?php
                     foreach ($video as $value): ?>

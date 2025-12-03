@@ -205,6 +205,13 @@
   .bloque-uno-quienes {
     flex-direction: unset;
   }
+  .grid-doble {
+    flex-direction: unset;
+    width: 80%;
+  }
+  .txt-grid-doble {
+    padding: 2rem 2rem;
+  }
   .txt-intro-quienes {
     padding: 0rem 2rem;
   }

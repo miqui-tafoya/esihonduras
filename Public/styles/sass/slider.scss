@@ -11,7 +11,6 @@
   padding: 3%;
   background: url("../recursos/fondo.png") center no-repeat;
   background-size: cover;
-  box-shadow: inset 0 25px 30px -3px rgb(0, 0, 0);
 }
 
 #ytvideo-slides {
@@ -48,9 +47,9 @@
 }
 
 .ytslide-arrow {
-  color: rgb(0, 0, 0);
+  color: vars.$primario;
   cursor: pointer;
-  font-size: 4rem;
+  font-size: 2.8rem;
 }
 
 .ytleft {
