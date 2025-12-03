@@ -19,6 +19,7 @@
 .bloque-video {
   width: 80%;
   height: auto;
+  display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
@@ -29,26 +30,38 @@
 .bloque-publicaciones {
   width: 80%;
   height: auto;
+  display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
+  padding: 3rem 0;
 }
 
 .bloque-audio {
   width: 80%;
   height: auto;
+  display: flex;
   align-items: start;
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.grid-podcast {
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .grid-doble {
-  display: flex;
   width: 90%;
   height: 100%;
   min-height: 768px;
+  display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;

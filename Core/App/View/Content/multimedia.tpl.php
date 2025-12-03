@@ -35,7 +35,7 @@ $publicaciones = $body['publicaciones'];
 
         <!-- Start video -->
         <div class="bloque-video">
-            <p class="dos-grid-doble cabecera-multimedia">Video</p>
+            <p class="cabecera-multimedia">Video</p>
 
             <div id="youtube-slider" class="video">
 
@@ -58,17 +58,20 @@ $publicaciones = $body['publicaciones'];
 
         <!-- Start publicaciones -->
         <div class="bloque-publicaciones">
-            <p>
-                Aquí van las públicaciones
-            </p>
+            <p class="cabecera-multimedia">Publicaciones</p>
         </div>
         <!-- End publicaciones -->
 
         <!-- Start audio -->
         <div class="bloque-audio">
-            <?php foreach ($audio as $value) {
-                echo $value['podcast_url'];
-            } ?>
+            <p class="cabecera-multimedia">Podcast</p>
+
+            <div class="grid-podcast">
+                <?php foreach ($audio as $value) {
+                    echo $value['podcast_url'];
+                } ?>
+            </div>
+
         </div>
         <!-- End audio -->
 
