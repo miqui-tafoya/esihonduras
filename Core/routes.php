@@ -212,11 +212,11 @@ $routeList->add(
         '/categoria/',
         'categoria',
         ['main',
-                ['Categiría', []],
+                ['Categiría', ['infopublica', 'paginado']],
                 [['head' => [], 'footer' => []],
                         ['categoria', 'entradas']],
                 []],
-        []
+        ['archivoHandler']
 );
 
 $routeList->add(
