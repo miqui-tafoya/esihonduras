@@ -28,7 +28,7 @@
 }
 
 .bloque-publicaciones {
-  width: 80%;
+  width: 90%;
   height: auto;
   display: flex;
   align-items: start;
@@ -39,7 +39,7 @@
 }
 
 .bloque-audio {
-  width: 80%;
+  width: 90%;
   height: auto;
   display: flex;
   align-items: start;
