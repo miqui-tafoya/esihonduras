@@ -94,7 +94,7 @@ $categorias = $body['categorias'];
             </div>
 
             <div class="btn-enlace">
-                <a href="educadores">VER TODAS LAS ENTRADAS</a>
+                <a href="archivo">VER TODAS LAS ENTRADAS</a>
             </div>
         </div>
         <!-- Fin dos -->
