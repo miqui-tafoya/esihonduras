@@ -1,0 +1,54 @@
+#esi-presentation {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+#esi-slide {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 24px;
+    min-height: 260px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #fff;
+}
+.esi-slide-content {
+    position: relative;
+    z-index: 1;
+}
+.esi-slide-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+.esi-slide-overlay:hover {
+    background: rgba(0, 0, 0, 0.03);
+}
+.esi-left-zone {
+    left: 0;
+}
+.esi-right-zone {
+    right: 0;
+}
+#esi-controls {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+#esi-slide h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+#esi-slide p {
+    line-height: 1.5;
+    margin-bottom: 0.8em;
+}
+#esi-slide ul,
+#esi-slide ol {
+    margin-left: 1.2em;
+}

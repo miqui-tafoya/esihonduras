@@ -5,11 +5,12 @@ use Router\RouteList;
 // Instancia Controllers
 use Controller\MainCtrl;
 use Controller\Captcha;
+use Controller\Educadores;
 
 // Instancia Globales
 $default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer'], 'end' => ['mediaquery']];
 $default_GET = [];
-$default_js = ['start' => ['dir', 'menu', 'activePage'], 'end' => []];
+$default_js = ['start' => ['jquery-3.6.1.min', 'dir', 'menu', 'activePage'], 'end' => []];
 
 $routeList = new RouteList($default_styles, $default_js, $default_GET);
 
@@ -103,11 +104,11 @@ $routeList->add(
         '/educadores',
         'educadores',
         ['main',
-                ['Quiénes Somos - Educadores', ['educadores']],
+                ['Quiénes Somos - Educadores', ['slideseducadores', 'educadores']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
-        []
+        ['slideseducadores']
 );
 
 $routeList->add(
@@ -177,7 +178,7 @@ $routeList->add(
         ['main',
                 ['Multimedia', ['slider', 'multimedia']],
                 [['head' => [], 'footer' => []],
-                        ['audio','video','publicaciones']],
+                        ['audio', 'video', 'publicaciones']],
                 []],
         ['slider']
 );
@@ -306,6 +307,17 @@ $routeList->add(
         function () {
                 // $post = new Medios;
                 // $post->POST_handler_AJAX();
+        },
+        ['', '', [], []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/slideseducadores',
+        function () {
+                $post = new Educadores;
+                $post->GET_AJAX_handler();
         },
         ['', '', [], []],
         []
