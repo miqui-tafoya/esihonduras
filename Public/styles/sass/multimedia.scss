@@ -1,0 +1,21 @@
+@use "variables" as vars;
+
+.contenedor-multimedia {
+    width: 100%;
+    height: auto;
+      display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.bloque-video {
+    width: 80%;
+     height: auto;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+   
+}

@@ -1,0 +1,8 @@
+.contenedor-jovenes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=jovenes.css.map */

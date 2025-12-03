@@ -1,0 +1,8 @@
+.contenedor-madresypadres {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=madresypadres.css.map */
