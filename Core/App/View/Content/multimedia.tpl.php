@@ -11,7 +11,7 @@ $publicaciones = $body['publicaciones'];
         <div class="back-color">
             <div class="grid-doble">
                 <div class="img-grid-doble">
-                    <img src="Public/recursos/imagenes/multimedia" alt=""></a>
+                    <img src="Public/recursos/imagenes/info_jovenes" alt=""></a>
                 </div>
                 <div class="txt-grid-doble">
                     <p class="cabecera-uno">
