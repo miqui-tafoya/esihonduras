@@ -176,7 +176,7 @@ $routeList->add(
         '/multimedia',
         'multimedia',
         ['main',
-                ['Multimedia', ['slider', 'multimedia']],
+                ['Multimedia', ['infopublica', 'slider', 'multimedia']],
                 [['head' => [], 'footer' => []],
                         ['audio', 'video', 'publicaciones']],
                 []],
