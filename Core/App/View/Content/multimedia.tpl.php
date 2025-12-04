@@ -46,6 +46,7 @@ $publicaciones = $body['publicaciones'];
                             <iframe class="ytvideo" allowfullscreen
                                 src="https://www.youtube.com/embed/<?php echo $value['video_url']; ?>?ecver=2&enablejsapi=1">
                             </iframe>
+                            <p><?php echo $value['video_titulo']; ?></p>
                         </div>
                     <?php endforeach; ?>
                 </div>
