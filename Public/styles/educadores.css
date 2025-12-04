@@ -7,6 +7,15 @@
   flex-direction: column;
 }
 
+.back-color {
+  width: 100%;
+  height: 100%;
+  background-color: #f8fae9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .grid-doble {
   width: 90%;
   height: 100%;
@@ -50,7 +59,7 @@
 
 .cabecera-one {
   color: #25282a;
-  font-size: clamp(1.5rem, 1.3103rem + 3.4483vw, 2.2rem);
+  font-size: clamp(1.5rem, 1.3103rem + 3.4483vw, 2rem);
   font-weight: 600;
   line-height: 1.2;
   padding: 1rem 0;
