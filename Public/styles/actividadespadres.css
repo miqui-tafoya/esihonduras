@@ -1,0 +1,224 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para quiz y acordiones se mantienen igual */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Quiz */
+.quiz-activity {
+    padding: 20px;
+}
+
+.quiz-question {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.quiz-question-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quiz-options label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.quiz-feedback {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-left: 4px solid #007bff;
+}
+
+/* Acordiones */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.p-bottom {
+    margin-bottom: 10px;
+}
+
+.accordion-activity h3 {
+    color: #e74eed;
+    margin: 20px 0 10px 0;
+    font-size: 1.2em;
+}
+
+/* Slides */
+#esi-presentation {
+    width: 90%;
+    margin: 20px auto;
+    font-family: "Onest", sans-serif;
+}
+
+#esi-slide {
+    position: relative;
+    border: 1px solid #e74eed;
+    border-radius: 8px;
+    padding: 24px;
+    min-height: 260px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #fff;
+}
+
+#esi-slides {
+    position: relative;
+    min-height: 200px;
+}
+
+.esi-slide-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1;
+}
+
+.esi-slide-content.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+}
+
+.esi-slide-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.esi-slide-overlay:hover {
+    background: rgba(245, 187, 246, 0.09);
+}
+
+.esi-left-zone {
+    left: 0;
+}
+
+.esi-right-zone {
+    right: 0;
+}
+
+#esi-controls {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e74eed;
+}
+
+#esi-slide h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+#esi-slide p {
+    line-height: 1.5;
+    margin-bottom: 0.8em;
+}
+
+#esi-slide ul,
+#esi-slide ol {
+    margin-left: 1.2em;
+}
+
+/* Botones */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Listado Actividades */
+#actividad-listado {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.actividad-listado-titulo {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.actividad-listado-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.actividad-listado-item {
+    margin: 0;
+}
+
+.actividad-listado-btn {
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.actividad-listado-btn:hover {
+    background-color: #e2e2e2;
+}
+
+.actividad-listado-item.active .actividad-listado-btn {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}

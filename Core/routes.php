@@ -6,6 +6,7 @@ use Router\RouteList;
 use Controller\MainCtrl;
 use Controller\Captcha;
 use Controller\Educadores;
+use Controller\Madresypadres;
 
 // Instancia Globales
 $default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer'], 'end' => ['mediaquery']];
@@ -116,11 +117,11 @@ $routeList->add(
         '/madresypadres',
         'madresypadres',
         ['main',
-                ['Quiénes Somos - Madres y Padres', ['madresypadres']],
+                ['Quiénes Somos - Madres y Padres', ['madresypadres', 'actividadespadres']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
-        []
+        ['actividades']
 );
 
 $routeList->add(
@@ -176,7 +177,7 @@ $routeList->add(
         '/multimedia',
         'multimedia',
         ['main',
-                ['Multimedia', ['infopublica', 'slider', 'multimedia']],
+                ['Multimedia', ['infopublica', 'slider', 'multimedia', 'noticias']],
                 [['head' => [], 'footer' => []],
                         ['audio', 'video', 'publicaciones']],
                 []],
@@ -212,7 +213,7 @@ $routeList->add(
         '/categoria/',
         'categoria',
         ['main',
-                ['Categiría', ['infopublica', 'paginado']],
+                ['Categiría', ['infopublica', 'paginado', 'entrada']],
                 [['head' => [], 'footer' => []],
                         ['categoria', 'entradas']],
                 []],
@@ -317,6 +318,17 @@ $routeList->add(
         '/slideseducadores',
         function () {
                 $post = new Educadores;
+                $post->GET_AJAX_handler();
+        },
+        ['', '', [], []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/slidespadres',
+        function () {
+                $post = new Madresypadres();
                 $post->GET_AJAX_handler();
         },
         ['', '', [], []],

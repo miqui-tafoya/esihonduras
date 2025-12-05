@@ -11,7 +11,7 @@ $publicaciones = $body['publicaciones'];
         <div class="back-color">
             <div class="grid-doble">
                 <div class="img-grid-doble">
-                    <img src="Public/recursos/imagenes/info_jovenes" alt=""></a>
+                    <img src="Public/recursos/imagenes/info_jovenes.png" alt=""></a>
                 </div>
                 <div class="txt-grid-doble">
                     <p class="cabecera-uno">
@@ -23,11 +23,8 @@ $publicaciones = $body['publicaciones'];
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                         voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
                     </p>
-
                 </div>
-
             </div>
         </div>
 
@@ -36,9 +33,7 @@ $publicaciones = $body['publicaciones'];
         <!-- Start video -->
         <div class="bloque-video">
             <p class="cabecera-multimedia">Video</p>
-
             <div id="youtube-slider" class="video">
-
                 <div id="ytvideo-slides">
                     <?php
                     foreach ($video as $value): ?>
@@ -80,6 +75,9 @@ $publicaciones = $body['publicaciones'];
                 }
                 ?>
             </div>
+            <div class="btn-enlace">
+                <a href="<?php echo URL_BASE ?>informacionpublica">VER MÁS ENTRADAS</a>
+            </div>
         </div>
         <!-- End publicaciones -->
 
@@ -92,7 +90,6 @@ $publicaciones = $body['publicaciones'];
                     echo $value['podcast_url'];
                 } ?>
             </div>
-
         </div>
         <!-- End audio -->
 
