@@ -134,6 +134,9 @@
   .bloque-entrada {
     width: 80%;
   }
+  #esi-presentation {
+    width: 70%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {

@@ -47,6 +47,7 @@
         </div>
 
         <!-- Start Bloque dos -->
+         <div class="bloque-slide">
         <div id="esi-presentation">
             <div id="esi-slide">
                 <div class="esi-slide-content">
@@ -57,6 +58,7 @@
             <div id="esi-controls">
                 <span id="esi-page-indicator">Página 1 / 13</span>
             </div>
+        </div>
         </div>
           <!-- Start Bloque dos -->
 
