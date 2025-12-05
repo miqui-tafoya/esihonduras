@@ -4,13 +4,6 @@
     padding: 20px;
 }
 
-/* Estilos para quiz y acordiones se mantienen igual */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 /* Quiz */
 .quiz-activity {
     padding: 20px;
