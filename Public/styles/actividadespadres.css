@@ -34,6 +34,19 @@
     border-left: 4px solid #007bff;
 }
 
+.quiz-result {
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.quiz-result.correct {
+    color: #28a745;
+}
+
+.quiz-result.incorrect {
+    color: #dc3545;
+}
+
 /* Acordiones */
 .accordion {
     background-color: #eee;

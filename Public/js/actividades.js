@@ -9,10 +9,19 @@ const ACTIVITY_TITLES = {
     'quiz-1': 'Quiz: Comunicación con Madres y Padres',
     'accordion-1': 'Aspectos biológicos de la sexualidad',
     'slides-1': 'Menstruación',
+    'slides-2': 'Fecundación, embarazo, parto y lactancia',
     'quiz-2': 'Quiz: Aspectos biológicos',
-    'slides-2': 'Alternativas para ejercer la sexualidad',
-};
-
+    'slides-3': 'Alternativas para ejercer la sexualidad',
+    'accordion-2': 'Las Infecciones de Transmisión Sexual',
+    'quiz-3': 'Quiz: Infecciones de Transmisión Sexual',
+    'accordion-3': 'El embarazo y sus consecuencias',
+    'quiz-4': 'Quiz: Dudas sobre el embarazo',
+    'accordion-4': 'La anticoncepción',
+    'quiz-5': 'Quiz: Para hijos e hijas adolescentes',
+    'accordion-5': 'Entender lo esencial: Sexo, Género, Estudios de Género e Identidad',
+    'quiz-6': 'Quiz: Diversidad sexual',
+    'slides-4': 'Manejo del afecto y relaciones saludables en adolescentes',
+}
 function loadActivity(index) {
     $.ajax({
         url: 'slidespadres',
@@ -88,6 +97,7 @@ function renderQuizActivity(container, activity) {
                         <input type="radio" name="${questionId}" value="false" required> Falso
                     </label>
                 </div>
+                <div class="quiz-result" id="result-${questionId}" style="display:none;"></div>
                 <div class="quiz-feedback" id="feedback-${questionId}" style="display:none;">
                     ${q.c}
                 </div>
@@ -120,18 +130,22 @@ function renderQuizActivity(container, activity) {
 function mostrarRespuestasQuiz(activity) {
     const questions = activity.data || {};
     let allAnswered = true;
+    const userAnswers = {}; // guardamos lo que marcó cada pregunta
 
+    // 1) Verificar que todas las preguntas tengan respuesta
     Object.keys(questions).forEach(function (key) {
         const questionId = `q-${activity.key}-${key}`;
         const radios = document.querySelectorAll(`input[name="${questionId}"]`);
-        let selected = null;
+        let selectedValue = null;
 
         radios.forEach(r => {
-            if (r.checked) selected = r.value;
+            if (r.checked) selectedValue = r.value; // 'true' o 'false'
         });
 
-        if (selected === null) {
+        if (selectedValue === null) {
             allAnswered = false;
+        } else {
+            userAnswers[key] = selectedValue;
         }
     });
 
@@ -140,15 +154,43 @@ function mostrarRespuestasQuiz(activity) {
         return;
     }
 
+    // 2) Mostrar "correcto" / "incorrecto" + feedback
     Object.keys(questions).forEach(function (key) {
         const questionId = `q-${activity.key}-${key}`;
-        const feedbackEl = document.getElementById(`feedback-${questionId}`);
+        const q = questions[key];
+        const correctAnswer = q.a;              // true, false o 'both'
+        const userValue = userAnswers[key];     // 'true' o 'false'
 
+        let isCorrect = false;
+
+        if (correctAnswer === 'both') {
+            // Siempre correcto sin importar lo que haya marcado
+            isCorrect = true;
+        } else {
+            const correctBool = !!correctAnswer;       // true/false real
+            const userBool = (userValue === 'true');   // convertimos 'true'/'false' a boolean
+            isCorrect = (userBool === correctBool);
+        }
+
+        // Mostrar resultado
+        const resultEl = document.getElementById(`result-${questionId}`);
+        if (resultEl) {
+            resultEl.textContent = isCorrect ? 'Correcto' : 'Incorrecto';
+            resultEl.style.display = 'block';
+
+            // Opcional: clases de estilo
+            resultEl.classList.remove('correct', 'incorrect');
+            resultEl.classList.add(isCorrect ? 'correct' : 'incorrect');
+        }
+
+        // Mostrar feedback
+        const feedbackEl = document.getElementById(`feedback-${questionId}`);
         if (feedbackEl) {
             feedbackEl.style.display = 'block';
         }
     });
 
+    // 3) Ocultar "Enviar" y mostrar "Continuar"
     const btnEnviar = document.getElementById('btn-enviar-quiz');
     const btnContinuar = document.getElementById('btn-continuar-quiz');
 
