@@ -65,20 +65,20 @@
 
 .btn-enlace a {
   font-weight: 600;
-  color: #e74eed;
+  color: #ff7a00;
   font-size: 0.8rem;
-  background-color: #f8fae9;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #e74eed;
-  padding: 0.2rem 1rem;
+  letter-spacing: 1px;
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #ff7a00;
+  padding: 0.1rem 0.1rem;
   cursor: pointer;
-  border-radius: 8px;
 }
 
 .btn-enlace a:hover {
-  color: #aa00d3;
-  border-color: #aa00d3;
+  color: #ffa710;
+  border-color: #ffa710;
   background-color: transparent;
 }
 

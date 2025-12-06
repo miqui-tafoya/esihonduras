@@ -136,3 +136,67 @@
     border-color:vars.$com700;
     background-color:transparent;
 }
+
+////////////material de consulta /////////////
+
+.bloque-organizacion {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cabecera-dos-contacto {
+    color: #25282a;
+    font-size: clamp(1.5rem, 1.3103rem + 3.4483vw, 2.2rem);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.bloque-enlace {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+
+}
+
+.bloque-enlace p{
+    padding: 0 1rem 0 0;
+}
+
+.txt-enlace {
+    font-weight: 400;
+    color: vars.$dark;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.3rem);
+    padding: 1rem 0rem;
+}
+
+.btn-enlace-dos{
+    display: flex;
+}
+
+
+.btn-enlace-dos a{
+    font-weight: 600;
+    color:vars.$com-dos;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    background-color:transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: vars.$com-dos;
+    padding: 0.1rem 0.1rem;
+    cursor: pointer;
+   
+}
+
+.btn-enlace-dos a:hover{
+    color:vars.$com-dos800;
+    border-color:vars.$com-dos800;
+    background-color:transparent;
+}
+
+.btn-enlace-dos a i{
+    margin: 0 0 0 0.5rem;
+}

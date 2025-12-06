@@ -70,11 +70,68 @@
                 <p class="cabecera-dos">Material de consulta</p>
             </div>
             <div class="bloque-materiales">
-                <p class="cabecera-one">
-                    Tema: Derechos Humanos y Perspectiva de género (DH y PEG)
-                </p>
-                
+
+                <!-- Start Tema 1-->
+
+                <div class="bloque-organizacion">
+                    <p class="cabecera-dos-contacto">Tema: Derechos Humanos y Perspectiva de género (DH y PEG)</p>
+                    <br>
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Educación en derechos</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.es.amnesty.org/en-que-estamos/temas/educacion-en-derechos-humanos/#:~:text=La%20educaci%C3%B3n%20en%20derechos%20humanos,respeto%20a%20los%20derechos%20humanos"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">La importancia del derecho humano a la educación </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://mexico.unir.net/derecho/noticias/derecho-humano-educacion/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Youtube</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/@SesalHN" target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Educación para la ciudadanía global y la paz </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://es.unesco.org/sites/default/files/guia_1_educacion_en_derechos_humanos_1.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">¿Cuál es la importancia de educar en derechos humanos a niñas y niños?
+                        </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.gob.mx/sipinna/articulos/cual-es-la-importancia-de-educar-en-derechos-humanos-a-ninas-y-ninos"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">La importancia de la educación en los derechos humanos Especial referencia
+                            a América Latina
+                        </p>
+                        <div class="btn-enlace-dos"> <a href="https://biblioteca.corteidh.or.cr/tablas/r24457.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                     <div class="bloque-enlace">
+                        <p class="txt-enlace">¿Qué es educar en derechos humanos?
+                        </p>
+                        <div class="btn-enlace-dos"> <a href="https://www.corteidh.or.cr/tablas/r24456.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                </div>
+                <!-- End Tema 1 -->
+
             </div>
+
+
         </div>
         <!-- End Bloque tres -->
 
