@@ -47,29 +47,36 @@
         </div>
 
         <!-- Start Bloque dos -->
-         <div class="bloque-slide">
-        <div id="esi-presentation">
-            <div id="esi-slide">
-                <div class="esi-slide-content">
+        <div class="back-color-dos">
+            <div class="bloque-slide">
+                <div id="esi-presentation">
+                    <div id="esi-slide">
+                        <div class="esi-slide-content">
+                        </div>
+                        <div class="esi-slide-overlay esi-left-zone"></div>
+                        <div class="esi-slide-overlay esi-right-zone"></div>
+                    </div>
+                    <div id="esi-controls">
+                        <span id="esi-page-indicator">Página 1 / 13</span>
+                    </div>
                 </div>
-                <div class="esi-slide-overlay esi-left-zone"></div>
-                <div class="esi-slide-overlay esi-right-zone"></div>
-            </div>
-            <div id="esi-controls">
-                <span id="esi-page-indicator">Página 1 / 13</span>
             </div>
         </div>
-        </div>
-          <!-- Start Bloque dos -->
+        <!-- Start Bloque dos -->
 
-           <!-- Start Bloque tres --> 
+        <!-- Start Bloque tres -->
         <div class="back-color">
-            <p class="cabecera-one">Material de consulta</p>
-            <p>
-
-            </p>
+            <div class="intro">
+                <p class="cabecera-dos">Material de consulta</p>
+            </div>
+            <div class="bloque-materiales">
+                <p class="cabecera-one">
+                    Tema: Derechos Humanos y Perspectiva de género (DH y PEG)
+                </p>
+                
+            </div>
         </div>
-        <!-- End Bloque tres --> 
+        <!-- End Bloque tres -->
 
     </div>
 </div>
