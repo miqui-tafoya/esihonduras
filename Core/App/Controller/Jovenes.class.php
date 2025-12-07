@@ -2,25 +2,54 @@
 namespace Controller;
 
 use View\Render;
-//use Middleware;
-use Model\{
-    Database,
-    JovenesModel
-};
+use Model\JovenesModel;
 class Jovenes extends Render {
     public function GET_handler($route, $params, $js) {
-        // verifica credenciales
-        // $credenciales = new Middleware;
-        // $credenciales->Credencial('login');
-        // permisos
-        // if ($_SESSION['propio']['permisos'][0] !== '1') {
-        //     header("Location: " . URL_BASE);
-        //     exit;
-        // }
         return $this->renderView($route, $params[0], $params[1], $params[2], $params[3], $js);
     }
 
+    public function GET_AJAX_handler() {
+        header('Content-Type: application/json; charset=utf-8');
+        $model = new JovenesModel();
+        $actividades = $model->getActividades();
 
+        $actividadKeys = array_keys($actividades);
+        $totalActividades = count($actividadKeys);
+
+        $index = isset($_GET['index']) ? intval($_GET['index']) : 1;
+        if ($index < 1)
+            $index = 1;
+        if ($index > $totalActividades)
+            $index = $totalActividades;
+
+        $actualKey = $actividadKeys[$index - 1];
+        $actualActividad = $actividades[$actualKey];
+
+        if (strpos($actualKey, 'quiz-') === 0) {
+            $tipo = 'quiz';
+        } elseif (strpos($actualKey, 'accordion-') === 0) {
+            $tipo = 'accordion';
+        } elseif (strpos($actualKey, 'slides-') === 0) {
+            $tipo = 'slides';
+        } elseif (strpos($actualKey, 'casillas-') === 0) {
+            $tipo = 'casillas';
+        } elseif (strpos($actualKey, 'options-') === 0) {
+            $tipo = 'options';
+        } else {
+            $tipo = 'unknown';
+        }
+
+        $response = [
+            'index' => $index,
+            'total_activities' => $totalActividades,
+            'key' => $actualKey,
+            'type' => $tipo,
+            'data' => $actualActividad,
+            'activity_keys' => $actividadKeys,
+        ];
+        echo json_encode($response, JSON_UNESCAPED_UNICODE);
+        exit;
+    }
 
     public function values($params) {
         $clase = explode('\\', __CLASS__);
@@ -29,10 +58,4 @@ class Jovenes extends Render {
         $valores = $load->fetchData($params);
         return $valores;
     }
-
-//////////////////// Funciones secundarias
-
-    //public function process($params) {
-    //  exit;
-    //}
 }
