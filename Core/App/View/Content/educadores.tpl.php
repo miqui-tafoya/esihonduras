@@ -67,7 +67,7 @@
         <!-- Start Bloque tres -->
         <div class="back-color">
             <div class="intro">
-                <p class="cabecera-dos">Material de consulta</p>
+                <p class="cabecera-dos-faq">Material de consulta</p>
             </div>
             <div class="bloque-materiales">
 
@@ -90,11 +90,6 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Youtube</p>
-                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/@SesalHN" target="_blank">Visitar
-                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
 
                     <div class="bloque-enlace">
                         <p class="txt-enlace">Educación para la ciudadanía global y la paz </p>
@@ -119,15 +114,197 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                     <div class="bloque-enlace">
+                    <div class="bloque-enlace">
                         <p class="txt-enlace">¿Qué es educar en derechos humanos?
                         </p>
                         <div class="btn-enlace-dos"> <a href="https://www.corteidh.or.cr/tablas/r24456.pdf"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Vídeo: Generación de cristal</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=1uq_JIIbkLo"
+                                target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace"> ¿Qué es la perspectiva de género y por qué es necesario implementarla?
+                        </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.gob.mx/conavim/articulos/que-es-la-perspectiva-de-genero-y-por-que-es-necesario-implementarla"
+                                target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace"> La perspectiva de género</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://catedraunescodh.unam.mx/catedra/CONACYT/16_DiplomadoMujeres/lecturas/modulo1/4_Marta_Lamas_Perspectivadegenero.pdf"
+                                target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace"> Comunicación, infancia y adolescencia. Guía para periodistas perspectiva
+                            de género
+                        </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.unicef.org/argentina/sites/unicef.org.argentina/files/2018-04/COM-1_PerspectivaGenero_WEB.pdf"
+                                target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace"> Lo que no es la perspectiva de género
+                        </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.mexicosocial.org/lo-que-no-es-la-perspectiva-de-genero/"
+                                target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace"> Guía de interseccionalidad. Una herramienta para desarrollar la
+                            conciencia crítica de la desigualdad
+                        </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/guia-de-interseccionalidad/"
+                                target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
                 </div>
                 <!-- End Tema 1 -->
+
+                <!-- Start Tema 2-->
+
+                <div class="bloque-organizacion">
+                    <p class="cabecera-dos-contacto">Tema: Diversidad e inclusión </p>
+                    <br>
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Rodino, Ana María (2009), La educación con enfoque de derechos humanos
+                            como práctica constructora de inclusión social, disponible en:</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.corteidh.or.cr/tablas/r34228.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">La educación con enfoque de derechos humanos como práctica constructora de
+                            inclusión social</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.corteidh.or.cr/tablas/r34228.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Discriminación en contra de las personas por su orientación sexual,
+                            características sexuales e identidad y expresión de género</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.conapred.org.mx/wp-content/uploads/2024/02/FT_DiversidadSexual_Noviembre2023_v3.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Santillán (2019). Los muxes, el Tercer Género. Ciencia UNAM. Consultado en
+                            el sitio</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://ciencia.unam.mx/leer/925/los-muxes-el-tercer-genero-"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Mitos y realidades acerca de las personas LGBTI</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.pgaction.org/inclusion/es/practical-tools/myths-and-reality.html"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Comisión Interamericana de Derechos Humanos (CIDH). (2015). Violencia
+                            contra personas lesbianas, gay, bisexuales, trans e intersex en América
+                            (OAS/Ser.L/V/II.rev.2). </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.oas.org/es/cidh/informes/pdfs/violenciapersonaslgbti.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <p class="cabecera-one">Biblioteca de la Asociación por las Infancias Transgénero, algunos de los
+                        títulos que puedes descargar:</p>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Escuela Desarrollo de Personas (2024), Disponible en: </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://infanciastrans.org/wp-content/uploads/2024/01/Libro_Escuela_Desarrollo_De_Personas_Una.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Proceso para el reconocimiento de la identidad de género para infancias y
+                            adolescencias trans y no binaries (s/f) Disponible en: </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://infanciastrans.org/wp-content/uploads/2024/01/Reconocimiento_identidad_g%C3%A9nero-.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Proceso para solicitar resguardo de acta primigenia (s/f). Disponible es
+                        </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://infanciastrans.org/wp-content/uploads/2024/01/Resguardo_Acta_Primigenia.docx.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">anémona, infancias y juventudes trans (2021). Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://infanciastrans.org/wp-content/uploads/2021/12/anemonarevista_final.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">anémona, infancias y juventudes trans (2021). Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://infanciastrans.org/wp-content/uploads/2021/12/anemonarevista_final.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <p class="cabecera-one">EduGuías+, Recursos Educativos descargables gratis de It Gets Better México.
+                        algunos de los títulos que puedes descargar:
+                    </p>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Manual De Inclusión Y Atención A Estudiantes LGBTQ+. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://itgetsbettermx.org/programas/espaciosseguros/eduguias/manualinclusion/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Comunicación Sin Estigma. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://itgetsbettermx.org/programas/espaciosseguros/eduguias/comunicacion-sin-estigma-con-verificado/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Protocolo Trans & No-Binarie. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://itgetsbettermx.org/programas/espaciosseguros/eduguias/protocolo-trans-no-binarie/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Comisión Nacional de Derechos Humanos (CNDH). (2019, 13 de diciembre).
+                            Reitera CNDH su compromiso de contribuir en el reconocimiento de los derechos de la
+                            diversidad sexual y de género (Comunicado de prensa DGC/476/2019). </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.cndh.org.mx/sites/default/files/documentos/2019-12/COM_%202019_476.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+
+                </div>
+                <!-- End Tema 2 -->
 
             </div>
 

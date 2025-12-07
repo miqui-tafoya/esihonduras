@@ -94,12 +94,20 @@
 }
 
 .cabecera-one {
-    color: #25282a;
+    color: vars.$dark;
     font-size: clamp(1.5rem, 1.3103rem + 3.4483vw, 2rem);
     font-weight: 600;
     line-height: 1.2;
     padding: 1rem 0;
 }
+
+.cabecera-dos-faq {
+    color: vars.$dark;
+    font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
 
 .intro {
     width: 80%;
@@ -158,6 +166,11 @@
     display: flex;
     align-items: center;
     padding: 0.5rem 0;
+
+    display: flex;
+    align-items: start;
+    padding: 0.5rem 0;
+    flex-direction: column;
 
 }
 

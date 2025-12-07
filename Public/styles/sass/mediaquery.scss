@@ -170,7 +170,7 @@
 }
 
 #esi-presentation {
-    width: 70%;
+    width: 80%;
 }
 
 
@@ -396,6 +396,18 @@
 .bloque-audio {
     width: 80%;
    
+}
+
+#esi-presentation {
+    width: 70%;
+}
+
+
+.bloque-enlace {
+    align-items: center;
+    padding: 0.5rem 0;
+    flex-direction: unset;
+
 }
 
 }

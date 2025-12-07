@@ -135,7 +135,7 @@
     width: 80%;
   }
   #esi-presentation {
-    width: 70%;
+    width: 80%;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -313,5 +313,13 @@
   }
   .bloque-audio {
     width: 80%;
+  }
+  #esi-presentation {
+    width: 70%;
+  }
+  .bloque-enlace {
+    align-items: center;
+    padding: 0.5rem 0;
+    flex-direction: unset;
   }
 }/*# sourceMappingURL=mediaquery.css.map */
