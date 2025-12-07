@@ -4,6 +4,49 @@
     padding: 20px;
 }
 
+/* Casillas */
+.casillas-activity .casillas-item {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+}
+
+.casillas-activity .casillas-question-text p {
+    margin: 0 0 0.5rem 0;
+}
+
+.casillas-activity .casillas-options label {
+    margin-right: 1.5rem;
+}
+
+/* Opciones */
+
+.options-activity .options-question {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+}
+
+.options-activity .options-question-text p {
+    margin: 0 0 0.5rem 0;
+}
+
+.options-activity .options-options label {
+    margin-right: 1.5rem;
+}
+
+.options-result.correct {
+    color: green;
+    font-weight: bold;
+}
+
+.options-result.incorrect {
+    color: red;
+    font-weight: bold;
+}
+
 /* Quiz */
 .quiz-activity {
     padding: 20px;

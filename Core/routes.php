@@ -7,6 +7,7 @@ use Controller\MainCtrl;
 use Controller\Captcha;
 use Controller\Educadores;
 use Controller\Madresypadres;
+use Controller\Jovenes;
 
 // Instancia Globales
 $default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer'], 'end' => ['mediaquery']];
@@ -117,11 +118,11 @@ $routeList->add(
         '/madresypadres',
         'madresypadres',
         ['main',
-                ['Quiénes Somos - Madres y Padres', ['madresypadres', 'actividadespadres']],
+                ['Quiénes Somos - Madres y Padres', ['madresypadres', 'actividades']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
-        ['actividades']
+        ['actividadespadres']
 );
 
 $routeList->add(
@@ -129,11 +130,11 @@ $routeList->add(
         '/jovenes',
         'jovenes',
         ['main',
-                ['Quiénes Somos - Jóvenes', ['jovenes']],
+                ['Quiénes Somos - Jóvenes', ['jovenes', 'actividades']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],
-        []
+        ['actividadesjovenes']
 );
 
 $routeList->add(
@@ -329,6 +330,17 @@ $routeList->add(
         '/slidespadres',
         function () {
                 $post = new Madresypadres();
+                $post->GET_AJAX_handler();
+        },
+        ['', '', [], []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/slidesjovenes',
+        function () {
+                $post = new Jovenes();
                 $post->GET_AJAX_handler();
         },
         ['', '', [], []],

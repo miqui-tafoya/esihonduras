@@ -13,9 +13,9 @@ class MadresypadresModel extends Model {
                 1 => [
                     'q' => '<p>Con madres y padres no se debe hablar de sexualidad</p>',
                     'a' => false,
-                    'c' => 'Falso. Hace algunas generaciones no se hablaba de sexualidad ya que era un tema que se evadía, causaba conflicto, se consideraba falta de respeto o generaba vergüenza o miedo. El hablar de sexualidad con hijas e hijos permite romper la barrera de la vergüenza, ayuda a generar confianza y cercanía con hijos e hijas.
+                    'c' => '<p><b>Falso.</b> <br>Hace algunas generaciones no se hablaba de sexualidad ya que era un tema que se evadía, causaba conflicto, se consideraba falta de respeto o generaba vergüenza o miedo. El hablar de sexualidad con hijas e hijos permite romper la barrera de la vergüenza, ayuda a generar confianza y cercanía con hijos e hijas.
 Es mejor que como madres y padres seamos quienes demos información clara, real.
-Es importante que ante cualquier duda o situación relacionada con su sexualidad puedan acudir con personas adultas de confianza para orientarles y acompañarles.
+Es importante que ante cualquier duda o situación relacionada con su sexualidad puedan acudir con personas adultas de confianza para orientarles y acompañarles.</p>
 '
                 ],
                 2 => [
