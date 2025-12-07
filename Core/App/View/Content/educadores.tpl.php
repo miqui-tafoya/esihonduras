@@ -48,6 +48,9 @@
 
         <!-- Start Bloque dos -->
         <div class="back-color-dos">
+            <div class="intro">
+                <p class="cabecera-dos-faq">Guía para la intervención en temas relacionados con sexualidad</p>
+            </div>
             <div class="bloque-slide">
                 <div id="esi-presentation">
                     <div id="esi-slide">
