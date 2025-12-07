@@ -584,6 +584,144 @@
 
                 </div>
                 <!-- End Tema 4-->
+
+                <!-- Start Tema 5-->
+
+                <div class="bloque-organizacion">
+                    <p class="cabecera-dos-contacto">Bases para la Sexualidad Integral </p>
+                    <br>
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">UNFPA en América Latina y el Caribe, Facultad Latinoamericana de Ciencias
+                            Sociales (FLACSO), (2025) Educación Integral de la Sexualidad: Evidencias y hallazgos sobre
+                            los efectos en la salud y en el desarrollo de adolescentes y jóvenes, disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://lac.unfpa.org/es/publications/eis-evidencias-hallazgos-efectos-salud-desarrollo-adolescentes-jovenes"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Plan Internacional (s/f) Temas de la Educación integral en Sexualidad:
+                            ¿Qué cubrir en la primera infancia -18+?, Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://plan-international.org/uploads/2021/12/esp_glo-cse_topics_overview-eo-march_2021_final_0.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Ipas. (2023). Falsos pretextos: la agenda contra la educación integral en
+                            sexualidad convierte en arma los derechos humano. </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.ipas.org/wp-content/uploads/2023/03/Falsos-pretextos-la-agenda-contra-la-educacion-integral-en-sexualidad-convierte-en-arma-los-derechos-humanos_OPPCSES23.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Derechos Sexuales </p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=rqxlOTegMsg"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Hojas informativas sobre conceptos relacionados con la educación integral
+                            en sexualidad, los servicios amigables para jóvenes, la igualdad de género y los derechos
+                            sexuales. Juego de herramientas para realizar un taller – Desmitificando datos. Guttmacher
+                            Institute</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.guttmacher.org/sites/default/files/report_downloads/herramientas-desmitificando-datos-hojas-informativas.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Estrategias de Educación Integral en Sexualidad para personal docente.
+                            Guía didáctica </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.gob.mx/conapo/documentos/estrategias-de-educacion-integral-en-sexualidad-para-personal-docente-guia-didactica"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Pláticas para mamás de adolescentes </p>
+                        <div class="btn-enlace-dos"> <a href="https://open.spotify.com/show/63KYr2gyqrU5DKhmjmRTxF"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+                    <p class="cabecera-one-dos">Actividades, Salud Sexual</p>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Dinámicas </p>
+                        <div class="btn-enlace-dos"> <a href="https://salutsexual.sidastudi.org/es/subhome-dinamicas"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Sexualidad </p>
+                        <div class="btn-enlace-dos"> <a href="https://salutsexual.sidastudi.org/es/dinamicas/sexualidad"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Placeres, emociones y cuidados</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://salutsexual.sidastudi.org/es/dinamica/170126-qu-entendemos-"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Enseñando el Consentimiento para Adolescentes</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://saprea.org/es/educacion-comunitaria/consentimiento-de-ensenanza-para-adolescentes/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">10 cosas que hemos aprendido del amor</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=9G4DWyQNj54"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cortometraje LOS GRITONES</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=7EHO7Q8FjsM"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                </div>
+
+                <!-- End Tema 5-->
+
+                <!-- Start Tema 6-->
+
+                <div class="bloque-organizacion">
+                    <p class="cabecera-dos-contacto">Primer contacto, Cómo llevar un primer contacto sin revictimizar
+                    </p>
+                    <br>
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Guerrero, C. (2024, 8 de febrero). Acompañamiento feminista. Pie de
+                            Página. </p>
+                        <div class="btn-enlace-dos"> <a href="https://piedepagina.mx/acompanamiento-feminista/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Laboratorio Nacional de Diversidades. (2018, 26 de octubre). El
+                            acompañamiento otro y la experiencia feminista. </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.animalpolitico.com/analisis/organizaciones/diversidades-fluidas/el-acompanamiento-otro-invencion-de-experiencias-feministas"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Surkuna - Centro de Apoyo y Protección de los Derechos Humanos. (2021).
+                            Módulo: Acompañamiento feminista en casos de violencia contar las mujeres. </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://surkuna.org/wp-content/uploads/2021/03/Mo%CC%81dulo-Acompan%CC%83amiento-feminista.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                </div>
+
+                <!-- End Tema 6-->
+
             </div>
 
         </div>
