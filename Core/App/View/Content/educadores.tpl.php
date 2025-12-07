@@ -228,7 +228,8 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <p class="cabecera-one">Biblioteca de la Asociación por las Infancias Transgénero, algunos de los
+                    <p class="cabecera-one-dos">Biblioteca de la Asociación por las Infancias Transgénero, algunos de
+                        los
                         títulos que puedes descargar:</p>
 
                     <div class="bloque-enlace">
@@ -268,7 +269,8 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <p class="cabecera-one">EduGuías+, Recursos Educativos descargables gratis de It Gets Better México.
+                    <p class="cabecera-one-dos">EduGuías+, Recursos Educativos descargables gratis de It Gets Better
+                        México.
                         algunos de los títulos que puedes descargar:
                     </p>
 
@@ -306,11 +308,283 @@
                 </div>
                 <!-- End Tema 2 -->
 
+                <!-- Start Tema 3-->
+
+                <div class="bloque-organizacion">
+                    <p class="cabecera-dos-contacto">Tema: Prevención de las violencias </p>
+                    <br>
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Algunas actividades que puedes usar:</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://fmujeresprogresistas.org/wp-content/uploads/2016/05/guia_online.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Manual para fortalecer la igualdad y erradicar la violencia de género.
+                            Comisión de Derechos Humanos del Estado de México. </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://biblio.juridicas.unam.mx/bjv/detalle-libro/5930-manual-para-fortalecer-la-igualdad-y-erradicar-la-violencia-de-genero-de-la-comision-de-derechos-humanos-del-estado-de-mexico-coleccion-codhem"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Guía de actividades para la coeducación y la no violencia de género </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://documentos.epet1.edu.ar/Violencia-de-Genero/Juguemos.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">¡Stop!: no a la violencia de género</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.unaj.edu.ar/pueblo/revista-pueblo-8/colaboraciones-8/dinamicas-pedagogicas-freireanas/stop-no-a-la-violencia-de-genero/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">GUÍA DE ACTIVIDADES PARA FOMENTAR LA IGUALDAD DE OPORTUNIDADES ENTRE NIÑOS
+                            Y NIÑAS</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.educacionyfp.gob.es/dam/jcr:b59c1fb7-30c6-4917-96be-f6a8d7eef619/guia-de-actividades-de-igualdad.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Actividades para la facilitación de las, intervenciones comunitarias</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://mexico.unfpa.org/sites/default/files/pub-pdf/actividades_para_la_facilitacion_de_las_intervenciones_comunitarias_trabajo_con_mujeres_0.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Actividades para la facilitación de las, intervenciones comunitarias</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://mexico.unfpa.org/sites/default/files/pub-pdf/actividades_para_la_facilitacion_de_las_intervenciones_comunitarias_trabajo_con_mujeres_0.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Olvera García, J. (2019). Manual para fortalecer la igualdad y erradicar
+                            la violencia de género. Comisión de Derechos Humanos del Estado de México. </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://biblio.juridicas.unam.mx/bjv/detalle-libro/5930-manual-para-fortalecer-la-igualdad-y-erradicar-la-violencia-de-genero-de-la-comision-de-derechos-humanos-del-estado-de-mexico-coleccion-codhem"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Involucrando a los hombres en el fin de la violencia de género: una
+                            intervención multipaís con evaluación de impacto</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.equimundo.org/wp-content/uploads/2015/01/Involucrando-a-los-hombres-en-el-fin-de-la-violencia-de-genero.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <p class="cabecera-one-dos">Cortometrajes</p>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Campaña “Cero Tolerancia al Hostigamiento y Acoso Sexual”</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=UtBwM_siyc8"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Vos Tenés Que Ver - Acoso</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=vCox1M8Cssc"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Bullying - Cortometraje</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=91HgatU6zL8"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Actúa contra el acoso escolar. Nos puede tocar a cualquiera. Habla con tus
+                            hijos</p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=nK5d2MSu_Vo"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Langui - Se buscan valientes </p>
+                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=omZkxy3wU1c"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                </div>
+
+
+
+                <!-- End Bloque tres -->
+
+                <!-- Start Tema 4-->
+
+                <div class="bloque-organizacion">
+                    <p class="cabecera-dos-contacto">Tema: Violencia Digital </p>
+                    <br>
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">¿Qué hacer ante el reto clonazepam?</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2023/01/23/que-hacer-ante-el-reto-clonazepam/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Suplantación de identidad y cuentas falsas de Onlyfans</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2022/07/06/suplantacion-de-identidad-y-cuentas-falsas-de-onlyfans/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">¿Eres tú en el vídeo?, phishing</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2022/04/21/eres-tu-en-el-video-phishing/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">“Mami”, “dile que te llevamos con nosotros”, extorsiones telefónicas</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2022/04/14/mami-dile-que-te-llevamos-con-nosotros-extorsiones-telefonicas/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Phishing y Amenaza con contenido íntimo</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2022/04/14/phishing-y-amenaza-con-contenido-intimo/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">“están rolando el pack de tal chica”, STOPNCII</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2022/04/14/estan-rolando-el-pack-de-tal-chica-stopncii/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Se solicita señorita</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2023/03/20/se-solicita-senorita/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Bloquear contenido +18 años</p>
+                        <div class="btn-enlace-dos"> <a href="https://stopncii.org/?lang=es-mx" target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Bloquear contenido menores de 18 años</p>
+                        <div class="btn-enlace-dos"> <a href="https://takeitdown.ncmec.org/es/" target="_blank">Visitar
+                                <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Alfaro, Luisa., et al. 2021 del Programa Líderes 2.0 (2021). Internet
+                            también es de las infancias. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://descargas.lacnic.net/lideres/2021/luisa-alfaro/VERSION%20FINAL%20EXTENDIDA_La%20Internet%20tambie%CC%81n%20es%20de%20las%20Infancias.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cultivando Género (2021). Te queremos, te acompañamos y te protegemos,
+                            Guía madres, padres y docentes para prevenir casos de violencia digital en la infancia y
+                            adolescencia. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/te-queremos-te-acompanamos-y-te-protegemos-guia-para-madres-padres-y-docentes-%ef%bf%bc/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cultivando Género (2022). ¿Cómo vamos en el ciberacoso?, Resultados MOCIBA
+                            2022. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2023/07/31/como-vamos-en-ciberacoso-resultados-mociba-2022/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cultivando Género (2023) Diccionario digital para personas no tan
+                            digitales. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/diccionario-digital-para-personas-no-tan-digitales/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cultivando Género (2023) Informe: Infancias en Internet, Experiencias de
+                            la aplicación del Manual Surfea La Web Segux en escuelas primarias en Aguascalientes.
+                            Disponible en </p>
+                        <div class="btn-enlace-dos"> <a href="https://cultivandogeneroac.org/infancias-en-internet/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cultivando Género (2023) Surfea la web, Manual de técnicas didácticas, de
+                            sensibilización, seguridad y alfabetización digital para personal docente, madres, padres y
+                            personas cuidadoras. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a href="https://cultivandogeneroac.org/surfea-la-web-segura/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cultivando Género (2024) Manual Interinstitucional para la Canalización de
+                            Violencia Digital, </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/manual-interinstitucional-para-la-canalizacion-de-violencia-digital/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Cultivando Género (2024) "Mamás y papás en lo virtual, un viaje para
+                            conectarnos" </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://cultivandogeneroac.org/2024/05/14/se-presenta-el-libro-mamas-y-papas-en-lo-virtual-un-viaje-para-conectarnos/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Pérez, Gisela (2018) por Derechos Digitales, ¿De qué hablamos cuando
+                            hablamos de acceso?. Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.derechosdigitales.org/wp-content/uploads/de-que-hablamos-cuando-hablamos-de-acceso.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Penalva, Javier (2014). Cyborgs, están entre nosotros. Disponible en</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.xataka.com/robotica-e-ia/cyborgs-estan-entre-nosotros "
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">García-Bullé, Sofía (2022). ¿Qué es el adultocentrismo y por qué perjudica
+                            la educación?. Disponible en</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://observatorio.tec.mx/edu-news/que-es-el-adultocentrismo-y-por-que-perjudica-la-educacion/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Web Foundation (2020). Sobre los Derechos Digitales de las Mujeres.
+                            Disponible en </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="http://webfoundation.org/docs/2020/10/Executive-Summary-Spanish.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+
+                </div>
+                <!-- End Tema 4-->
             </div>
 
-
         </div>
-        <!-- End Bloque tres -->
-
     </div>
-</div>

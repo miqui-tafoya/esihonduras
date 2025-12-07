@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3rem 0;
+    padding: 1rem 0 3rem 0;
     margin: 0 auto;
 
 }
@@ -97,6 +97,14 @@
     color: vars.$dark;
     font-size: clamp(1.5rem, 1.3103rem + 3.4483vw, 2rem);
     font-weight: 600;
+    line-height: 1.2;
+    padding: 1rem 0;
+}
+
+.cabecera-one-dos {
+    color: vars.$dark;
+    font-size: clamp(1.125rem, 0.9181rem + 1.0345vw, 1.5rem);
+    font-weight: 500;
     line-height: 1.2;
     padding: 1rem 0;
 }
@@ -164,12 +172,8 @@
 
 .bloque-enlace {
     display: flex;
-    align-items: center;
-    padding: 0.5rem 0;
-
-    display: flex;
     align-items: start;
-    padding: 0.5rem 0;
+    padding: 0.7rem 0;
     flex-direction: column;
 
 }
