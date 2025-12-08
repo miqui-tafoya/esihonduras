@@ -10,18 +10,16 @@ class JovenesModel extends Model {
     public function getActividades() {
         $data = [
             'slides-1' => [
-                1 => 'Derechos Humanos 
-
-Cuándo escuchas hablar de Derechos humanos ¿Qué te imaginas? 
-
-Los Derechos Humanos son el conjunto de prerrogativas sustentadas en la dignidad humana, cuya realización efectiva resulta indispensable para el desarrollo integral de la persona. Este conjunto de prerrogativas se encuentra establecido dentro del orden jurídico nacional, en nuestra Constitución Política, tratados internacionales y leyes.
+                1 => '	<p>Derechos Humanos </br>
+Cuándo escuchas hablar de Derechos humanos ¿Qué te imaginas? </br>
+Los Derechos Humanos son el conjunto de prerrogativas sustentadas en la dignidad humana, cuya realización efectiva resulta indispensable para el desarrollo integral de la persona. Este conjunto de prerrogativas se encuentra establecido dentro del orden jurídico nacional, en nuestra Constitución Política, tratados internacionales y leyes.</p>
 
 ',
-                2 => 'Actividad: 
+                2 => '<p>Actividad: </br>
 
-1.- Busca lápiz y papel
-2.- Dibuja una línea y dividela en 20 espacios 
-3.- Vas a encontrar una lista de frases y cada frase tiene la cantidad de espacios que tienes que avanzar o retroceder.
+1.- Busca lápiz y papel</br>
+2.- Dibuja una línea y dividela en 20 espacios </br>
+3.- Vas a encontrar una lista de frases y cada frase tiene la cantidad de espacios que tienes que avanzar o retroceder.</p>
 ',
                 3 => '¿Comenzamos? 
 
