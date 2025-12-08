@@ -39,11 +39,11 @@ foreach ($centrosalud as $key => $value) {
 <span id="breadcrumbs">centrosdesalud</span>
 <div class="contenedor-centros">
     <div class="txt-centros">
-        <p class="centros-uno">Centros de Salud</p>
+        <p class="cabecera-uno">Centros de Salud</p>
         <p class="centros-dos">Conoce el mapa interactivo Derechos ESI, en el podrás encontrar la ubicación de
             hospitales y centros de salud que brindan servicios de salud sexual y reproductiva en Honduras.
         </p>
-        <h3><?php echo $region ?></h3>
+        <p class="cabecera-region"><?php echo $region ?></p>
     </div>
 
     <div class="grid-centros">

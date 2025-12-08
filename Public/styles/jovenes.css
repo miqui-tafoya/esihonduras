@@ -5,4 +5,146 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+}
+
+.back-color {
+  width: 100%;
+  height: 100%;
+  background-color: #f8fae9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.back-color-dos {
+  width: 100%;
+  height: 100%;
+  background-color: #fce4fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bloque-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.bloque-materiales {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0 3rem 0;
+  margin: 0 auto;
+}
+
+.grid-doble {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0 3rem 0;
+  margin: 0 auto;
+}
+
+.img-grid-doble {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.img-grid-doble img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.txt-grid-doble {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 2rem 0.5rem;
+}
+
+.dos-grid-doble {
+  font-weight: 400;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+  width: 100%;
+}
+
+.cabecera-one {
+  color: #25282a;
+  font-size: clamp(1.5rem, 1.3103rem + 3.4483vw, 2rem);
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 1rem 0;
+}
+
+.cabecera-one-dos {
+  color: #25282a;
+  font-size: clamp(1.125rem, 0.9181rem + 1.0345vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 1rem 0;
+}
+
+.cabecera-dos-faq {
+  color: #25282a;
+  font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.intro {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 3rem 0 0 0;
+  margin: 0 auto;
+}
+
+.btn-enlace {
+  display: flex;
+  padding: 1.5rem 0rem 0rem 0rem;
+}
+
+.btn-enlace a {
+  font-weight: 600;
+  color: #e74eed;
+  font-size: 0.8rem;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e74eed;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.btn-enlace a:hover {
+  color: #aa00d3;
+  border-color: #aa00d3;
+  background-color: transparent;
+}
+
+.cuerpo-texto-italic {
+  font-weight: 400;
+  color: #25282a;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+  font-style: italic;
 }/*# sourceMappingURL=jovenes.css.map */

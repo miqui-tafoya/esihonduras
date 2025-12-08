@@ -77,7 +77,7 @@
     margin-top: 15px;
     padding: 10px;
     background-color: #fff;
-    border-left: 4px solid #007bff;
+    border-left: 4px solid #e74eed;
     font-family: "Onest", sans-serif;
 }
 
@@ -239,8 +239,7 @@ button:hover {
 
 /* Listado Actividades */
 #actividad-listado {
-    margin-top: 20px;
-    padding-top: 10px;
+    padding: 1.5rem 0;
     
 }
 
@@ -289,3 +288,4 @@ button:hover {
     border: 2px solid #ff7a00;
     color: #fff;
 }
+

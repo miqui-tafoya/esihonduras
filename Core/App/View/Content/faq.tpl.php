@@ -5,7 +5,7 @@
         <!-- Inicio bloque intro -->
         <div class="bloque-intro">
             <div class="intro-faq">
-                <p class="cabecera-uno">Sabemos que puedes tener dudas, aquí te compartimos algunas respuestas</p>
+                <p class="cabecera-dos-faq">Sabemos que puedes tener dudas, aquí te compartimos algunas respuestas</p>
 
             </div>
             <div>

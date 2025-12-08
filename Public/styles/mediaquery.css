@@ -137,6 +137,9 @@
   #esi-presentation {
     width: 80%;
   }
+  .intro-faq {
+    width: 80%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {

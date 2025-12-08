@@ -9,11 +9,13 @@
 }
 
 .txt-centros {
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0rem 3rem 0rem;
+  margin: 0 auto;
+  padding: 2rem 0rem 1.2rem 0rem;
 }
 
 .centros-uno {
@@ -29,7 +31,6 @@
   font-weight: 400;
   margin-top: 1rem;
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
-  max-width: 80%;
 }
 
 .grid-centros {
@@ -130,4 +131,13 @@
   border-radius: 10px;
   pointer-events: none;
   display: inline-block;
+}
+
+.cabecera-region {
+  color: #ff7a00;
+  font-size: clamp(1.8rem, 1.3103rem + 3.4483vw, 2.3rem);
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 1.5rem 0 0 0;
 }/*# sourceMappingURL=centros.css.map */
