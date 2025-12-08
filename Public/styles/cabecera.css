@@ -157,8 +157,10 @@
   position: absolute;
   background-color: #f0e1d1;
   color: #c2984b;
+  width: 100%;
   min-width: 160px;
   margin-top: 0.5rem;
+  border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -167,14 +169,14 @@
   color: #c2984b;
   font-size: 0.8rem;
   text-decoration: none;
-  border-radius: 0 !important;
+  border-radius: 20px;
   display: block;
 }
 
 .dropdown-content a:hover {
   background-color: #c2984b;
   color: #fff;
-  border-radius: 0 !important;
+  border-radius: 20px;
 }
 
 .dropdown:hover .dropdown-content {

@@ -99,26 +99,27 @@
 
 /* Acordiones */
 .accordion {
-    background-color: #eee;
-    color: #25282a;
+    background-color: #f0e1d1;
+    color: #c2984b;
+    border: 2px solid #c2984b;
     cursor: pointer;
-    padding: 18px;
+    padding: 1rem 0.5rem;
     width: 100%;
-    border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 1.2rem;
     transition: 0.4s;
     font-family: "Onest", sans-serif;
 }
 
 .accordion.active,
 .accordion:hover {
-    background-color: #ccc;
+    background-color: #c2984b;
+    color: #fff;
 }
 
 .panel {
-    padding: 0 18px;
+    padding:1rem;
     display: none;
     background-color: white;
     overflow: hidden;
