@@ -78,7 +78,8 @@
                         <span>&#8226;</span>Anticoncepción para adolescentes<br>
                         <span>&#8226;</span>Sexo, Género, Identidad de Género<br>
                         <span>&#8226;</span>Manejo de afecto y relaciones saludables en adolescentes<br>
-                        <span>&#8226;</span>Asertividad y comunicación verbal entre adolescentes, padres/madres/tutores<br>
+                        <span>&#8226;</span>Asertividad y comunicación verbal entre adolescentes,
+                        padres/madres/tutores<br>
                         <span>&#8226;</span>favorecer autoestima en adolescentes<br>
                         <span>&#8226;</span>Acompañamiento en toma de decisiones y proyecto de vida en adolescencias
                     </p>
@@ -88,10 +89,12 @@
         <!-- Start Bloque dos -->
 
         <!-- Start actividades -->
-        <div class="container">
-            <div id="actividad-listado"></div>
-            <div id="actividad-container"></div>
-            <button id="btn-continuar-actividad" style="display:none;">Continuar</button>
+        <div class="back-color">
+            <div class="container">
+                <div id="actividad-listado" class="cabecera-dos-faq"></div>
+                <div id="actividad-container"></div>
+                <button id="btn-continuar-actividad" style="display:none;">Continuar</button>
+            </div>
         </div>
         <!-- End actividades -->
     </div>

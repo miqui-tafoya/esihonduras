@@ -1,7 +1,8 @@
 .container {
-    max-width: 800px;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
+    font-family: "Onest", sans-serif;
 }
 
 /* Casillas */
@@ -55,45 +56,51 @@
 .quiz-question {
     margin-bottom: 30px;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #ff7a00;
     border-radius: 5px;
 }
 
 .quiz-question-text {
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 10px;
+    font-family: "Onest", sans-serif;
 }
 
 .quiz-options label {
     display: block;
     margin: 10px 0;
     cursor: pointer;
+    font-family: "Onest", sans-serif;
 }
 
 .quiz-feedback {
     margin-top: 15px;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #fff;
     border-left: 4px solid #007bff;
+    font-family: "Onest", sans-serif;
 }
 
 .quiz-result {
     margin-top: 8px;
     font-weight: 600;
+    font-family: "Onest", sans-serif;
 }
 
 .quiz-result.correct {
     color: #28a745;
+    font-family: "Onest", sans-serif;
 }
 
 .quiz-result.incorrect {
     color: #dc3545;
+    font-family: "Onest", sans-serif;
 }
 
 /* Acordiones */
 .accordion {
     background-color: #eee;
-    color: #444;
+    color: #25282a;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -102,6 +109,7 @@
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+    font-family: "Onest", sans-serif;
 }
 
 .accordion.active,
@@ -212,31 +220,37 @@
 
 /* Botones */
 button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    font-family: "Onest", sans-serif;
+    font-weight: 600;
+    background-color: #e74eed;
+    color:#fff;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    font-size: 16px;
-    margin: 10px 5px;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e000e8;
 }
 
 /* Listado Actividades */
 #actividad-listado {
     margin-top: 20px;
     padding-top: 10px;
-    border-top: 1px solid #ddd;
+    
 }
 
 .actividad-listado-titulo {
-    font-weight: 600;
     margin-bottom: 8px;
-    color: #333;
+    font-family: "Onest", sans-serif;
+    color:  #25282a;
+    font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
+    font-weight: 600;
+    line-height: 1.2;
 }
 
 .actividad-listado-ul {
@@ -253,21 +267,25 @@ button:hover {
 }
 
 .actividad-listado-btn {
-    background-color: #f1f1f1;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 6px 10px;
+    font-family: "Onest", sans-serif;
+    font-weight: 600;
+   background-color: #eff1ca;
+    color:#ff7a00;
+     border: 2px solid #ff7a00;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .actividad-listado-btn:hover {
-    background-color: #e2e2e2;
+     background-color: #ff7a00; 
+     border: 2px solid #ff7a00;
+     color: #fff;
 }
 
 .actividad-listado-item.active .actividad-listado-btn {
-    background-color: #007bff;
+    background-color: #ff7a00; 
+    border: 2px solid #ff7a00;
     color: #fff;
-    border-color: #007bff;
 }
