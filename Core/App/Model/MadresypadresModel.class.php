@@ -57,7 +57,7 @@ Una capa de piel, llamada prepucio, sobrepasa el pene cubriendo al glande cuando
                 'Glándulas de Cowper' => 'También se les conoce como glándulas buibo- uretrales. Estas dos glándulas se encuentran debajo de la próstata y su función es secretar un líquido alcalino que lubrica y neutraliza la acidez de la uretra antes del paso del semen en la eyaculación y que sale a través del pene durante la excitación. Este líquido contiene espermatozoides, por lo cual la práctica de retirar el pene de la vagina antes de la eyaculación no es un método anticonceptivo efectivo.',
                 'Uretra' => 'Conducto que se inicia en el cuello de la vejiga y termina a nivel del glande en el meato urinario. Su función es doble: elimina la orina y conduce el semen en el momento de la eyaculación.',
                 'Espermatozoides' => 'Están compuestos por cabeza, cuello y cola. En la cabeza están los 23 pares de cromosomas que representan la mitad de la herencia biológica del nuevo ser. La producción de espermatozoides, que dura entre 60 y 70 días, se inicia en la pubertad y termina con la muerte. Cada eyaculación contiene aproximadamente 100 millones de espermatozoides y tiene un volumen aproximado de 3 mililitros. La vida de cada espermatozoide dentro del cuerpo de la mujer es de 3 a 7 días y se mueve a unos 14 6 16 cm por hora.',
-                'data-2' => '<h4 class="cabecera-one">¿Cuáles son los órganos sexuales femeninos?</h4>
+                'data-2' => '<p class="cabecera-one">¿Cuáles son los órganos sexuales femeninos?</p>
 <p class="cuerpo-texto p-bottom">El cambio más obvio que ocurre en la mujer al llegar a la pubertad es el desarrollo de los senos o mamas, cuya función será alimentar al bebé con la leche que producen antes y después del parto. El tamaño de los senos no tiene ninguna relación con la capacidad de producir leche. Comúnmente se han identificado como fuente de placer erótico y a menudo juegan un papel importante en la autoimagen de la mujer.</p>',
                 'Los senos' => 'están formados por seis elementos: el pezón, la areola (parte oscura que rodea el pezón), las glándulas mamarias, los conductos galactóforos (que transportan la leche desde las glándulas hasta el pezón), tejido muscular y tejido graso.',
                 'La vulva' => 'Es el conjunto de órganos y estructuras genitales externas, como son: el llamado monte de venus o monte púbico, los pliegues de piel llamados labios mayores y labios menores, el clítoris y el vestíbulo. Durante la pubertad empieza a crecer vello en algunas zonas de la vulva.',
@@ -78,32 +78,32 @@ Una capa de piel, llamada prepucio, sobrepasa el pene cubriendo al glande cuando
                 'Ovulación' => 'Es un proceso que comienza entre los 10 y 14 años y termina entre los 45 y 50. En este proceso un ovario libera un óvulo casi maduro. Si este óvulo se une con un espermatozoide se da la fecundación. Si no ocurre la fecundación, es decir, si no queda embarazada la mujer, vuelve a madurar otro óvulo aproximadamente a los 28 6 30 días. La causa de la ovulación es básicamente hormonal. Las gonadotropinas producen el crecimiento y la ruptura del folículo y estimulan al ovario para la producción de progesterona y estrógenos y para que se enriquezca el endometrio, el cual, si no hay fecundación, se desprenderá con la menstruación.'
             ],
             'slides-1' => [
-                1 => 'Menstruación 
+                1 => '	<p class="cabecera-bold">Menstruación </p>
 
-Aproximadamente cada 28 a 30 días un ovario libera un óvulo. El óvulo viaja por una de las trompas de falopio hacia el útero; al mismo tiempo, el útero empieza a fabricar un revestimiento más grueso en el endometrio, formando una capa en la que se implantará el óvulo en caso de ser fecundado. De no haber fecundación, el óvulo se desintegra y los vasos sanguíneos del revestimiento del útero se van abriendo y liberando sangre. 
+<p 	class="cuerpo-texto">Aproximadamente cada 28 a 30 días un ovario libera un óvulo. El óvulo viaja por una de las trompas de falopio hacia el útero; al mismo tiempo, el útero empieza a fabricar un revestimiento más grueso en el endometrio, formando una capa en la que se implantará el óvulo en caso de ser fecundado. De no haber fecundación, el óvulo se desintegra y los vasos sanguíneos del revestimiento del útero se van abriendo y liberando sangre. 
 Este proceso dura de 3 a 7 días. Una vez concluido, se libera un óvulo y vuelve a empezar el proceso: el endometrio engrosa, se libera un óvulo que se dirige al útero y si no es fecundado se vuelve a presentar la menstruación entre 25 y 35 días después. A este proceso se le conoce como ciclo menstrual. 
 
-El organismo de cada mujer funciona de manera particular, lo que hace que no se pueda hablar de días exactos entre una menstruación y la siguiente como tampoco de un momento particular para la ovulación. 
+El organismo de cada mujer funciona de manera particular, lo que hace que no se pueda hablar de días exactos entre una menstruación y la siguiente como tampoco de un momento particular para la ovulación. </p>
 ',
-                2 => 'Este ciclo se toman 28 como el promedio de días intermenstruales y 14 los días desde la ovulación hasta la menstruación. Por esta razón los días fértiles del ciclo aproximadamente son los 9 días comprendidos entre el día 10 y el 18 a partir del día que comienza la menstruación.
+                2 => '	<p> Este ciclo se toman 28 como el promedio de días intermenstruales y 14 los días desde la ovulación hasta la menstruación. Por esta razón los días fértiles del ciclo aproximadamente son los 9 días comprendidos entre el día 10 y el 18 a partir del día que comienza la menstruación.
  
 La menstruación puede provocar en algunas mujeres malestar (dolor en el vientre, aumento de peso, cefalea e hipersensibilidad en los senos) a lo cual los médicos denominan dismenorrea. También puede producir cambios emocionales y de conducta, lo cual se denomina Síndrome Premenstrual.
  
-Pueden aparecer irregularidades en la menstruación, sobre todo los dos primeros años a partir de que se inicia (menarquia) y los anteriores a la menopausia. Frecuentemente en esta época los períodos varían en duración (2 a 8 días) y cantidad de flujo.
+Pueden aparecer irregularidades en la menstruación, sobre todo los dos primeros años a partir de que se inicia (menarquia) y los anteriores a la menopausia. Frecuentemente en esta época los períodos varían en duración (2 a 8 días) y cantidad de flujo. </p>
  
 ',
-                3 => 'Por otro lado, puede darse la menstruación sin ovulación, lo cual es llamado ciclo anovulatorio. La menstruación comienza normalmente entre los 10 y 14 años (menarquia) aunque puede presentarse también entre los 9 y los 18. Se prolonga hasta la menopausia.
+                3 => '	<p> Por otro lado, puede darse la menstruación sin ovulación, lo cual es llamado ciclo anovulatorio. La menstruación comienza normalmente entre los 10 y 14 años (menarquia) aunque puede presentarse también entre los 9 y los 18. Se prolonga hasta la menopausia.
  
 Durante la menstruación la mujer se protege con toallas sanitarias cuya presentación varía en tamaño y forma; también es común el empleo de tampones y de algodón. Estos productos se consiguen en cualquier farmacia o tienda de autoservicio. 
-No hay ninguna actividad que se deba suspender como consecuencia de la menstruación: se puede nadar, bañar, hacer ejercicio y coito en cualquier etapa del ciclo menstrual, inclusive durante la menstruación.
+No hay ninguna actividad que se deba suspender como consecuencia de la menstruación: se puede nadar, bañar, hacer ejercicio y coito en cualquier etapa del ciclo menstrual, inclusive durante la menstruación. </p>
 '
             ],
             'slides-2' => [
-                1 => 'Fecundación, embarazo, parto y lactancia
+                1 => '	<p 	class="cabecera-bold"> Fecundación, embarazo, parto y lactancia</p>
 
-Honduras al igual que muchos países Latinoamericanos refleja un aumento en la maternidad entre adolescentes. Datos de la ENDESA indican que entre 2005-2006 y 2011-2012 el porcentaje de adolescentes que alguna vez estuvo embarazada pasó de 21.5% a 24%, lo que refleja un crecimiento de 2.5 puntos porcentuales. El mayor porcentaje de embarazos adolescentes se presenta en el área rural, en donde la cohabitación y la formación de familias se realizan de manera más temprana, lo que expone a las adolescentes a embarazos y a tener mayor número de hijos a lo largo de su vida reproductiva. 
+<p>Honduras al igual que muchos países Latinoamericanos refleja un aumento en la maternidad entre adolescentes. Datos de la ENDESA indican que entre 2005-2006 y 2011-2012 el porcentaje de adolescentes que alguna vez estuvo embarazada pasó de 21.5% a 24%, lo que refleja un crecimiento de 2.5 puntos porcentuales. El mayor porcentaje de embarazos adolescentes se presenta en el área rural, en donde la cohabitación y la formación de familias se realizan de manera más temprana, lo que expone a las adolescentes a embarazos y a tener mayor número de hijos a lo largo de su vida reproductiva. </p>
 ',
-                2 => 'La fecundación ocurre cuando un óvulo es fertilizado por un espermatozoide y se forma una nueva célula, que se implanta en la pared del útero y allí comienza a dividirse y crecer. El período de embarazo dura aproximadamente 9 meses y generalmente es resultado del coito.
+                2 => '	<p> La fecundación ocurre cuando un óvulo es fertilizado por un espermatozoide y se forma una nueva célula, que se implanta en la pared del útero y allí comienza a dividirse y crecer. El período de embarazo dura aproximadamente 9 meses y generalmente es resultado del coito.
  
 Los síntomas físicos asociados con el embarazo se pueden clasificar en tres tipos:
  
@@ -112,27 +112,27 @@ a) Signos presuntivos. Varían de mujer a mujer y aunque no son definitivos para
 b) Signos probables. Aumento del tamaño del útero y del abdomen, el cual comienza a notarse alrededor del tercer mes; también se presenta reblandecimiento del cuello del útero.
  
 c) Signos de certeza. Son tres y la presencia de cualquiera de ellos confirma el embarazo: detección de latidos del corazón del feto, movimientos notorios del feto, detección del esqueleto fetal por radiografía o ultrasonido.
-Otras formas para saber si hay un embarazo son: la exploración pélvica que puede realizarla un médico dos semanas después del retraso menstrual, el análisis de orina, el análisis de sangre y las pruebas de embarazo a realizar en casa.
+Otras formas para saber si hay un embarazo son: la exploración pélvica que puede realizarla un médico dos semanas después del retraso menstrual, el análisis de orina, el análisis de sangre y las pruebas de embarazo a realizar en casa.</p>
 ',
-                3 => 'Gestación. Normalmente el embarazo (gestación o gravidez) tiene una duración de 9 meses. Después de la fecundación, la cual ocurre en una trompa, el óvulo se implanta en el útero y comienza a desarrollarse la placenta. Ella filtra el alimento y el oxígeno que el embrión recibe a través del cordón umbilical. Asimismo, los desechos del niño pasan a la madre por el cordón. Otra función de la placenta es crear hormonas que ayudan al proceso del embarazo.
+                3 => ' 	<p> Gestación. Normalmente el embarazo (gestación o gravidez) tiene una duración de 9 meses. Después de la fecundación, la cual ocurre en una trompa, el óvulo se implanta en el útero y comienza a desarrollarse la placenta. Ella filtra el alimento y el oxígeno que el embrión recibe a través del cordón umbilical. Asimismo, los desechos del niño pasan a la madre por el cordón. Otra función de la placenta es crear hormonas que ayudan al proceso del embarazo.
  
 El saco amniótico también se forma pocos días después de la implantación. Éste rodea al embrión y se llena de un líquido que se renueva diariamente y protege al producto.
  
-Los nueve meses de la gestación se pueden dividir en tres trimestres: En el primer trimestre el embrión alcanza a medir unos 3 cm y ya tiene un corazón definido completamente; ojos, nariz, boca, orejas, manos y pies se desarrollan.
+Los nueve meses de la gestación se pueden dividir en tres trimestres: En el primer trimestre el embrión alcanza a medir unos 3 cm y ya tiene un corazón definido completamente; ojos, nariz, boca, orejas, manos y pies se desarrollan.</p>
 ',
-                4 => 'En el segundo trimestre se continúan formando estas estructuras, se forman las cejas y las pestañas y los ojos ya empiezan a abrirse y cerrarse.
+                4 => '	<p> En el segundo trimestre se continúan formando estas estructuras, se forman las cejas y las pestañas y los ojos ya empiezan a abrirse y cerrarse.
  
 El feto mueve algunos músculos, los brazos y piernas, haciendo especialmente importante esta segunda etapa para los padres pues es cuando pueden sentir verdaderamente su presencia.
  
-En el tercer trimestre el feto da vueltas y su crecimiento alcanza aproximadamente 50 cm. Sus órganos están tan desarrollados que ya pueden funcionar independientemente.
+En el tercer trimestre el feto da vueltas y su crecimiento alcanza aproximadamente 50 cm. Sus órganos están tan desarrollados que ya pueden funcionar independientemente.</p>
 ',
-                5 => 'Trabajo de parto. Éste es el proceso por medio del cual la madre expulsa el producto de la concepción. Se divide en tres fases: dilatación, expulsión o nacimiento del niño y alumbramiento o expulsión de la placenta.
+                5 => '<p> Trabajo de parto. Éste es el proceso por medio del cual la madre expulsa el producto de la concepción. Se divide en tres fases: dilatación, expulsión o nacimiento del niño y alumbramiento o expulsión de la placenta.
  
 Primera etapa. Este período empieza con las primeras contracciones y dura hasta que el cérvix o cuello del útero se dilata unos 10 cm para que pase el producto. Las primeras contracciones son cortas y suaves, separadas por intervalos de diez o veinte minutos. Conforme progresa el trabajo, las contracciones se hacen más frecuentes (cada tres o cinco minutos) y las que preceden a la dilatación completa pueden ser bastante dolorosas.
  
-Segunda etapa. La expulsión empieza con la abertura total del cérvix y finaliza con el nacimiento del niño. Las contracciones son fuertes y la presión de éstas generalmente provoca la ruptura del saco amniótico. Durante las contracciones la madre empuja con fuerza. Cuando el cérvix se abre el niño empieza a deslizarse hacia la vagina. Después de que aparece la cabeza, se gira y se acomoda para que con la siguiente contracción salgan el cuello y los hombros. En este punto el cuerpo del niño es expulsado rápidamente, e inmediatamente después sale el resto del líquido amniótico.
+Segunda etapa. La expulsión empieza con la abertura total del cérvix y finaliza con el nacimiento del niño. Las contracciones son fuertes y la presión de éstas generalmente provoca la ruptura del saco amniótico. Durante las contracciones la madre empuja con fuerza. Cuando el cérvix se abre el niño empieza a deslizarse hacia la vagina. Después de que aparece la cabeza, se gira y se acomoda para que con la siguiente contracción salgan el cuello y los hombros. En este punto el cuerpo del niño es expulsado rápidamente, e inmediatamente después sale el resto del líquido amniótico.</p>
 ',
-                6 => 'Tercera etapa. Las contracciones cesan durante un momento después que ha nacido el niño, para empezar de nuevo a intervalos regulares hasta que la placenta se separa del útero y es expulsada.
+                6 => '	<p> Tercera etapa. Las contracciones cesan durante un momento después que ha nacido el niño, para empezar de nuevo a intervalos regulares hasta que la placenta se separa del útero y es expulsada.
  
 La etapa posterior al parto se denomina puerperio. El organismo de la madre regresa al estado previo al embarazo. Este período puede durar de 4 a 5 semanas. Algunas mujeres se deprimen en este período.
  
@@ -140,7 +140,7 @@ En algunos casos se practica la cesárea que consiste en abrir el abdomen de la 
  
 Lactancia. Es el resultado de la acción de la hormona llamada prolactina, la cual estimula a las mamas para la secreción de leche. Este proceso se inicia normalmente de 24 a 48 horas después del parto.
  
-La leche materna contiene importantes elementos nutritivos y anticuerpos.
+La leche materna contiene importantes elementos nutritivos y anticuerpos.</p>
 '
             ],
             'quiz-2' => [
