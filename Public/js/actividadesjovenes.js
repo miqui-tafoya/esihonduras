@@ -18,6 +18,22 @@ const ACTIVITY_TITLES = {
     'slides-6': 'Actividad: La entrevista',
     'slides-7': 'Actividad: Yo decido',
     'accordion-2': 'Menstruación',
+    'options-3': 'Quiz: Menstruación',
+    'slides-8': 'Actividad: Diario del ciclo menstrual',
+    'slides-9': 'Métodos anticonceptivos',
+    'accordion-3': '¿Cuáles métodos anticonceptivos conoces?',
+    'accordion-4': 'Infecciones de transmisión sexual',
+    'slides-10': 'Relaciones',
+    'options-4': 'Actividad: Relaciones',
+    'accordion-5': 'Consentimiento',
+    'slides-11': 'Actividad: Memes',
+    'slides-12': 'Actividad: Guión del consentimiento',
+    'accordion-6': 'Violencias',
+    'slides-13': 'Actividad: Violencias',
+    'quiz-1': 'Quiz: Violencia',
+    'slides-14': 'Alerta con la Violencia',
+    'slides-15': 'Proyecto de Vida',
+    'slides-16': 'Actividad: Construye tu plan de vida',
 }
 function loadActivity(index) {
     $.ajax({
