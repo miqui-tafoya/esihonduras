@@ -223,8 +223,8 @@ Alternativas para ejercer la sexualidad
 '
             ],
             'accordion-2' => [
-                'data-1' => '<h4>Las infecciones de Transmisión Sexual</h4>
-                <p>Las Infecciones de Transmisión sexual  son padecimientos infectocontagiosos que se contraen generalmente por realizar el coito en condiciones de higiene inapropiadas y/o con personas ya infectadas.
+                'data-1' => '<p class="cabecera-one "> Las infecciones de Transmisión Sexual</p>
+                <p class="cuerpo-texto p-bottom">Las Infecciones de Transmisión sexual  son padecimientos infectocontagiosos que se contraen generalmente por realizar el coito en condiciones de higiene inapropiadas y/o con personas ya infectadas.
 Las adolescencias son víctimas comunes de algunas de estas enfermedades debido, entre otras razones a la falta de información verídica sobre cómo evitarlas y sobre los síntomas asociados a ellas, a los sentimientos de vergüenza o temor para acercarse a centros de salud o a personas adultas (padres, madres, maestros, médicos etc) que puedan orientarles y acompañarles adecuadamente.
 La OMS (Organización Mundial de la salud) ha clasificado como ETS los siguientes padecimientos:
 </p>',
@@ -349,8 +349,8 @@ Consecuencias: infecciones secundarias como resultado del rascado.
 Tratamiento: lavar el área infectada con una preparación insecticida que destruye los piojos adultos y sus huevos. Esto deben hacerlo ambos miembros de la pareja. Adicionalmente, se deberán mantener limpias la ropa de cama y las toallas de baño.
  Precauciones generales
 ',
-                'data-2' => '<h4>Medidas preventivas</h4>
-<p>Es importante informar al adolescente que cada vez que tenga relaciones sexuales existe riesgo de contagio de una enfermedad sexualmente transmisible. Por lo tanto, una vez que el hombre y la mujer han iniciado su vida sexual, es conveniente incorporar a su vida las siguientes medidas preventivas:</p>',
+                'data-2' => '<p class="cabecera-one ">Medidas preventivas</p>
+<p class="cuerpo-texto p-bottom">Es importante informar al adolescente que cada vez que tenga relaciones sexuales existe riesgo de contagio de una enfermedad sexualmente transmisible. Por lo tanto, una vez que el hombre y la mujer han iniciado su vida sexual, es conveniente incorporar a su vida las siguientes medidas preventivas:</p>',
                 'Medidas preventivas' => '
 Tener hábitos de higiene adecuados.
 
