@@ -140,8 +140,7 @@ La discriminación y el derecho a la no discriminación, Disponible en https://w
 <p>Esto no quiere decir que ser mujer u hombre esté mal, lo que debemos hablar es que estos estereotipos pueden perjudicar cuando se impone una sola forma de ser y esto genera violencia.
 No hay modelos fijos:</p>
 ',
-                'Identidad de género' => '',
-                'Identidad' => 'como tú en tu te sientes, piensas sobre ti. 
+                'Identidad de género' => 'como tú en tu te sientes, piensas sobre ti. 
 ¿Te sientes mujer?, ¿hombre?, ¿queer?',
                 'Orientación sexual' => 'la atracción sexual física, espiritual y emocional,  
 ¿Nos atraen sexualmente los hombres, las mujeres o ambos?',
