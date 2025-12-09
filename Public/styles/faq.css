@@ -177,7 +177,7 @@
   background-color: #f0e1d1;
   color: #25282a;
   cursor: pointer;
-  padding: 18px;
+  padding: 18px 30px;
   width: 100%;
   border: none;
   text-align: left;
@@ -212,7 +212,7 @@
 }
 
 .accordion:after {
-  font-family: "Font Awesome 6 Free";
+  font-family: "FontAwesome";
   content: "\f067";
   font-size: 1.5rem;
   color: #c2984b;
@@ -227,11 +227,10 @@
 }
 
 .active:after {
-  /* content: "➖"; */
-  font-family: "Font Awesome 6 Free";
+  font-family: "FontAwesome";
   content: "\f068";
   font-size: 1.5rem;
-  color: pink;
+  color: #f0e1d1;
   float: right;
   margin-left: 5px;
 }

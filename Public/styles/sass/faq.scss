@@ -183,7 +183,7 @@
   background-color: vars.$secundario;
   color: vars.$dark;
   cursor: pointer;
-  padding: 18px;
+  padding: 18px 30px;
   width: 100%;
   border: none;
   text-align: left;
@@ -220,7 +220,7 @@
 }
 
 .accordion:after {
-    font-family: "Font Awesome 6 Free";
+    font-family: "FontAwesome";
     content: "\f067";
     font-size: 1.5rem;
     color: vars.$primario;
@@ -234,11 +234,11 @@
 }
 
 .active:after {
-    /* content: "➖"; */
-     font-family: "Font Awesome 6 Free";
+    
+    font-family: "FontAwesome";
     content: "\f068";
     font-size: 1.5rem;
-    color: pink;
+    color: vars.$secundario;
     float: right;
     margin-left: 5px;
     
