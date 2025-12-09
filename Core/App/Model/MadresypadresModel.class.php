@@ -177,21 +177,21 @@ Si no quieres quedar embarazada, no está en tus planes de madre o padre, es imp
                 ]
             ],
             'slides-3' => [
-                1 => 'La adolescencia es una de las etapas más críticas del ser humano porque es el momento anterior a asumir una responsabilidad social adulta, por eso se dice que las adolescencias buscan su identidad, necesita responder a la pregunta, ¿quién soy?
+                1 => '<p> La adolescencia es una de las etapas más críticas del ser humano porque es el momento anterior a asumir una responsabilidad social adulta, por eso se dice que las adolescencias buscan su identidad, necesita responder a la pregunta, ¿quién soy?
 
 Una adolescencia quiere autoafirmarse, pero añora la seguridad que le brindan su mamá y papá, al mismo tiempo está descubriendo cambios en su cuerpo, está despertando a un cúmulo de sensaciones sexuales de dimensiones que desconoce. Todo este proceso se da en un contexto de una sociedad que presiona para reproducir los patrones de vida vigentes, frente a los que las adolescencias necesitan asumir una posición al respecto.
 
-Culturalmente la palabra sexualidad se reduce a la genitalidad o al acto sexual, quedando fuera otros aspectos que también están involucrados, como la forma en cómo nos vinculamos entre hombres y mujeres, la diversidad de identidades sexuales, las diferentes orientaciones sexuales, es decir hacia quienes las personas se pueden sentir atraídas, cómo establecer relaciones afectivas sanas, etc.
+Culturalmente la palabra sexualidad se reduce a la genitalidad o al acto sexual, quedando fuera otros aspectos que también están involucrados, como la forma en cómo nos vinculamos entre hombres y mujeres, la diversidad de identidades sexuales, las diferentes orientaciones sexuales, es decir hacia quienes las personas se pueden sentir atraídas, cómo establecer relaciones afectivas sanas, etc.</p>
 ',
-                2 => 'Los comportamientos sexuales y las alternativas para ejercer la sexualidad pueden ser desde cómo cada adolescente decide explorar las sensaciones de su cuerpo y autoconocerse, cómo acercarse a otra persona y compartir su sexualidad.
+                2 => '<p>Los comportamientos sexuales y las alternativas para ejercer la sexualidad pueden ser desde cómo cada adolescente decide explorar las sensaciones de su cuerpo y autoconocerse, cómo acercarse a otra persona y compartir su sexualidad.
 
 Esto puede variar mucho según la edad, la cultura específica de cada comunidad, el género, la personalidad, las creencias, las emociones, etc.
 Existen muchos mitos o creencias limitantes acerca de cómo debemos ejercer nuestra sexualidad. 
 
 Por ejemplo, que la masturbación, también conocida como autoerotismo, es mala.
-Otro ejemplo, que los hombres siempre deben estar dispuestos a la relación sexual (coito) por el hecho de ser hombres, o que todo contacto erótico debe terminar en la penetración para ser bueno.
+Otro ejemplo, que los hombres siempre deben estar dispuestos a la relación sexual (coito) por el hecho de ser hombres, o que todo contacto erótico debe terminar en la penetración para ser bueno.</p>
 ',
-                3 => '¿Cuáles conoces mitos conoces o has escuchado?
+                3 => '<p>¿Cuáles conoces mitos conoces o has escuchado?
 
 Es importante preguntarnos, 
 ¿Qué es lo que yo decido? 
@@ -200,17 +200,17 @@ Es importante preguntarnos,
 
 Es importante hablar con las adolescencias sobre consentimiento. 
 
-El consentimiento consiste en tener un acuerdo voluntario para participar en algún acto sexual o erótico.
+El consentimiento consiste en tener un acuerdo voluntario para participar en algún acto sexual o erótico.</p>
 ',
                 4 => '<iframe width="480" height="400" src="https://www.youtube.com/embed/IUxUsJ36jQA?autoplay=1&mute=1" title="YouTube" frameborder="0" allowfullscreen></iframe>',
-                5 => 'Es importante que el consentimiento ocurra en un entorno de libertad, consciencia e igualdad.
+                5 => '<p> Es importante que el consentimiento ocurra en un entorno de libertad, consciencia e igualdad.
 Las alternativas para ejercer la sexualidad también implican autoconocerse para saber que se quiere elegir y con quien, reconocer el derecho a la propia sexualidad y el placer.
 
 Normalmente la educación sexual es en torno a la salud reproductiva (anticonceptivos, embarazo, menstruación etc) que está muy bien, pero pocas veces se nos educa para el placer.
 
-Como adultos, es importante que abramos canales de comunicación sin juicios para poder acompañar y hablar de las alternativas con las adolescencias que acompañamos.
+Como adultos, es importante que abramos canales de comunicación sin juicios para poder acompañar y hablar de las alternativas con las adolescencias que acompañamos.</p>
 ',
-                6 => 'A continuación algunas preguntas que puedes explorar con tus hijos o hijas
+                6 => '	<p>A continuación algunas preguntas que puedes explorar con tus hijos o hijas
 
 Alternativas para ejercer la sexualidad
 
@@ -219,7 +219,7 @@ Alternativas para ejercer la sexualidad
 ¿Cómo puedo conocer mejor mi cuerpo y lo que siento?
 ¿Me siento lista o listo para tener experiencias eróticas con alguien más?
 ¿Siento algún temor?
-¿Qué dudas tengo?
+¿Qué dudas tengo?</p>
 '
             ],
             'accordion-2' => [

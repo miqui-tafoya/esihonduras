@@ -188,7 +188,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50%;
+    width: 20%;
     cursor: pointer;
     z-index: 2;
 }
@@ -306,4 +306,12 @@ button:hover {
 
 .cabecera-bold {
     font-weight: 600 !important;
+}
+
+iframe{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+
 }
