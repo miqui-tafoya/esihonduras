@@ -171,7 +171,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -188,21 +189,45 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 20%;
-    cursor: pointer;
+    width: 5%;
+    cursor: pointer;   
     z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .esi-slide-overlay:hover {
-    background: rgba(245, 187, 246, 0.09);
+    background: rgba(245, 187, 246, 0.3);
+    
 }
 
 .esi-left-zone {
     left: 0;
 }
 
+.esi-left-zone::after {
+    font-family: "FontAwesome";
+    content: "\f104"; 
+    font-size: 3rem;
+	color: #e74eed;
+	margin-left: 5px;
+}
+
+
 .esi-right-zone {
     right: 0;
+    
+}
+
+.esi-right-zone::before {
+    font-family: "FontAwesome";
+    content: "\f105"; 
+    font-size: 3rem;
+	color: #e74eed;
+	margin-left: 5px;
+    
 }
 
 #esi-controls {
