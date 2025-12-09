@@ -404,8 +404,8 @@ Un componente esencial en la preservación de la salud sexual es la higiene. És
                 ]
             ],
             'accordion-3' => [
-                'data-1' => '<h4>¿Por qué es un tema importante hablar del embarazo adolescente?</h4>
-                <p>El embarazo durante la adolescencia puede cambiar profundamente la vida de las y los jóvenes. No se trata solo del bebé, sino de su salud, sus estudios, su futuro y sus emociones. Consecuencias principales:</p>',
+                'data-1' => '<p class="cabecera-one">¿Por qué es un tema importante hablar del embarazo adolescente?</p>
+                <p class="cuerpo-texto p-bottom"">El embarazo durante la adolescencia puede cambiar profundamente la vida de las y los jóvenes. No se trata solo del bebé, sino de su salud, sus estudios, su futuro y sus emociones. Consecuencias principales:</p>',
                 'Salud física' => 'El cuerpo de una adolescente muchas veces no está listo para un embarazo. Esto puede causar anemia, partos prematuros o riesgos para el bebé.',
                 'Emociones' => 'Muchas jóvenes enfrentan miedo, ansiedad o tristeza. Si no tienen apoyo, pueden sufrir depresión o sentirse solas.
                 Específicamente entre los aspectos psicológicos relacionados con el embarazo en adolescentes se encuentran:
@@ -423,7 +423,7 @@ El miedo a la interrupción del embarazo.
                 'Economía' => 'Tener un bebé requiere mucho tiempo, dinero y apoyo. Muchas madres adolescentes dependen de otros y no logran ser económicamente independientes.',
                 'Vida social' => 'El embarazo adolescente aún es juzgado. Esto puede generar rechazo en la familia, la escuela o la comunidad.',
                 'El bebé también se ve afectado' => 'Puede nacer con bajo peso o tener menos acceso a atención médica y educación, si no hay apoyo familiar y del sistema de salud.',
-                'data-2' => '<p>Prevenir el embarazo adolescente no se trata de controlar a las jóvenes, sino de darles información, herramientas, apoyo y opciones.</p>',
+                'data-2' => '<p class="cuerpo-texto p-bottom">Prevenir el embarazo adolescente no se trata de controlar a las jóvenes, sino de darles información, herramientas, apoyo y opciones.</p>',
             ],
             'quiz-4' => [
                 1 => [
@@ -449,8 +449,8 @@ La elección de ser o no ser madres es una decisión personal, no debe ser resul
                 ]
             ],
             'accordion-4' => [
-                'data-1' => '<h4>Anticoncepción en Honduras</h4>
-                <p>La anticoncepción en adolescentes debe estar basada en el respeto a sus derechos sexuales y reproductivos, y adaptarse a sus necesidades físicas, emocionales y sociales. En Honduras, los servicios de salud ofrecen diferentes métodos anticonceptivos, orientación médica y materiales educativos a través de los Servicios de Salud Amigables para Adolescentes (SSAA), promovidos por la Secretaría de Salud, el Fondo de Población de las Naciones Unidas (UNFPA) y otras instituciones.</p>',
+                'data-1' => '<p class="cabecera-one">Anticoncepción en Honduras</p>
+                <p 	class="cuerpo-texto p-bottom">La anticoncepción en adolescentes debe estar basada en el respeto a sus derechos sexuales y reproductivos, y adaptarse a sus necesidades físicas, emocionales y sociales. En Honduras, los servicios de salud ofrecen diferentes métodos anticonceptivos, orientación médica y materiales educativos a través de los Servicios de Salud Amigables para Adolescentes (SSAA), promovidos por la Secretaría de Salud, el Fondo de Población de las Naciones Unidas (UNFPA) y otras instituciones.</p>',
                 'Preservativo masculino y femenino' => 'Conocido como un Método de barrera, se usa una vez y se desecha. 
 Previene embarazos y protege contra infecciones de transmisión sexual (ITS), incluido el VIH.
 
@@ -589,8 +589,8 @@ Aplicación móvil “Reproductiva” para consultas sobre salud sexual y reprod
  
 Distribución gratuita de condones, píldoras, implantes y PAE en centros públicos.
 ',
-                'data-2' => '<h4>Reflexión</h4>
-                <p>En Honduras, los adolescentes tienen derecho a recibir información clara y basada en evidencia sobre su salud sexual y reproductiva. Existen métodos anticonceptivos seguros, accesibles y legales que se pueden adaptar a sus necesidades. El acompañamiento de profesionales de salud y el respeto a su autonomía son clave para prevenir embarazos no deseados y enfermedades de transmisión sexual.</p>',
+                'data-2' => '<p class="cabecera-one">Reflexión</p>
+                <p class="cuerpo-texto p-bottom">En Honduras, los adolescentes tienen derecho a recibir información clara y basada en evidencia sobre su salud sexual y reproductiva. Existen métodos anticonceptivos seguros, accesibles y legales que se pueden adaptar a sus necesidades. El acompañamiento de profesionales de salud y el respeto a su autonomía son clave para prevenir embarazos no deseados y enfermedades de transmisión sexual.</p>',
             ],
             'quiz-5' => [
                 1 => [
@@ -704,23 +704,25 @@ Te invitamos a ver el vídeo Terminologías LGBTI de la Comisión Interamericana
                 ]
             ],
             'slides-4' => [
-                1 => 'Las relaciones afectivas y sexuales en la adolescencia son una parte natural del crecimiento.
+                1 => '	<p class="cuerpo-texto"> Las relaciones afectivas y sexuales en la adolescencia son una parte natural del crecimiento.
  
 Aprender a manejar el afecto implica entender y expresar emociones de forma sana y respetuosa, cuidando tanto a uno mismo como a la pareja.
  
 Las relaciones saludables se basan en el respeto mutuo, la comunicación abierta, la confianza y el consentimiento. Aprender a reconocer cuándo una relación es positiva o tóxica ayuda a protegerse de abusos, manipulaciones o violencia.
  
 Es importante que niñas, niños y adolescentes reciban educación emocional para construir vínculos sanos que fortalezcan su bienestar físico y mental.
-',
+</p>',
                 2 => '[imagen]',
-                3 => 'Para hablar de relaciones saludables es importante hablar sobre violencia de género en las relaciones:
+                3 => '<p class="cuerpo-texto">Para hablar de relaciones saludables es importante hablar sobre violencia de género en las relaciones:
 
 ¿Qué es violencia de género?
 
 Las Naciones Unidas nos explican que “la violencia de género se refiere a los actos dañinos dirigidos contra una persona o un grupo de personas en razón de su género. Tiene su origen en la desigualdad de género, el abuso de poder y la existencia de normas dañinas. El término se utiliza principalmente para subrayar el hecho de que las diferencias estructurales de poder basadas en el género colocan a las mujeres y niñas en situación de riesgo frente a múltiples formas de violencia. Si bien las mujeres y niñas sufren violencia de género de manera desproporcionada, los hombres y los niños también pueden ser blanco de ella” 
 
-Conoces más en La violencia de género es una de las violaciones más generalizadas de los derechos humanos en el mundo en https://unric.org/es/la-violencia-de-genero-segun-la-onu/ ',
-                4 => 'Aspectos que sustentan la violencia de género:
+Conoces más en La violencia de género es una de las violaciones más generalizadas de los derechos humanos en el mundo en
+ <span class="btn-enlace"><a href="https://unric.org/es/la-violencia-de-genero-segun-la-onu/ "target="_blank">Ir a información</a>
+                    </span></p>',
+                4 => '<p class="cuerpo-texto"> Aspectos que sustentan la violencia de género:
 
 Los valores masculinos
 La necesidad de aplicar la regla de la inversión
@@ -735,9 +737,9 @@ Exagerar la incompatibilidad
 Exaltar objetivos de triunfo y logro
 Rigidizar lealtades o deslealtades
 Minimizar los costos de las violencias
-Negar los significados y su existencia
+Negar los significados y su existencia</p>
 ',
-                5 => '¿Por qué es importante hablar sobre violencia con nuestros hijos e hijas para ayudar a que construyan relaciones saludables? ¿Por qué es importante para la educación sexual integral?
+                5 => '<p 	class="cuerpo-texto"> ¿Por qué es importante hablar sobre violencia con nuestros hijos e hijas para ayudar a que construyan relaciones saludables? ¿Por qué es importante para la educación sexual integral?
 Para que puedan identificarla si la viven.
 Para que puedan pedir ayuda si lo necesitan.
 Para que no normalicen situaciones que les hacen daño o de riesgo.
@@ -747,7 +749,7 @@ porque pueden cambiar patrones familiares o culturales.
 Porque en el ejercicio de la sexualidad es importante relacionarse sin violencia.
 Porque muchas adolescencias viven violencia en sus noviazgos o vínculos “amorosos”
 Porque estar consciente de la violencia y de nuestros derechos nos permite ser dueñas (os) de nuestros cuerpos y decisiones.
-Porque pueden tener la oportunidad que muchos padres y madres no tuvimos.
+Porque pueden tener la oportunidad que muchos padres y madres no tuvimos.</p>
 ',
             ]
         ];
