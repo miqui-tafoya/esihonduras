@@ -125,27 +125,26 @@ Disponible en:
 Todas las personas tenemos derecho a ser tratados por igual, sin importar nuestra raza, nacionanidad, clase, religión, sexo, genero, orientación sexual, identdiadd de género, edad, estado de salud. 
 </p>',
                 2 => '	<p> “La discriminación en América Central tiene lugar en diferentes vertientes. De un lado, persiste la discriminación racial contra los pueblos indígenas y los afrodescendientes, que permea las esferas públicas y privadas, incluidos los sectores de educación, salud, servicios y medios de comunicación. Por otro lado, también hay discriminación contra muchos otros colectivos, tales como las mujeres, los migrantes, los discapacitados y los GLBTT. En este marco, es importante recordar que cuando varios factores de discriminación convergen se produce una múltiple discriminación, que hace a la víctima aún más vulnerable a las violaciones de sus derechos. Así, en los casos más comunes, la discriminación se convierte en impedimento para el desarrollo personal y profesional y, en aquellos más extremos, las actitudes discriminatorias pueden resultar en atentados directos contra la libertad e integridad física de las personas, e incluso su vida” Discriminación, Naciones Unidas, <br>
-                Disponible en:<br>
+                Disponible en:
                     <span class="btn-enlace"><a href="https://www.oacnudh.org/areas-de-trabajo/discriminacion/" target="_blank">Ir a información</a></span>  
 </p>',
-                3 => '	<p> ¿Por qué hablamos de discriminación en la plataforma Derechos ESI Honduras? 
+                3 => '<p> ¿Por qué hablamos de discriminación en la plataforma Derechos ESI Honduras? 
 
 Todas las personas tenemos los mismos derechos, los derechos sexuales son derechos humanos y si se prohibe el acceso a atención medica, a metodos anticonceptivos, a información sobre embarazo, se nos niega atención médica, información acompañamiento por nuestro color de piel, por nuestra edad, todo esto es discriminación. 
 
 Nos toca a todas las personas exigir que se garanticen y reconozcan nuestros derechos. 
 </p>',
                 4 => '<p class="cabecera-bold"> Consulta </p>
-	<p> La discriminación vulnera la dignidad humana, Gaceta UNAM,<br> 
+	<p> La discriminación vulnera la dignidad humana, Gaceta UNAM, 
     Disponible en: 
     <span class="btn-enlace"><a href="https://www.gaceta.unam.mx/la-discriminacion-vulnera-la-dignidad-humana/" target="_blank">Ir a información</a></span>
      
-Discriminación, Naciones Unidas,<br> 
-Disponible en:<br>
+Discriminación, Naciones Unidas,
+Disponible en:
 <span class="btn-enlace"><a href=" https://www.oacnudh.org/areas-de-trabajo/discriminacion/" target="_blank">Ir a información</a></span>
  
-
-La discriminación y el derecho a la no discriminación, <br>
-Disponible en:<br>
+La discriminación y el derecho a la no discriminación,
+Disponible en:
 <span class="btn-enlace"><a href="https://www.cndh.org.mx/sites/all/doc/cartillas/2015-2016/43-discriminacion-dh.pdf" target="_blank">Ir a información</a></span>
  
 </p>'],
