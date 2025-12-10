@@ -10,8 +10,8 @@ class JovenesModel extends Model {
     public function getActividades() {
         $data = [
             'slides-1' => [
-                1 => '<p>Derechos Humanos </br>
-Cuándo escuchas hablar de Derechos humanos ¿Qué te imaginas? </br>
+                1 => '<p class="cabecera-bold"> Derechos Humanos </p>
+<p >Cuándo escuchas hablar de Derechos humanos ¿Qué te imaginas? </br>
 Los Derechos Humanos son el conjunto de prerrogativas sustentadas en la dignidad humana, cuya realización efectiva resulta indispensable para el desarrollo integral de la persona. Este conjunto de prerrogativas se encuentra establecido dentro del orden jurídico nacional, en nuestra Constitución Política, tratados internacionales y leyes.</p>
 
 ',
@@ -21,8 +21,8 @@ Los Derechos Humanos son el conjunto de prerrogativas sustentadas en la dignidad
 2.- Dibuja una línea y dividela en 20 espacios </br>
 3.- Vas a encontrar una lista de frases y cada frase tiene la cantidad de espacios que tienes que avanzar o retroceder.</p>
 ',
-                3 => '¿Comenzamos? 
-
+                3 => '	<p class="cabecera-bold"> ¿Comenzamos? </p>
+	<p> 
 1.- Avanza un espacio si eres mujer
 2.- Avanza dos espacios  si eres hombre
 3.-Avanza un espacio si eres heterosexual
@@ -42,22 +42,24 @@ Los Derechos Humanos son el conjunto de prerrogativas sustentadas en la dignidad
 17.- Avanza dos espacio si tienes maestría
 18.- Avanza un espacio si tienes licenciatura
 19.-Retrocede un espacio si tienes hijas e hijos menores de 5 años
-20.- Retrocede un espacio si tienes alguna discapacidad
+20.- Retrocede un espacio si tienes alguna discapacidad</p>
 ',
-                4 => 'Observa la línea que dibujaste, ¿en qué parte de la línea te quedaste? 
+                4 => '<p> Observa la línea que dibujaste, ¿en qué parte de la línea te quedaste? 
 Los derechos de las personas no se pueden medir como una línea de espacios, todas las personas tenemos derechos y se deben reconocer y garantizar sin distinción alguna de nacionalidad, lugar de residencia, sexo, origen nacional o étnico, color, religión, lengua, o cualquier otra condición. Todas y todos tenemos los mismos derechos humanos, sin discriminación alguna. Estos derechos son interrelacionados, interdependientes e indivisibles.
 La Declaración Universal de Derechos Humanos en su artículo 1 dice “Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros”
 
-Los derechos humanos = la dignidad que todas las personas tenemos 
+Los derechos humanos = la dignidad que todas las personas tenemos </p>
 ',
-                5 => '¿Sabes qué dice el artículo 59 y 60 de la Constitución de Honduras? 
+                5 => '<p>¿Sabes qué dice el artículo 59 y 60 de la Constitución de Honduras? 
 ARTÍCULO 59.- La persona humana es el fin supremo de la sociedad y del Estado. Todos tienen la obligación de respetarla y protegerla. La dignidad del ser humano es inviolable. Para garantizar los derechos y libertades reconocidos en esta Constitución, créase la Institución del Comisionado Nacional de los Derechos Humanos. La organización, prerrogativa y atribuciones del Comisionado Nacional de los Derechos Humanos será objeto de una ley especial.
 ARTÍCULO 60.- Todos los hombres nacen libres e iguales en derechos. En Honduras no hay clases privilegiadas. Todos los hondureños son iguales ante la Ley.
 
 ¿Los conocías? 
 
 Consulta: 
-Naciones Unidas Derechos Humanos, oficina del alto Comisionado, Honduras, ¿En qué consisten los derechos humanos?, disponible en: https://oacnudh.hn/derechos-humanos-2/
+Naciones Unidas Derechos Humanos, oficina del alto Comisionado, Honduras, ¿En qué consisten los derechos humanos?, disponible en:
+<span class="btn-enlace"><a href="https://oacnudh.hn/derechos-humanos-2/"target="_blank">Ir a información</a></span></p>
+
 ',
             ],
             'casillas-1' => [

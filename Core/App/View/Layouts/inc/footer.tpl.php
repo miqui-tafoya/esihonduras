@@ -21,7 +21,7 @@
     <div class="info-footer">
         <div class="uno-info-footer">
             <p> ESI Honduras - 2025</p>
-                <div class="btn-enlace"> <a href="login" target="_blank">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></div>
+                <div class="btn-login"> <a href="login">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></div>
                 
         </div>
         <div class="dos-info-footer">

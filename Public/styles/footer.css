@@ -143,11 +143,12 @@
   font-weight: 400;
 }
 
-.btn-enlace {
+.btn-login {
   display: flex;
+  margin: 0.5rem 0 0 0;
 }
 
-.btn-enlace a {
+.btn-login a {
   font-weight: 600;
   color: #ff7a00;
   font-size: 0.8rem;
@@ -157,15 +158,14 @@
   border-bottom-width: 3px;
   border-bottom-color: #ff7a00;
   padding: 0.1rem 0.1rem;
-  cursor: pointer;
 }
 
-.btn-enlace a:hover {
+.btn-login a:hover {
   color: #ffa710;
   border-color: #ffa710;
   background-color: transparent;
 }
 
-.btn-enlace a i {
-  margin: 0 0 0 0.5rem;
+.btn-login a i {
+  margin: 0 0 0 0.3rem;
 }/*# sourceMappingURL=footer.css.map */
