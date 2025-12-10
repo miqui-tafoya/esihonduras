@@ -63,13 +63,13 @@ Naciones Unidas Derechos Humanos, oficina del alto Comisionado, Honduras, ¿En q
 ',
             ],
             'casillas-1' => [
-                'data-1' => 'Discriminación
+                'data-1' => '<p class="cuerpo-texto cabecera-bold p-bottom" >Discriminación</p>
 
-Lee la siguiente frase: 
+	<p class="cuerpo-texto p-bottom"> Lee la siguiente frase: 
 
-La discriminación vulnera la dignidad humana 
+La discriminación vulnera la dignidad humana <br>
 
-Piensa en la frase que acabas y realiza la siguiente actividad',
+Piensa en la frase que acabas y realiza la siguiente actividad </p>',
                 1 => [
                     'q' => '<p>¡Se trataba de mejorar la raza, no de empeorarla!</p>',
                     '1' => 'Lo he escuchado',
@@ -117,25 +117,38 @@ Piensa en la frase que acabas y realiza la siguiente actividad',
                 ],
             ],
             'slides-2' => [
-                1 => 'Todas las frases que leíste en el ejercicio hacen referencia a la discriminación. La discrimianción afecta directamente los derechos de las personas por simplemente ser, por como se ve, por sus creencias.
-“La discriminación tiene lugar cuando una persona no puede disfrutar de sus derechos humanos o de otros derechos legales en condiciones de igualdad con otras personas debido a una distinción injustificada” Discriminación, Amnistía Internacional, disponible en: https://www.amnesty.org/es/what-we-do/discrimination/ 
-
+                1 => '	<p> Todas las frases que leíste en el ejercicio hacen referencia a la discriminación. La discrimianción afecta directamente los derechos de las personas por simplemente ser, por como se ve, por sus creencias.
+“La discriminación tiene lugar cuando una persona no puede disfrutar de sus derechos humanos o de otros derechos legales en condiciones de igualdad con otras personas debido a una distinción injustificada” Discriminación, Amnistía Internacional,<br> 
+Disponible en:
+<span class="btn-enlace"><a href="https://www.amnesty.org/es/what-we-do/discrimination/" target="_blank">Ir a información</a></span>
+ 
 Todas las personas tenemos derecho a ser tratados por igual, sin importar nuestra raza, nacionanidad, clase, religión, sexo, genero, orientación sexual, identdiadd de género, edad, estado de salud. 
-',
-                2 => '“La discriminación en América Central tiene lugar en diferentes vertientes. De un lado, persiste la discriminación racial contra los pueblos indígenas y los afrodescendientes, que permea las esferas públicas y privadas, incluidos los sectores de educación, salud, servicios y medios de comunicación. Por otro lado, también hay discriminación contra muchos otros colectivos, tales como las mujeres, los migrantes, los discapacitados y los GLBTT. En este marco, es importante recordar que cuando varios factores de discriminación convergen se produce una múltiple discriminación, que hace a la víctima aún más vulnerable a las violaciones de sus derechos. Así, en los casos más comunes, la discriminación se convierte en impedimento para el desarrollo personal y profesional y, en aquellos más extremos, las actitudes discriminatorias pueden resultar en atentados directos contra la libertad e integridad física de las personas, e incluso su vida” Discriminación, Naciones Unidas, Disponible en: https://www.oacnudh.org/areas-de-trabajo/discriminacion/ 
-',
-                3 => '¿Por qué hablamos de discriminación en la plataforma Derechos ESI Honduras? 
+</p>',
+                2 => '	<p> “La discriminación en América Central tiene lugar en diferentes vertientes. De un lado, persiste la discriminación racial contra los pueblos indígenas y los afrodescendientes, que permea las esferas públicas y privadas, incluidos los sectores de educación, salud, servicios y medios de comunicación. Por otro lado, también hay discriminación contra muchos otros colectivos, tales como las mujeres, los migrantes, los discapacitados y los GLBTT. En este marco, es importante recordar que cuando varios factores de discriminación convergen se produce una múltiple discriminación, que hace a la víctima aún más vulnerable a las violaciones de sus derechos. Así, en los casos más comunes, la discriminación se convierte en impedimento para el desarrollo personal y profesional y, en aquellos más extremos, las actitudes discriminatorias pueden resultar en atentados directos contra la libertad e integridad física de las personas, e incluso su vida” Discriminación, Naciones Unidas, <br>
+                Disponible en:<br>
+                    <span class="btn-enlace"><a href="https://www.oacnudh.org/areas-de-trabajo/discriminacion/" target="_blank">Ir a información</a></span>  
+</p>',
+                3 => '	<p> ¿Por qué hablamos de discriminación en la plataforma Derechos ESI Honduras? 
 
 Todas las personas tenemos los mismos derechos, los derechos sexuales son derechos humanos y si se prohibe el acceso a atención medica, a metodos anticonceptivos, a información sobre embarazo, se nos niega atención médica, información acompañamiento por nuestro color de piel, por nuestra edad, todo esto es discriminación. 
 
 Nos toca a todas las personas exigir que se garanticen y reconozcan nuestros derechos. 
-',
-                4 => 'Consulta 
-La discriminación vulnera la dignidad humana, Gaceta UNAM, Disponible en https://www.gaceta.unam.mx/la-discriminacion-vulnera-la-dignidad-humana/
-Discriminación, Naciones Unidas, Disponible en: https://www.oacnudh.org/areas-de-trabajo/discriminacion/ 
+</p>',
+                4 => '<p class="cabecera-bold"> Consulta </p>
+	<p> La discriminación vulnera la dignidad humana, Gaceta UNAM,<br> 
+    Disponible en: 
+    <span class="btn-enlace"><a href="https://www.gaceta.unam.mx/la-discriminacion-vulnera-la-dignidad-humana/" target="_blank">Ir a información</a></span>
+     
+Discriminación, Naciones Unidas,<br> 
+Disponible en:<br>
+<span class="btn-enlace"><a href=" https://www.oacnudh.org/areas-de-trabajo/discriminacion/" target="_blank">Ir a información</a></span>
+ 
 
-La discriminación y el derecho a la no discriminación, Disponible en https://www.cndh.org.mx/sites/all/doc/cartillas/2015-2016/43-discriminacion-dh.pdf 
-'],
+La discriminación y el derecho a la no discriminación, <br>
+Disponible en:<br>
+<span class="btn-enlace"><a href="https://www.cndh.org.mx/sites/all/doc/cartillas/2015-2016/43-discriminacion-dh.pdf" target="_blank">Ir a información</a></span>
+ 
+</p>'],
             'accordion-1' => [
                 'data-1' => '<h4>¿Qué es la diversidad?</h4><p>Hablar de diversidad sexual no debería ser incómodo. Todas las personas merecen los mismos derechos, vivir una vida libre de violencia, sin discriminacón, acoso y eso incluye a las personas LGBTIQ+.<br>Lamentablemente…<br>Las personas LGBTIQ+ son discriminadas en la escuela, en sus familias, en sus centros laborales, esta discriminació también se ve como violencia física llegando al extremo del asesinato.<br>Para hablar de diversidad sexual, tenemos que hablar primero de estereotipos de género. Los estereotipos de género es una visión general y única que se hace sobre las mujeres y los hombres.<br>Imaginemos que los estereotipos son archiveros enormes donde se clasifican a las mujeres y a los hombres por el papel que deben de hacer según la sociedad.</p>
 <table><thead><tr><th>Mujeres</th><th>Hombres</th></tr></thead><tbody><tr><td>Las niñas juegan con muñecas</td><td>Los hombres no lloran</td></tr><tr><td>Las mujeres son sensibles y delicadas</td><td>Los hombres deben ser fuertes</td></tr><tr><td>Las mujeres son débiles</td><td>Los niños juegan a las luchas</td></tr><tr><td>Las mujeres cocinan</td><td>Los hombres son toscos</td></tr><tr><td>Las mujeres solo pueden ser madres</td><td>Los hombres no deben cuidar</td></tr></tbody></table>
