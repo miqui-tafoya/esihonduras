@@ -47,8 +47,9 @@
  
 .uno-info-footer {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     padding: 1rem 0rem;
@@ -146,3 +147,30 @@
     font-weight: 400;
 }
 
+.btn-enlace{
+    display: flex;
+}
+
+.btn-enlace a{
+    font-weight: 600;
+    color:vars.$com-dos;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    background-color:transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: vars.$com-dos;
+    padding: 0.1rem 0.1rem;
+    cursor: pointer;
+   
+}
+
+.btn-enlace a:hover{
+    color:vars.$com-dos800;
+    border-color:vars.$com-dos800;
+    background-color:transparent;
+}
+
+.btn-enlace a i{
+    margin: 0 0 0 0.5rem;
+}

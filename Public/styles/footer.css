@@ -45,8 +45,9 @@
 
 .uno-info-footer {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   padding: 1rem 0rem;
@@ -140,4 +141,31 @@
   padding: 0rem 0rem 0.3rem 0rem;
   color: #25282a;
   font-weight: 400;
+}
+
+.btn-enlace {
+  display: flex;
+}
+
+.btn-enlace a {
+  font-weight: 600;
+  color: #ff7a00;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #ff7a00;
+  padding: 0.1rem 0.1rem;
+  cursor: pointer;
+}
+
+.btn-enlace a:hover {
+  color: #ffa710;
+  border-color: #ffa710;
+  background-color: transparent;
+}
+
+.btn-enlace a i {
+  margin: 0 0 0 0.5rem;
 }/*# sourceMappingURL=footer.css.map */
