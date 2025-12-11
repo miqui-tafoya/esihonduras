@@ -262,62 +262,57 @@ Disponible en:
 </p>'
             ],
             'slides-4' => [
-                1 => '¿Conoces qué son los derechos sexuales y reproductivos?
+                1 => '<p class="cabecera-bold" > ¿Conoces qué son los derechos sexuales y reproductivos?</p>
 
 
-¿Es lo mismo sexo, salud sexual, sexualidad y derechos sexuales?
+	<p> ¿Es lo mismo sexo, salud sexual, sexualidad y derechos sexuales?
 
 Para que exista uno, deben existir los demás.
 El sexo son las características biológicas que nos definen y diferencian como mujeres u hombres.
-La Organización Mundial de la Salud señala: Aunque estos conjuntos de características biológicas no son excluyentes entre sí, ya que hay personas que poseen características de ambos conjuntos, estos tienden a diferenciar a los seres humanos como hombres o mujeres.En el uso general de muchos idiomas, el término «sexo» significa «actividad sexual», pero a los fines técnicos, en el contexto de las deliberaciones sobre sexualidad y salud sexual, se prefiere la definición precedente.',
-                2 => 'La salud sexual hace referencia al estado de bienestar físico, mental y social en relación con la sexualidad.
+La Organización Mundial de la Salud señala: Aunque estos conjuntos de características biológicas no son excluyentes entre sí, ya que hay personas que poseen características de ambos conjuntos, estos tienden a diferenciar a los seres humanos como hombres o mujeres.En el uso general de muchos idiomas, el término «sexo» significa «actividad sexual», pero a los fines técnicos, en el contexto de las deliberaciones sobre sexualidad y salud sexual, se prefiere la definición precedente.</p>',
+                2 => '	<p> La salud sexual hace referencia al estado de bienestar físico, mental y social en relación con la sexualidad.
 
 La Organización Mundial de la Salud señala: La salud sexual requiere un enfoque positivo y respetuoso de la sexualidad y de las relaciones sexuales, así como la posibilidad de tener experiencias sexuales placenteras y seguras, libres de toda coacción, discriminación y violencia. Para que la salud sexual se logre y se mantenga, los derechos sexuales de todas las personas deben ser respetados, protegidos y ejercidos a plenitud.
 
-Entonces ¿dónde queda la sexualidad? 
+Entonces ¿dónde queda la sexualidad? </p>
 ',
-                3 => 'La sexualidad es parte importante pero debe considerarse en un sentido amplio, no como un elemento solitario:
+                3 => '	<p>La sexualidad es parte importante pero debe considerarse en un sentido amplio, no como un elemento solitario:
 
 ¿Qué nos dice la Organización Mundial de la Salud?, “la salud sexual no se puede definir, comprender ni poner en práctica si no se considera la sexualidad en sentido amplio, como un elemento subyacente de importantes comportamientos y resultados relativos a la salud sexual. Según la definición de trabajo, la sexualidad es:
 «...un aspecto central del ser humano, presente a lo largo de su vida. Abarca al sexo, las identidades y los papeles de género, el erotismo, el placer, la intimidad, la reproducción y la orientación sexual. Se vivencia y se expresa a través de pensamientos, fantasías, deseos, creencias, actitudes, valores, conductas, prácticas, papeles y relaciones interpersonales. La sexualidad puede incluir todas estas dimensiones, no obstante, no todas ellas se vivencian o se expresan siempre. La sexualidad está influida por la interacción de factores biológicos, psicológicos, sociales, económicos, políticos, culturales, éticos, legales, históricos, religiosos y espirituales »”
-',
-                4 => 'Y llegamos a los derechos sexuales, la salud sexual no se puede alcanzar y lograr sin el respeto y la protección de los derechos humanos.
+ </p>',
+                4 => '	<p> Y llegamos a los derechos sexuales, la salud sexual no se puede alcanzar y lograr sin el respeto y la protección de los derechos humanos.
 “Los derechos sexuales constituyen la aplicación de los derechos humanos existentes a la sexualidad y a la salud sexual. Protegen el derecho de todas las personas a satisfacer y expresar su sexualidad y a disfrutar de la salud sexual, con el debido respeto por los derechos de los demás, dentro de un marco de protección frente a la discriminación»”
-',
-                5 => '¿Qué dicen los datos sobre la educación sexual integral? 
+</p>',
+                5 => '	<p>¿Qué dicen los datos sobre la educación sexual integral? 
 La educación sexual tiene efectos positivos, como el reforzamiento de los conocimientos de los jóvenes y la mejora de sus actitudes en relación con la salud y los comportamientos sexuales y reproductivos.
-
 
 La educación sexual hace que los educandos retrasen la edad de su iniciación sexual, aumenten el uso de los preservativos y otros anticonceptivos cuando son sexualmente activos, aumenten sus conocimientos sobre su propio cuerpo y sus relaciones, disminuyan la toma de riesgos y reduzcan la frecuencia de las relaciones sexuales sin protección.
 
-
 La educación sexual integral tiene cinco veces más probabilidades de éxito en la prevención de embarazos no deseados y enfermedades de transmisión sexual cuando presta atención explícita a los temas de género y poder.
 
-
-Información retomada de: Educación integral en sexualidad: Para educandos sanos, informados y empoderados, disponible en https://www.unesco.org/es/health-education/cse ',
-                6 => '¿Qué ideas debemos evitar respecto a la educación integral en sexualidad?
+Información retomada de: Educación integral en sexualidad: Para educandos sanos, informados y empoderados, 
+Disponible en 
+<span class="btn-enlace"><a href="https://www.unesco.org/es/health-education/cse" target="_blank">Ir a información</a></span>
+ </p>',
+                6 => '<p> ¿Qué ideas debemos evitar respecto a la educación integral en sexualidad?
 
 La educación integral en sexualidad no sólo es hablar de sexo, ni debe ser un tabú que sólo se habla en la intimidad de cada familia o incluso en ocasiones no se habla de ello.
 
-
 Esta educación no interfiere con los valores y educación que cada familia proporciona a sus hijas e hijos, no vulnera su inocencia, ni estimula la iniciación sexual temprana.
-
 
 Dar información sobre métodos antifecundativos a las y los adolescentes, no es fomentar que los usen. Las niñas, niños y adolescentes informados sobre educación integral en sexualidad no son cada vez más precoces y sexualmente irresponsables.
 
-
 Creer que la educación integral en sexualidad no es prioritaria en la currícula educativa contribuye de manera negativa al desempeño de las y los estudiantes.
-
 
 Creer que las adolescentes que se embarazan sin planearlo, es porque fueron irresponsables o no se cuidaron.
 
-
 No todas las mujeres que se embarazan finalmente acaban deseando la maternidad y aceptando el embarazo.
-'
+</p>'
             ],
             'options-2' => [
-                'data-1' => 'Identifica la red flag (bandera roja) de cada situación 
-¿Qué es una red flag?, es una señal de alerta. 
+                'data-1' => '<p class="p-bottom"> Identifica la red flag (bandera roja) de cada situación 
+¿Qué es una red flag?, es una señal de alerta. </p>
 ',
                 1 => [
                     'q' => '<p>La falta de empatía</p>',
@@ -366,41 +361,43 @@ La prevención es responsabilidad de ambas personas.'
                 ],
             ],
             'slides-5' => [
-                1 => '“Cada 20 segundos 1 adolescente se convierte en madre” UNFPA en América Latina y el Caribe 
+                1 => '<p> “Cada 20 segundos 1 adolescente se convierte en madre” UNFPA en América Latina y el Caribe 
 “Cada año, unos 21 millones de chicas de entre 15 y 19 años se quedan embarazadas en las regiones en desarrollo y aproximadamente 12 millones de ellas dan a luz” Sully EA, Biddlecom A, Daroch J, Riley T, Ashford L, Lince-Deroche N et al., Adding It Up: Investing in Sexual and Reproductive Health 2019. Nueva York: Guttmacher Institute; 2020.
 “La encuesta de Salud Escolar realizada en el 2014 reportó que un 24% de adolescentes eran madres o estaban embarazadas al momento de realizar la encuesta, oscilando entre 19.2% en áreas urbanas y 29.3% en áreas rurales; en tanto que por quintil de riqueza, la distribución es de 10.8% en el quintil superior y de 35.4% en el quintil inferior. La última ENDESA reporta que un 3.6% de la población menor de 15 años ha dado a luz alguna vez y un 2.7% estaban embarazadas; 12 lo que legalmente se constituye en un delito, por considerarse producto de abuso sexual”
-Los embarazos tempranos se pueden prevenir si brindamos información para decidir 
+Los embarazos tempranos se pueden prevenir si brindamos información para decidir </p>
 ',
-                2 => '¿Tener una hija o hijo es un riesgo?, ¿un problema?, claro que no, pero si es un riesgo para tu salud, desarrollo, bienestar tener una hija o hijo siendo adolescente. 
+                2 => '	<p> ¿Tener una hija o hijo es un riesgo?, ¿un problema?, claro que no, pero si es un riesgo para tu salud, desarrollo, bienestar tener una hija o hijo siendo adolescente. 
 “El riesgo de quedar embarazada durante la adolescencia afecta desproporcionadamente a las chicas indígenas, afrodescendientes, de zonas rurales o remotas y de comunidades con bajos ingresos. Por ejemplo, las adolescentes afrodescendientes tienen un 50% más de probabilidades de ser madres que sus pares no afrodescendientes.
 En las comunidades más dejadas atrás, los tabúes, silencios y normas sociales dificultan a las adolescentes recibir educación integral de la sexualidad, servicios de salud culturalmente pertinentes y opciones para hacer realidad sus proyectos de vida”  UNFPA en América Latina y el Caribe 
-',
-                3 => 'Te invitamos a ver el vídeo 
+</p>',
+                3 => '	<p> Te invitamos a ver el vídeo </p>
 <iframe width="480" height="400" src="https://www.youtube.com/embed/yubGD6f8Vps?autoplay=1&mute=1" title="YouTube" frameborder="0" allowfullscreen></iframe>',
-                4 => 'Seguramente te han dicho que la maternidad en la adolescencia afecta la salud física-reproductiva y mental de las mujeres jóvenes, el ritmo y la dirección del desarrollo de un país. La maternidad temprana obstaculiza las perspectivas educativas de una mujer joven, aminora su autonomía social y económica de largo plazo, y compromete tanto su salud como la de su recién nacido.',
-                5 => 'La prevención del embarazo en adolescentes incluye acciones en el área de salud sexual y reproductiva, pero no se limita solamente a ellas, sino que requiere de un abordaje integral y multisectorial en el que se incorporen acciones orientadas a fortalecer la equidad de género, erradicar la violencia de género y la violencia sexual, mejorar el nivel educativo de la población, especialmente de las mujeres y crear oportunidades de generación de ingresos para jóvenes y adolescentes.
+                4 => '	<p> Seguramente te han dicho que la maternidad en la adolescencia afecta la salud física-reproductiva y mental de las mujeres jóvenes, el ritmo y la dirección del desarrollo de un país. La maternidad temprana obstaculiza las perspectivas educativas de una mujer joven, aminora su autonomía social y económica de largo plazo, y compromete tanto su salud como la de su recién nacido.</p>',
+                5 => '	<p> La prevención del embarazo en adolescentes incluye acciones en el área de salud sexual y reproductiva, pero no se limita solamente a ellas, sino que requiere de un abordaje integral y multisectorial en el que se incorporen acciones orientadas a fortalecer la equidad de género, erradicar la violencia de género y la violencia sexual, mejorar el nivel educativo de la población, especialmente de las mujeres y crear oportunidades de generación de ingresos para jóvenes y adolescentes.
 La educación, la información, el acceso al derecho a la salud son las herramientas para elegir
 
-
-GAIE, para que cada persona joven alcance su pleno desarrollo https://youtu.be/d5_g_xRMAmU ',
+GAIE, para que cada persona joven alcance su pleno desarrollo:
+<span class="btn-enlace"><a href=" https://youtu.be/d5_g_xRMAmU  " target="_blank">Ir a información</a></span></p>
+',
             ],
             'slides-6' => [
-                1 => '1.-Busca a una persona adulta de tu familia que tenga hijas o hijos con quien puedas platicar.
-2.- Toma laìz y papel y realiza la siguiente entrevista. Las siguientes preguntas te ayudarán a guiar la conversación. 
+                1 => '<p> 1.-Busca a una persona adulta de tu familia que tenga hijas o hijos con quien puedas platicar.
+2.- Toma lapíz y papel y realiza la siguiente entrevista. Las siguientes preguntas te ayudarán a guiar la conversación. 
 1.- Cuándo tenías mi edad, ¿qué tipo de información te daban sobre educación sexual?
 2.- ¿Alguien te habló del embarazo y tener hijas e hijos?
 3.- ¿Cuáles han sido los retos de ser madre o padre?
 4.- ¿Te hubiera gustado tener más información cuando tenías mi edad?
 Invita a la persona adulta a consultar el bloque de información para Madres y Padres. 
 3.- Agradece a la persona que ha respondido tus preguntas
-4.- Lee las respuestas que la persona entrevistada te dio y reflexiona: 
+4.- Lee las respuestas que la persona entrevistada te dio y reflexiona:
+
 ¿Qué información tienes ahora que antes no había? 
 ¿En este momento tienes la posibilidad económica, la salud, la información suficiente para ser madre o padre?
 ¿Qué información necesitas o te hace falta?, no te preocupes, continua en este sitio web, tenemos más información para ti.
-'
+</p>'
             ],
             'slides-7' => [
-                1 => 'Planificar es importante y la clave para decidir, debes tener toda la información para poder decidir, nadie puede obligarte a tener relaciones sexuales si tu no quieres y no estas deacuerdo. 
+                1 => '	<p> Planificar es importante y la clave para decidir, debes tener toda la información para poder decidir, nadie puede obligarte a tener relaciones sexuales si tu no quieres y no estas deacuerdo. 
 
 ¿Te gustaría casarte? 
 ¿A qué edad? 
@@ -408,19 +405,32 @@ Invita a la persona adulta a consultar el bloque de información para Madres y P
 Hoy ¿tienes lo necesario para garantizar el bienestar de tus hijas e hijos?
 ¿Crees que no es momento para tener hijas o hijos?, está bien, no hay prisa. Tu sabrás cuando es el momento.
 Por eso para decidir debes tener toda la información para tomar una decisión pero también debes de preguntarte que quieres., continua en este sitio web DerechosESI donde tendrás información sobre métodos anticonceptivos y enfermedades de transmisión sexual.
-',
-                2 => 'Consulta 
-Embarazo Adolescente, UNFPA en América Latina y el Caribe, disponible en: https://lac.unfpa.org/es/topics/embarazo-en-adolescentes 
+</p>',
+                2 => '	<p> Consulta 
+Embarazo Adolescente, UNFPA en América Latina y el Caribe, 
+Disponible en:
+<span class="btn-enlace"><a href="https://lac.unfpa.org/es/topics/embarazo-en-adolescentes " target="_blank">Ir a información</a></span> 
 
+Maternidad temprana y redes de afectos: ¿Quiénes cuidan a las niñas que cuidan?, 
+Disponible en:
+<span class="btn-enlace"><a href="https://lac.unfpa.org/es/news/maternidad-temprana-redes-de-afectos-cuidar-ninas-que-cuidan" target="_blank">Ir a información</a></span>
+ 
+Anahí recibe información útil para planificar su futuro como parte de un proyecto destinado a reducir los embarazos en adolescentes, 
+Disponible en:
+<span class="btn-enlace"><a href="https://lac.unfpa.org/es/news/anahi-recibe-informacion-para-planificar-su-futuro-proyecto-reduccion-embarazos-en-adolescentes" target="_blank">Ir a información</a></span>
+ 
+Embarazo en adolescentes en América Latina y el Caribe: En busca de justicia reproductiva para mujeres y niñas afrodescendientes, 
+Disponible en:
+<span class="btn-enlace"><a href="https://lac.unfpa.org/es/news/embarazo-en-adolescentes-buscando-justicia-reproductiva-afrodescendientes " target="_blank">Ir a información</a></span>
 
-Maternidad temprana y redes de afectos: ¿quiénes cuidan a las niñas que cuidan?, disponible en https://lac.unfpa.org/es/news/maternidad-temprana-redes-de-afectos-cuidar-ninas-que-cuidan 
-Anahí recibe información útil para planificar su futuro como parte de un proyecto destinado a reducir los embarazos en adolescentes, disponible en https://lac.unfpa.org/es/news/anahi-recibe-informacion-para-planificar-su-futuro-proyecto-reduccion-embarazos-en-adolescentes 
-Embarazo en adolescentes en América Latina y el Caribe: En busca de justicia reproductiva para mujeres y niñas afrodescendientes, disponible en https://lac.unfpa.org/es/news/embarazo-en-adolescentes-buscando-justicia-reproductiva-afrodescendientes 
-La prevención del embarazo no intencional está mejorando la vida de las adolescentes en Bolivia, disponible en https://lac.unfpa.org/es/news/prevencion-embarazo-no-intencional-bolivia
-'
+La prevención del embarazo no intencional está mejorando la vida de las adolescentes en Bolivia, 
+Disponible en:
+<span class="btn-enlace"><a href="https://lac.unfpa.org/es/news/prevencion-embarazo-no-intencional-bolivia" target="_blank">Ir a información</a></span>
+
+</p>'
             ],
             'accordion-2' => [
-                'data-1' => '¿Ya llegó Andres? 
+                'data-1' => '<p class="p-bottom"> ¿Ya llegó Andres? 
 Estoy en mis lunas
 Ya me bajo
 Anda en sus días 
@@ -430,7 +440,7 @@ Anda en sus días
 shhhhhhh no se habla o se habla en voz baja….. 
 Si eres hombre y estás leyendo este bloque, te invitamos a que sigas leyendo, el ciclo menstrual también es información para ti. 
 El ciclo menstrual no es un tema que nos deba dar miedo, al contrario es parte de conocer tu cuerpo, saber cómo te sientes o cómo se siente tu pareja, y que los cambios en el cuerpo son naturales, no hay nada de qué asustarnos. 
-',
+</p>',
                 '¿Qué es la menstruación?' => 'Es un proceso en el cual el útero desprende sangre y tejido por la vagina durante 2 a 5 días pueden ser más días, sí sale sangre y no azul como muchos anuncios en televisión lo han mostrado por años.',
                 'Pre-ovulación' => 'Es la fase después de la menstruación en la que madura uno de los óvulos que se encuentra dentro de los ovarios. Se presenta entre los días 6 y 13 del ciclo. De forma natural, el cuello uterino genera un moco que lubrica la vagina ayudando a los espermatozoides a llegar al óvulo para fecundarlo. En esta fase el moco vaginal es escaso, de consistencia pegajosa y de aspecto blanquecino o amarillento.',
                 'Ovulación' => 'El óvulo madura y es liberado hacia el útero, a través de las Trompas de Falopio, haciendo que los niveles de hormonas aumenten y ayuden a preparar el recubrimiento del útero para el embarazo. En esta fase, el moco vaginal es abundante, elástico y tiene el aspecto de una clara de huevo.',
@@ -468,8 +478,8 @@ El ciclo menstrual no es un tema que nos deba dar miedo, al contrario es parte d
                 ],
             ],
             'slides-8' => [
-                1 => 'Diario del ciclo menstrual 
-Este diario también puedes compartirlo con tus amigas, hágalo juntas como una forma de dialogar de lo que viven y sienten en sus ciclos menstruales. 
+                1 => '<p class="cabecera-bold" > Diario del ciclo menstrual </p>
+<p>Este diario también puedes compartirlo con tus amigas, hágalo juntas como una forma de dialogar de lo que viven y sienten en sus ciclos menstruales. 
 1.- Elige un cuaderno, usa colores, marcadores, pegatinas para decorarlo.
 2.-  En una hoja escribe el nombre del mes, ejemplo: Enero y escribe los números de cada día de ese mes,  en la hoja de al lado escribe el título “Lo que observe de mi cuerpo”
 3.- Repite hasta tener los 12 meses y las 12 secciones de “Lo que observe de mi cuerpo”
@@ -477,33 +487,36 @@ Este diario también puedes compartirlo con tus amigas, hágalo juntas como una 
 5.- Al llegar tu menstruación, registra si aparece flujo abundante o moderado, si aparecen dolores, y como van cambiando con el paso de los días. 
 6.- Con el paso de los meses podrás observar si los cambios presentes cada mes en tu cuerpo y en tus emociones. 
  
-Para más información sobre los mitos, consulta: UNICEF, Día de la Higiene Menstrual: 10 falsos mitos sobre la regla, disponible en https://www.unicef.es/blog/educacion/dia-higiene-menstrual-falsos-mitos-sobre-la-regla ',
+Para más información sobre los mitos, consulta: UNICEF, Día de la Higiene Menstrual: 10 falsos mitos sobre la regla,
+Disponible en:
+<span class="btn-enlace"><a href="https://www.unicef.es/blog/educacion/dia-higiene-menstrual-falsos-mitos-sobre-la-regla " target="_blank">Ir a información</a></span>
+</p>',
             ],
             'slides-9' => [
-                1 => 'El derechos a la salud también es la prevención
+                1 => '	<p class="cabecera-bold" > El derechos a la salud también es la prevención
  
-La mejor manera de prevenir un embarazo  es usar un método anticonceptivo por un método anticonceptivo también te ayudará a prevenir una infección de transmisión sexual. 
+	<p> La mejor manera de prevenir un embarazo  es usar un método anticonceptivo por un método anticonceptivo también te ayudará a prevenir una infección de transmisión sexual. 
 ¿Te han dicho que al usar condón no se siente igual?, ¿que el condón aprieta? 
 Pues no, es importante hablar de los métodos anticonceptivos, puede ser incómodo pero es MUY IMPORTANTE para tu salud y la salud de tu pareja. 
-',
-                2 => '¿Te da pena hablar con tu pareja, novio, novia sobre métodos anticonceptivos?
-Te recomendamos:
+</p>',
+                2 => '	<p class="cabecera-bold"> ¿Te da pena hablar con tu pareja, novio, novia sobre métodos anticonceptivos?</p>
+	<p> Te recomendamos:
 1.- Inhala y exhala
 2.- Elige un tema de conversación, platiquen, rían, intercambien puntos de vista 
 3.- En el momento que creas más adecuado, saca el tema de los métodos anticonceptivos
 Puede ser incómodo, sí, pero es importante que conversen. 
 4.- No fuerces la conversación, deben sentir la confianza el uno y la otra para platicar.
 5.- intercambiar puntos de vista
-6.- Busca toda la información necesaria para tomar decisiones informadas.
+6.- Busca toda la información necesaria para tomar decisiones informadas.</p>
 ',
-                3 => '¿Y en Honduras, dónde puedo buscar información? 
+                3 => '	<p> ¿Y en Honduras, dónde puedo buscar información? 
 Servicios de Salud Amigables para Adolescentes (SSAA) en hospitales y centros de salud.
  
 Educación sexual integral incluida en programas escolares y campañas apoyadas por la Estrategia Nacional para la Prevención del Embarazo Adolescente (ENAPREAH).
  
 Aplicación móvil “Reproductiva” para consultas sobre salud sexual y reproductiva.
  
-Distribución gratuita de condones, píldoras, implantes y PAE en centros públicos.
+Distribución gratuita de condones, píldoras, implantes y PAE en centros públicos.</p>
 ',
             ],
             'accordion-3' => [
@@ -527,8 +540,11 @@ Requiere de un uso correcto para garantizar protección.
 
 Más información sobre preservativos:
 
-Preservativos https://www.who.int/es/news-room/fact-sheets/detail/condoms 
-Preservativo Femenino vs Preservativo Masculino: ¿Cuál elegir? https://www.conlamujer.com/blog/preservativo-femenino-y-preservativo-masculino-cual-elegir#:~:text=En%20relaci%C3%B3n%20con%20su%20uso,y%20la%20vulva4%2C5.
+Preservativos
+<span class="btn-enlace"><a href=" https://www.who.int/es/news-room/fact-sheets/detail/condoms " target="_blank">Ir a información</a></span>
+
+Preservativo Femenino vs Preservativo Masculino: ¿Cuál elegir? 
+<span class="btn-enlace"><a href="https://www.conlamujer.com/blog/preservativo-femenino-y-preservativo-masculino-cual-elegir#:~:text=En%20relaci%C3%B3n%20con%20su%20uso,y%20la%20vulva4%2C5." target="_blank">Ir a información</a></span>
 ',
                 'Espermicidas (óvulos, jaleas, cremas, espumas)' => 'Sustancias químicas que inmovilizan o destruyen espermatozoides.
 Se aplican en la vagina antes del coito.
@@ -604,12 +620,13 @@ No es un método de uso regular, solo en emergencias.
 
 Conoce más sobre el tema en:
 La pastilla anticonceptiva de emergencia (PAE) en Honduras
-https://mdemujer.org/pae-honduras/
+<span class="btn-enlace"><a href="https://mdemujer.org/pae-honduras/" target="_blank">Ir a información</a></span>
 
 La pastilla del día después vuelve a ser legal en Honduras
-https://elpais.com/america/sociedad/2023-03-09/la-pastilla-del-dia-despues-vuelve-a-ser-legal-en-honduras.html
+<span class="btn-enlace"><a href="https://elpais.com/america/sociedad/2023-03-09/la-pastilla-del-dia-despues-vuelve-a-ser-legal-en-honduras.html" target="_blank">Ir a información</a></span>
+
 Honduras avanza en garantía de derechos al legalizar la anticoncepción oral de emergencia
-https://reproductiverights.org/news/honduras-anticoncepcion-oral-de-emergencia/#:~:text=Marzo%2023%20de%202023%2C%20(Declaraci%C3%B3n,de%20emergencia%2C%20conocida%20como%20PAE.
+<span class="btn-enlace"><a href="https://reproductiverights.org/news/honduras-anticoncepcion-oral-de-emergencia/#:~:text=Marzo%2023%20de%202023%2C%20(Declaraci%C3%B3n,de%20emergencia%2C%20conocida%20como%20PAE." target="_blank">Ir a información</a></span>
 ',
                 'Métodos NO recomendados como opción principal' => '1.Coito interrumpido
 Consiste en retirar el pene antes de la eyaculación.
@@ -645,8 +662,8 @@ Aplicación móvil “Reproductiva” para consultas sobre salud sexual y reprod
  
 Distribución gratuita de condones, píldoras, implantes y PAE en centros públicos.
 ',
-                'data-1' => '<h4>Reflexión</h4>
-                <p>En Honduras, los adolescentes tienen derecho a recibir información clara y basada en evidencia sobre su salud sexual y reproductiva. Existen métodos anticonceptivos seguros, accesibles y legales que se pueden adaptar a sus necesidades. El acompañamiento de profesionales de salud y el respeto a su autonomía son clave para prevenir embarazos no deseados y enfermedades de transmisión sexual.</p>',
+                'data-1' => '<p class="cabecera-bold" >Reflexión</p>
+                <p class="p-bottom">En Honduras, los adolescentes tienen derecho a recibir información clara y basada en evidencia sobre su salud sexual y reproductiva. Existen métodos anticonceptivos seguros, accesibles y legales que se pueden adaptar a sus necesidades. El acompañamiento de profesionales de salud y el respeto a su autonomía son clave para prevenir embarazos no deseados y enfermedades de transmisión sexual.</p>',
             ],
             'accordion-4' => [
                 'data-1' => '<p class="cabecera-one "> Las infecciones de Transmisión Sexual</p>
@@ -801,14 +818,16 @@ Cuando haya que inyectarse, utilizar siempre agujas y jeringas desechables tirá
 Utilizar ropa interior de algodón, no de nylon, para permitir la adecuada ventilación y transpiración del cuerpo.
 Un componente esencial en la preservación de la salud sexual es la higiene. Ésta se refiere a una serie de medidas que es necesario llevar a cabo para mantener en condiciones adecuadas los órganos genitales, ayudar a su buen funcionamiento, evitar enfermedades que los afecten y preservar una vida sexual y reproductiva sana.
 Consulta: 
-Organización Mundial de la Salud (OMS), Salud Sexual, definiciones.  https://www.who.int/es/health-topics/sexual-health#tab=tab_2 '
+Organización Mundial de la Salud (OMS), Salud Sexual, definiciones. 
+<span class="btn-enlace"><a href="https://www.who.int/es/health-topics/sexual-health#tab=tab_2 " target="_blank">Ir a información</a></span>
+'
             ],
             'slides-10' => [
-                1 => 'Construir relaciones sanas y seguras es muy importante para todas las personas, tener una relación no significa tener a la novia más guapa o al novio más musculoso, significa tener un vínculo donde podamos crecer, compartir, construir.
+                1 => '	<p> Construir relaciones sanas y seguras es muy importante para todas las personas, tener una relación no significa tener a la novia más guapa o al novio más musculoso, significa tener un vínculo donde podamos crecer, compartir, construir.
 
 Construir una relación no es una receta mágica, no se resuelve con una pócima ni contestando un cuestionario para evaluar a nuestra pareja, debe de construirse todos los días, no podemos olvidar que no se trata solo de nuestro bienestar, la otra persona tiene necesidades y es parte de la relación.
-',
-                2 => '¿Responsabilidad afectiva? 
+</p>',
+                2 => '	<p> ¿Responsabilidad afectiva? 
 
 No hay una receta mágica para una relación pero sí “Responsabilidad afectiva”, eso significa ser capaces de expresar nuestras necesidades y emociones siendo respetuosas y respetuosos de las emociones de la o el otro.
 
@@ -818,8 +837,8 @@ Para tener una responsabilidad afectiva es importante tomar en cuenta:
 -Reciprocidad 
 -Dialogar
 -Saber decir adiós 
-',
-                3 => 'Recomendaciones 
+</p>',
+                3 => '	<p> Recomendaciones 
 
 1.- Conocernos, es un proceso de autoconocimiento y de autocuidado, qué es lo que buscamos, qué podemos dar, qué significa para mí estar con una persona, la otra persona se encuentra dispuesta a participar y ser parte de una relación .
 
@@ -834,7 +853,7 @@ Recuerda: no puedes obligar a alguien a tener una relación.
 5.- Empatía, escuchar, entender a la otra persona y ser su apoyo. 
 
 6.- Resolver conflictos, y no, no se pueden resolver los conflictos con violencia, nunca la violencia se debe justificar en una relación. Evita las culpas, busquen espacios para conversar y buscar soluciones. 
-',
+</p>',
             ],
             'options-4' => [
                 'data-1' => 'Identifica la red flag (bandera roja) de cada situación 
