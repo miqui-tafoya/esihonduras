@@ -183,8 +183,8 @@ No hay modelos fijos:</p>
 </p>'
             ],
             'options-1' => [
-                'data-1' => 'Mitos y realidades sobre las personas con orientaciones sexuales e identidades de género diversas. 
-Lee las siguientes frases y selecciona si esa frase es mito o realidad. 
+                'data-1' => '<p class="p-bottom" > Mitos y realidades sobre las personas con orientaciones sexuales e identidades de género diversas. 
+Lee las siguientes frases y selecciona si esa frase es mito o realidad. </p>
 ',
                 1 => [
                     'q' => '<p>Las niñas visten de rosa y los niños de azul</p>',
@@ -216,31 +216,50 @@ Lee las siguientes frases y selecciona si esa frase es mito o realidad.
                 ],
             ],
             'slides-3' => [
-                1 => 'Preguntas para reflexionar 
+                1 => '<p class="cabecera-bold"> Preguntas para reflexionar </p>
 
-¿Cómo deben actuar las familias con adolescentes que rompen con la apariencia femenina o masculina tradicional?
-
+<p>¿Cómo deben actuar las familias con adolescentes que rompen con la apariencia femenina o masculina tradicional?
 
 Las personas jóvenes tienen derecho a vestirse, peinarse, maquillarse, comportarse y nombrarse como se sientan más cómodas y felices, Esto simplemente puede ser una forma de manifestar y expresar su identidad y personalidad, sin que necesariamente signifique que “es gay”, pues su manera de verse y actuar nada tiene que ver con su orientación sexual, es decir, con la atracción afectiva y sexual que siente hacia alguien.
-
 
 
 ¿Cómo pueden las familias brindar apoyo y orientación a adolescentes lesbianas, gays, bisexuales, pansexuales y asexuales?
 
 Las personas jóvenes tienen derecho a que se respete su orientación sexual, es decir, la atracción física, emocional y sexual que sienten hacia determinadas personas. Algunas personas jóvenes pueden sentirse cómodas con estas etiquetas, pero NO es forzoso que se identifiquen con alguna, sólo son una forma de nombrar experiencias similares y recordar que no están solas, pues otras personas viven algo parecido.
-',
-                2 => 'Consulta 
+</p>',
+                2 => '	<p class="cabecera-bold"> Consulta  </p>
 
+<p>Resoluciones de las Naciones Unidas sobre orientación sexual, identidad de género y características sexuales, 
+Disponible en:
+<span class="btn-enlace"><a href="https://www.ohchr.org/es/sexual-orientation-and-gender-identity/united-nations-resolutions-sexual-orientation-gender-identity-and-sex-characteristics" target="_blank">Ir a información</a></span>
 
-Resoluciones de las Naciones Unidas sobre orientación sexual, identidad de género y características sexuales, Disponible https://www.ohchr.org/es/sexual-orientation-and-gender-identity/united-nations-resolutions-sexual-orientation-gender-identity-and-sex-characteristics 
-Naciones Unidas, Personas LGBTIQ+, Disponible en: https://www.un.org/es/lgbtiq-people
-LGBTIQ+, Libres e iguales, NO criminalizad@s, Disponible en:  https://www.un.org/es/fight-racism/vulnerable-groups/lgbtqi-plus 
-Glosario de las diversidades sexogenéricas.LGBTIQ+, Disponible en: https://coordinaciongenero.unam.mx/avada_portfolio/glosario-de-las-diversidades-sexogenericas-lgbtiq/ 
-Cuaderno sobre diversidad sexual y derechos humanos, todas diversas, iguales en derechos, Disponible en: https://hchr.org.mx/wp/wp-content/themes/hchr/images/doc_pub/CuadernoSobreDiversidadSexualyDerechosHumanos.pdf 
+Naciones Unidas, Personas LGBTIQ+, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://www.un.org/es/lgbtiq-people" target="_blank">Ir a información</a></span>
+LGBTIQ+, Libres e iguales, NO criminalizad@s, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://www.un.org/es/fight-racism/vulnerable-groups/lgbtqi-plus" target="_blank">Ir a información</a></span> 
+ 
+Glosario de las diversidades sexogenéricas.LGBTIQ+, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://coordinaciongenero.unam.mx/avada_portfolio/glosario-de-las-diversidades-sexogenericas-lgbtiq/" target="_blank">Ir a información</a></span>
 
-Rodino, Ana María (2009), La educación con enfoque de derechos humanos como práctica constructora de inclusión social, disponible en: https://www.corteidh.or.cr/tablas/r34228.pdf 
-Amnistía Internacional, LGBTIQ+: ¿Cuál es el significado de cada letra?, disponible en: https://www.es.amnesty.org/en-que-estamos/blog/historia/articulo/lgbtiq-significado-cada-letra/ 
-Estereotipos de género, Disponible en: https://www.ohchr.org/es/women/gender-stereotyping#:~:text=Un%20estereotipo%20de%20g%C3%A9nero%20es,las%20mujeres%20y%20los%20hombres.'
+Cuaderno sobre diversidad sexual y derechos humanos, todas diversas, iguales en derechos, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://hchr.org.mx/wp/wp-content/themes/hchr/images/doc_pub/CuadernoSobreDiversidadSexualyDerechosHumanos.pdf" target="_blank">Ir a información</a></span>
+
+Rodino, Ana María (2009), La educación con enfoque de derechos humanos como práctica constructora de inclusión social, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://www.corteidh.or.cr/tablas/r34228.pdf " target="_blank">Ir a información</a></span>
+
+Amnistía Internacional, LGBTIQ+: ¿Cuál es el significado de cada letra?, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://www.es.amnesty.org/en-que-estamos/blog/historia/articulo/lgbtiq-significado-cada-letra/" target="_blank">Ir a información</a></span>
+
+Estereotipos de género, 
+Disponible en:
+<span class="btn-enlace"><a href="https://www.ohchr.org/es/women/gender-stereotyping#:~:text=Un%20estereotipo%20de%20g%C3%A9nero%20es,las%20mujeres%20y%20los%20hombres." target="_blank">Ir a información</a></span> 
+</p>'
             ],
             'slides-4' => [
                 1 => '¿Conoces qué son los derechos sexuales y reproductivos?
