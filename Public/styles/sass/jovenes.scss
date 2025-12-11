@@ -31,12 +31,13 @@
 
 
 .bloque-slide {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 3rem 0;
+    margin: 0 auto;
 
 }
 
@@ -118,7 +119,7 @@
 
 
 .intro {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: start;

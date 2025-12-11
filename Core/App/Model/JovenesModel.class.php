@@ -149,8 +149,8 @@ Disponible en:
  
 </p>'],
             'accordion-1' => [
-                'data-1' => '<h4>¿Qué es la diversidad?</h4><p>Hablar de diversidad sexual no debería ser incómodo. Todas las personas merecen los mismos derechos, vivir una vida libre de violencia, sin discriminacón, acoso y eso incluye a las personas LGBTIQ+.<br>Lamentablemente…<br>Las personas LGBTIQ+ son discriminadas en la escuela, en sus familias, en sus centros laborales, esta discriminació también se ve como violencia física llegando al extremo del asesinato.<br>Para hablar de diversidad sexual, tenemos que hablar primero de estereotipos de género. Los estereotipos de género es una visión general y única que se hace sobre las mujeres y los hombres.<br>Imaginemos que los estereotipos son archiveros enormes donde se clasifican a las mujeres y a los hombres por el papel que deben de hacer según la sociedad.</p>
-<table><thead><tr><th>Mujeres</th><th>Hombres</th></tr></thead><tbody><tr><td>Las niñas juegan con muñecas</td><td>Los hombres no lloran</td></tr><tr><td>Las mujeres son sensibles y delicadas</td><td>Los hombres deben ser fuertes</td></tr><tr><td>Las mujeres son débiles</td><td>Los niños juegan a las luchas</td></tr><tr><td>Las mujeres cocinan</td><td>Los hombres son toscos</td></tr><tr><td>Las mujeres solo pueden ser madres</td><td>Los hombres no deben cuidar</td></tr></tbody></table>
+                'data-1' => '<p class="cabecera-one cabecera-bold">¿Qué es la diversidad?</p><p>Hablar de diversidad sexual no debería ser incómodo. Todas las personas merecen los mismos derechos, vivir una vida libre de violencia, sin discriminacón, acoso y eso incluye a las personas LGBTIQ+.<br>Lamentablemente…<br>Las personas LGBTIQ+ son discriminadas en la escuela, en sus familias, en sus centros laborales, esta discriminació también se ve como violencia física llegando al extremo del asesinato.<br>Para hablar de diversidad sexual, tenemos que hablar primero de estereotipos de género. Los estereotipos de género es una visión general y única que se hace sobre las mujeres y los hombres.<br>Imaginemos que los estereotipos son archiveros enormes donde se clasifican a las mujeres y a los hombres por el papel que deben de hacer según la sociedad.</p>
+<table><thead ><tr><th>Mujeres</th><th>Hombres</th></tr></thead><tbody><tr><td>Las niñas juegan con muñecas</td><td>Los hombres no lloran</td></tr><tr><td>Las mujeres son sensibles y delicadas</td><td>Los hombres deben ser fuertes</td></tr><tr><td>Las mujeres son débiles</td><td>Los niños juegan a las luchas</td></tr><tr><td>Las mujeres cocinan</td><td>Los hombres son toscos</td></tr><tr><td>Las mujeres solo pueden ser madres</td><td>Los hombres no deben cuidar</td></tr></tbody></table>
 <p>Esto no quiere decir que ser mujer u hombre esté mal, lo que debemos hablar es que estos estereotipos pueden perjudicar cuando se impone una sola forma de ser y esto genera violencia.
 No hay modelos fijos:</p>
 ',
@@ -168,8 +168,8 @@ No hay modelos fijos:</p>
 ¿Cuál es mi sexo biologico? 
 ¿Cuál es mi orientación sexual?
 3.- Observa tus respuestas 
-Hay distintas formas de expresarnos, de identificarnos,de ser, cada una se nombran de una forma: 
-',
+<p 	class="p-bottom"> Hay distintas formas de expresarnos, de identificarnos,de ser, cada una se nombran de una forma: 
+</p>',
                 'LGBTIQ+' => 'es el acrónimo de Lesbiana, gay (hombres homosexuales), bisexuales, transgénero, intersexuales, queer, el símbolo de + hace referencia para incluir a los colectivos que no estan representados en las siglas anteriores',
                 'Travestí' => 'Es aquella que modifica su expresión de género (vestido, uso de accesorios, etc) por ratos, pero que vive el resto de su vida con su sexo y género, no busca cambiar de género ni de sexo puede ser hombre o mujer así como heterosexual, bisexual u homosexual.',
                 'Transgenérica' => 'Es aquella que modifica permanentemente su expresión de género (Hombre a Mujer o Mujer a Hombre), vive y se relaciona con la sociedad desde su género adoptado con nombre identidad. puede o no modificar su cuerpo con el uso de hormonas, aceites o cirugías, pueden ser homosexuales, bisexuales o heterosexuales.',
@@ -178,9 +178,9 @@ Hay distintas formas de expresarnos, de identificarnos,de ser, cada una se nombr
                 'Homosexuales' => 'Son hombres que se relacionan erótica y afectivamente principalmente con otros hombres. Para mayor información puedes consultar: www.avedemexico.org.mx o www.anodis.com',
                 'Lesbianas' => 'Son mujeres que se relacionan erótica y afectivamente principalmente con otras mujeres. Para mayor información puedes consultar: www.laneta.apc.org/concilio/closet.htm',
                 'Bisexuales' => 'Son personas que se relacionan erótica y afectivamente con hombres y mujeres.',
-                'data-3' => 'La clave: 
+                'data-3' => '<p class="p-bottom"> La clave: 
 “La educación puede utilizarse como un instrumento tanto para perpetuar como para eliminar desigualdades” Rodino (2009)
-'
+</p>'
             ],
             'options-1' => [
                 'data-1' => 'Mitos y realidades sobre las personas con orientaciones sexuales e identidades de género diversas. 

@@ -1,5 +1,5 @@
 .container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     font-family: "Onest", sans-serif;
@@ -143,6 +143,24 @@
     margin-bottom: 10px;
 }
 
+.accordion-activity {
+    font-family: "Onest", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #25282a;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+   
+}
+
+.accordion-activity p{
+    font-family: "Onest", sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #25282a;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+}
 .accordion-activity h3 {
     color: #e74eed;
     margin: 20px 0 10px 0;
@@ -151,7 +169,7 @@
 
 /* Slides */
 #esi-presentation {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
     font-family: "Onest", sans-serif;
 }
@@ -345,4 +363,14 @@ iframe{
 	justify-content: center;
 	margin: 0 auto;
 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ff7a00;
+  padding: 8px;
 }
