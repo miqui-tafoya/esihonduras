@@ -1,6 +1,3 @@
-<?php
-$archivo = $body['noticias'];
-?>
 <span id="breadcrumbs">noticias</span>
 <div id="main">
     <div class="contenedor-publica">
@@ -19,6 +16,3 @@ $archivo = $body['noticias'];
         <!-- End bloque noticias -->
     </div>
 </div>
-<script id="entradas-data" type="application/json">
-    <?php echo json_encode($archivo, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>
-</script>

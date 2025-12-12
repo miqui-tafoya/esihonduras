@@ -1,6 +1,5 @@
 <?php
 $categoria = $body['categoria'];
-$entradas = $body['entradas'];
 ?>
 <span id="breadcrumbs"><?php echo ($categoria['tipo'] === 'publica') ? 'informacionpublica' : 'noticias'; ?></span>
 <div id="main">
@@ -25,6 +24,6 @@ $entradas = $body['entradas'];
         <!-- End bloque noticias -->
     </div>
 </div>
-<script id="entradas-data" type="application/json">
-    <?php echo json_encode($entradas, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>
+<script>
+    let categoria = <?php echo $categoria['tb_categorias_id']; ?>
 </script>

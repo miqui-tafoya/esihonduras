@@ -1,12 +1,11 @@
 const itemsPerPage = 4;
 let currentPage = 1;
 let totalPages = 1;
-
 async function loadPage(page = 1) {
     const container = document.getElementById('blog-container');
 
     try {
-        const resp = await fetch(`${URL_BASE}apientradas?page=${page}&per_page=${itemsPerPage}`, {
+        const resp = await fetch(`${URL_BASE}apicategorias?categoria=${categoria}&page=${page}&per_page=${itemsPerPage}`, {
             headers: {
                 'Accept': 'application/json'
             }

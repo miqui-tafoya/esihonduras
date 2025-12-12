@@ -15,18 +15,10 @@ class MainCtrl {
               $i++;
             }
           }
-          $route[1][2][1] = $this->fetchValues($route[0], $route[1][2][1]); // obtiene valores GET para esta ruta
           if (!empty($querystring)) {
-            $i = 1;
-            foreach ($querystring as $key => $value) {
-              $valores = $this->fetchQueryStringValues($route[0], $key, $value); // obtiene valores GET del Query String para esta ruta
-              $route[1][2][1][$key][0] = $value;
-              if (!empty($valores)) {
-                $route[1][2][1][$key][$i] = $valores;
-              }
-              $i++;
-            }
+            $route[1][2][1]['querystring'] = $querystring;// obtiene valores GET del Query String para esta ruta
           }
+          $route[1][2][1] = $this->fetchValues($route[0], $route[1][2][1]); // obtiene valores GET para esta ruta
         } else { // la ruta SÍ tiene query dinámico
           $query = $route[1][2][1]['query'];
           $values = $this->fetchValues($route[0], $route[1][2][1], $query); // obtiene valores GET para query de ruta dinámica
@@ -61,18 +53,10 @@ class MainCtrl {
               $i++;
             }
           }
-          $route[1][2][1] = $this->fetchValues($route[0], $route[1][2][1]); // obtiene valores GET para esta ruta
           if (!empty($querystring)) {
-            $i = 1;
-            foreach ($querystring as $key => $value) {
-              $valores = $this->fetchQueryStringValues($route[0], $key, $value); // obtiene valores GET del Query String para esta ruta
-              $route[1][2][1][$key][0] = $value;
-              if (!empty($valores)) {
-                $route[1][2][1][$key][$i] = $valores;
-              }
-              $i++;
-            }
+            $route[1][2][1]['querystring'] = $querystring;// obtiene valores GET del Query String para esta ruta
           }
+          $route[1][2][1] = $this->fetchValues($route[0], $route[1][2][1]); // obtiene valores GET para esta ruta
         } else { // la ruta SÍ tiene query dinámico
           $query = $route[1][2][1]['query'];
           $values = $this->fetchValues($route[0], $route[1][2][1], $query); // obtiene valores GET para query de ruta dinámica
@@ -103,12 +87,6 @@ class MainCtrl {
     $buildClass = '\\Controller\\' . ucfirst($ctrl);
     $selectedObject = new $buildClass;
     $arr = $selectedObject->values($params, $query);
-    return $arr;
-  }
-  public function fetchQueryStringValues($ctrl, $querystring, $queryvalue) {
-    $buildClass = '\\Controller\\' . ucfirst($ctrl);
-    $selectedObject = new $buildClass;
-    $arr = $selectedObject->queryStringValues($querystring, $queryvalue);
     return $arr;
   }
   public function fetchGlobalValues($ctrl, $params = [], $query = null) {

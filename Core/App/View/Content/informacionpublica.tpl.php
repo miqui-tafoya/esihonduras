@@ -1,10 +1,8 @@
 <?php
 $categorias = $body['categorias'];
-$publicaciones = $body['publicaciones'];
+$publicaciones = $body['publicaciones'] ?? [];
 if (isset($responseParams['post']['busca'])) {
     $busqueda = $responseParams['post']['busca'];
-    $resultados_busqueda = $responseParams['response'];
-    $entradas = $resultados_busqueda;
     $filtros = $responseParams['post']['filtros'];
 }
 ?>
@@ -13,7 +11,6 @@ if (isset($responseParams['post']['busca'])) {
 
     <div class="contenedor-publica">
         <div class="cabecera-publica">
-         
             <p class="cabecera-dos-publica">
                 La información es para todas y todos y los derechos ESI también.
             </p>
@@ -26,41 +23,37 @@ if (isset($responseParams['post']['busca'])) {
                 lineamientos, guías y otros.
             </p>
         </div>
-
         <!-- Start bloque filtros -->
-
         <div class="layout-filtros">
-            <form method="post">
+            <form id="form-busqueda" method="post">
 
                 <div class="bloque-buscar">
                     <p class="cabecera-dos-publica">Buscar por palabra </p>
                     <label class="p-bottom">Ingresa una palabra</label>
-                    <input type="text"  placeholder="Buscar..." name="busca" value="<?php echo $busqueda ?? '' ?>"><br><br>
+                    <input type="text" placeholder="Buscar..." name="busca"
+                        value="<?php echo $busqueda ?? '' ?>"><br><br>
                 </div>
-
-
                 <p class="cabecera-dos-publica">Filtrar por categoría: </p>
                 <div class="bloque-filtrar">
                     <?php foreach ($categorias as $value) {
                         $checked = isset($filtros[$value['tb_categorias_id']]) ? 'checked="checked"' : '';
-
                         echo '<div class="item-filtro">
-                    <input type="checkbox" name="' . $value['tb_categorias_id'] . '" class="filtro-check" ' . $checked . '>
-                    <label for="' . $value['slug_categoria'] . '"> ' . $value['nombre_categoria'] . ' </label>
-                    </div>';
+        <input type="checkbox" 
+               name="' . $value['tb_categorias_id'] . '" 
+               value="' . $value['tb_categorias_id'] . '"
+               class="filtro-check" 
+               ' . $checked . '>
+        <label for="cat-' . $value['tb_categorias_id'] . '"> ' . $value['nombre_categoria'] . ' </label>
+    </div>';
                     } ?>
-
                     <div class="btn-enlace">
                         <button type="submit" name="buscar-btn">Filtrar<i class="fa-solid fa-filter"></i></button>
                     </div>
                 </div>
-
             </form>
-
         </div>
     </div>
     <!-- End bloque filtros -->
-
     <!-- Start bloque información -->
     <div class="bloque-items">
         <p class="cabecera-dos-publica">
@@ -91,6 +84,3 @@ if (isset($responseParams['post']['busca'])) {
     <!-- End bloque información -->
 </div>
 </div>
-<script id="entradas-data" type="application/json">
-    <?php echo json_encode($entradas, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?>
-</script>
