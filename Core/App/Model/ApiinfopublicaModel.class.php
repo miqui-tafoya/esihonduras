@@ -3,7 +3,7 @@ namespace Model;
 
 use Model\Database;
 
-class InformacionpublicaModel extends Model {
+class ApiinfopublicaModel extends Model {
 
     private Database $db;
     public $categorias;
@@ -32,6 +32,31 @@ class InformacionpublicaModel extends Model {
             $portada = $this->getPortada($value['tb_galeria_id']);
             $value['portada'] = $portada['galeria_url'];
         }
+        return $data;
+    }
+    public function getEntradas($id) {
+        $cols = ['all'];
+        $data = $this->db->dbCall('one', false, $cols, 'tb_entradas', ['tipo' => 'publica', 'publicado' => 1, 'tb_entradas_id' => $id]);
+        $portada = $this->getPortada($data['tb_galeria_id']);
+        $data['portada'] = $portada['galeria_url'];
+        return $data;
+    }
+    public function getEntradasFiltradas($filtros, $id) {
+        $cols = ['all'];
+        $data = [];
+        foreach ($filtros as $key => $value) {
+            $temp = $this->db->dbCall('one', false, $cols, 'tb_entradas', ['tipo' => 'publica', 'publicado' => 1, 'categoria' => $key, 'tb_entradas_id' => $id]);
+            if (!empty($temp)) {
+                $portada = $this->getPortada($temp['tb_galeria_id']);
+                $temp['portada'] = $portada['galeria_url'];
+                array_push($data, $temp);
+            }
+        }
+        return $data;
+    }
+    public function getBusqueda() {
+        $cols = ['all'];
+        $data = $this->db->dbCall('all', false, $cols, 'tb_busca_index');
         return $data;
     }
     // SETTERS

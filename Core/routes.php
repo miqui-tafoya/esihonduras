@@ -168,7 +168,7 @@ $routeList->add(
         ['main',
                 ['Información Pública', ['infopublica', 'paginado']],
                 [['head' => [], 'footer' => []],
-                        ['categorias', 'publicaciones']],
+                        ['categorias']],
                 $_POST],
         ['informacionPublicaHandler']
 );
@@ -204,7 +204,7 @@ $routeList->add(
         ['main',
                 ['Archivo', ['infopublica', 'paginado']],
                 [['head' => [], 'footer' => []],
-                        ['noticias']],
+                        []],
                 []],
         ['archivoHandler']
 );
@@ -218,7 +218,7 @@ $routeList->add(
                 [['head' => [], 'footer' => []],
                         ['categoria', 'entradas']],
                 []],
-        ['archivoHandler']
+        ['categoriasHandler']
 );
 
 $routeList->add(
@@ -355,5 +355,43 @@ $routeList->add(
                 exit;
         },
         ['', '', [], []],
+        []
+);
+
+// API
+
+$routeList->add(
+        'get',
+        '/apientradas',
+        'apientradas',
+        ['',
+                ['', ['']],
+                [[],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'get',
+        '/apicategorias',
+        'apicategorias',
+        ['',
+                ['', ['']],
+                [[],
+                        []],
+                []],
+        []
+);
+
+$routeList->add(
+        'post',
+        '/apiinfopublica',
+        'apiinfopublica',
+        ['',
+                ['', ['']],
+                [[],
+                        []],
+                $_POST],
         []
 );
