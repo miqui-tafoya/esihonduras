@@ -374,6 +374,10 @@ iframe{
 
 }
 
+.red-flag{
+    color: red;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;

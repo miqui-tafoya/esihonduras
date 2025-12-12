@@ -856,33 +856,33 @@ Recuerda: no puedes obligar a alguien a tener una relación.
 </p>',
             ],
             'options-4' => [
-                'data-1' => 'Identifica la red flag (bandera roja) de cada situación 
-¿Qué es una red flag?, es una señal de alerta. 
+                'data-1' => '<p class="p-bottom" >Identifica la red flag (bandera roja) de cada situación 
+¿Qué es una red flag?, es una señal de alerta. </p> 
 ',
                 1 => [
                     'q' => '<p>Celos, desconfianza y control</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'Una pareja que te controla de alguna manera probablemente tiene problemas personales profundos en los que debe trabajar. Reconsidera tu relación si tu pareja trata de controlar a quién ves, con quién hablas, a dónde vas, cómo gastas tu dinero, qué haces en línea (redes sociales), qué ropa usas, qué escuchas o incluso qué comes.'
                 ],
                 2 => [
                     'q' => '<p>Falta de confianza</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'Cuando una persona tiene dificultades para ser honesto consigo mismo, puede resultarle difícil ser honesto contigo. Es posible que parte de este comportamiento no sea malintencionado, sino simplemente una forma aprendida o un hábito de afrontamiento. Sin embargo, una persona que te miente sin reservas, que se considera irresponsable de sus acciones, carece de integridad y de respeto por su pareja.'
                 ],
                 3 => [
                     'q' => '<p>Problemas de ira</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'Al igual que en las peleas, toma nota de cualquier problema de ira en tu pareja. Si alguien es fácil de enojar, tiene frecuentes arrebatos explosivos o cambia de emociones rápidamente (es decir, de la felicidad a la rabia), esto muestra una falta de capacidad para regular las emociones de una manera saludable y, en última instancia, es simplemente desagradable (e incluso aterrador) estar cerca de alguien así.'
                 ],
                 4 => [
                     'q' => '<p>Tienes que justificar constantemente sus acciones</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'Si te das cuenta que te pasas justificando todo lo que hace o dice tu pareja, a pesar de que lo sientes mal en tu instinto, entonces es una señal de alerta infalible.
@@ -892,7 +892,7 @@ Si te encuentras justificando su mentalidad o acciones, aun cuando no estás de 
                 ],
                 5 => [
                     'q' => '<p>Falta de comunicación</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'Una de las mejores partes de estar en una relación romántica es conectarse profunda y auténticamente con otra persona. Una pareja que no muestra interés en abrirse y vincularse es una sentencia de muerte para una relación.'
@@ -900,9 +900,8 @@ Si te encuentras justificando su mentalidad o acciones, aun cuando no estás de 
 
             ],
             'accordion-5' => [
-                'data-1' => '¿Qué es el consentimiento? 
-
-El consentimiento significa pedirle permiso a alguien para hacer algo, sí, tú puedes decidir si quieres que alguien toque tu cuerpo, si no quieres que alguien te tome fotos.
+                'data-1' => '<p class="cabecera-bold" > ¿Qué es el consentimiento?</p> 
+	<p 	class="p-bottom" > El consentimiento significa pedirle permiso a alguien para hacer algo, sí, tú puedes decidir si quieres que alguien toque tu cuerpo, si no quieres que alguien te tome fotos.
 Así como tú puedes decidir, también se debe pedir permiso antes de tocar. 
 Nadie puede obligarte y puedes cambiar de parecer en cualquier momento. 
 Si alguien te hace sentir incómoda o incómodo, cuéntale a una persona de confianza. 
@@ -924,7 +923,7 @@ Para poder decidir debes tener toda la información, pregunta, busca más inform
 Es reversible. 
 La decisión se puede cambiar en cualquier momento.
 
-Principios del consentimiento:
+Principios del consentimiento:</p>
 ',
                 'Respeto' => 'así como pides consentimiento, debes respetar la decisión de la otra persona.',
                 'Límites' => 'para este principio es importante la “comunicación”, como defines tus límites del consentimiento.',
@@ -933,50 +932,48 @@ Principios del consentimiento:
                 'Continuo' => 'que se reciba el consentimiento una vez no significa que siempre existirá consentimiento.',
             ],
             'slides-11' => [
-                1 => 'Memes del consentimiento 
-
-1.- Busca lápices para colorear, marcadores de colores, hojas
+                1 => '<p 	class="cabecera-bold" > Memes del consentimiento </p>
+	<p class="p-bottom"> 1.- Busca lápices para colorear, marcadores de colores, hojas
 2.- Busca un meme que te guste, que te haga reír o te parezca gracioso. 
 3.- El meme que elegiste editalo, adaptalo para explicar a tus amigas y amigos “qué es el consentimiento” 
-4.- Compártelo en redes sociales y usa el hashtag #MisDerechosESI '
+4.- Compártelo en redes sociales y usa el hashtag #MisDerechosESI </p>'
             ],
             'slides-12' => [
-                1 => 'Elabora tu guión del consentimiento 
+                1 => '<p class="cabecera-bold"> Elabora tu guión del consentimiento </p>
 
-1.- Observa los siguientes vídeos:
+	<p> 1.- Observa los siguientes vídeos:
 
 Consentimiento como preparar una taza de té
-https://www.youtube.com/watch?v=BuuyajcjFC4
+<span class="btn-enlace"><a href="https://www.youtube.com/watch?v=BuuyajcjFC4" target="_blank">Ir a información</a></span>
 
-Consentimiento, tan simple como el ceviche 
-https://www.youtube.com/watch?v=IUxUsJ36jQA
+Consentimiento, tan simple como el ceviche
+<span class="btn-enlace"><a href="https://www.youtube.com/watch?v=IUxUsJ36jQA" target="_blank">Ir a información</a></span> 
 
 ¿Qué es el consentimiento?
-https://www.youtube.com/watch?v=pI2X4jnsuos
+<span class="btn-enlace"><a href="https://www.youtube.com/watch?v=pI2X4jnsuos" target="_blank">Ir a información</a></span>
 
 2.- Elabora tu propio guión para un vídeo de redes sociales explicando ¿qué es consentimiento?
 
 3.- Compártelo en redes sociales y usa el hashtag #MisDerechosESI 
-'
+</p>'
             ],
             'accordion-6' => [
-                'data-1' => 'Lee con atención la siguiente información: 
-
-El Centro de Derechos de la mujer en Honduras CDM; del 01 de enero al 30 de abril del 2025, el Sistema Nacional de Emergencia (911) registró 13,034 denuncias de violencia doméstica y 15,647 denuncias de maltrato familiar en Honduras
+                'data-1' => '<p class="cabecera-bold"> Lee con atención la siguiente información: </p>
+	<p 	class="p-bottom" > El Centro de Derechos de la mujer en Honduras CDM; del 01 de enero al 30 de abril del 2025, el Sistema Nacional de Emergencia (911) registró 13,034 denuncias de violencia doméstica y 15,647 denuncias de maltrato familiar en Honduras
 
 Durante el 01 al 31 de julio de 2025 se registraron 146 muertes violentas de mujeres y femicidios, según los medios de comunicación impresos y digitales 46 muertes violentas de mujeres.
 Cada 10 minutos muere una mujer por violencia 
 A nivel mundial, hasta el 38% de los asesinatos de mujeres son cometidos por su pareja.
 Más de una cuarta parte de las mujeres de entre 15 y 49 años que han tenido una relación de pareja han sido objeto de violencia física y/o sexual de pareja al menos una vez en su vida (desde los 15 años). 
 
-¿Qué te dicen estos datos? 
+¿Qué te dicen estos datos? </p>
 ',
                 'Violencia' => 'La Organización Mundial de la Salud (OMS) define la violencia como “el uso deliberado de la fuerza física o el poder, ya sea en grado de amenaza o efectivo, contra uno mismo, otra persona o un grupo o comunidad, que cause o tenga muchas probabilidades de causar lesiones, muerte, daños psicológicos, trastornos del desarrollo o privaciones. ',
                 'Violencia de género' => '“violencia dirigida contra una mujer por el hecho de ser mujer o que afecta a las mujeres de manera desproporcionada. Incluye actos que infligen daño o sufrimiento físico, mental o sexual, amenazas de tales actos, coacción y otras privaciones de libertad.
 La discriminación contra la mujer y la desigualdad en la distribución del poder y los recursos entre hombres y mujeres son causas fundamentales de la violencia contra la mujer” ONU Mujeres
 ',
-                'data-2' => 'Tipos de violencia
-La violencia a las mujeres se puede dar de varias formas, a continuación descubre de qué trata cada uno de los siguientes tipos de violencia.',
+                'data-2' => '<p class="p-bottom"> Tipos de violencia
+La violencia a las mujeres se puede dar de varias formas, a continuación descubre de qué trata cada uno de los siguientes tipos de violencia.</p>',
                 'Psicológica' => '“provocar miedo a través de la intimidación; en amenazar con causar daño físico a una persona, su pareja o sus hijas o hijos, o con destruir sus mascotas y bienes; en someter a una persona a maltrato psicológico o en forzarla a aislarse de sus amistades, de su familia, de la escuela o del trabajo” ONU Mujeres',
                 'Física' => '“causar o intentar causar daño a una pareja golpeándola, propinándole patadas, quemándola, agarrándola, pellizcándola, empujándola, dándole bofetadas, tirándole del cabello, mordiéndole, denegándole atención médica u obligándola a consumir alcohol o drogas, así como empleando cualquier otro tipo de fuerza física contra ella. Puede incluir daños a la propiedad” ONU Mujeres',
                 'Económica' => '“Consiste en lograr o intentar conseguir la dependencia financiera de otra persona, manteniendo para ello un control total sobre sus recursos financieros, impidiéndole acceder a ellos y prohibiéndole trabajar o asistir a la escuela” ONU Mujeres',
@@ -1001,9 +998,9 @@ Difundir contenido íntimo sexual sin consentimiento
                 'Noviazgo' => 'Conductas producen dependencia y aislamiento, pero no se perciben como agresivas o alarmantes puesto que se interpretan como pruebas de amor, desarrollando así una situación de vulnerabilidad por parte de la mujer hacia el hombre.',
             ],
             'slides-13' => [
-                1 => '1.- Le los siguientes párrafos',
+                1 => '<p class="cabecera-bold"> 1.- Lee los siguientes párrafos</p>',
                 2 => ' 
-Quieres que te ponga la capilla blanca
+	<p> Quieres que te ponga la capilla blanca
 Quieres que te ponga la capilla azul
 Quieres que te ponga el gorro colorado
 Quieres que te ponga lo que quieras tú.
@@ -1012,17 +1009,17 @@ No me mates, no me mates
 Con pistola ni puñal
 Mátame con un besito
 De tus labios de coral.
-A la capotin tin tin tin… (bis)
+A la capotin tin tin tin… (bis)</p>
 ',
-                3 => 'Ya no sé qué hacer
+                3 => '	<p> Ya no sé qué hacer
 No sé con cuál quedarme
 Todas saben en la cama maltratarme
 Me tienen bien, de sexo me tienen bien
 Estoy enamora`o de cuatro babies
 Siempre me dan lo que quiero
 Chingan cuando yo le` digo
-Ninguna me ponen pero',
-                4 => 'Cuando estoy cerca de ella
+Ninguna me ponen pero</p>',
+                4 => '	<p> Cuando estoy cerca de ella
 la estoy cuidando, la estoy cuidando,(bis)
 que hay muchos envidiosos
 la están deseando, la están deseando.(bis)
@@ -1030,9 +1027,9 @@ la están deseando, la están deseando.(bis)
 La mujer que está queriendo
 se pone viva, se pone viva,(bis)
 y el hombre la solicita
-si se descuida, si se descuida.(bis)
+si se descuida, si se descuida.(bis)</p>
 ',
-                5 => 'Amigo, voy a darte un buen consejo
+                5 => '	<p>Amigo, voy a darte un buen consejo
 Si quieres disfrutar de sus placeres
 Consigue una pistola si es que quieres
 O cómprate una daga si prefieres
@@ -1040,8 +1037,8 @@ Y vuélvete asesino de mujeres
 Mátalas
 Con una sobredosis de ternura
 Asfixialas con besos y dulzuras
-Contagialas de todas tus locuras',
-                6 => 'Una flor me está matando
+Contagialas de todas tus locuras </p>',
+                6 => '	<p> Una flor me está matando
 que es un terrible pesar
 y tan cerca que la miro
 y sin poderla cortar.
@@ -1049,9 +1046,9 @@ y sin poderla cortar.
 Yo les digo a mis amigos
 los que ya saben de amor,
 qué consejo me darían
-para cortar esa flor.
+para cortar esa flor.</p>
 ',
-                7 => '2.-¿Identificaste que son?, todos los párrafos que acabas de leer son fragmentos de canciones 
+                7 => '	<p>2.-¿Identificaste que son?, todos los párrafos que acabas de leer son fragmentos de canciones 
 3.- Vuelve a leer los párrafos a ver si ubicas a qué canción hace referencia cada una. 
 4.- Responde y reflexiona sobre las siguientes preguntas: 
 ¿Qué mensaje transmiten las canciones?
@@ -1061,7 +1058,7 @@ para cortar esa flor.
 ¿Cómo describen a los hombres esas canciones?
 ¿Conocen otras canciones que hablen presenten el amor como tolerar violencias?
 ¿Cuáles?
-',
+ </p>',
             ],
             'quiz-1' => [
                 1 => [
@@ -1094,48 +1091,56 @@ Cada caso de violencia es muy distinto, si tu escuchas o sabes de una mujer que 
                 ]
             ],
             'slides-14' => [
-                1 => 'Actos de riesgo que nos deben tener alertas:
-Recibir mensajes de acoso o amenazas (de alguien conocido o de un desconocido).
+                1 => '<p class="cabecera-bold"> Actos de riesgo que nos deben tener alertas:</p>
+	<p> Recibir mensajes de acoso o amenazas (de alguien conocido o de un desconocido).
 Tener miedo de que esas amenazas se cumplan
 Tener miedo de estar en casa cuando llegue la pareja
 No importa que tan mínimos sean, escuchar insultos, recibir golpes. 
 No poder decidir qué vestir, cómo gastar tu dinero, con quien hablar 
 
-
 Si identificas alguna de estas señales, busca apoyo inmediatamente, recuerda no es exageración, es violencia. 
-',
-                2 => '¿Qué podemos hacer contra la violencia? 
+</p>',
+                2 => '<p class="cabecera-bold">¿Qué podemos hacer contra la violencia? </p>
 
-Infórmate
+	<p> Infórmate
 Fomenten en todos los espacios (laboral, hogar, vía pública) el respeto
 No aceptar los malos tratos
 Escucha a las personas y si te cuenta que pasa por violencia no le juzgues, ni culpes.
 Comparte información con tu comunidad 
 Ser red de apoyo y creerle a las personas que pasan por violencia
-',
-                3 => 'Consulta 
+</p>',
+                3 => '<p class="cabecera-bold" > Consulta </p>
 
-ONU Mujeres, Preguntas frecuentes: Tipos de violencia contra las mujeres y las niñas, Disponible en: https://www.unwomen.org/es/articulos/preguntas-frecuentes/preguntas-frecuentes-tipos-de-violencia-contra-las-mujeres-y-las-ninas 
+	<p> ONU Mujeres, Preguntas frecuentes: Tipos de violencia contra las mujeres y las niñas, Disponible en: https://www.unwomen.org/es/articulos/preguntas-frecuentes/preguntas-frecuentes-tipos-de-violencia-contra-las-mujeres-y-las-ninas 
 
-ONU Mujeres, Violencia de género, Mujeres y niñas en riesgo, disponible en: https://www.unwomen.org/es/hq-complex-page/covid-19-rebuilding-for-resilience/gender-based-violence
-¿Qué es la violencia vicaria?, Disponible en https://www.es.amnesty.org/en-que-estamos/blog/historia/articulo/que-es-la-violencia-vicaria/  
+ONU Mujeres, Violencia de género, Mujeres y niñas en riesgo, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://www.unwomen.org/es/hq-complex-page/covid-19-rebuilding-for-resilience/gender-based-violence" target="_blank">Ir a información</a></span>
 
-La violencia obstétrica también es violencia contra la mujer, disponible en: https://www.insp.mx/avisos/5138-dia-violencia-mujer-obstetrica.html 
+¿Qué es la violencia vicaria?, 
+Disponible en:
+<span class="btn-enlace"><a href="https://www.es.amnesty.org/en-que-estamos/blog/historia/articulo/que-es-la-violencia-vicaria/" target="_blank">Ir a información</a></span>
 
-Revictimización y desconocimiento legal limitan denuncias por violencia en el noviazgo, disponible en https://www.dgcs.unam.mx/boletin/bdboletin/2022_547.html 
-',
+La violencia obstétrica también es violencia contra la mujer, 
+Disponible en: 
+<span class="btn-enlace"><a href="https://www.insp.mx/avisos/5138-dia-violencia-mujer-obstetrica.html" target="_blank">Ir a información</a></span> 
+
+Revictimización y desconocimiento legal limitan denuncias por violencia en el noviazgo, 
+Disponible en:
+<span class="btn-enlace"><a href="https://www.dgcs.unam.mx/boletin/bdboletin/2022_547.html" target="_blank">Ir a información</a></span> 
+</p>',
             ],
             'slides-15' => [
-                1 => 'Si has llegado a esta parte del viaje por los derechos sexuales, seguramente hay personas que te han preguntado ¿para cuándo las hijas y los hijos?, ¿cuándo te casas?, ¿te vas a quedar sola?.
+                1 => '	<p>Si has llegado a esta parte del viaje por los derechos sexuales, seguramente hay personas que te han preguntado ¿para cuándo las hijas y los hijos?, ¿cuándo te casas?, ¿te vas a quedar sola?.
 
 Tarde o temprano tendremos que tomar decisiones, para eso es importante construir tu proyecto de vida, es decir un plan. 
 El plan de vida busca la autorrealización y debe considerar necesidades, objetivos, expectativas, el entorno, etc. 
 
 Inhala y exhala, un plan de vida no es algo que se resuelva de un día a otro, es un plan a largo plazo que puede irse adecuando a lo que va sucediendo en tu vida, en el entorno, etc. 
 
-¿Cómo te visualizas?
+¿Cómo te visualizas? </p>
 ',
-                2 => 'Y aunque no hay una receta para un proyecto de vida, si podemos considerar algunos elementos:
+                2 => '	<p> Y aunque no hay una receta para un proyecto de vida, si podemos considerar algunos elementos:
 
 Realiza y actualiza, ¿cómo se encuentra tu vida?,  mediante la identificación y valoración de circunstancias.
 
@@ -1143,9 +1148,9 @@ Identifica prioridades de los aspectos de abordaje estratégicos de tu plan de v
 
 Lleva a cabo acciones dirigidas a lograr tu proyecto de vida, ¿qué puedo hacer yo?, 
 
-Da seguimiento, ¿qué he logrado?, ¿qué ha cambiado de mi proyecto de vida? 
+Da seguimiento, ¿qué he logrado?, ¿qué ha cambiado de mi proyecto de vida?</p> 
 ',
-                3 => 'Si quieres más información consulta Construcción de Plan de vida disponible en: https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2555/mod_resource/content/3/UAPA-Construccion-Plan-Vida/index.html 
+                3 => '<p> Si quieres más información consulta Construcción de Plan de vida disponible en: https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2555/mod_resource/content/3/UAPA-Construccion-Plan-Vida/index.html 
 
 Para un plan de vida también es importante observar la realidad de nuestro entorno: 
 
@@ -1153,24 +1158,24 @@ Para un plan de vida también es importante observar la realidad de nuestro ento
 No se trata solo de decir “sí se puede” es identificar que puede vulnerar nuestro plan y prevenir. 
 
 2.- El rol que juegan otras personas: ¿hay personas que no aportan?, ¿generan una influencia negativa?
-',
+</p>',
             ],
             'slides-16' => [
-                1 => 'Para construir tu plan de vida te compartimos algunas preguntas que pueden servir como guía:
+                1 => '<p class="cabecera-bold"> Para construir tu plan de vida te compartimos algunas preguntas que pueden servir como guía:</p>
 
-
-1. ¿Cuál es mi realidad en estos momentos?
-
-
+<p>1. ¿Cuál es mi realidad en estos momentos?
 
 2. ¿Qué es importante en la vida? 
 
-
 3.¿Qué es importante en mi vida?
+
 4. ¿Cuáles son mis necesidades?
+
 5. ¿Cuáles son mis objetivos?
+
 6. ¿Cuáles son mis valores?
-7. ¿Cómo puedo proceder?
+
+7. ¿Cómo puedo proceder?</p>
 '
             ]
         ];
