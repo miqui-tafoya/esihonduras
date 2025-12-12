@@ -95,7 +95,7 @@
 
             <div class="grid-bloque-dos-home">
                 <div class="img-bloque-dos-home">
-                    <img src="Public/recursos/imagenes/foto_esi_1.jpg" alt="">
+                    <img src="Public/recursos/imagenes/foto_primario_2.jpg" alt="">
                 </div>
 
                 <div class="info-bloque-dos-home">
@@ -108,7 +108,7 @@
                     <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley”
                         (joven tolupan, 2025) </p>
                     <div class="btn-enlace">
-                        <a href="#">Leer más</a>
+                        <a href="saludsexual">Leer más</a>
                     </div>
                 </div>
 
@@ -296,7 +296,7 @@
             <div class="grid-bloque-seis-home">
 
                 <div class="video-bloque-seis-home">
-                    <iframe class="video" src="https://www.youtube.com/embed/RcnksOUugcA" allowfullscreen></iframe>
+                    <iframe class="video" src="https://www.youtube.com/watch?v=A3mP9WxjcrQ&t=6s" allowfullscreen></iframe>
 
                 </div>
 
