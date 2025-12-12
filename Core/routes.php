@@ -250,7 +250,7 @@ $routeList->add(
         '/login',
         'login',
         ['main',
-                ['Login Administrativo', []],
+                ['Login Administrativo', ['login']],
                 [['head' => [], 'footer' => []],
                         []],
                 []],

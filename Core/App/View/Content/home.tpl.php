@@ -99,7 +99,10 @@
                 </div>
 
                 <div class="info-bloque-dos-home">
-                    <p class="bloque-dos-home-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce el derecho a la protección de la salud en el artículo 145 de la Constitución de la República de Honduras. La salud sexual y reproductiva es un derecho muy amplio que nos lleva a hablar de servicios de salud de buena calidad, educación, consentimiento, información y prevención.
+                    <p class="bloque-dos-home-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce
+                        el derecho a la protección de la salud en el artículo 145 de la Constitución de la República de
+                        Honduras. La salud sexual y reproductiva es un derecho muy amplio que nos lleva a hablar de
+                        servicios de salud de buena calidad, educación, consentimiento, información y prevención.
                     </p>
 
                     <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley”
@@ -125,7 +128,8 @@
                 <div class="row-datos">
                     <div class="bloque-dato">
                         <p class="p-cifra">22.8%</p>
-                        <p class="p-info">de adolescentes eran madres o estaban embarazadas. Encuesta Nacional de Demografía y Salud (ENDESA)  </p>
+                        <p class="p-info">de adolescentes eran madres o estaban embarazadas. Encuesta Nacional de
+                            Demografía y Salud (ENDESA) </p>
                     </div>
 
                     <div class="bloque-dato">
@@ -228,7 +232,7 @@
                                 sus estudios, su futuro y sus emociones.</p>
                             <div class="btn-enlace-dos">
                                 <a href="<?php echo URL_BASE ?>madresypadres">Ir a información</a>
-                            </div>    
+                            </div>
                         </div>
 
                     </div>
@@ -293,14 +297,18 @@
             <div class="grid-bloque-seis-home">
 
                 <div class="video-bloque-seis-home">
-                    <iframe  class="video" src="https://www.youtube.com/embed/A3mP9WxjcrQ?si=hbM5ZwXBWxaaAI_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="video" src="https://www.youtube.com/embed/A3mP9WxjcrQ?si=hbM5ZwXBWxaaAI_W"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div class="info-bloque-seis-home">
-                    <p class="cuerpo-texto">Conoce la historia de Yenifer, una mujer con discapacidad. 
-La sociedad sigue creyendo que las mujeres con discapacidad no pueden decidir si quieren o no ser madres.</br> </br> 
-Las personas con discapacidad tienen derechos y los derechos sexuales y reproductivos son para todas las personas. 
-
+                    <p class="cuerpo-texto">Conoce la historia de Yenifer, una mujer con discapacidad.
+                        La sociedad sigue creyendo que las mujeres con discapacidad no pueden decidir si quieren o no
+                        ser madres.</br> </br>
+                        Las personas con discapacidad tienen derechos y los derechos sexuales y reproductivos son para
+                        todas las personas.
                     </p>
 
 

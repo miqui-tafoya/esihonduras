@@ -5,8 +5,8 @@ if (isset($responseParams['post'])) {
 }
 ?>
 <div id="main">
-    <div>
-        <h1>Acceso</h1>
+    <div class="contenedor-login">
+        <p class="cabecera-uno">Acceso</p>
         <form method="post">
             <label for="nombre">Nombre de usuario o Email
                 <br><span><?php echo $error['error_login'] ?? '' ?></span>
