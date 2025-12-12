@@ -99,10 +99,7 @@
                 </div>
 
                 <div class="info-bloque-dos-home">
-                    <p class="bloque-dos-home-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce
-                        el derecho a la protección de la salud en el artículo 145. La salud sexual y reproductiva es un
-                        derecho muy amplio que nos lleva a hablar de servicios de salud de buena calidad, educación,
-                        consentimiento, información, prevención.
+                    <p class="bloque-dos-home-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce el derecho a la protección de la salud en el artículo 145 de la Constitución de la República de Honduras. La salud sexual y reproductiva es un derecho muy amplio que nos lleva a hablar de servicios de salud de buena calidad, educación, consentimiento, información y prevención.
                     </p>
 
                     <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley”
@@ -127,8 +124,8 @@
             <div class="grid-bloque-tres-home">
                 <div class="row-datos">
                     <div class="bloque-dato">
-                        <p class="p-cifra">24%</p>
-                        <p class="p-info">de adolescentes eran madres o estaban embarazadas </p>
+                        <p class="p-cifra">22.8%</p>
+                        <p class="p-info">de adolescentes eran madres o estaban embarazadas. Encuesta Nacional de Demografía y Salud (ENDESA)  </p>
                     </div>
 
                     <div class="bloque-dato">
@@ -138,7 +135,7 @@
 
                     <div class="bloque-dato">
                         <p class="p-cifra">7.25% </p>
-                        <p class="p-info">la población indígena de Honduras constituye el </p>
+                        <p class="p-info">de la población de Honduras es indígena</p>
 
                     </div>
 
@@ -149,7 +146,7 @@
                     <div class="bloque-dato">
                         <p class="p-cifra">1 </p>
                         <p class="p-info">de cada cuatro embarazos registrados en Honduras corresponde a una menor de 19
-                            años, Fondo de Población de las Naciones Unidas (FPNU), </p>
+                            años, Fondo de Población de las Naciones Unidas (UNFPA) </p>
 
                     </div>
 
@@ -165,7 +162,7 @@
 
                     <div class="bloque-dato">
                         <p class="p-cifra">6,914 </p>
-                        <p class="p-info">niñas, adolescentes y jóvenes, egreso de un hospital de Honduras después de un
+                        <p class="p-info">niñas, adolescentes y jóvenes, egresó de un hospital de Honduras después de un
                             parto en los primeros siete meses del 2024
                         </p>
 
@@ -300,12 +297,10 @@
                 </div>
 
                 <div class="info-bloque-seis-home">
-                    <p class="cuerpo-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim id est laborum.
+                    <p class="cuerpo-texto">Conoce la historia de Yenifer, una mujer con discapacidad. 
+La sociedad sigue creyendo que las mujeres con discapacidad no pueden decidir si quieren o no ser madres.</br> </br> 
+Las personas con discapacidad tienen derechos y los derechos sexuales y reproductivos son para todas las personas. 
+
                     </p>
 
 
