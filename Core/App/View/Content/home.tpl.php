@@ -296,8 +296,7 @@
             <div class="grid-bloque-seis-home">
 
                 <div class="video-bloque-seis-home">
-                    <iframe class="video" src="https://www.youtube.com/watch?v=A3mP9WxjcrQ&t=6s" allowfullscreen></iframe>
-
+                    <iframe  class="video" src="https://www.youtube.com/embed/A3mP9WxjcrQ?si=hbM5ZwXBWxaaAI_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <div class="info-bloque-seis-home">
