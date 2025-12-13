@@ -140,6 +140,14 @@
   .intro-faq {
     width: 80%;
   }
+  .bloque-form {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
