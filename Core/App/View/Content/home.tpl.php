@@ -221,7 +221,7 @@
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/info_jovenes.png" alt="">
+                            <img src="Public/recursos/imagenes/info_jovenes.jpg" alt="">
                         </div>
 
                         <div class="info-item-cinco">
@@ -240,7 +240,7 @@
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/embarazo_adolescente.png" alt="">
+                            <img src="Public/recursos/imagenes/embarazo_adolescente.jpg" alt="">
                         </div>
 
                         <div class="info-item-cinco">
@@ -260,7 +260,7 @@
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/centros_de_salud.png" alt="">
+                            <img src="Public/recursos/imagenes/centros_de_salud.jpg" alt="">
                         </div>
 
                         <div class="info-item-cinco">

@@ -223,6 +223,9 @@
     flex-direction: unset;
     width: 80%;
   }
+  .grid-doble-multimedia {
+    flex-direction: unset;
+  }
   .txt-grid-doble {
     padding: 0 2rem;
   }
@@ -324,5 +327,8 @@
   }
   .bloque-audio {
     width: 80%;
+  }
+  .img-grid-multimedia {
+    height: 95vh;
   }
 }/*# sourceMappingURL=mediaquery.css.map */

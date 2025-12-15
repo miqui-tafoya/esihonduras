@@ -10,7 +10,7 @@
 .back-color {
   width: 100%;
   height: 100%;
-  background-color: #fce4fc;
+  background-color: #f8fae9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,31 +57,24 @@
   padding: 2rem 0;
 }
 
-.grid-doble {
-  width: 90%;
+.grid-doble-multimedia {
+  width: 100%;
   height: 100%;
-  min-height: 768px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 0rem;
   margin: 0 auto;
 }
 
-.img-grid-doble {
+.img-grid-multimedia {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   margin: 0 auto;
-}
-
-.img-grid-doble img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-  border-radius: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-image: url(../recursos/imagenes/multimedia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .txt-grid-doble {
@@ -90,7 +83,7 @@
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  padding: 2rem 0.5rem;
+  padding: 2rem 1rem;
 }
 
 .dos-grid-doble {
