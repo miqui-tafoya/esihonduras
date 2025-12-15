@@ -9,21 +9,7 @@ use Model\{
 class Apientradas extends Render {
     public function GET_handler($route, $params, $js) {
     }
-    // public function queryStringValues($key, $value) {
-    //     $clase = explode('\\', __CLASS__);
-    //     $buildClass = '\\Model\\' . ucfirst($clase[1]) . 'Model';
-    //     $load = new $buildClass;
-    //     $valores = $load->fetchQueryStringData($key, $value);
-    //     return $valores;
-    // }
-    // public function values($params) {
-    //     $clase = explode('\\', __CLASS__);
-    //     $buildClass = '\\Model\\' . ucfirst($clase[1]) . 'Model';
-    //     $load = new $buildClass();
-    //     $valores = $load->fetchData($params);
-    //     return $valores;
-    // }
-        public function values($params) {
+    public function values($params) {
         $clase = explode('\\', __CLASS__);
         $buildClass = '\\Model\\' . ucfirst($clase[1]) . 'Model';
         $load = new $buildClass;
