@@ -50,7 +50,7 @@
                     <ul>
                         <li><a href="centrosdesalud">Centros de Salud</a></li>
                         <li><a href="informacionpublica">Información Pública</a></li>
-                        <li><a href="faq">Preguntas Frecuentes</a></li>
+                        <li><a href="faq">Preguntas y dudas</a></li>
 
                     </ul>
                     <ul>
