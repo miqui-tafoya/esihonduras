@@ -148,6 +148,18 @@
     align-items: start;
     justify-content: center;
   }
+  .cuerpo-texto-uno-ss {
+    padding: 1rem 3rem;
+  }
+  .img-fr2 {
+    height: 720px;
+  }
+  .img-fr2-dos {
+    height: 750px;
+  }
+  .img-intro-quienes {
+    height: 720px;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {

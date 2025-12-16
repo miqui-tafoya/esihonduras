@@ -10,7 +10,7 @@
             </div>
             <div class="txt-intro-quienes">
                 <p class="cabecera-uno">
-                    Quiénes Somos
+                    Quiénes Somos 
                 </p>
                 <p class="dos-intro-quienes">
                     La salud sexual y reproductiva es un componente esencial del bienestar humano, el desarrollo social
@@ -161,7 +161,7 @@
         <!-- inicio bloque cinco -->
         <div class="bloque-cinco-quienes">
             <div class="info-bloque-cinco-quienes">
-                <p class="cabecera-dos-quienes">Créditos y agradecimientos: </p>
+                <p class="cabecera-dos-quienes p-bottom">Créditos y agradecimientos: </p>
 
                 <p class="bloque-cinco-quienes-dos">Red de jóvenes miskitu MIWATIA, <br>
                     Redes de jóvenes indígenas Pech, Tawahka, Maya Chortí y afro, <br>

@@ -7,7 +7,7 @@
             <div class="bloque-fr2">
                 <div class="txt-intro-fr2">
                     <p class="cabecera-uno-ss">¿Por qué hablamos de salud sexual integral?</p>
-                    <p class="cuerpo-texto-uno-ss">
+                    <p class="cuerpo-texto-uno-ss-dos">
                         Hablar de salud sexual es hablar del derecho a la salud de todas las personas y los derechos no
                         se le niega a nadie.
                     </p>
@@ -258,7 +258,7 @@
                     </p>
                 </div>
 
-                <div class="img-fr2">
+                <div class="img-fr2-dos">
                     <img src="Public/recursos/imagenes/foto_primario_3.jpg" alt=""></a>
                 </div>
 
