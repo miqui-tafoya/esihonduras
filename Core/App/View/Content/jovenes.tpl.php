@@ -6,9 +6,6 @@
         <!-- Start Bloque uno -->
 
         <div class="back-color">
-            <div class="intro">
-                <p class="cabecera-uno">Jóvenes</p>
-            </div>
 
             <div class="grid-doble">
 
@@ -16,14 +13,12 @@
                     <img src="Public/recursos/imagenes/jovenes.jpg" alt=""></a>
                 </div>
                 <div class="txt-grid-doble">
-
+                    <p class="cabecera-uno">Jóvenes</p>
                     <p class="cabecera-one">Información dirigida a las y los jóvenes </p>
                     <p class="dos-grid-doble">Las y los jóvenes tenemos Derechos ESI
                         <br>
-                        <br>
                         Si llegaste hasta aquí, te invitamos a quedarte, ahora te acompañamos en este viaje por tus
                         derechos sexuales.
-                        <br>
                         <br>
                     </p>
                     <p class="cabecera-one-dos">En esta secciones encontrarás información sobre: </p>

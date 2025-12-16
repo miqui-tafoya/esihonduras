@@ -3,18 +3,15 @@
     <div class="contenedor-educadores">
 
         <div class="back-color">
-            <div class="intro">
-                <p class="cabecera-uno">Educadores</p>
-            </div>
 
             <!-- Start Bloque uno -->
             <div class="grid-doble">
 
                 <div class="img-grid-doble">
-                    <img src="Public/recursos/imagenes/embarazo_adolescente.png" alt=""></a>
+                    <img src="Public/recursos/imagenes/embarazo_adolescente.jpg" alt=""></a>
                 </div>
                 <div class="txt-grid-doble">
-
+                    <p class="cabecera-uno">Personas Educadoras</p>
                     <p class="cabecera-one">Información dirigida a educadores</p>
                     <p class="dos-grid-doble">Las y los maestros son parte fundamental en la formación de las chicas y
                         chicos. Educar no solo es leer
