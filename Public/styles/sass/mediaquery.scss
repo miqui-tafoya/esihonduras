@@ -202,6 +202,11 @@
     height: 720px;
 }
 
+.row-datos {
+    align-items: start;
+  
+}
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -403,7 +408,7 @@
 }
 
 .bloque-entrada{
-    width: 70%;
+    width: 60%;
 }
 .layout-filtros{
     width: 100%;
@@ -434,6 +439,9 @@
  
 }
 
-
+.item-perfiles-quienes{
+    margin:1rem 1rem;
+   
+}
 
 }

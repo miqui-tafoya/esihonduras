@@ -251,10 +251,11 @@
 .row-datos {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
-  width: 100%;
-  padding-bottom: 2rem 0;
+  width: 90%;
+  padding: 2rem 0;
+  margin: 0 auto;
 }
 
 .bloque-dato {
@@ -263,7 +264,7 @@
   justify-content: center;
   align-items: center;
   width: 90%;
-  padding: 2rem 0rem;
+  padding: 2rem 1rem;
 }
 
 .p-cifra {

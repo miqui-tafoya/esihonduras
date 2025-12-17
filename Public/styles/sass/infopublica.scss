@@ -227,7 +227,7 @@ label {
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin:1rem 1rem;
+    margin:1rem 0rem;
     max-width: 600px;
 
 }
@@ -283,4 +283,28 @@ label {
 
 .btn-perfiles a i{
     padding: 0 0 0 0.3rem;
+}
+
+.btn-back{
+    display: flex;
+}
+
+.btn-back a{
+     font-weight: 600;
+    color:vars.$g0;
+    font-size: 0.8rem;
+    background-color:vars.$primario;
+    padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    border-radius: 40px;
+   
+}
+
+.btn-back a:hover{
+    color: vars.$primario;
+    background-color:vars.$secundario;
+}
+
+.btn-back a i{
+    padding: 0 0.4rem 0 0;
 }
