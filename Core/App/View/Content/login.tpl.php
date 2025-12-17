@@ -1,7 +1,7 @@
 <?php
 if (isset($responseParams['post'])) {
     $error = $responseParams['response'];
-    $login = $responseParams['post']['login'];
+    $login = $responseParams['post']['login_email'];
 }
 ?>
 <div id="main">
@@ -12,10 +12,10 @@ if (isset($responseParams['post'])) {
         </div>
         <form method="post" class="bloque-form">
             <div class="bloque">
-                <label for="nombre">Nombre de usuario o Email
+                <label for="nombre">Email
                     <br><span><?php echo $error['error_login'] ?? '' ?></span>
                 </label>
-                <input type="text" value="<?php echo $login ?? '' ?>" name="login">
+                <input type="text" value="<?php echo $login ?? '' ?>" name="login_email">
             </div>
             <div class="bloque">
                 <label for="pass">Contraseña
@@ -33,10 +33,10 @@ if (isset($responseParams['post'])) {
             </label>
             <img style="height:50px;width:130px;margin: 5px auto 0 auto" src="captcha" id="captcha_image" />
             <input maxlength="5" type="text" name="captcha_code">
-            <div style="margin: 0.4rem auto 1rem auto; text-align: center"><a style=" color: #ff3366"
+            <!-- <div style="margin: 0.4rem auto 1rem auto; text-align: center"><a style=" color: #ff3366"
                     href="<?php echo URL_BASE ?>recupera">¿Olvidaste tu
                     contraseña?</a></div>
-            </div>
+            </div> -->
 
             <div class="btn-enlace">
                 <input type="submit" name="login-btn" class="btn" value="Entrar">

@@ -25,8 +25,7 @@ class Login extends Render {
         unset($params[3]['login-btn']);
         // manejo de respuesta previa a Render
         $login_email = $model->sendData_fetchLogin_email($params[3]);
-        $login_name = $model->sendData_fetchLogin_name($params[3]);
-        $response = $this->processUser($params[3], $login_email, $login_name);
+        $response = $this->processUser($params[3], $login_email);
         $POST_response['post'] = $params[3];
         $POST_response['response'] = $response;
         // Renderizado de Frontend
@@ -46,8 +45,8 @@ class Login extends Render {
 
     public function validaLogin($params) {
         $errors = [];
-        if (empty($params['login'])) {
-            $errors = MainCtrl::pushAssoc($errors, 'error_login', '<i class="fas fa-exclamation-triangle"></i> Ingresa tu Nombre de usuario o Email');
+        if (empty($params['login_email'])) {
+            $errors = MainCtrl::pushAssoc($errors, 'error_login', '<i class="fas fa-exclamation-triangle"></i> Ingresa tu Email');
         }
         if (empty($params['password'])) {
             $errors = MainCtrl::pushAssoc($errors, 'error_password', '<i class="fas fa-exclamation-triangle"></i> Ingresa tu Contraseña');
@@ -62,55 +61,45 @@ class Login extends Render {
         }
         return $errors;
     }
-    public function processUser($params, $login_email, $login_name) {
+    public function processUser($params, $login_email) {
         $model = new LoginModel;
         $errors = $this->validaLogin($params);
         if (count($errors) !== 0) {
             return $errors;
         }
-        if (!isset($login_email['login_email']) && !isset($login_name['login_name'])) {
+        if (!isset($login_email['login_email'])) {
             $errors = [
-                'error_login' => '<i class="fas fa-exclamation-triangle"></i> Revisa tu Email o Nombre de usuario',
+                'error_login' => '<i class="fas fa-exclamation-triangle"></i> Revisa tu Email',
             ];
             return $errors;
         } elseif (isset($login_email['login_email'])) {
-            $login['login'] = $login_email['login_email'];
+            $login['login_email'] = $login_email['login_email'];
             $login['password'] = $login_email['password'];
-        } elseif (isset($login_name['login_name'])) {
-            $login['login'] = $login_name['login_name'];
-            $login['password'] = $login_name['password'];
         }
-        if (isset($login['login'])) {
-            if (!password_verify($params['password'], $login['password'])) {
+        if (isset($login['login_email'])) {
+            if ($params['password'] !== $login['password']) {
+            // if (!password_verify($params['password'], $login['password'])) {
                 $errors = [
                     'error_password' => '<i class="fas fa-exclamation-triangle"></i> Revisa tu Contraseña'
                 ];
                 return $errors;
             }
         }
-        $usuario = $model->sendData_fetchUsuario($login['login']);
+        $usuario = $model->sendData_fetchUsuario($login['login_email']);
         $this->loginSESSION($usuario);
     }
     public function loginSESSION($usuario) {
         unset($_SESSION['captcha_code']);
-        $_SESSION['id'] = (int) $usuario['usr']['uID'];
-        $_SESSION['login_name'] = $usuario['usr']['login_name'];
-        $_SESSION['nicename'] = $usuario['usr']['nicename'];
-        $_SESSION['login_email'] = $usuario['usr']['login_email'];
-        $_SESSION['active'] = (int) $usuario['usr']['active'];
-        $_SESSION['rol'] = $usuario['usr']['rol'];
-        $_SESSION['su'] = $usuario['usr']['su'];
-        if ($_SESSION['active'] === 0) {
-            $_SESSION['message1'] = 'Solo falta un paso para activar tu sesión.<br>Busca en tu correo (<strong>' . $_SESSION['login_email'] . '</strong>) el enlace de activación de cuenta<br>Si no lo encuentras en tu bandeja principal no olvides revisar en la carpeta de SPAM.';
-            header('location: ' . URL_BASE . 'activar');
-            exit;
+        $_SESSION['id'] = (int) $usuario['tb_usuarios_id'];
+        $_SESSION['login_email'] = $usuario['login_email'];
+        $_SESSION['nombre'] = $usuario['nombre'] . ' ' . $usuario['apellido'];
+        $_SESSION['permisos'] = $usuario['permisos'];
+
+        if ($_SESSION['permisos'] == 1) {
+            header('location: ' . URL_BASE . 'dashboard');
+            exit();
         } else {
-            if ($_SESSION['rol'] !== 'member') {
-                header('location: ' . URL_BASE . 'dashboard');
-                exit();
-            }
-            $_SESSION['message1'] = 'Ya puedes hacer uso de las opciones adicionales de Usuario, las puedes encontrar en tu panel lateral derecho.';
-            header('location: ' . URL_BASE . 'mijournal');
+            header('location: ' . URL_BASE);
             exit;
         }
     }

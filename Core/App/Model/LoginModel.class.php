@@ -15,21 +15,12 @@ class LoginModel extends Model {
     // GETTERS
     public function sendData_fetchLogin_email($post) {
         $cols = ['login_email', 'password'];
-        $data = $this->db->dbCall('one', false, $cols, 'usuarios', ['login_email' => $post['login']]);
-        return $data;
-    }
-    public function sendData_fetchLogin_name($post) {
-        $cols = ['login_name', 'password'];
-        $data = $this->db->dbCall('one', false, $cols, 'usuarios', ['login_name' => $post['login']]);
+        $data = $this->db->dbCall('one', false, $cols, 'tb_usuarios', ['login_email' => $post['login_email']]);
         return $data;
     }
 
     public function sendData_fetchUsuario($post) {
-        $data['usr'] = $this->db->dbCall('one', false, 'all', 'usuarios', ['login_email' => $post]);
-        if (empty($data['usr'])) {
-            $data['usr'] = $this->db->dbCall('one', false, 'all', 'usuarios', ['login_name' => $post]);
-        }
-        $data['meta'] = $this->db->dbCall('one', false, 'all', 'usuarios_meta', ['user_id' => $data['usr']['uID']]);
+        $data = $this->db->dbCall('one', false, 'all', 'tb_usuarios', ['login_email' => $post]);
         return $data;
     }
 }

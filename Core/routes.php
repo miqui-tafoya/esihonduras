@@ -35,7 +35,7 @@ $routeList->add(
         'error',
         ['error',
                 ['Error', []],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         []
@@ -47,7 +47,7 @@ $routeList->add(
         'home',
         ['main',
                 ['Inicio ESI Honduras', ['home']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         []
@@ -59,7 +59,7 @@ $routeList->add(
         'centrosdesalud',
         ['main',
                 ['Centros de Salud', ['centros']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         []
@@ -71,7 +71,7 @@ $routeList->add(
         'regionsalud',
         ['main',
                 ['Centros de Salud', ['centros', 'leaflet']],
-                [['head' => [], 'footer' => []],
+                [[],
                         ['centros']],
                 []],
         ['leaflet', 'regionsaludHandler']
@@ -83,7 +83,7 @@ $routeList->add(
         'contacto',
         ['main',
                 ['Contacto', ['contacto']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         []
@@ -95,7 +95,7 @@ $routeList->add(
         'quienessomos',
         ['main',
                 ['Quiénes Somos', ['quienes']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         []
@@ -107,7 +107,7 @@ $routeList->add(
         'educadores',
         ['main',
                 ['Quiénes Somos - Educadores', ['slideseducadores', 'educadores']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         ['slideseducadores']
@@ -119,7 +119,7 @@ $routeList->add(
         'madresypadres',
         ['main',
                 ['Quiénes Somos - Madres y Padres', ['madresypadres', 'actividades']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         ['actividadespadres']
@@ -131,7 +131,7 @@ $routeList->add(
         'jovenes',
         ['main',
                 ['Quiénes Somos - Jóvenes', ['jovenes', 'actividades']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         ['actividadesjovenes']
@@ -143,7 +143,7 @@ $routeList->add(
         'faq',
         ['main',
                 ['Preguntas Frecuentes', ['faq']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         ['acordeon']
@@ -155,7 +155,7 @@ $routeList->add(
         'informacionpublica',
         ['main',
                 ['Información Pública', ['infopublica']],
-                [['head' => [], 'footer' => []],
+                [[],
                         ['categorias', 'publicaciones']],
                 []],
         []
@@ -167,7 +167,7 @@ $routeList->add(
         'informacionpublica',
         ['main',
                 ['Información Pública', ['infopublica', 'paginado']],
-                [['head' => [], 'footer' => []],
+                [[],
                         ['categorias']],
                 $_POST],
         ['informacionPublicaHandler']
@@ -179,7 +179,7 @@ $routeList->add(
         'multimedia',
         ['main',
                 ['Multimedia', ['infopublica', 'slider', 'multimedia', 'noticias']],
-                [['head' => [], 'footer' => []],
+                [[],
                         ['audio', 'video', 'publicaciones']],
                 []],
         ['slider']
@@ -191,7 +191,7 @@ $routeList->add(
         'noticias',
         ['main',
                 ['Noticias', ['noticias']],
-                [['head' => [], 'footer' => []],
+                [[],
                         ['hoy', 'destacados', 'noticias', 'categorias']],
                 []],
         []
@@ -203,7 +203,7 @@ $routeList->add(
         'archivo',
         ['main',
                 ['Archivo', ['infopublica', 'paginado']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         ['archivoHandler']
@@ -215,7 +215,7 @@ $routeList->add(
         'categoria',
         ['main',
                 ['Categiría', ['infopublica', 'paginado', 'entrada']],
-                [['head' => [], 'footer' => []],
+                [[],
                         ['categoria', 'entradas']],
                 []],
         ['categoriasHandler']
@@ -227,7 +227,7 @@ $routeList->add(
         'entrada',
         ['main',
                 ['', ['entrada']],
-                [['head' => [], 'footer' => []],
+                [[],
                         ['entrada']],
                 []],
         []
@@ -239,7 +239,7 @@ $routeList->add(
         'saludsexual',
         ['main',
                 ['Salud Sexual', ['saludsexual']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         []
@@ -251,7 +251,7 @@ $routeList->add(
         'login',
         ['main',
                 ['Login Administrativo', ['login']],
-                [['head' => [], 'footer' => []],
+                [[],
                         []],
                 []],
         ['login']
@@ -262,11 +262,407 @@ $routeList->add(
         '/login',
         'login',
         ['main',
-                ['Login Administrativo', []],
-                [['head' => [], 'footer' => []],
+                ['Login Administrativo', ['login']],
+                [[],
                         []],
                 $_POST],
         ['login']
+);
+
+$routeList->add(
+        'get',
+        '/dashboard',
+        'dashboard',
+        ['admin',
+                ['Administración', ['admin']],
+                [[],
+                        []],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/entrynoticias/',
+        'entrynoticias',
+        ['admin',
+                ['Administración de Noticias', ['admin']],
+                [[],
+                        ['paginado', 'posts']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/entrynoticias/',
+        'entrynoticias',
+        ['admin',
+                ['Administración de Noticias', ['admin']],
+                [[],
+                        ['paginado', 'posts']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/nuevaentrada',
+        'nuevaentrada',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas']],
+                []],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'post',
+        '/nuevaentrada',
+        'nuevaentrada',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas']],
+                $_POST],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'get',
+        '/editarentrada/',
+        'editarentrada',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas', 'entrada']],
+                []],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'post',
+        '/editarentrada/',
+        'editarentrada',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas', 'entrada']],
+                $_POST],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'get',
+        '/entryinfopublica/',
+        'entryinfopublica',
+        ['admin',
+                ['Administración de Información Pública', ['admin']],
+                [[],
+                        ['paginado', 'posts']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/entryinfopublica/',
+        'entryinfopublica',
+        ['admin',
+                ['Administración de Información Pública', ['admin']],
+                [[],
+                        ['paginado', 'posts']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/nuevainfopublica',
+        'nuevainfopublica',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas']],
+                []],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'post',
+        '/nuevainfopublica',
+        'nuevainfopublica',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas']],
+                $_POST],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'get',
+        '/editarinfopublica/',
+        'editarinfopublica',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas', 'entrada']],
+                []],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'post',
+        '/editarinfopublica/',
+        'editarinfopublica',
+        ['admin',
+                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                [[],
+                        ['temas', 'entrada']],
+                $_POST],
+        ['admin', 'session']
+);
+
+$routeList->add(
+        'get',
+        '/entrycategorias/',
+        'entrycategorias',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'categorias']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/entrycategorias/',
+        'entrycategorias',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'categorias']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/nuevacategoria',
+        'nuevacategoria',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        []],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/nuevacategoria',
+        'nuevacategoria',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        []],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/editarcategoria/',
+        'editarcategoria',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['tema']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/editarcategoria/',
+        'editarcategoria',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['tema']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/videos',
+        'videos',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['videos']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/videos',
+        'videos',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['videos']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/podcast',
+        'podcast',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['podcast']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/podcast',
+        'podcast',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['podcast']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/medios/',
+        'medios',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'medios']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/medios/',
+        'medios',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'medios']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/mapa/',
+        'mapa',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'mapa']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/mapa/',
+        'mapa',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'mapa']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/usuarios/',
+        'usuarios',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'usuarios']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/usuarios/',
+        'usuarios',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['paginado', 'usuarios']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/nuevousuario',
+        'nuevousuario',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        []],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/nuevousuario',
+        'nuevousuario',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        []],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/editarusuario/',
+        'editarusuario',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['usuario']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/editarusuario/',
+        'editarusuario',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['usuario']],
+                $_POST],
+        ['admin']
 );
 
 // pseudorutas y/o llamadas AJAX

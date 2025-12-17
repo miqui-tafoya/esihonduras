@@ -1,0 +1,888 @@
+@charset "UTF-8";
+.container-d {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  flex-grow: 1;
+}
+
+.sidebar {
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  flex: 20%;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  flex-grow: 1;
+}
+
+.sidebar .dash::after {
+  content: "▾";
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.sub {
+  display: none;
+}
+
+.sidebar .dash {
+  background-color: red;
+}
+
+.sidebar > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul a li > i {
+  margin-right: 10px;
+}
+
+.sidebar ul > a {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: block;
+  color: white;
+  transition: 0.2s ease-in-out;
+  position: relative;
+}
+
+.sidebar ul > a:hover {
+  background-color: blue;
+  padding-left: 1.2rem;
+}
+
+.sidebar ul > a:hover:before {
+  content: "▶";
+  position: absolute;
+  color: white;
+  top: 0.9rem;
+  left: 0.8rem;
+  margin-left: -1rem;
+}
+
+.sidebar ul > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: darkblue;
+}
+
+.sidebar ul ul > a {
+  padding-left: 2rem;
+}
+
+.sidebar ul ul > a:hover {
+  background-color: blue;
+  padding-left: 2.2rem;
+}
+
+.dash {
+  display: flex;
+  background-color: grey;
+  margin: 0;
+  flex: 80%;
+  flex-direction: column;
+  height: auto;
+}
+
+.dash-entradas {
+  display: flex;
+  background-color: grey;
+  margin: 0;
+  flex: 80%;
+  flex-direction: row;
+  height: auto;
+}
+
+.configuraciones {
+  padding: 1rem;
+  margin: 0;
+}
+
+.configuraciones-entradas {
+  flex: 85%;
+  padding: 1rem;
+  margin: 0;
+}
+
+.configuraciones-2 {
+  height: auto;
+  flex: 15%;
+  padding: 0.5rem 1rem 1rem 1rem;
+  margin: 0;
+  background-color: white;
+  box-shadow: -3px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.lista {
+  background-color: white;
+  box-shadow: inset 0 6px 6px -3px rgba(0, 0, 0, 0.5);
+  max-height: 30rem;
+  overflow-y: scroll;
+  width: 100%;
+  margin: 0 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.lista table {
+  border-collapse: collapse;
+}
+
+.lista th {
+  padding: 1rem 0.5rem;
+  color: blue;
+  font-weight: bold;
+  background-color: #d9e9e9;
+}
+
+.lista td {
+  padding: 1rem 0.5rem;
+}
+
+.lista tr {
+  border-bottom: 1px solid blue;
+}
+
+.lista tr:hover {
+  background-color: rgba(66, 143, 146, 0.2);
+}
+
+.lista tr:hover .ver-post {
+  visibility: visible;
+}
+
+.selection {
+  margin: 1rem;
+  padding: 0;
+}
+
+.left-sel {
+  float: left;
+}
+
+.left-sel > select {
+  height: 2rem;
+  width: auto;
+  border: 0;
+  background-color: white;
+  color: red;
+  font-size: 1.2rem;
+}
+
+.right-sel > span {
+  float: right;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  margin-right: 2rem;
+}
+
+.ver-post {
+  margin-left: 0.5rem;
+  display: inline;
+  visibility: hidden;
+  text-transform: uppercase;
+  color: blue;
+}
+
+.editar {
+  color: orange;
+}
+
+.borrar {
+  color: red;
+}
+
+.despublicar {
+  color: blue;
+}
+
+.publicar {
+  color: green;
+}
+
+.com {
+  color: blue;
+}
+
+.button-ghost {
+  background-color: unset;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: blue;
+}
+
+.ytfield {
+  background-color: lightgray;
+  color: blue;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.ytedit {
+  border: none;
+  background-color: transparent;
+  color: blue;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.admin-card {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
+
+.profile_pic {
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_pic > img {
+  height: 10rem;
+  width: auto;
+}
+
+.profile_data {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.profile_data > ul {
+  list-style: none;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+/* Inicia botones y formularios */
+.botn-grupo {
+  position: relative;
+  margin: 1rem;
+}
+
+.botn-grupo > a {
+  position: relative;
+  display: inline-block;
+  margin: 0.5rem 1rem;
+  width: auto;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 2px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.botn-grupo > a:hover {
+  background-color: red;
+}
+
+.botn-grupo > a:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.campos-admin {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6rem;
+  margin-bottom: 2rem;
+}
+
+.campos-admin > label {
+  margin: 0.9rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.campos-admin-entradas {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  margin-bottom: 2rem;
+}
+
+.campos-admin-entradas > label {
+  margin: 0.9rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.fieldgroup-edit {
+  border: 1px darkcyan solid;
+  padding: 0.8rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.fieldgroup-edit-cont {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldgroup-edit-cont > label {
+  margin: 0.9rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.fieldgroup-edit-cont > span {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.checkbox-edit {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  padding: 0;
+}
+
+.checkbox-edit > label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: relative;
+  top: 1rem;
+}
+
+.img {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.img > img {
+  border-radius: 5px;
+  height: 10rem;
+  width: auto;
+}
+
+.profilepics {
+  margin: 0 auto;
+}
+
+.upldbtn {
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+  height: 15rem;
+  width: 15rem;
+  opacity: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+}
+
+.upldlbl {
+  margin: 0;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  height: 15rem;
+  width: 15rem;
+  border: blue 0.5rem solid;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: filter 0.2s ease-in-out;
+}
+
+.upldlbl > span {
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 5px;
+  height: auto;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  opacity: 0;
+  margin: -15rem 0 0 0.25rem;
+  transform: translateY(0.5rem);
+  display: block;
+  transition: 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+
+.upldlbl > span:before {
+  display: block;
+}
+
+.upldlbl > span:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid yellow 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+
+.upldlbl:hover > span {
+  opacity: 1;
+  transform: translateY(-1.5rem);
+}
+
+.btn-profile {
+  margin-left: 2.5rem;
+  width: 10rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 2px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-profile:hover {
+  background-color: red;
+}
+
+.btn-profile:active {
+  transform: translateY(2px);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+
+.checkbox-grupo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  border: 1px darkcyan solid;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.checkbox-grupo > label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: relative;
+  top: 1rem;
+}
+
+.checkbox1 {
+  width: 35px;
+  height: 20px;
+  background: red;
+  margin: 1.2rem 3rem 1rem 0.5rem;
+  position: relative;
+  border-radius: 5px;
+}
+
+.checkbox1 label {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: absolute;
+  top: -2px;
+  left: -3px;
+  background: black;
+}
+
+.checkbox1 input[type=checkbox]:checked + label {
+  left: 15px;
+  background-color: yellow;
+}
+
+.checkbox2 {
+  width: 35px;
+  height: 20px;
+  background: red;
+  margin: 1.2rem 3rem 1rem 0.5rem;
+  position: relative;
+  border-radius: 5px;
+}
+
+.checkbox2 label {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: absolute;
+  top: -2px;
+  left: -3px;
+  background: darkgrey;
+}
+
+.checkbox2 input[type=checkbox]:checked + label {
+  left: 15px;
+  background-color: yellow;
+}
+
+.checkbox3 {
+  width: 35px;
+  height: 20px;
+  background: red;
+  margin: 1.2rem 3rem 1rem 0.5rem;
+  position: relative;
+  border-radius: 5px;
+}
+
+.checkbox3 label {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: absolute;
+  top: -2px;
+  left: -3px;
+  background: grey;
+}
+
+.checkbox3 input[type=checkbox]:checked + label {
+  left: 15px;
+  background-color: yellow;
+}
+
+.checkbox4 {
+  width: 35px;
+  height: 20px;
+  background: red;
+  margin: 1.2rem 3rem 1rem 0.5rem;
+  position: relative;
+  border-radius: 5px;
+}
+
+.checkbox4 label {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: absolute;
+  top: -2px;
+  left: -3px;
+  background: grey;
+}
+
+.checkbox4 input[type=checkbox]:checked + label {
+  left: 15px;
+  background-color: yellow;
+}
+
+.checkbox5 {
+  width: 35px;
+  height: 20px;
+  background: red;
+  margin: 1.2rem 3rem 1rem 0.5rem;
+  position: relative;
+  border-radius: 5px;
+}
+
+.checkbox5 label {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: absolute;
+  top: -2px;
+  left: -3px;
+  background: grey;
+}
+
+.checkbox5 input[type=checkbox]:checked + label {
+  left: 15px;
+  background-color: yellow;
+}
+
+.adm-txt {
+  justify-content: center;
+  font-size: 1.2rem;
+  align-items: center;
+  border: 1px darkcyan solid;
+  margin: 0;
+  height: 2rem;
+  background-color: white;
+  color: blue;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+}
+
+.campos-admin > span {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  font-size: 0.8rem;
+  color: cyan;
+}
+
+.adm-sel {
+  justify-content: center;
+  font-size: 1rem;
+  align-items: center;
+  border: 1px darkcyan solid;
+  margin: 0;
+  height: 10rem;
+  background-color: white;
+  color: blue;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+}
+
+.adm-field {
+  justify-content: center;
+  font-size: 1rem;
+  align-items: center;
+  border: 1px darkcyan solid;
+  margin: 0;
+  height: auto;
+  background-color: white;
+  color: blue;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  display: block;
+  width: 100%;
+}
+
+.campo-file {
+  border: 1px darkcyan solid;
+  padding: 0.8rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.campo-file-edit {
+  border: none;
+  background-color: lightgray;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.rs-grupo {
+  margin: 0.5rem auto 1rem auto;
+  justify-content: center;
+  border: 1px darkcyan solid;
+  padding: 1rem;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.rs-grupo > label {
+  margin: 0.5rem 0 0.5rem 0;
+  font-weight: 500;
+  display: block;
+}
+
+.rs-grupo > span {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  font-size: 0.8rem;
+  color: cyan;
+}
+
+.rs-grupo > p {
+  margin: 0;
+  padding-bottom: 0.1rem;
+  padding-top: 0.35rem;
+  padding-left: 0.5rem;
+  background-color: blue;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  height: 2rem;
+  width: 2rem;
+  font-weight: 500;
+  float: left;
+  display: inline;
+}
+
+.adm-rs {
+  justify-content: center;
+  font-size: 1rem;
+  align-items: center;
+  border: 1px solid blue;
+  margin-bottom: 0.5rem;
+  height: 2rem;
+  width: 16rem;
+  background-color: white;
+  color: blue;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+}
+
+.adm-rs-sel {
+  display: block;
+  height: 2rem;
+  background-color: white;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  color: blue;
+}
+
+.field-center {
+  margin: 2rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.field-center > label {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  top: 1.1rem;
+}
+
+.gal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gal ul {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.gal li {
+  flex-direction: column;
+  height: fit-content;
+  max-width: 25rem;
+  flex-grow: 1;
+  margin: 0.5rem 0.25rem 1rem 0.25rem;
+  border: darkcyan solid 1px;
+  border-radius: 5px;
+  opacity: 0.8;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+
+.gal li:hover {
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+.gal li:last-child {
+  flex-grow: 10;
+}
+
+.gal img {
+  height: 11rem;
+  width: auto;
+}
+
+.gal p {
+  margin: 0.5rem;
+  padding: 0;
+  display: block;
+}
+
+.gal h3 {
+  margin: 0.25rem 0.25rem 0.25rem 0.25rem;
+  padding: 0.25rem;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+}
+
+.id_gal {
+  display: flex;
+  flex-direction: row;
+  background-color: darkcyan;
+}
+
+.id_gal > span:first-child {
+  justify-content: flex-start;
+  color: cyan;
+  font-weight: 500;
+  padding: 5px;
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
+}
+
+.id_gal > span:last-child {
+  margin-left: auto;
+  color: cyan;
+  font-weight: 500;
+  padding: 5px;
+  font-size: 0.9rem;
+  margin-right: 0.2rem;
+}
+
+.gal li > a {
+  display: flex;
+  justify-content: center;
+  color: red;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.gal li > a:hover {
+  color: darkred;
+}
+
+.help-boton-medios {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.help-boton-medios:hover {
+  color: blue;
+}
+
+#help-upload {
+  text-align: center;
+  border: solid blue thin;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: blue;
+}/*# sourceMappingURL=admin.css.map */

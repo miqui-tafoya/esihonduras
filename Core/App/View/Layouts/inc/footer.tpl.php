@@ -7,10 +7,10 @@
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/sesal.png" alt=""></li>
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/stlcc.png" alt=""></li>
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/agah.png" alt=""></li>
-                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/paeah.png" alt=""></li>
+                <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/paeah.png" alt=""></li>
             </lu>
             <lu class="ul-logos">
-               
+
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/sedesol.png" alt=""></li>
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/cultivando.png" alt=""></li>
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/eu_ogp.png" alt=""></li>
@@ -21,8 +21,15 @@
     <div class="info-footer">
         <div class="uno-info-footer">
             <p> ESI Honduras - 2025</p>
-                <div class="btn-login"> <a href="login">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a></div>
-                
+            <?php if(!isset($_SESSION['id'])): ?>
+            <div class="btn-login"> <a href="<?php echo URL_BASE ?>login">Login <i
+                        class="fa-solid fa-sign-in-alt"></i></a></div>
+            <?php else: ?>
+            <div class="btn-login"> <a href="<?php echo URL_BASE ?>dashboard">Dashboard <i
+                        class="fa-solid fa-tachometer-alt"></i></a></div>
+            <div class="btn-login"> <a href="<?php echo URL_BASE ?>logout">Logout <i
+                        class="fa-solid fa-sign-out-alt"></i></a></div>
+            <?php endif ?>
         </div>
         <div class="dos-info-footer">
             <p>Nuestras redes sociales</p>

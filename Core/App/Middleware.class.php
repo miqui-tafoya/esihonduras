@@ -4,11 +4,11 @@ class Middleware {
         switch ($tipo) {
             case 'loggedin':
                 if (!empty($_SESSION['id'])) {
-                    if ($_SESSION['rol'] !== 'member') {
-                        header('Location: ' . URL_BASE . 'dashboard');
+                    if ($_SESSION['permisos'] !== '1') {
+                        header('Location: ' . URL_BASE);
                         exit;
                     } else {
-                        header('Location: ' . URL_BASE . 'test');
+                        header('Location: ' . URL_BASE . 'dashboard');
                         exit;
                     }
                 }
