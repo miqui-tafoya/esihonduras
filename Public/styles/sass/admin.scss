@@ -8,6 +8,7 @@
   width: 100%;
   height: auto;
   flex-grow: 1;
+  font-family: "Onest", sans-serif;
 }
 .sidebar {
   display: flex;
@@ -31,7 +32,7 @@
   display: none;
 }
 .sidebar .dash {
-  background-color: red;
+  background-color:vars.$com-dos800;
 }
 .sidebar > ul {
   list-style: none;
@@ -51,7 +52,7 @@
   position: relative;
 }
 .sidebar ul > a:hover {
-  background-color: blue;
+  background-color: vars.$secundario400;
   padding-left: 1.2rem;
 }
 .sidebar ul > a:hover:before {
@@ -66,18 +67,18 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: darkblue;
+  background-color: vars.$com-dos800;
 }
 .sidebar ul ul > a {
   padding-left: 2rem;
 }
 .sidebar ul ul > a:hover {
-  background-color: blue;
+  background-color: vars.$secundario400;
   padding-left: 2.2rem;
 }
 .dash {
   display: flex;
-  background-color: vars.$com-dos100;
+  background-color: vars.$g100;
   margin: 0;
   flex: 80%;
   flex-direction: column;
@@ -213,7 +214,7 @@
 .admin-card {
   display: flex;
   flex-direction: row;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 .profile_pic {
@@ -233,7 +234,7 @@
 .profile_data {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .profile_data > ul {
   list-style: none;
@@ -251,7 +252,7 @@
   display: inline-block;
   margin: 0.5rem 1rem;
   width: auto;
-  background-color: blue;
+  background-color: vars.$com-dos;
   color: white;
   border: none;
   font-size: 1rem;
@@ -264,7 +265,7 @@
   transition: background-color 0.2s ease-in-out;
 }
 .botn-grupo > a:hover {
-  background-color: red;
+  background-color: vars.$com-dos800;
 }
 .botn-grupo > a:active {
   transform: translateY(2px);
@@ -779,4 +780,11 @@
   border-radius: 5px;
   padding: 10px;
   background-color: blue;
+}
+
+.cabecera-uno {
+    color: vars.$com-dos;
+    font-size: clamp(2.3rem, 1.3103rem + 3.4483vw, 3rem);
+    font-weight: 600;
+    line-height: 1.2;
 }
