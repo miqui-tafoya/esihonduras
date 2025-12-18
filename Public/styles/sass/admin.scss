@@ -11,7 +11,7 @@
 }
 .sidebar {
   display: flex;
-  background-color: red;
+  background-color: vars.$com-dos;
   flex-direction: column;
   flex: 20%;
   z-index: 0;
@@ -77,11 +77,11 @@
 }
 .dash {
   display: flex;
-  background-color: grey;
+  background-color: vars.$com-dos100;
   margin: 0;
   flex: 80%;
   flex-direction: column;
-  height: auto;
+  height: auto !important;
 }
 .dash-entradas {
   display: flex;
@@ -215,6 +215,7 @@
   flex-direction: row;
   margin: 1rem;
 }
+
 .profile_pic {
   border-radius: 50%;
   overflow: hidden;

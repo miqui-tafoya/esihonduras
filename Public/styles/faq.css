@@ -139,7 +139,8 @@
 .img-fr2-faq img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .txt-intro-fr2-faq {
