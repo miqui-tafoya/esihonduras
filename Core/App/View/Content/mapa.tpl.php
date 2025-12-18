@@ -38,7 +38,7 @@ $region = $regiones[$query] ?? null;
     <div class="selection">
         <div class="left-sel">
             <select onchange="javascript:location.href = this.value;">
-                <option value="#">Ir a</option>
+                <option value="#">Regiones:</option>
                 <?php
                 $paginado = range(1, $paginado);
                 foreach ($paginado as $paginas) {
@@ -56,6 +56,7 @@ $region = $regiones[$query] ?? null;
                 <th>Aldea</th>
                 <th>Nombre</th>
                 <th>Dirección</th>
+                <th>Información Adicional</th>
                 <th>Coordenadas</th>
                 <th colspan="3">Acción</th>
             </thead>
@@ -66,6 +67,7 @@ $region = $regiones[$query] ?? null;
                         <td style="text-align:center;color:green;"><?php echo $mapa['aldea'] ?? 'N/A'; ?></td>
                         <td style="text-align:center;color:green;"><?php echo $mapa['nombre'] ?? 'N/A'; ?></td>
                         <td style="text-align:center;color:green;"><?php echo $mapa['direccion'] ?? 'N/A'; ?></td>
+                        <td style="text-align:center;color:green;"><?php echo $mapa['info'] ?? 'N/A'; ?></td>
                         <td style="text-align:center;color:green;"><?php echo $mapa['coordenadas'] ?? 'N/A'; ?></td>
 
                         <td><a href="<?php echo URL_BASE ?>editarmapa/<?php echo $mapa['tb_centros_id']; ?>" class="editar"><i

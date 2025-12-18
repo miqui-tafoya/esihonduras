@@ -8,11 +8,12 @@ use Controller\Captcha;
 use Controller\Educadores;
 use Controller\Madresypadres;
 use Controller\Jovenes;
+use Controller\Medios;
 
 // Instancia Globales
-$default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer'], 'end' => ['mediaquery']];
+$default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer', 'modal'], 'end' => ['mediaquery']];
 $default_GET = [];
-$default_js = ['start' => ['jquery-3.6.1.min', 'dir', 'menu', 'activePage'], 'end' => []];
+$default_js = ['start' => ['jquery-3.6.1.min', 'dir', 'menu', 'activePage'], 'end' => ['modal']];
 
 $routeList = new RouteList($default_styles, $default_js, $default_GET);
 
@@ -307,24 +308,24 @@ $routeList->add(
 
 $routeList->add(
         'get',
-        '/nuevaentrada',
-        'nuevaentrada',
+        '/nuevanoticia',
+        'nuevanoticia',
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas']],
+                        ['categorias']],
                 []],
         ['admin', 'session']
 );
 
 $routeList->add(
         'post',
-        '/nuevaentrada',
-        'nuevaentrada',
+        '/nuevanoticia',
+        'nuevanoticia',
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas']],
+                        ['categorias']],
                 $_POST],
         ['admin', 'session']
 );
@@ -384,7 +385,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas']],
+                        ['categorias']],
                 []],
         ['admin', 'session']
 );
@@ -396,7 +397,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas']],
+                        ['categorias']],
                 $_POST],
         ['admin', 'session']
 );
@@ -703,8 +704,8 @@ $routeList->add(
         'post',
         '/exploradormedios',
         function () {
-                // $post = new Medios;
-                // $post->POST_handler_AJAX();
+                $post = new Medios;
+                $post->POST_handler_AJAX();
         },
         ['', '', [], []],
         []
