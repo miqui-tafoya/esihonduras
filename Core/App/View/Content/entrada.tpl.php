@@ -19,7 +19,7 @@ $entrada = $body['entrada'];
             <div>
                 <p class="cabecera-dos-publica"><?php echo $entrada['entradas_titulo']; ?></p>
             </div>
-            <div>
+            <div class="p-vertical">
                 <p class="cuerpo-texto"><?php echo $entrada['cuerpo']; ?></p>
             </div>
         </div>

@@ -7,10 +7,6 @@
         <!-- Start Bloque uno -->
 
         <div class="back-color">
-            <div class="intro">
-                <p class="cabecera-uno">Madres y Padres</p>
-            </div>
-
 
             <div class="grid-doble">
 
@@ -18,9 +14,9 @@
                     <img src="Public/recursos/imagenes/padres.jpg" alt=""></a>
                 </div>
                 <div class="txt-grid-doble">
-
+                    <p class="cabecera-uno">Madres y Padres</p>
                     <p class="cabecera-one">Información dirigida tutores </p>
-                    <p class="dos-grid-doble">Hablar de derechos sexuales y reproductivos de manera abierta, respetuosa
+                    <p class="dos-grid-doble">Hablar de derechos sexuales y reproductivos de manera abierta y respetuosa
                         es muy importante para brindarle a tus hijas e hijos toda la información que necesitan para
                         tomar decisiones informadas y responsables.
                         <br>

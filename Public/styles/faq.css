@@ -57,7 +57,7 @@
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 0 0 2rem 0;
 }
 
 .intro-bloques {
@@ -72,18 +72,20 @@
 
 .img-intro {
   width: 80%;
-  height: 420px;
+  height: 520px;
   margin: 0 auto;
-  background-color: #aa00d3;
   border-radius: 20px;
 }
 
 .img-intro img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   border-radius: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .bloque-uno {

@@ -106,7 +106,7 @@
                     </p>
 
                     <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley”
-                        (joven tolupan, 2025) </p>
+                        (Joven tolupan, 2025) </p>
                     <div class="btn-enlace">
                         <a href="saludsexual">Leer más</a>
                     </div>
@@ -221,7 +221,7 @@
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/info_jovenes.png" alt="">
+                            <img src="Public/recursos/imagenes/info_jovenes.jpg" alt="">
                         </div>
 
                         <div class="info-item-cinco">
@@ -240,15 +240,13 @@
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/embarazo_adolescente.png" alt="">
+                            <img src="Public/recursos/imagenes/embarazo_adolescente.jpg" alt="">
                         </div>
 
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">
                                 Información para las y los jóvenes </p>
-                            <p class="info-dos-item-cinco">¿Tener una hija o hijo es un riesgo?, ¿un problema?, claro
-                                que no, pero si es un riesgo para tu salud, desarrollo, bienestar tener una hija o hijo
-                                siendo adolescente.
+                            <p class="info-dos-item-cinco">¿Tener una hija o hijo es un problema?... claro que no, pero sí es un riesgo para tu salud, desarrollo, bienestar tener una hija o hijo siendo adolescente. 
                             </p>
                             <div class="btn-enlace-dos">
                                 <a href="<?php echo URL_BASE ?>faq">Ir a información</a>
@@ -260,12 +258,12 @@
                     <div class="item-info-cinco">
 
                         <div class="img-item-cinco">
-                            <img src="Public/recursos/imagenes/centros_de_salud.png" alt="">
+                            <img src="Public/recursos/imagenes/centros_de_salud.jpg" alt="">
                         </div>
 
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">Centros de salud </p>
-                            <p class="info-dos-item-cinco">Conoce el mapa interactivo Derechos ESI, en el podrás
+                            <p class="info-dos-item-cinco">Conoce el mapa interactivo Derechos ESI, en él podrás
                                 encontrar la ubicación de hospitales y centros de salud que brindan servicios de salud
                                 sexual y reproductiva en Honduras.
                             </p>

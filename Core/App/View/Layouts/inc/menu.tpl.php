@@ -19,7 +19,7 @@
             <li><a href="<?php echo URL_BASE ?>saludsexual">Salud Sexual</a></li>
             <li><a href="<?php echo URL_BASE ?>centrosdesalud">Centros de Salud</a></li>
             <li><a href="<?php echo URL_BASE ?>informacionpublica">Información Pública</a></li>
-            <li><a href="<?php echo URL_BASE ?>faq">Preguntas Frecuentes</a></li>
+            <li><a href="<?php echo URL_BASE ?>faq">Preguntas y dudas</a></li>
             <li><a href="<?php echo URL_BASE ?>multimedia">Multimedia</a></li>
             <li><a href="<?php echo URL_BASE ?>noticias">Noticias</a></li>
             <li><a href="<?php echo URL_BASE ?>contacto">Contacto</a></li>
@@ -44,7 +44,7 @@
             <li><a href="<?php echo URL_BASE ?>saludsexual">Salud Sexual</a></li>
             <li><a href="<?php echo URL_BASE ?>centrosdesalud">Centros de Salud</a></li>
             <li><a href="<?php echo URL_BASE ?>informacionpublica">Información Pública</a></li>
-            <li><a href="<?php echo URL_BASE ?>faq">Preguntas Frecuentes</a></li>
+            <li><a href="<?php echo URL_BASE ?>faq">Preguntas y dudas</a></li>
             <li><a href="<?php echo URL_BASE ?>multimedia">Multimedia</a></li>
             <li><a href="<?php echo URL_BASE ?>noticias">Noticias</a></li>
             <li><a href="<?php echo URL_BASE ?>contacto">Contacto</a></li>

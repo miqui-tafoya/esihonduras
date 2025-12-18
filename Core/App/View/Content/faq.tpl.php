@@ -10,7 +10,7 @@
             </div>
             <div>
                 <div class="img-intro">
-                    <img src="Public/recursos/imagenes/fondo.png" alt="">
+                    <img src="Public/recursos/imagenes/ima_4.jpg" alt="">
                 </div>
             </div>
         </div>

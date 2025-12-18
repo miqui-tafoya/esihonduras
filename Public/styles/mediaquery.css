@@ -60,9 +60,6 @@
     flex-direction: unset;
     align-items: start;
   }
-  .bienvenida-dos {
-    margin-top: -2rem;
-  }
   .item-perfiles-home {
     margin: 2rem 1rem;
   }
@@ -148,6 +145,21 @@
     align-items: start;
     justify-content: center;
   }
+  .cuerpo-texto-uno-ss {
+    padding: 1rem 3rem;
+  }
+  .img-fr2 {
+    height: 720px;
+  }
+  .img-fr2-dos {
+    height: 750px;
+  }
+  .img-intro-quienes {
+    height: 720px;
+  }
+  .row-datos {
+    align-items: start;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -221,7 +233,10 @@
   }
   .grid-doble {
     flex-direction: unset;
-    width: 80%;
+    width: 85%;
+  }
+  .grid-doble-multimedia {
+    flex-direction: unset;
   }
   .txt-grid-doble {
     padding: 0 2rem;
@@ -305,7 +320,7 @@
     display: flex;
   }
   .bloque-entrada {
-    width: 70%;
+    width: 60%;
   }
   .layout-filtros {
     width: 100%;
@@ -324,5 +339,11 @@
   }
   .bloque-audio {
     width: 80%;
+  }
+  .img-grid-multimedia {
+    height: 95vh;
+  }
+  .item-perfiles-quienes {
+    margin: 1rem 1rem;
   }
 }/*# sourceMappingURL=mediaquery.css.map */

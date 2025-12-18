@@ -9,9 +9,9 @@ $publicaciones = $body['publicaciones'];
 
         <!-- inicio bloque uno -->
         <div class="back-color">
-            <div class="grid-doble">
-                <div class="img-grid-doble">
-                    <img src="Public/recursos/imagenes/info_jovenes.png" alt=""></a>
+            <div class="grid-doble-multimedia">
+                <div class="img-grid-multimedia">
+                    <!--  <img src="Public/recursos/imagenes/info_jovenes.png" alt=""></a> -->
                 </div>
                 <div class="txt-grid-doble">
                     <p class="cabecera-uno">
@@ -53,13 +53,14 @@ $publicaciones = $body['publicaciones'];
         <!-- End video -->
 
         <!-- Start publicaciones -->
-        <div class="bloque-publicaciones">
-            <p class="cabecera-multimedia">Publicaciones</p>
-            <div id="blog-container" class="publicaciones">
-                <?php
-                if (!isset($responseParams['post']['busca'])) {
-                    foreach ($publicaciones as $value) {
-                        echo '<div class="item-perfiles-quienes">
+        <div class="back-color">
+            <div class="bloque-publicaciones">
+                <p class="cabecera-multimedia">Publicaciones</p>
+                <div id="blog-container" class="publicaciones">
+                    <?php
+                    if (!isset($responseParams['post']['busca'])) {
+                        foreach ($publicaciones as $value) {
+                            echo '<div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
                         <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
                     </div>
@@ -71,12 +72,13 @@ $publicaciones = $body['publicaciones'];
                         </div>
                     </div>
                 </div>';
+                        }
                     }
-                }
-                ?>
-            </div>
-            <div class="btn-enlace">
-                <a href="<?php echo URL_BASE ?>informacionpublica">VER MÁS ENTRADAS</a>
+                    ?>
+                </div>
+                <div class="btn-enlace">
+                    <a href="<?php echo URL_BASE ?>informacionpublica">VER MÁS ENTRADAS</a>
+                </div>
             </div>
         </div>
         <!-- End publicaciones -->
