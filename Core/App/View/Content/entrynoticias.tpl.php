@@ -5,7 +5,7 @@ $posts = $body['posts'];
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Administrar Noticias</h1>
+        <p class="cabecera-uno">Administrar Noticias</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrynoticias/">Administrar Noticias</a>
             <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticias</a>
