@@ -1,0 +1,54 @@
+<?php
+namespace Model;
+
+use Model\Database;
+
+class EditarcategoriaModel extends Model {
+
+    private Database $db;
+
+    public array $existe;
+    public $categoria;
+
+    public function __construct($query = null) {
+        $this->db = new Database();
+        $this->setIds();
+        if ($query != null) {
+            $this->setCategoria($query);
+        }
+    }
+    // GETTERS
+    private function getCategoria($query) {
+        $cols = ['all'];
+        $data = $this->db->dbCall('one', false, $cols, 'tb_categorias', ['tb_categorias_id' => $query]);
+        return $data;
+    }
+
+    // SETTERS
+    public function setIds() {
+        $cols = ['tb_categorias_id'];
+        $data = $this->db->dbCall('all', false, $cols, 'tb_categorias');
+        $temp = [];
+        foreach ($data as $value) {
+            array_push($temp, $value['tb_categorias_id']);
+        }
+        $this->existe = $temp;
+    }
+    public function validateId($id) {
+        if (empty($id)) {
+            header('Location:' . URL_BASE);
+            exit;
+        }
+        $validation = in_array((int) $id, $this->existe, true);
+        return $validation;
+    }
+    private function setCategoria($query) {
+        $data = $this->getCategoria($query);
+        $this->categoria = $data;
+    }
+    // SEND
+    public function updateEntryData($data, $id) {
+        $mod = $this->db->crudCall('update', 'tb_categorias', $data, $id, 'tb_categorias_id');
+        return $mod;
+    }
+}

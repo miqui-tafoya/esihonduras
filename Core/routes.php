@@ -481,7 +481,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['tema']],
+                        ['categoria']],
                 []],
         ['admin']
 );
@@ -493,7 +493,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['tema']],
+                        ['categoria']],
                 $_POST],
         ['admin']
 );
@@ -590,6 +590,54 @@ $routeList->add(
                 ['', ['admin']],
                 [[],
                         ['paginado', 'mapa']],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/nuevomapa',
+        'nuevomapa',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        []],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/nuevomapa',
+        'nuevomapa',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        []],
+                $_POST],
+        ['admin']
+);
+
+$routeList->add(
+        'get',
+        '/editarmapa/',
+        'editarmapa',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['centro']],
+                []],
+        ['admin']
+);
+
+$routeList->add(
+        'post',
+        '/editarmapa/',
+        'editarmapa',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        ['centro']],
                 $_POST],
         ['admin']
 );

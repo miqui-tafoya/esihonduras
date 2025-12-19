@@ -2,6 +2,7 @@
 $pagina = $body['query'];
 $paginado = $body['paginado'];
 $categorias = $body['categorias'];
+$cat_nombres = ['Noticias', 'Información Pública']
 ?>
 <div class="dash">
   <div class="configuraciones">
@@ -49,7 +50,7 @@ $categorias = $body['categorias'];
 
             <td style="text-align:center;font-weight:bold"><?php echo $tema['nombre_categoria']; ?></td>
 
-            <td style="text-align:center;font-weight:bold"><?php echo $tema['tipo']; ?></td>
+            <td style="text-align:center;font-weight:bold"><?php echo ($tema['tipo'] == 'noticia') ? $cat_nombres[0] : $cat_nombres[1] ?></td>
 
             <td style="text-align:center;color:var(--g600);"><?php echo $tema['slug_categoria']; ?></td>
 

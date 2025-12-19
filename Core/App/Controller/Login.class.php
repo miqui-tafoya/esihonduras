@@ -77,8 +77,8 @@ class Login extends Render {
             $login['password'] = $login_email['password'];
         }
         if (isset($login['login_email'])) {
-            if ($params['password'] !== $login['password']) {
-            // if (!password_verify($params['password'], $login['password'])) {
+            // if ($params['password'] !== $login['password']) {
+            if (!password_verify($params['password'], $login['password'])) {
                 $errors = [
                     'error_password' => '<i class="fas fa-exclamation-triangle"></i> Revisa tu Contraseña'
                 ];
