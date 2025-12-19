@@ -35,7 +35,7 @@ $routeList->add(
         '/error/',
         'error',
         ['error',
-                ['Error', []],
+                ['Error', ['error']],
                 [[],
                         []],
                 []],

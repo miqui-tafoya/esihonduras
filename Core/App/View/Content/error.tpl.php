@@ -1,8 +1,8 @@
 <?php 
 $error = $body['query'];
 ?>
-<div class="componentes">
+<div class="contenedor">
     <div class="contenido-404">
-    <h1>Error <?php echo $error ?></h1>
+    <p class="cabecera-uno">Error <?php echo $error ?></p>
     </div>
 </div>
