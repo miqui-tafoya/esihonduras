@@ -1,0 +1,24 @@
+@use "variables" as vars;
+
+.contenedor{
+  display: flex;
+  width: 100%;
+  height: auto;
+  font-family: "Onest", sans-serif;
+}
+
+.contenido-404{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecera-uno {
+    color: vars.$com-dos;
+    font-size: clamp(3rem, 2.1429rem + 4.2857vw, 6rem);
+    font-weight: 600;
+    line-height: 1.2;
+}

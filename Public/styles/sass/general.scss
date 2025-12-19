@@ -89,6 +89,13 @@ cursor: pointer;
     width: 100%;
 }
 
+.cuerpo-texto-bold {
+    font-weight: 700;
+    color: vars.$dark;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+    width: 100%;
+}
+
 
 .p-bottom{
     padding:0 0 1rem 0;

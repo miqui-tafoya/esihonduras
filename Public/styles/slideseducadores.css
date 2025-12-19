@@ -18,24 +18,60 @@
 .esi-slide-content {
     position: relative;
     z-index: 1;
+     width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
 }
 .esi-slide-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50%;
-    cursor: pointer;
+    width: 10%;
+    cursor: pointer;   
     z-index: 2;
+    display: flex;
+    align-items: center;
 }
+
 .esi-slide-overlay:hover {
-    background: rgba(245, 187, 246, 0.09);
+    background: rgba(245, 187, 246, 0.3);
+    
 }
+
 .esi-left-zone {
     left: 0;
+     display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 8px;
 }
+
+.esi-left-zone::after {
+    font-family: "FontAwesome";
+    content: "\f104"; 
+    font-size: 3rem;
+	color: #e74eed;
+}
+
+
 .esi-right-zone {
     right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 8px;
+    
 }
+
+.esi-right-zone::before {
+    font-family: "FontAwesome";
+    content: "\f105"; 
+    font-size: 3rem;
+	color: #e74eed;
+	
+    
+}
+
 #esi-controls {
     margin-top: 8px;
     text-align: center;

@@ -13,28 +13,16 @@
                 <div class="txt-grid-doble">
                     <p class="cabecera-uno">Personas Educadoras</p>
                     <p class="cabecera-one">Información dirigida a educadores</p>
-                    <p class="dos-grid-doble">Las y los maestros son parte fundamental en la formación de las chicas y
-                        chicos. Educar no solo es leer
-                        información, su rol es transmitir conocimientos que abonen a la empatía, el respeto a todas las
-                        personas, a
-                        desarrollarse en sociedades sin violencia, creando espacios seguros y de confianza donde todas
-                        las
-                        dudas
-                        sobre la sexualidad integral puedan ser escuchadas y que la información se comparta sin
-                        estigmas.
+                    <p class="dos-grid-doble">Las y los maestros son parte fundamental en la formación de las chicas y chicos. Educar no es solo es leer información, su rol es transmitir conocimientos que fomenten un trato empático,  respetuoso y libre de violencia entre personas. También deben crear  espacios seguros y de confianza donde todas las dudas sobre la sexualidad puedan ser escuchadas,  y donde la información se comparta sin estigmas. 
                         <br>
                         <br>
-                        El rol de las y los docentes: Transmitir información, escuchar sus dudas,
-                        acompañar sus inquietudes,
-                        informar sin estigmatizar.
+                        <span class="cuerpo-texto-bold">Recuerda, el rol de las y los docentes en la Educación Sexual Integral es transmitir información veraz, escuchar dudas, acompañar inquietudes, e informar sin estigmatizar la sexualidad. </span>
                         <br>
                         <br>
-                        El Papel del Docente en la Educación para la Sexualidad: Algunas Reflexiones
-                        en el Proceso Educativo Escolar
-                        consulta en:
+                        Si quieres conocer más sobre este rol, consulta el siguiente:
                     </p>
                     <div class="btn-enlace">
-                        <a href="https://www.redalyc.org/journal/447/44741347020/html/" target="_blank">Leer más</a>
+                        <a href="https://www.redalyc.org/journal/447/44741347020/html/" target="_blank">Documento <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
 
                 </div>
@@ -46,7 +34,7 @@
         <!-- Start Bloque dos -->
         <div class="back-color-dos">
             <div class="intro">
-                <p class="cabecera-dos-faq">Guía para la intervención en temas relacionados con sexualidad</p>
+                <p class="cabecera-dos-faq">Educación Sexual Integral (ESI) para Docentes</p>
             </div>
             <div class="bloque-slide">
                 <div id="esi-presentation">

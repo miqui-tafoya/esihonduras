@@ -222,13 +222,11 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 5%;
+    width: 9%;
     cursor: pointer;   
     z-index: 2;
     display: flex;
     align-items: center;
-    justify-content: center;
-
 }
 
 .esi-slide-overlay:hover {
@@ -238,6 +236,10 @@
 
 .esi-left-zone {
     left: 0;
+     display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 8px;
 }
 
 .esi-left-zone::after {
@@ -245,12 +247,15 @@
     content: "\f104"; 
     font-size: 3rem;
 	color: #e74eed;
-	margin-left: 5px;
 }
 
 
 .esi-right-zone {
     right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 8px;
     
 }
 
@@ -259,7 +264,7 @@
     content: "\f105"; 
     font-size: 3rem;
 	color: #e74eed;
-	margin-left: 5px;
+	
     
 }
 
