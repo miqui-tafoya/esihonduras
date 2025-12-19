@@ -90,6 +90,8 @@ class EducadoresModel extends Model {
     ',
             11 => '
         <h2 class="cabecera-one">11. Los Cinco Ejes Fundamentales (Enfoque Común Regional)</h2>
+        <p> Alineado con las Orientaciones Técnicas Internacionales sobre Educación en 	<span class="hiper"> <a href="#" target="_blank">Sexualidad</a> </span>(UNESCO, UNFPA, OMS) se han propuesto cinco ejes como la base para lograr un enfoque integran en la educación sexual:
+</p>
         <ul>
             <li><strong>Reconocer la Perspectiva de Género:</strong> Deconstrucción de estereotipos y promoción de la igualdad.</li>
             <li><strong>Respetar la Diversidad:</strong> Valoración de las diferentes identidades y orientaciones sexuales.</li>
