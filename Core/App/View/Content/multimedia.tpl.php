@@ -62,7 +62,7 @@ $publicaciones = $body['publicaciones'];
                         foreach ($publicaciones as $value) {
                             echo '<div class="item-perfiles-quienes">
                     <div class="img-item-quienes">
-                        <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
+                        <img src="' . URL_PUBLIC . 'recursos/portadas/' . $value['portada'] . '" alt="">
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">' . $value['entradas_titulo'] . '</p>
