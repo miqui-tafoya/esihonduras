@@ -106,3 +106,22 @@
     line-height: 1.2;
     padding: 1rem 0;
 }
+
+.txt-italic {
+    font-style: italic;
+    font-weight: 600;
+  
+}
+
+
+.hiper a{
+    color:#e74eed;
+    font-weight: 700;
+
+}
+
+.hiper a:hover{
+    color:#aa00d3;
+    text-decoration: wavy;
+
+}
