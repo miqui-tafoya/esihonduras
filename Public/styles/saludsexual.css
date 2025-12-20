@@ -185,7 +185,7 @@
 
 .info-bloque-cuatro-uno {
   width: 100%;
-  height: 500px;
+  height: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,7 +197,7 @@
 .info-bloque-cuatro-dos {
   width: 100%;
   height: 100%;
-  min-height: 500px;
+  min-height: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -409,4 +409,26 @@
   padding: 0rem 2rem 0rem 0rem;
   color: #fff;
   text-align: left;
+}
+
+.hiper a {
+  color: #f0e1d1;
+  font-weight: 700;
+}
+
+.hiper a:hover {
+  color: #d9b48e;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+}
+
+.hiper-dos a {
+  color: #e74eed;
+  font-weight: 700;
+}
+
+.hiper-dos a:hover {
+  color: #aa00d3;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
 }/*# sourceMappingURL=saludsexual.css.map */
