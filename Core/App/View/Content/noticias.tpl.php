@@ -36,7 +36,7 @@ $categorias = $body['categorias'];
                             <a href="' . URL_BASE . 'entrada/' . $hoy['tb_entradas_id'] . '">Leer más</a>
                         </div>
                     </div>
-                    <img src="' . URL_PUBLIC . 'recursos/entradas/' . $hoy['portada'] . '" alt="">
+                    <img src="' . URL_PUBLIC . 'recursos/portadas/' . $hoy['portada'] . '" alt="">
                 </div>';
                 ?>
             </div>
@@ -46,11 +46,11 @@ $categorias = $body['categorias'];
                 <?php foreach ($destacados as $value) {
                     echo '<div class="items-destacadas">
                     <div class="img-item-destacada">
-                        <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
+                        <img src="' . URL_PUBLIC . 'recursos/portadas/' . $value['portada'] . '" alt="">
                     </div>
                     <div class="txt-item-destacadas">
                         <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
-                            <p>' . $value['entradas_titulo'] . ' <span>' . substr($value['cuerpo'], 0, 120) . '...</span></p>
+                            <h5>' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
                         </a>
                     </div>
 
@@ -67,18 +67,18 @@ $categorias = $body['categorias'];
             <div class="bloque-items-recientes">
                 <?php
                 if (empty($noticias)) {
-                    echo '<p>No exitens entradas</p>';
+                    echo '<p>No existen entradas</p>';
                 } else {
                     $entradasMostrar = array_slice($noticias, 0, 4);
                     foreach ($entradasMostrar as $value) {
                         echo '
                     <div class="item-reciente">
                         <div class="img-item-reciente">
-                            <img src="' . URL_PUBLIC . 'recursos/entradas/' . $value['portada'] . '" alt="">
+                            <img src="' . URL_PUBLIC . 'recursos/portadas/' . $value['portada'] . '" alt="">
                         </div>
                         <div class="txt-item-reciente">
                             <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
-                                <p>' . $value['entradas_titulo'] . '<span>' . substr($value['cuerpo'], 0, 120) . '...</span></p>
+                                <h5>' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
                             </a>
                         </div>
 

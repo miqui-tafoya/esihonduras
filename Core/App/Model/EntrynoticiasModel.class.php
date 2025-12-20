@@ -31,6 +31,11 @@ class EntrynoticiasModel extends Model {
         $data = $this->db->dbMYSQLCall_raw_ALL_ASSOC($sql);
         return $data;
     }
+    public function getDestacados() {
+        $columnas = ['cantidad'];
+        $data = $this->db->dbCall('all', false, $columnas, 'tb_destacados');
+        return $data;
+    }
 
     // SETTERS
     public function setIds() {

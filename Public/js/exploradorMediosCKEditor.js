@@ -137,8 +137,8 @@ export default class ExploradorPlugin extends Plugin {
                             align-items: center;
                             justify-content: center;
                             cursor: pointer;
-                        " data-url="${URL_PUBLIC}recursos/entradas/${image.url}">
-                            <img src="${URL_PUBLIC}recursos/entradas/${image.url}" alt="Imagen" style="
+                        " data-url="${URL_PUBLIC}recursos/entradas/${image.galeria_url}">
+                            <img src="${URL_PUBLIC}recursos/entradas/${image.galeria_url}" alt="Imagen" style="
                                 max-width: 100%;
                                 max-height: 100%;
                                 object-fit: contain;

@@ -14,7 +14,7 @@ $entrada = $body['entrada'];
                 <p><?php echo $entrada['entradas_timestamp']; ?></p>
             </div>
             <div class="img-entrada">
-                <img src="<?php echo URL_PUBLIC . 'recursos/entradas/' . $entrada['portada']; ?>" alt="">
+                <img src="<?php echo URL_PUBLIC . 'recursos/portadas/' . $entrada['portada']; ?>" alt="">
             </div>
             <div>
                 <p class="cabecera-dos-publica"><?php echo $entrada['entradas_titulo']; ?></p>

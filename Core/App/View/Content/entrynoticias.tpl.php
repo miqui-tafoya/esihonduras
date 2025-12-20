@@ -2,6 +2,21 @@
 $pagina = $body['query'];
 $paginado = $body['paginado'];
 $posts = $body['posts'];
+$error = $responseParams['error'] ?? NULL;
+if (isset($error)) {
+    echo '
+	  <script type="text/javascript">
+	  window.addEventListener("load", function() {
+		dialogModal(
+		  "' . $error . '",
+		  "Aceptar",
+		  "none",
+		  function () {},
+		  function () {}
+		);
+	  });
+	  </script>';
+}
 ?>
 <div class="dash">
     <div class="configuraciones">
@@ -71,15 +86,16 @@ $posts = $body['posts'];
                         <td style="text-align:center">
                             <form id="feat_form" method="post">
                                 <input type="hidden" name="tb_entradas_id" value="<?php echo $post['tb_entradas_id']; ?>">
-                                <input type="hidden" name="destacado" value='<?php echo $post['destacado'] == 1 ? '0' : '1' ?>'>
+                                <input type="hidden" name="destacado"
+                                    value='<?php echo $post['destacado'] == 1 ? '0' : '1' ?>'>
                                 <button type="submit" name="feat-submit"
                                     onclick="return confirm('¿Modificar estatus de Destacado?')"
                                     class="button-ghost"><?php echo $post['destacado'] == 1 ? 'sí' : 'no' ?></button>
                             </form>
                         </td>
 
-                        <td><a href="<?php echo URL_BASE ?>editarnoticia/<?php echo $post['tb_entradas_id']; ?>" class="editar"><i
-                                    class="fas fa-pen"></i></a></td>
+                        <td><a href="<?php echo URL_BASE ?>editarnoticia/<?php echo $post['tb_entradas_id']; ?>"
+                                class="editar"><i class="fas fa-pen"></i></a></td>
 
                         <td style="text-align:center">
                             <form method="post">

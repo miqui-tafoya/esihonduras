@@ -25,7 +25,7 @@ class ApientradasModel extends Model {
 
         $offset = ($page - 1) * $perPage;
 
-         $sqlCount = "SELECT COUNT(*) as total FROM tb_entradas WHERE tipo = ? AND publicado = ?";
+        $sqlCount = "SELECT COUNT(*) as total FROM tb_entradas WHERE tipo = ? AND publicado = ?";
         $cond = ['noticia', 1];
         $stmtCount = $this->db->exeQuery($sqlCount, $cond);
         $resultCount = $stmtCount->get_result()->fetch_assoc();
@@ -42,6 +42,8 @@ class ApientradasModel extends Model {
         foreach ($data as &$value) {
             $portada = $this->getPortada($value['tb_galeria_id']);
             $value['portada'] = $portada['galeria_url'];
+            $value['entradas_titulo'] = html_entity_decode($value['entradas_titulo'], ENT_QUOTES, 'UTF-8');
+            $value['cuerpo'] = html_entity_decode($value['cuerpo'], ENT_QUOTES, 'UTF-8');
         }
 
         return [

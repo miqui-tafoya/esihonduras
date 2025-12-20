@@ -63,8 +63,8 @@ class Medios extends Render {
         $db = new Database;
         $model = new MediosModel;
         unset($params['delete-submit']);
-        $id = $params['gID'];
-        unset($params['gID']);
+        $id = $params['tb_galeria_id'];
+        unset($params['tb_galeria_id']);
         $model->deleteEntryData($id);
         header("Location: " . URL_BASE . "medios/");
         exit;

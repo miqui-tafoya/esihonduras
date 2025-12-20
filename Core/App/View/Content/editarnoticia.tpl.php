@@ -1,11 +1,14 @@
 <?php
+$noticia = $body['noticia'];
+$categorias = $body['categorias'];
 if (!empty($responseParams)) {
     $post = $responseParams['post'];
     $error = $responseParams['errors'];
 }
-$omitirPortada = $post['omitir-portada'] ?? '';
-$categoria_id = $post['categoria'] ?? [];
-$categorias = $body['categorias'];
+$destacado = $post['destacado'] ?? $noticia['destacado'];
+$cuerpo = $post['cuerpo'] ?? $noticia['cuerpo'];
+$mantenerPortada = $post['mantener-portada'] ?? '';
+$categoria_id = $post['categoria'] ?? $noticia['categoria'];
 ?>
 <div id="modal_container">
     <div id="modal_header">
@@ -18,17 +21,19 @@ $categorias = $body['categorias'];
     </div>
 </div>
 <div class="dash-entradas">
-       <div class="configuraciones">
-        <h1>Nueva Información Pública</h1>
+    <div class="configuraciones-entradas">
+        <h1>Editar Noticia</h1>
         <div class="botn-grupo">
-            <a href="<?php echo URL_BASE ?>entryinfopublica/">Administrar Información Pública</a>
-            <a href="<?php echo URL_BASE ?>nuevainfopublica">Nueva Información Pública</a>
+            <a href="<?php echo URL_BASE ?>entrynoticias/">Administrar Noticias</a>
+            <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticias</a>
         </div>
         <form class="campos-admin-entradas" method="post" enctype="multipart/form-data">
+                        <input type="hidden" name="tb_entradas_id"
+                value="<?php echo $post['tb_entradas_id'] ?? $noticia['tb_entradas_id'] ?>">
             <label for="entradas_titulo">Título <span
                     class="form-error"><?php echo $error['error_titulo'] ?? '' ?></span></label>
             <input class="adm-txt" class="campo" type="text" name="entradas_titulo" maxlength="119"
-                value="<?php echo $post['entradas_titulo'] ?? '' ?>">
+                value="<?php echo $post['entradas_titulo'] ?? $noticia['entradas_titulo'] ?>">
 
             <label for="cuerpo">Cuerpo del Artículo <span
                     class="form-error"><?php echo $error['error_contenido'] ?? '' ?></span></label>
@@ -46,17 +51,16 @@ $categorias = $body['categorias'];
             <script type="importmap">
     {
       "imports": {
-        "ckeditor5": "./Public/vendor/ckeditor5/ckeditor5.js",
-        "ckeditor5/": "./Public/vendor/ckeditor5/"
+        "ckeditor5": "../Public/vendor/ckeditor5/ckeditor5.js",
+        "ckeditor5/": "../Public/vendor/ckeditor5/"
       }
     }
     </script>
-            <script type="module" src="Public/js/ckmain.js"></script>
-            <?php if (!empty($responseParams)) {
-                if (!empty($post['cuerpo'])) {
+            <script type="module" src="../Public/js/ckmain.js"></script>
+            <?php if (!empty($cuerpo)) {
                     ?>
                     <script>
-                        const editorContent = <?php echo json_encode(htmlspecialchars_decode($post['cuerpo'])) ?>;
+                        const editorContent = <?php echo json_encode(htmlspecialchars_decode($cuerpo)) ?>;
 
                         const waitForEditor = () => {
                             if (window.editorInstance) {
@@ -68,8 +72,7 @@ $categorias = $body['categorias'];
 
                         waitForEditor();
                     </script>
-                <?php }
-            } ?>
+                <?php }?>
     </div>
 
     <div class="configuraciones-2">
@@ -77,16 +80,18 @@ $categorias = $body['categorias'];
         <label style="margin-bottom:0.5rem;" for="portada">Imagen Portada <span
                 class="form-error"><?php echo $error['error_imagen'] ?? '' ?></span></label>
         <fieldset class="fieldgroup-edit">
+            <div class="img"><img src="<?php echo URL_PUBLIC . "recursos/portadas/" . $noticia['portada'] ?>"
+                    alt="imagen_portada"></div>
             <fieldset class="checkbox-edit">
-                <label for="omitir-portada"> Omitir Portada</label>
+                <label for="mantener-portada"> Mantener Portada almacenada</label>
                 <div class="checkbox4">
                     <?php if (empty($responseParams)): ?>
-                        <input style="visibility:hidden;" type="checkbox" id="checkbox4" name="omitir-portada" />
+                        <input checked style="visibility:hidden;" type="checkbox" id="checkbox4" name="mantener-portada" />
                     <?php else: ?>
-                        <?php if (empty($omitirPortada)): ?>
-                            <input style="visibility:hidden;" type="checkbox" id="checkbox4" name="omitir-portada" />
+                        <?php if (empty($mantenerPortada)): ?>
+                            <input style="visibility:hidden;" type="checkbox" id="checkbox4" name="mantener-portada" />
                         <?php else: ?>
-                            <input checked style="visibility:hidden;" type="checkbox" id="checkbox4" name="omitir-portada" />
+                            <input checked style="visibility:hidden;" type="checkbox" id="checkbox4" name="mantener-portada" />
                         <?php endif; ?>
                     <?php endif; ?>
                     <label for="checkbox4"></label>
@@ -107,15 +112,8 @@ $categorias = $body['categorias'];
             <?php endforeach; ?>
         </select>
 
-        <label style="margin: 1.5rem 0 0.25rem 0;" for="tags">Palabras clave <span
-                class="form-error"><?php echo $error['error_tags'] ?? '' ?></span></label>
-        <span style="display: block;margin-bottom: 0.5rem;color: var(--g800);font-size: 0.8rem;padding: 0;"><i
-                class="fas fa-exclamation-circle"></i> separados por coma</span>
-        <input class="adm-txt" class="campo" type="text" name="tags" value="<?php echo $post['tags'] ?? '' ?>"
-            maxlength="223">
-
-        <button style="margin-top:2rem;display:flex;" class="btn" type="submit" name="submit-nuevo">Agregar
-            Borrador</button>
+        <button style="margin-top:2rem;display:flex;" class="btn" type="submit" name="submit-update">Actualizar
+            Noticia</button>
         </form>
     </div>
 </div>

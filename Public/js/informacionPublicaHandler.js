@@ -64,7 +64,7 @@ function renderEntries(entries) {
         article.innerHTML = `
             <div class="item-perfiles-quienes">
                 <div class="img-item-quienes">
-                    <img src="${URL_PUBLIC}recursos/entradas/${entry.portada}" alt="">
+                    <img src="${URL_PUBLIC}recursos/portadas/${entry.portada}" alt="">
                 </div>
                 <div class="info-item-quienes">
                     <p class="titulo-item-quienes">${entry.entradas_titulo}</p>

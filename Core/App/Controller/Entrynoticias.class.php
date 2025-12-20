@@ -29,7 +29,7 @@ class Entrynoticias extends Render {
         if ($update_autor) {
             $this->process('update', $params[3]);
         } elseif ($featured) {
-            $this->process('featured', $params[3]);
+            $response = $this->process('featured', $params[3]);
         } elseif ($delete) {
             $this->process('delete', $params[3]);
         } elseif ($publicar) {
@@ -37,6 +37,9 @@ class Entrynoticias extends Render {
         }
         // manejo de respuesta previa a Render
         $POST_response['post'] = $params[3];
+        if (isset($response)) {
+            $POST_response['error'] = $response;
+        }
         // Renderizado de Frontend
         return $this->renderView($route, $params[0], $params[1], $params[2], $POST_response, $js);
     }
@@ -67,6 +70,11 @@ class Entrynoticias extends Render {
                 unset($params['feat-submit']);
                 $id = $params['tb_entradas_id'];
                 unset($params['tb_entradas_id']);
+                $destacados = $model->getDestacados();
+                if ((int) $destacados[0]['cantidad'] >= 3 && $params['destacado'] == 1) {
+                    $error = 'No pueden haber más de 3 Noticias destacadas';
+                    return $error;
+                }
                 $model->updateEntryData($params, $id);
                 header("Location: " . URL_BASE . "entrynoticias/");
                 exit;

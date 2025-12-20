@@ -27,6 +27,8 @@ class EntradaModel extends Model {
         $data = $this->db->dbCall('one', false, $cols, 'tb_entradas', ['publicado' => 1, 'tb_entradas_id' => $query]);
         $portada = $this->getPortada($data['tb_galeria_id']);
         $data['portada'] = $portada['galeria_url'];
+        $data['entradas_titulo'] = html_entity_decode($data['entradas_titulo'], ENT_QUOTES, 'UTF-8');
+        $data['cuerpo'] = html_entity_decode($data['cuerpo'], ENT_QUOTES, 'UTF-8');
         return $data;
     }
     // SETTERS

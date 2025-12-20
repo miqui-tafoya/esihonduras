@@ -23,6 +23,9 @@ class InformacionpublicaModel extends Model {
     private function getCategorias() {
         $cols = ['all'];
         $data = $this->db->dbCall('all', false, $cols, 'tb_categorias', ['tipo' => 'publica']);
+        foreach ($data as $key => &$value) {
+            html_entity_decode($value['nombre_categoria'], ENT_QUOTES, 'UTF-8');
+        }
         return $data;
     }
     private function getPublicaciones() {
@@ -31,6 +34,8 @@ class InformacionpublicaModel extends Model {
         foreach ($data as &$value) {
             $portada = $this->getPortada($value['tb_galeria_id']);
             $value['portada'] = $portada['galeria_url'];
+            $value['entradas_titulo'] = html_entity_decode($value['entradas_titulo'], ENT_QUOTES, 'UTF-8');
+            $value['cuerpo'] = html_entity_decode($value['cuerpo'], ENT_QUOTES, 'UTF-8');
         }
         return $data;
     }

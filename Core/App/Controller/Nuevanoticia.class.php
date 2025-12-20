@@ -65,7 +65,7 @@ class Nuevanoticia extends Render {
 
         if (!isset($input['omitir-portada'])) {
             if (empty($input['file']['upload']['name'])) {
-                $errors = MainCtrl::pushAssoc($errors, 'error_imagen', '<i class="fas fa-exclamation-triangle"></i>No ingresaste ningún archivossss');
+                $errors = MainCtrl::pushAssoc($errors, 'error_imagen', '<i class="fas fa-exclamation-triangle"></i>No ingresaste ningún archivo');
             }
         }
 
@@ -103,11 +103,10 @@ class Nuevanoticia extends Render {
                     $params['entradas_titulo'] = htmlentities($params['entradas_titulo'], ENT_QUOTES, "UTF-8");
                     $params['cuerpo'] = htmlentities($params['cuerpo'], ENT_QUOTES, "UTF-8");
                     $params['publicado'] = 0;
-                    $params['destacado'] = isset($params['destacado']) ? 1 : 0;
                     $params['tb_galeria_id'] = $tb_galeria_id;
 
                     unset($params['omitir-portada'], $params['file']);
-                    $model->sendData('tb_entradas', $params);
+                    $model->sendData('entradas', $params);
 
                     header("Location: " . URL_BASE . "entrynoticias/");
                     exit;

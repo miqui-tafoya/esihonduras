@@ -89,7 +89,7 @@ class Apiinfopublica extends Render {
                 $sup_arr_unique = array_unique($sup_arr);
                 $sup_arr_unique_esc = preg_replace('/[:,¿,?,¡,!,"]/', "", $sup_arr_unique);
                 $arr3 = $this->preparaBusqueda($params['busca']);
-                $arr3_html = array_map("htmlentities", $arr3);
+                $arr3_html = array_map("html_entity_decode", $arr3);
 
                 if (array_intersect($arr3_html, $sup_arr_unique_esc)) {
                     $coincide = true;

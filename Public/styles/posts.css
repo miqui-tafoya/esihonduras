@@ -1,0 +1,9 @@
+figure {
+  margin: 0;
+}
+
+.image img {
+  width: 50vw;
+  display: block;
+  margin: 1rem auto 1rem auto;
+}/*# sourceMappingURL=posts.css.map */

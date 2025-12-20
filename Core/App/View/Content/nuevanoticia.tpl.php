@@ -30,21 +30,6 @@ $categorias = $body['categorias'];
             <input class="adm-txt" class="campo" type="text" name="entradas_titulo" maxlength="119"
                 value="<?php echo $post['entradas_titulo'] ?? '' ?>">
 
-            <fieldset class="checkbox-grupo">
-                <label>Destacado</label>
-                <?php if (empty($post['destacado'])): ?>
-                    <div class="checkbox1">
-                        <input style="visibility:hidden;" type="checkbox" id="checkbox1" name="destacado" />
-                        <label for="checkbox1"></label>
-                    </div>
-                <?php else: ?>
-                    <div class="checkbox1">
-                        <input checked style="visibility:hidden;" type="checkbox" id="checkbox1" name="destacado" />
-                        <label for="checkbox1"></label>
-                    </div>
-                <?php endif; ?>
-            </fieldset>
-
             <label for="cuerpo">Cuerpo del Artículo <span
                     class="form-error"><?php echo $error['error_contenido'] ?? '' ?></span></label>
             <div class="contenedor-ck">

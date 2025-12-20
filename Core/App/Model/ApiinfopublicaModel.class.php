@@ -23,6 +23,9 @@ class ApiinfopublicaModel extends Model {
     private function getCategorias() {
         $cols = ['all'];
         $data = $this->db->dbCall('all', false, $cols, 'tb_categorias', ['tipo' => 'publica']);
+        foreach ($data as $key => &$value) {
+            html_entity_decode($value['nombre_categoria'], ENT_QUOTES, 'UTF-8');
+        }
         return $data;
     }
     private function getPublicaciones() {
@@ -31,6 +34,8 @@ class ApiinfopublicaModel extends Model {
         foreach ($data as &$value) {
             $portada = $this->getPortada($value['tb_galeria_id']);
             $value['portada'] = $portada['galeria_url'];
+            $value['entradas_titulo'] = html_entity_decode($value['entradas_titulo'], ENT_QUOTES, 'UTF-8');
+            $value['cuerpo'] = html_entity_decode($value['cuerpo'], ENT_QUOTES, 'UTF-8');
         }
         return $data;
     }
@@ -39,6 +44,8 @@ class ApiinfopublicaModel extends Model {
         $data = $this->db->dbCall('one', false, $cols, 'tb_entradas', ['tipo' => 'publica', 'publicado' => 1, 'tb_entradas_id' => $id]);
         $portada = $this->getPortada($data['tb_galeria_id']);
         $data['portada'] = $portada['galeria_url'];
+        $data['entradas_titulo'] = html_entity_decode($data['entradas_titulo'], ENT_QUOTES, 'UTF-8');
+        $data['cuerpo'] = html_entity_decode($data['cuerpo'], ENT_QUOTES, 'UTF-8');
         return $data;
     }
     public function getEntradasFiltradas($filtros, $id) {
@@ -49,6 +56,8 @@ class ApiinfopublicaModel extends Model {
             if (!empty($temp)) {
                 $portada = $this->getPortada($temp['tb_galeria_id']);
                 $temp['portada'] = $portada['galeria_url'];
+                $temp['entradas_titulo'] = html_entity_decode($temp['entradas_titulo'], ENT_QUOTES, 'UTF-8');
+                $temp['cuerpo'] = html_entity_decode($temp['cuerpo'], ENT_QUOTES, 'UTF-8');
                 array_push($data, $temp);
             }
         }

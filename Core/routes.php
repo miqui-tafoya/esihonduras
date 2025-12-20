@@ -227,7 +227,7 @@ $routeList->add(
         '/entrada/',
         'entrada',
         ['main',
-                ['', ['entrada']],
+                ['', ['entrada', 'posts']],
                 [[],
                         ['entrada']],
                 []],
@@ -332,24 +332,24 @@ $routeList->add(
 
 $routeList->add(
         'get',
-        '/editarentrada/',
-        'editarentrada',
+        '/editarnoticia/',
+        'editarnoticia',
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas', 'entrada']],
+                        ['categorias', 'noticia']],
                 []],
         ['admin', 'session']
 );
 
 $routeList->add(
         'post',
-        '/editarentrada/',
-        'editarentrada',
+        '/editarnoticia/',
+        'editarnoticia',
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas', 'entrada']],
+                        ['categorias', 'noticia']],
                 $_POST],
         ['admin', 'session']
 );
@@ -409,7 +409,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas', 'entrada']],
+                        ['categorias', 'publica']],
                 []],
         ['admin', 'session']
 );
@@ -421,7 +421,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['temas', 'entrada']],
+                        ['categorias', 'publica']],
                 $_POST],
         ['admin', 'session']
 );
