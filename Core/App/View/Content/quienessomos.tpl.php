@@ -13,7 +13,7 @@
                 </p>
                 <p class="dos-intro-quienes-bold p-bottom">Los Derechos sexuales es un derecho a la salud y un derecho
                     no se le niega a nadie. </p>
-                <p class="cabecera-uno">
+                <p class="cabecera-dos-quienes">
                     ¿Quiénes somos?
                 </p>
                 <p class="dos-intro-quienes">
@@ -46,13 +46,13 @@
                     <div class="frase">“Me gustaría saber sobre la virginidad, sobre muchas cosas, pero me da pena
                         preguntar” <br>(joven Maya Chortí, 2025).</div>
                     <div class="frase">“Yo quiero saber qué hacer en esos casos, ya sabe de lo que hablo, es que no
-                        puedo decir la palabra porque luego dicen que es pecado” <br>(Mujer miskitu,2025).</div>
+                        puedo decir la palabra porque luego dicen que es pecado” <br>(Mujer miskitu, 2025).</div>
                     <div class="frase">“Nos encontramos en una zona lejana, en una comunidad con diversidad cultural
                         donde me ha tocado por mi propia cuenta averiguar cómo abordar un embarazo adolescente, ya sabe
-                        las guirras (niñas) que no quieren ser mamás y las obligan”<br> (joven garífuna,2025).</div>
+                        las guirras (niñas) que no quieren ser mamás y las obligan”<br> (joven garífuna, 2025).</div>
                     <div class="frase">“Me gustaría encontrar información sobre la virginidad, sobre los mitos, sobre el
-                        derecho a decidir” <br>(joven tolupan,2025)</div>
-                    <!-- <div class="frase">“Quiero leer información sobre si tener hijos o no es una imposición” </div> -->
+                        derecho a decidir” <br>(joven tolupan, 2025)</div>
+                    <div class="frase">“Quiero leer información sobre si tener hijos o no es una imposición”. (joven tolupan, 2025) </div> 
                 </div>
 
 
@@ -67,10 +67,10 @@
                 <p class="cabecera-dos-quienes">
                     ¿Para quién hicimos esta plataforma?
                 </p>
-                <p class="intro-bloque-tres-dos">Derechos ESI Honduras ha sido pensada como una plataforma para todas
-                    las personas, contreras
-                    información para las y los jóvenes, madres, padres y educadores.
-                    La información es para todas y todos y los derechos ESI también.
+                <p class="intro-bloque-tres-dos"><span class="intro-bloque-tres-dos-italic">Derechos ESI </span>
+                    Honduras ha sido pensada como una plataforma para todas las personas, por lo que encontrarás
+                    información específica para las y los jóvenes, madres, padres, tutores y personal docente. Recuerda,
+                    la información es para todas y todos, y los derechos ESI también.
                 </p>
 
             </div>
@@ -84,18 +84,23 @@
                 <div class="txt-intro-quienes">
 
                     <p class="dos-intro-quienes">
-                        Hablar de educación integral en sexualidad es urgente, Derechos ESI Honduras surge por que los
-                        datos nos preocupan: <br><br>
+                        Hablar de educación sexual integral es urgente. Derechos ESI Honduras surge por que los datos
+                        nos preocupan:
+                        <br><br>
                         En los primeros siete meses de 2024, la Secretaría de Salud de Honduras contabilizó el egreso
                         hospitalario por parto de 6,914 niñas, adolescentes y jóvenes, evidenciando la continuidad de
                         esta problemática que sigue poniendo en riesgo la vida, la salud y limitando los derechos de
-                        miles de
-                        niñas y adolescentes. <br>Según el Fondo de Población de las Naciones Unidas (FPNU), uno de cada
-                        cuatro embarazos registrados en esta nación centroamericana corresponde a una menor de 19 años,
-                        lo que
-                        convierte a Honduras en el segundo país de América Latina con la tasa más alta de embarazos en
-                        adolescentes.
-
+                        miles de niñas y adolescentes. Según el Fondo de Población de las Naciones Unidas (FPNU), uno de
+                        cada cuatro embarazos registrados en esta nación centroamericana corresponde a una menor de 19
+                        años, lo que convierte a Honduras en el segundo país de América Latina con la tasa más alta de
+                        embarazos en adolescentes.
+                    </p>
+                    <p class="dos-intro-quienes">Además, de acuerdo con datos de la Encuesta Nacional de Demografía y Salud (ENDESA) realizada en
+                        el 2019, reportó:
+                        <br>
+                        - 25.8% de las mujeres de 20 a 24 años fue madre antes de los 18 años
+                        <br>
+                       - 66.5% de las mujeres usan un método anticonceptivo como DIU, condón, parche anticonceptivo
                     </p>
 
                 </div>
