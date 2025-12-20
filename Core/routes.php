@@ -9,6 +9,7 @@ use Controller\Educadores;
 use Controller\Madresypadres;
 use Controller\Jovenes;
 use Controller\Medios;
+use Controller\Cargarmedio;
 
 // Instancia Globales
 $default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer', 'modal'], 'end' => ['mediaquery']];
@@ -753,6 +754,17 @@ $routeList->add(
         '/exploradormedios',
         function () {
                 $post = new Medios;
+                $post->POST_handler_AJAX();
+        },
+        ['', '', [], []],
+        []
+);
+
+$routeList->add(
+        'post',
+        '/subirimagen',
+        function () {
+                $post = new Cargarmedio;
                 $post->POST_handler_AJAX();
         },
         ['', '', [], []],
