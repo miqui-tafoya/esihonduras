@@ -9,18 +9,28 @@
                 <img src="Public/recursos/imagenes/quienes.png" alt=""></a>
             </div>
             <div class="txt-intro-quienes">
+                <p class="dos-intro-quienes-bold">Derechos ESI para todas y todos
+                </p>
+                <p class="dos-intro-quienes-bold p-bottom">Los Derechos sexuales es un derecho a la salud y un derecho
+                    no se le niega a nadie. </p>
                 <p class="cabecera-uno">
-                    Quiénes Somos 
+                    ¿Quiénes somos?
                 </p>
                 <p class="dos-intro-quienes">
                     La salud sexual y reproductiva es un componente esencial del bienestar humano, el desarrollo social
-                    y la equidad de género.<br> <br>En Honduras, garantizar el acceso a información confiable y
-                    servicios
+                    y la equidad de género. En Honduras, garantizar el acceso a información confiable y servicios
                     adecuados en esta área sigue siendo un desafío significativo, especialmente para poblaciones
-                    vulnerables como jóvenes, mujeres en situación de pobreza y comunidades rurales.<br> <br>La creación
-                    de una
-                    Plataforma de Salud Sexual y Reproductiva “Derechos ESI Honduras” representa una oportunidad
-                    innovadora para cerrar estas brechas y fortalecer el sistema de salud en el país.
+                    vulnerables como jóvenes, mujeres en situación de pobreza y comunidades rurales. La creación de una
+                    Plataforma de Salud Sexual y Reproductiva “Derechos ESI (Educación Sexual Integral) Honduras”
+                    representa una oportunidad innovadora para cerrar esta brecha y fortalecer el sistema de salud en el
+                    país.
+                    <br><br>
+                    Derechos ESI Honduras busca brindar información confiable y facilitar el acceso a servicios médicos
+                    especializados con el fin de promover el bienestar y el ejercicio pleno de los derechos sexuales y
+                    reproductivos. Esta plataforma, además, busca cumplimentar con el <span class="hiper"> <a
+                            href="https://www.opengovpartnership.org/members/honduras/commitments/HN0090/"
+                            target="_blank">compromiso </a></span>de acceso a la información de salud sexual y
+                    reproductiva del 5to Plan de Acción de Honduras de la Alianza para el Gobierno Abierto (OGP).
 
                 </p>
 

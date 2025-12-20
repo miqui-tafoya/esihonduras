@@ -50,6 +50,12 @@
     padding: 1rem 0rem;
 }
 
+.dos-intro-quienes-bold{
+    font-weight: 700;
+    font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+    width: 100%;
+    padding: 1rem 0rem;
+}
 
 ////////bloque dos///////////
 
@@ -329,4 +335,16 @@
     font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
     font-weight: 600;
     line-height: 1.2;
+}
+
+.hiper a{
+    color:#e74eed;
+    font-weight: 700;
+
+}
+
+.hiper a:hover{
+    color:#aa00d3;
+    text-decoration: wavy;
+
 }
