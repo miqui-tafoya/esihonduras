@@ -28,11 +28,13 @@ $coordenadas = [];
 foreach ($centrosalud as $key => $value) {
     [$latStr, $lngStr] = array_map('trim', explode(',', $value['coordenadas']));
     $coordenadas[] = [
-        'lat' => (float) $latStr,
-        'lng' => (float) $lngStr,
-        'municipio' => $value['municipio'],
-        'aldea' => $value['aldea'],
-        'nombre' => $value['nombre']
+        'lat' => (float) $latStr ?? 0,
+        'lng' => (float) $lngStr ?? 0,
+        'municipio' => $value['municipio'] ?? '',
+        'aldea' => $value['aldea'] ?? '',
+        'nombre' => $value['nombre'] ?? '',
+        'direccion' => $value['direccion'] ?? '',
+        'info' => $value['info'] ?? '',
     ];
 }
 ?>

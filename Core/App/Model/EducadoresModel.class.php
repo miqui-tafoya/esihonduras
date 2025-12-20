@@ -130,7 +130,7 @@ class EducadoresModel extends Model {
         <p> Esta sección es crucial para el documento de docente a docente, ya que muestra la realidad de la implementación:</p>
         <p><strong>Cita Esencial (Base de Derecho): Constitución de la República,</strong>  Art. 145, junto con compromisos internacionales como la <strong>Convención sobre los Derechos del Niño (CDN) y el Consenso de Montevideo.</strong></p>
         <p><strong>Contexto Reciente:</strong> Es vital citar la <strong>"Ley de Educación Integral de Prevención al Embarazo Adolescente en Honduras" </strong>(aprobada por el Congreso Nacional en marzo de 2023).</p>
-        <p><strong>Cita de Desafío:</strong> Señalar que, si bien el Congreso la aprobó, la Ley fue<strong>vetada</strong>por el Poder Ejecutivo (Presidencia de la República) en julio de 2023, bajo la justificación de que no cumplía su finalidad de ser integral.</p>
+        <p><strong>Cita de Desafío:</strong> Señalar que, si bien el Congreso la aprobó, la Ley fue <strong>vetada</strong> por el Poder Ejecutivo (Presidencia de la República) en julio de 2023, bajo la justificación de que no cumplía su finalidad de ser integral.</p>
         <p><strong>Implicación para Docentes:</strong> A pesar del veto a la ley específica, el deber de educar y la responsabilidad de prevenir el embarazo adolescente y la violencia sexual sigue vigente, apoyado en la Constitución y las normativas y guías de la Secretaría de Educación (SE).</p>
         <p>Más allá de la normativa específica, el compromiso docente es mantener un <strong>compromiso ético y de derechos humanos</strong> para garantizar:</p>
         <ul>

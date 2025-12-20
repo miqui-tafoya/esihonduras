@@ -21,23 +21,23 @@ Es importante que ante cualquier duda o situación relacionada con su sexualidad
                 2 => [
                     'q' => '<p>¿Aunque padres y madres no tengan estudios pueden hablar con sus hijas e hijos sobre sexualidad?</p>',
                     'a' => true,
-                    'c' => 'Verdad. Si bien es cierto que se pueden adquirir conocimientos a través de cursos, lecturas, Internet, también es cierto que se va aprendiendo del tema por experiencia propia. Lo más importante es una actitud positiva y el deseo de tener una comunicación abierta, directa y sincera. 
+                    'c' => '<p><b>Verdad.</b> <br> Si bien es cierto que se pueden adquirir conocimientos a través de cursos, lecturas, Internet, también es cierto que se va aprendiendo del tema por experiencia propia. Lo más importante es una actitud positiva y el deseo de tener una comunicación abierta, directa y sincera. 
 El conocimiento y la actualización sobre temas de sexualidad se pueden adquirir poco a poco. Incluso te proponemos revisar materiales junto a tus hijas e hijos, que les permita conversar y buscar más información. 
-Lo más importante es hacer saber a las hijas e hijos que pueden confiar, que mamá y papá siempre les escucharán y que se les quiere.  
+Lo más importante es hacer saber a las hijas e hijos que pueden confiar, que mamá y papá siempre les escucharán y que se les quiere</p>.  
 
 '
                 ],
                 3 => [
                     'q' => '<p>¿Solo las madres deben hablar con las hijas de sexualidad y los padres deben hablar con los hijos?</p>',
                     'a' => false,
-                    'c' => 'Falso. No necesariamente tiene que ser así, tanto padres como madres pueden hablar con sus hijos e hijas, se puede generar confianza y apertura para hablar con ambos o bien con alguna persona adulta de confianza.
-Además cuando madre y padre se involucran en la formación de las hijas e hijos también se rompe el mito o la creencia de que hay cosas que solo se hablan entre hombres o mujeres y así también contribuimos a una cultura de la igualdad y no reforzamos estereotipos de género.'
+                    'c' => '<p><b>Falso.</b> <br> No necesariamente tiene que ser así, tanto padres como madres pueden hablar con sus hijos e hijas, se puede generar confianza y apertura para hablar con ambos o bien con alguna persona adulta de confianza.
+Además cuando madre y padre se involucran en la formación de las hijas e hijos también se rompe el mito o la creencia de que hay cosas que solo se hablan entre hombres o mujeres y así también contribuimos a una cultura de la igualdad y no reforzamos estereotipos de género.</p>'
                 ],
                 4 => [
                     'q' => '<p>¿Es verdad que los hijos e hijas hablarán con madres y padres con la misma confianza que con los amigos y amigas.</p>',
                     'a' => 'both',
-                    'c' => 'Verdadero y falso. Algunas veces, los hijos e hijas pueden tener apertura y confianza para comunicar sus sentimientos, dudas y experiencias. Sin duda habrá cosas que son privadas y que quizá den vergüenza y solo quieran compartirlas con sus amistades. 
-Sin embargo, depende mucho de la actitud de madres y padres para que hijas e hijos sean más abiertos y sientan más confianza.'
+                    'c' => '<p><b>Verdadero y falso.</b> <br> Algunas veces, los hijos e hijas pueden tener apertura y confianza para comunicar sus sentimientos, dudas y experiencias. Sin duda habrá cosas que son privadas y que quizá den vergüenza y solo quieran compartirlas con sus amistades. 
+Sin embargo, depende mucho de la actitud de madres y padres para que hijas e hijos sean más abiertos y sientan más confianza.</p>'
                 ],
             ],
             'accordion-1' => [

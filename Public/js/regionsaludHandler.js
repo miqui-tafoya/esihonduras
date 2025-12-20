@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
         marker.bindPopup(`
             <b>${lugar.nombre}</b><br>
             Municipio: ${lugar.municipio}<br>
-            Aldea: ${lugar.aldea}
+            Aldea: ${lugar.aldea}<br>
+            Dirección: ${lugar.direccion}<br>
+            Info: ${lugar.info}
         `);
 
         marker.bindTooltip(lugar.nombre);
