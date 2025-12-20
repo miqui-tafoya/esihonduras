@@ -45,6 +45,13 @@
   padding: 1rem 0rem;
 }
 
+.dos-intro-quienes-bold {
+  font-weight: 700;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
 .bloque-dos-quienes {
   display: flex;
   width: 100%;
@@ -91,8 +98,13 @@
 .intro-bloque-tres-dos {
   font-weight: 400;
   font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
-  width: 100%;
   padding: 1rem 0rem;
+}
+
+.intro-bloque-tres-dos-italic {
+  font-weight: 500;
+  font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
+  font-style: italic;
 }
 
 .layout-dos-bloque-tres {
@@ -240,7 +252,7 @@
   font-style: italic;
   white-space: normal;
   opacity: 0;
-  animation-duration: 32s;
+  animation-duration: 40s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   line-height: 1.2;
@@ -264,6 +276,11 @@
 .frase:nth-child(4) {
   animation-name: slideText;
   animation-delay: 24s;
+}
+
+.frase:nth-child(5) {
+  animation-name: slideText;
+  animation-delay: 32s;
 }
 
 @keyframes slideText {
@@ -293,4 +310,15 @@
   font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
   font-weight: 600;
   line-height: 1.2;
+}
+
+.hiper a {
+  color: #e74eed;
+  font-weight: 700;
+}
+
+.hiper a:hover {
+  color: #aa00d3;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
 }/*# sourceMappingURL=quienes.css.map */

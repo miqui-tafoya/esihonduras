@@ -13,16 +13,23 @@
                 <div class="txt-grid-doble">
                     <p class="cabecera-uno">Personas Educadoras</p>
                     <p class="cabecera-one">Información dirigida a educadores</p>
-                    <p class="dos-grid-doble">Las y los maestros son parte fundamental en la formación de las chicas y chicos. Educar no es solo es leer información, su rol es transmitir conocimientos que fomenten un trato empático,  respetuoso y libre de violencia entre personas. También deben crear  espacios seguros y de confianza donde todas las dudas sobre la sexualidad puedan ser escuchadas,  y donde la información se comparta sin estigmas. 
+                    <p class="dos-grid-doble">Las y los maestros son parte fundamental en la formación de las chicas y
+                        chicos. Educar no es solo es leer información, su rol es transmitir conocimientos que fomenten
+                        un trato empático, respetuoso y libre de violencia entre personas. También deben crear espacios
+                        seguros y de confianza donde todas las dudas sobre la sexualidad puedan ser escuchadas, y donde
+                        la información se comparta sin estigmas.
                         <br>
                         <br>
-                        <span class="cuerpo-texto-bold">Recuerda, el rol de las y los docentes en la Educación Sexual Integral es transmitir información veraz, escuchar dudas, acompañar inquietudes, e informar sin estigmatizar la sexualidad. </span>
+                        <span class="cuerpo-texto-bold">Recuerda, el rol de las y los docentes en la Educación Sexual
+                            Integral es transmitir información veraz, escuchar dudas, acompañar inquietudes, e informar
+                            sin estigmatizar la sexualidad. </span>
                         <br>
                         <br>
                         Si quieres conocer más sobre este rol, consulta el siguiente:
                     </p>
                     <div class="btn-enlace">
-                        <a href="https://www.redalyc.org/journal/447/44741347020/html/" target="_blank">Documento <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href="https://www.redalyc.org/journal/447/44741347020/html/" target="_blank">Documento <i
+                                class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
 
                 </div>
@@ -56,13 +63,16 @@
         <div class="back-color">
             <div class="intro">
                 <p class="cabecera-dos-faq">Material de consulta</p>
+                <p class="cuerpo-texto p-vertical">A continuación, encontrarás información de consulta y ejercicios
+                    educativos descargables que pueden servirte como soporte al momento de tratar temas de sexualidad
+                    con tus alumnos y alumnas.</p>
             </div>
             <div class="bloque-materiales">
 
                 <!-- Start Tema 1-->
 
                 <div class="bloque-organizacion">
-                    <p class="cabecera-dos-contacto">Tema: Derechos Humanos y Perspectiva de género (DH y PEG)</p>
+                    <p class="cabecera-dos-contacto">Tema: Derechos Humanos y Perspectiva de género</p>
                     <br>
                     <div class="bloque-enlace">
                         <p class="txt-enlace">Educación en derechos</p>
@@ -170,12 +180,6 @@
                 <div class="bloque-organizacion">
                     <p class="cabecera-dos-contacto">Tema: Diversidad e inclusión </p>
                     <br>
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Rodino, Ana María (2009), La educación con enfoque de derechos humanos
-                            como práctica constructora de inclusión social, disponible en:</p>
-                        <div class="btn-enlace-dos"> <a href="https://www.corteidh.or.cr/tablas/r34228.pdf"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
 
                     <div class="bloque-enlace">
                         <p class="txt-enlace">La educación con enfoque de derechos humanos como práctica constructora de
@@ -193,7 +197,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Santillán (2019). Los muxes, el Tercer Género. Ciencia UNAM. Consultado en
+                        <p class="txt-enlace">Los muxes, el Tercer Género. Ciencia UNAM. Consultado en
                             el sitio</p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://ciencia.unam.mx/leer/925/los-muxes-el-tercer-genero-"
@@ -208,17 +212,37 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Comisión Interamericana de Derechos Humanos (CIDH). (2015). Violencia
-                            contra personas lesbianas, gay, bisexuales, trans e intersex en América
-                            (OAS/Ser.L/V/II.rev.2). </p>
+                        <p class="txt-enlace">Violencia contra personas lesbianas, gay, bisexuales, trans e intersex en
+                            América </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://www.oas.org/es/cidh/informes/pdfs/violenciapersonaslgbti.pdf"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <p class="cabecera-one-dos">Biblioteca de la Asociación por las Infancias Transgénero, algunos de
-                        los
-                        títulos que puedes descargar:</p>
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Protocolo Trans & No-Binarie </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://itgetsbettermx.org/programas/espaciosseguros/eduguias/protocolo-trans-no-binarie/"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Reitera CNDH su compromiso de contribuir en el reconocimiento de los
+                            derechos de la diversidad sexual y de género </p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.cndh.org.mx/sites/default/files/documentos/2019-12/COM_%202019_476.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+
+                </div>
+                <!-- End Tema 2 -->
+
+                <!-- Start Tema infancias -->
+
+                <div class="bloque-organizacion">
+
+                    <p class="cabecera-dos-contacto">Tema: Infancias Transgénero</p>
 
                     <div class="bloque-enlace">
                         <p class="txt-enlace">Escuela Desarrollo de Personas (2024), Disponible en: </p>
@@ -243,12 +267,6 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">anémona, infancias y juventudes trans (2021). Disponible en </p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://infanciastrans.org/wp-content/uploads/2021/12/anemonarevista_final.pdf"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
 
                     <div class="bloque-enlace">
                         <p class="txt-enlace">anémona, infancias y juventudes trans (2021). Disponible en </p>
@@ -256,11 +274,6 @@
                                 href="https://infanciastrans.org/wp-content/uploads/2021/12/anemonarevista_final.pdf"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
-
-                    <p class="cabecera-one-dos">EduGuías+, Recursos Educativos descargables gratis de It Gets Better
-                        México.
-                        algunos de los títulos que puedes descargar:
-                    </p>
 
                     <div class="bloque-enlace">
                         <p class="txt-enlace">Manual De Inclusión Y Atención A Estudiantes LGBTQ+. Disponible en </p>
@@ -276,52 +289,22 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Protocolo Trans & No-Binarie. Disponible en </p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://itgetsbettermx.org/programas/espaciosseguros/eduguias/protocolo-trans-no-binarie/"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
-
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Comisión Nacional de Derechos Humanos (CNDH). (2019, 13 de diciembre).
-                            Reitera CNDH su compromiso de contribuir en el reconocimiento de los derechos de la
-                            diversidad sexual y de género (Comunicado de prensa DGC/476/2019). </p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://www.cndh.org.mx/sites/default/files/documentos/2019-12/COM_%202019_476.pdf"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
-
-
                 </div>
-                <!-- End Tema 2 -->
+                <!-- End Tema infancias -->
 
                 <!-- Start Tema 3-->
 
                 <div class="bloque-organizacion">
                     <p class="cabecera-dos-contacto">Tema: Prevención de las violencias </p>
                     <br>
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Algunas actividades que puedes usar:</p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://fmujeresprogresistas.org/wp-content/uploads/2016/05/guia_online.pdf"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Manual para fortalecer la igualdad y erradicar la violencia de género.
-                            Comisión de Derechos Humanos del Estado de México. </p>
+                        <p class="txt-enlace">Manual para fortalecer la igualdad y erradicar la violencia de género </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://biblio.juridicas.unam.mx/bjv/detalle-libro/5930-manual-para-fortalecer-la-igualdad-y-erradicar-la-violencia-de-genero-de-la-comision-de-derechos-humanos-del-estado-de-mexico-coleccion-codhem"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Guía de actividades para la coeducación y la no violencia de género </p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://documentos.epet1.edu.ar/Violencia-de-Genero/Juguemos.pdf"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
 
                     <div class="bloque-enlace">
                         <p class="txt-enlace">¡Stop!: no a la violencia de género</p>
@@ -331,8 +314,27 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">GUÍA DE ACTIVIDADES PARA FOMENTAR LA IGUALDAD DE OPORTUNIDADES ENTRE NIÑOS
-                            Y NIÑAS</p>
+                        <p class="txt-enlace">Involucrando a los hombres en el fin de la violencia de género: una
+                            intervención multipaís con evaluación de impacto</p>
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.equimundo.org/wp-content/uploads/2015/01/Involucrando-a-los-hombres-en-el-fin-de-la-violencia-de-genero.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Guía de actividades para la coeducación y la no violencia de género</p>
+                        <div class="btn-enlace-dos p-bottom"> <a
+                                href="https://documentos.epet1.edu.ar/Violencia-de-Genero/Juguemos.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+
+                        <div class="btn-enlace-dos"> <a
+                                href="https://fmujeresprogresistas.org/wp-content/uploads/2016/05/guia_online.pdf"
+                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+                    </div>
+
+                    <div class="bloque-enlace">
+                        <p class="txt-enlace">Guía de actividades para fomentar la igualdad de oportunidades entre niños
+                            y niñas </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://www.educacionyfp.gob.es/dam/jcr:b59c1fb7-30c6-4917-96be-f6a8d7eef619/guia-de-actividades-de-igualdad.pdf"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
@@ -345,28 +347,6 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Actividades para la facilitación de las, intervenciones comunitarias</p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://mexico.unfpa.org/sites/default/files/pub-pdf/actividades_para_la_facilitacion_de_las_intervenciones_comunitarias_trabajo_con_mujeres_0.pdf"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
-
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Olvera García, J. (2019). Manual para fortalecer la igualdad y erradicar
-                            la violencia de género. Comisión de Derechos Humanos del Estado de México. </p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://biblio.juridicas.unam.mx/bjv/detalle-libro/5930-manual-para-fortalecer-la-igualdad-y-erradicar-la-violencia-de-genero-de-la-comision-de-derechos-humanos-del-estado-de-mexico-coleccion-codhem"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
-
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Involucrando a los hombres en el fin de la violencia de género: una
-                            intervención multipaís con evaluación de impacto</p>
-                        <div class="btn-enlace-dos"> <a
-                                href="https://www.equimundo.org/wp-content/uploads/2015/01/Involucrando-a-los-hombres-en-el-fin-de-la-violencia-de-genero.pdf"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
 
                     <p class="cabecera-one-dos">Cortometrajes</p>
 
@@ -474,15 +454,14 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Alfaro, Luisa., et al. 2021 del Programa Líderes 2.0 (2021). Internet
-                            también es de las infancias. Disponible en </p>
+                        <p class="txt-enlace"> Internet también es de las infancias. Disponible en </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://descargas.lacnic.net/lideres/2021/luisa-alfaro/VERSION%20FINAL%20EXTENDIDA_La%20Internet%20tambie%CC%81n%20es%20de%20las%20Infancias.pdf"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Cultivando Género (2021). Te queremos, te acompañamos y te protegemos,
+                        <p class="txt-enlace"> Te queremos, te acompañamos y te protegemos,
                             Guía madres, padres y docentes para prevenir casos de violencia digital en la infancia y
                             adolescencia. Disponible en </p>
                         <div class="btn-enlace-dos"> <a
@@ -491,7 +470,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Cultivando Género (2022). ¿Cómo vamos en el ciberacoso?, Resultados MOCIBA
+                        <p class="txt-enlace"> ¿Cómo vamos en el ciberacoso?, Resultados MOCIBA
                             2022. Disponible en </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://cultivandogeneroac.org/2023/07/31/como-vamos-en-ciberacoso-resultados-mociba-2022/"
@@ -499,7 +478,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Cultivando Género (2023) Diccionario digital para personas no tan
+                        <p class="txt-enlace"> Diccionario digital para personas no tan
                             digitales. Disponible en </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://cultivandogeneroac.org/diccionario-digital-para-personas-no-tan-digitales/"
@@ -507,7 +486,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Cultivando Género (2023) Informe: Infancias en Internet, Experiencias de
+                        <p class="txt-enlace">Informe: Infancias en Internet, Experiencias de
                             la aplicación del Manual Surfea La Web Segux en escuelas primarias en Aguascalientes.
                             Disponible en </p>
                         <div class="btn-enlace-dos"> <a href="https://cultivandogeneroac.org/infancias-en-internet/"
@@ -515,7 +494,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Cultivando Género (2023) Surfea la web, Manual de técnicas didácticas, de
+                        <p class="txt-enlace">Surfea la web, Manual de técnicas didácticas, de
                             sensibilización, seguridad y alfabetización digital para personal docente, madres, padres y
                             personas cuidadoras. Disponible en </p>
                         <div class="btn-enlace-dos"> <a href="https://cultivandogeneroac.org/surfea-la-web-segura/"
@@ -523,7 +502,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Cultivando Género (2024) Manual Interinstitucional para la Canalización de
+                        <p class="txt-enlace">Manual Interinstitucional para la Canalización de
                             Violencia Digital, </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://cultivandogeneroac.org/manual-interinstitucional-para-la-canalizacion-de-violencia-digital/"
@@ -531,7 +510,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Cultivando Género (2024) "Mamás y papás en lo virtual, un viaje para
+                        <p class="txt-enlace">"Mamás y papás en lo virtual, un viaje para
                             conectarnos" </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://cultivandogeneroac.org/2024/05/14/se-presenta-el-libro-mamas-y-papas-en-lo-virtual-un-viaje-para-conectarnos/"
@@ -539,7 +518,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Pérez, Gisela (2018) por Derechos Digitales, ¿De qué hablamos cuando
+                        <p class="txt-enlace"> ¿De qué hablamos cuando
                             hablamos de acceso?. Disponible en </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://www.derechosdigitales.org/wp-content/uploads/de-que-hablamos-cuando-hablamos-de-acceso.pdf"
@@ -547,14 +526,14 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Penalva, Javier (2014). Cyborgs, están entre nosotros. Disponible en</p>
+                        <p class="txt-enlace"> Cyborgs, están entre nosotros. Disponible en</p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://www.xataka.com/robotica-e-ia/cyborgs-estan-entre-nosotros "
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">García-Bullé, Sofía (2022). ¿Qué es el adultocentrismo y por qué perjudica
+                        <p class="txt-enlace"> ¿Qué es el adultocentrismo y por qué perjudica
                             la educación?. Disponible en</p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://observatorio.tec.mx/edu-news/que-es-el-adultocentrismo-y-por-que-perjudica-la-educacion/"
@@ -562,7 +541,7 @@
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Web Foundation (2020). Sobre los Derechos Digitales de las Mujeres.
+                        <p class="txt-enlace"> Sobre los Derechos Digitales de las Mujeres.
                             Disponible en </p>
                         <div class="btn-enlace-dos"> <a
                                 href="http://webfoundation.org/docs/2020/10/Executive-Summary-Spanish.pdf"
@@ -579,24 +558,24 @@
                     <p class="cabecera-dos-contacto">Bases para la Sexualidad Integral </p>
                     <br>
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">UNFPA en América Latina y el Caribe, Facultad Latinoamericana de Ciencias
-                            Sociales (FLACSO), (2025) Educación Integral de la Sexualidad: Evidencias y hallazgos sobre
-                            los efectos en la salud y en el desarrollo de adolescentes y jóvenes, disponible en </p>
+                        <p class="txt-enlace">Educación Integral de la Sexualidad: Evidencias y hallazgos sobre los
+                            efectos en la salud y en el desarrollo de adolescentes y jóvenes</p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://lac.unfpa.org/es/publications/eis-evidencias-hallazgos-efectos-salud-desarrollo-adolescentes-jovenes"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Plan Internacional (s/f) Temas de la Educación integral en Sexualidad:
-                            ¿Qué cubrir en la primera infancia -18+?, Disponible en </p>
+                        <p class="txt-enlace">Temas de la Educación integral en Sexualidad: ¿Qué cubrir en la primera
+                            infancia -18+? </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://plan-international.org/uploads/2021/12/esp_glo-cse_topics_overview-eo-march_2021_final_0.pdf"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
+
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Ipas. (2023). Falsos pretextos: la agenda contra la educación integral en
+                        <p class="txt-enlace">Falsos pretextos: la agenda contra la educación integral en
                             sexualidad convierte en arma los derechos humano. </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://www.ipas.org/wp-content/uploads/2023/03/Falsos-pretextos-la-agenda-contra-la-educacion-integral-en-sexualidad-convierte-en-arma-los-derechos-humanos_OPPCSES23.pdf"
@@ -632,7 +611,8 @@
                         <div class="btn-enlace-dos"> <a href="https://open.spotify.com/show/63KYr2gyqrU5DKhmjmRTxF"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
-                    <p class="cabecera-one-dos">Actividades, Salud Sexual</p>
+
+                    <p class="cabecera-one-dos">Actividades sobre salud sexual</p>
 
                     <div class="bloque-enlace">
                         <p class="txt-enlace">Dinámicas </p>
@@ -653,25 +633,25 @@
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Enseñando el Consentimiento para Adolescentes</p>
+                        <p class="txt-enlace">Enseñando el consentimiento para adolescentes</p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://saprea.org/es/educacion-comunitaria/consentimiento-de-ensenanza-para-adolescentes/"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <div class="bloque-enlace">
+                      <div class="bloque-enlace">
                         <p class="txt-enlace">10 cosas que hemos aprendido del amor</p>
-                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=9G4DWyQNj54"
+                        <div class="btn-enlace-dos"> <a
+                                href="https://www.youtube.com/watch?v=9G4DWyQNj54"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
-                    <div class="bloque-enlace">
-                        <p class="txt-enlace">Cortometraje LOS GRITONES</p>
-                        <div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=7EHO7Q8FjsM"
-                                target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
-                    </div>
+                    	<div class="bloque-enlace">
+						<p class="txt-enlace">Cortometraje LOS GRITONES</p>
+						<div class="btn-enlace-dos"> <a href="https://www.youtube.com/watch?v=7EHO7Q8FjsM"
+								target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
+					</div>
 
                 </div>
 
@@ -680,27 +660,24 @@
                 <!-- Start Tema 6-->
 
                 <div class="bloque-organizacion">
-                    <p class="cabecera-dos-contacto">Primer contacto, Cómo llevar un primer contacto sin revictimizar
+                    <p class="cabecera-dos-contacto">Tema: Cómo Llevar un Primer Contacto sin Revictimizar
                     </p>
                     <br>
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Guerrero, C. (2024, 8 de febrero). Acompañamiento feminista. Pie de
-                            Página. </p>
+                        <p class="txt-enlace">Acompañamiento feminista</p>
                         <div class="btn-enlace-dos"> <a href="https://piedepagina.mx/acompanamiento-feminista/"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Laboratorio Nacional de Diversidades. (2018, 26 de octubre). El
-                            acompañamiento otro y la experiencia feminista. </p>
+                        <p class="txt-enlace">El acompañamiento otro y la experiencia feminista </p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://www.animalpolitico.com/analisis/organizaciones/diversidades-fluidas/el-acompanamiento-otro-invencion-de-experiencias-feministas"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
                     </div>
 
                     <div class="bloque-enlace">
-                        <p class="txt-enlace">Surkuna - Centro de Apoyo y Protección de los Derechos Humanos. (2021).
-                            Módulo: Acompañamiento feminista en casos de violencia contar las mujeres. </p>
+                        <p class="txt-enlace">Módulo: Acompañamiento feminista en casos de violencia contar las mujeres</p>
                         <div class="btn-enlace-dos"> <a
                                 href="https://surkuna.org/wp-content/uploads/2021/03/Mo%CC%81dulo-Acompan%CC%83amiento-feminista.pdf"
                                 target="_blank">Visitar <i class="fa-solid fa-arrow-right-long"></i></a></div>
