@@ -91,6 +91,22 @@ class EducadoresModel extends Model {
         </br></br>
         <span class="txt-italic">¿Qué es sexting?</span>
         </br></br>
+        Hablar de sexting o sextear significa un intercambio sexual con alguna persona, esta puede ser por mensajes, audios, emojis, gifs, notas de voz, fotos y hasta vídeos, es parte de ejercer tu sexualidad por medio o a través de entornos digitales.
+        </br></br>
+        Es muy importante contar con información y ante cualquier duda se vale preguntar.
+        </br></br>
+        Hay personas que hacen un uso violento de Internet y crean perfiles falsos para hacerse pasar por alguien de tu edad, te buscan convencer, ganarse tu confianza y solicitarle contenido sexual.
+        </br></br>
+        Eso es muy importante tomar en cuenta:
+        </br></br>
+        1.- Nunca compartir mensajes, notas de voz, fotos o vídeos con personas que <span class="cabecera-bold" >NO</span> conozcas.
+        </br>
+        2.- Nadie puede obligarte, 	<span class="cabecera-bold" >si tu no quieres es NO es NO.</span>
+        </br>
+        3.- Si te están amenazando con publicar fotos o vídeos, avisa a una persona adulta de confianza.
+        </br>
+        4.- Si te invitan a unirte a un grupo donde hay personas que no conoces y debes presentarte enviando una foto, rechaza la invitación, si ya te agregaron, salte del grupo. 
+       </br></br>
         <strong>Fuentes:</strong>  UNICEF (2023), INMUJERES (2024), Red por los Derechos de la Infancia en México (REDIM, 2023).
         </p>
     ',

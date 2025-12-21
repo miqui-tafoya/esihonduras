@@ -14,7 +14,7 @@ $publicaciones = $body['publicaciones'];
                     <!--  <img src="Public/recursos/imagenes/info_jovenes.png" alt=""></a> -->
                 </div>
                 <div class="txt-grid-doble">
-                    <p class="cabecera-uno">
+                    <p class="cabecera-uno p-bottom">
                         Multimedia
                     </p>
                     <p class="dos-grid-doble ">
