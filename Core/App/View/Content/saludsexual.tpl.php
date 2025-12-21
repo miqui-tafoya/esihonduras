@@ -8,8 +8,7 @@
                 <div class="txt-intro-fr2">
                     <p class="cabecera-uno-ss">¿Por qué hablamos de salud sexual integral?</p>
                     <p class="cuerpo-texto-uno-ss-dos">
-                        Hablar de salud sexual es hablar del derecho a la salud de todas las personas y los derechos no
-                        se le niega a nadie.
+                        La salud sexual no se logra solo con un elemento.Piensa en una receta que requiere de varios ingredientes para  lograr un gran platillo. Lo mismo pasa con la salud sexual, es un derecho muy amplio que nos lleva a hablar de diferentes temas a la vez, como servicios de salud de buena calidad, educación, consentimiento, acceso a la información y prevención. 
                     </p>
                 </div>
 

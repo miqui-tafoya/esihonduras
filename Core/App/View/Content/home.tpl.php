@@ -99,10 +99,7 @@
                 </div>
 
                 <div class="info-bloque-dos-home">
-                    <p class="bloque-dos-home-dos">Por que es un tema de salud, sí, de salud y en Honduras se reconoce
-                        el derecho a la protección de la salud en el artículo 145 de la Constitución de la República de
-                        Honduras. La salud sexual y reproductiva es un derecho muy amplio que nos lleva a hablar de
-                        servicios de salud de buena calidad, educación, consentimiento, información y prevención.
+                    <p class="bloque-dos-home-dos">La salud sexual no se logra solo con un elemento.Piensa en una receta que requiere de varios ingredientes para  lograr un gran platillo. Lo mismo pasa con la salud sexual, es un derecho muy amplio que nos lleva a hablar de diferentes temas a la vez, como servicios de salud de buena calidad, educación, consentimiento, acceso a la información y prevención. 
                     </p>
 
                     <p class="frase">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley”

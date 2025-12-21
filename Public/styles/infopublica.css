@@ -105,6 +105,12 @@ input {
   font-size: 1.3rem;
 }
 
+input::-moz-placeholder {
+  border-color: #c2984b !important;
+  color: #9e9e9e;
+  font-style: italic;
+}
+
 input::placeholder {
   border-color: #c2984b !important;
   color: #9e9e9e;
@@ -154,7 +160,9 @@ label {
 }
 
 .filtro-check {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .filtro-check {
@@ -163,7 +171,9 @@ label {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
   width: 30px;
   height: 30px;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   border: 2px solid #dcdd8a;
   background-position: center;
 }
@@ -210,7 +220,7 @@ label {
 .item-perfiles-quienes {
   border: 2px solid #dcdd8a;
   width: 100%;
-  height: 220px;
+  height: 290px;
   display: flex;
   flex-direction: column;
   margin: 1rem 0rem;
@@ -225,8 +235,10 @@ label {
 .img-item-quienes img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .info-item-quienes {
