@@ -15,25 +15,23 @@
                 <div class="txt-grid-doble">
                     <p class="cabecera-uno">Jóvenes</p>
                     <p class="cabecera-one">Información dirigida a las y los jóvenes </p>
-                    <p class="dos-grid-doble">Las y los jóvenes tenemos Derechos ESI
+                    <p class="dos-grid-doble">Los derechos sexuales son parte del  derecho a la salud, por ello y las y los jóvenes tenemos derecho acceder a la Educación Sexual Integral
                         <br>
-                        Si llegaste hasta aquí, te invitamos a quedarte, ahora te acompañamos en este viaje por tus
-                        derechos sexuales.
-                        <br>
+                        Si llegaste hasta aquí, te invitamos a quedarte. Te acompañaremos en este viaje por tus derechos sexuales.
                     </p>
                     <p class="cabecera-one-dos">En esta secciones encontrarás información sobre: </p>
                     <p class="cuerpo-texto"><span>&#8226;</span>Derechos humanos <br>
-                        <span>&#8226;</span>Discriminación<br>
-                        <span>&#8226;</span>Diversidad e inclusión<br>
-                        <span>&#8226;</span>Sexualidad<br>
-                        <span>&#8226;</span>Embarazo temprano<br>
-                        <span>&#8226;</span>Menstruación<br>
-                        <span>&#8226;</span>Métodos anticonceptivos<br>
-                        <span>&#8226;</span>Infecciones de transmisión sexual<br>
-                        <span>&#8226;</span>Relaciones <br>
-                        <span>&#8226;</span>Consentimiento<br>
-                        <span>&#8226;</span>Violencias<br>
-                        <span>&#8226;</span>Proyecto de vida<br>
+                        <span>&#8226;</span> Discriminación<br>
+                        <span>&#8226;</span> Diversidad e inclusión<br>
+                        <span>&#8226;</span> Sexualidad<br>
+                        <span>&#8226;</span> Embarazo temprano<br>
+                        <span>&#8226;</span> Menstruación<br>
+                        <span>&#8226;</span> Métodos anticonceptivos<br>
+                        <span>&#8226;</span> Enfermedades de transmisión sexual<br>
+                        <span>&#8226;</span> Relaciones <br>
+                        <span>&#8226;</span> Consentimiento<br>
+                        <span>&#8226;</span> Violencias<br>
+                        <span>&#8226;</span> Proyecto de vida<br>
                     </p>
 
 
@@ -50,52 +48,47 @@
             </div>
             <div class="bloque-slide">
                 <div id="esi-presentation">
-                    <p class="cabecera-one-dos">¿Qué te han dicho que es sexualidad? </p>
+                    <p class="cabecera-one-dos">¿Qué tanto conoces sobre la  sexualidad? </p>
                     <p class="cuerpo-texto">
-                        Seguramente te han contado poco, a muchas y muchos les pasa lo mismo, la información que reciben
-                        las y los jóvenes es confusa, inexacta, genera miedo o desinforma sobre relaciones sexuales,
-                        embarazo, enfermedades de transmisión sexual.
-                        <br><br>
-                        Contar con información clara y precisa es tu derecho.
-                    </p><br><br>
-                    <p class="cuerpo-texto-italic">“Me inquieta saber por qué no existen métodos anticonceptivos para
-                        hombres”, “me inquieta saber porque las mujeres debemos parir cuando no queremos” , “me inquieta
-                        no saber de ciertos tratamientos en infecciones”, “me inquieta saber cómo se usa el condón de
-                        mujer”, “me inquieta saber porque hay tanto VIH”, “me inquieta saber porque no hay tanta
-                        planificación para los hombres” “¿cómo se usa el preservativo de mujer?” “saber sobre la
-                        citología” “¿por qué la salud es tan cara?” “Saber los pro y contra de los métodos
-                        anticonceptivos. “quiero encontrar información sobre la vasectomía, homosexualidad, sobre la
-                        religión y sus señalamientos en mi cuerpo”.
-                    </p><br><br>
-                    <p class="cuerpo-texto-italic">“Necesitamos poder decidir sobre nuestro futuro sin ser castigados
-                        por la ley”(Joven tolupan, 2025)</p><br><br>
-                    <p class="cabecera-one-dos">¿Por qué las y los jóvenes necesitan recibir educación integral en
-                        sexualidad?
-                    </p> <br><br>
-                    <p class="cuerpo-texto">La educación sexual integral responde a la urgente necesidad de brindar a
-                        las personas jóvenes información que les empodere para que tomen decisiones fundamentadas en lo
-                        que respecta a las relaciones y la sexualidad, ayudándolos a desenvolverse en un mundo donde la
-                        violencia y las desigualdades basadas en el género, los embarazos precoces y no deseados, y el
-                        VIH y otras infecciones de transmisión sexual (ITS) continúan planteando graves riesgos para su
-                        salud y bienestar. Asimismo, una educación integral de calidad en sexualidad deficiente o
-                        inexistente, adaptada a la edad y a la etapa de su desarrollo, expone a los niños y jóvenes a
-                        una situación de vulnerabilidad frente a las conductas sexuales negativas y a la explotación
-                        sexual.
-                    </p><br><br>
-                    <p class="cuerpo-texto-italic">“La educación integral en sexualidad desempeña un papel esencial en
-                        la salud y el bienestar de los niños y jóvenes. Al aplicar un enfoque basado en los educandos no
-                        sólo proporciona a los niños y jóvenes, progresivamente y en función de su edad, una educación
-                        basada en los derechos humanos, la igualdad de género, las relaciones, la reproducción, el
-                        comportamiento sexual de riesgo y la prevención de enfermedades desde una perspectiva positiva,
-                        poniendo de relieve valores tales como el respeto, la inclusión, la no discriminación, la
-                        igualdad, la empatía, la responsabilidad y la reciprocidad”
-                    </p><br><br>
-                    <p class="cuerpo-texto">Por qué es importante la educación integral en sexualidad, disponible en
-                    </p>
-                    <div class="btn-enlace">
-                        <a href="https://www.unesco.org/es/articles/por-que-es-importante-la-educacion-integral-en-sexualidad"
-                            target="_blank">Leer más</a>
-                    </div>
+Seguramente has escuchado o te han contado poco, pero no te preocupes, a muchas y muchos les pasa lo mismo. La información que reciben las y los jóvenes suele ser confusa, inexacta, generar miedo o desinformar sobre lo que implica tener relaciones sexuales, un embarazo, enfermedades de transmisión sexual, entre otros. 
+Algunas de las dudas más comunes entre las y los jóvenes son las siguientes:
+<br>
+<br>
+<span class="cuerpo-texto-italic">
+<span>&#8226;</span>“¿Por qué no existen métodos anticonceptivos para hombres?” <br>
+<span>&#8226;</span>“¿Por qué las mujeres debemos parir cuando no queremos?” <br>
+<span>&#8226;</span>“ ¿Cuáles son los tratamientos para  infecciones sexuales?” <br>
+<span>&#8226;</span>“ ¿Cómo se usa el condón de mujer?”<br>
+<span>&#8226;</span>“¿Por qué hay tanto VIH?” <br>
+<span>&#8226;</span>“¿Por qué no hay tanta planificación para los hombres?”<br>
+<span>&#8226;</span>“¿Qué es la vasectomía?” <br>
+<span>&#8226;</span>“¿Cuáles son los pro y contra de los métodos anticonceptivos? <br>
+<span>&#8226;</span>“¿Dónde puedo encontrar información sobre la, homosexualidad, la religión y sus señalamientos en mi cuerpo?”
+</span>
+<br>
+<br>
+¿Qué opinan los y las jóvenes de Honduras sobre la importancia de la Educación sexual integral? 
+<br>
+<br>
+<span class="cuerpo-texto-italic">
+“Necesitamos poder decidir sobre nuestro futuro sin ser castigados por la ley”</span>
+ (joven tolupan, 2025) 
+ </span>
+<br>
+<br>
+<span class="cabecera-one-dos">
+¿Por qué las y los jóvenes necesitan recibir educación integral en sexualidad?</span>
+<br><br>
+La educación sexual integral responde a la urgente necesidad de brindar a las personas jóvenes información que les empodere para que tomen decisiones fundamentadas en lo que respecta a sus  relaciones personales y sexualidad. Esta información les puede servir de guía en un mundo donde la violencia y las desigualdades basadas en el género, los embarazos precoces y no deseados, y el VIH y otras enfermedades de transmisión sexual continúan planteando graves riesgos para su salud y bienestar. Asimismo, contar con una educación sexual integral, de calidad  y adaptada a la edad y a la etapa de su desarrollo, les puede prevenir de  situaciones de vulnerabilidad frente a las conductas sexuales negativas y a la explotación sexual. Recuerda, contar con información clara y precisa también es tu derecho. 
+<br>
+<br>
+Si quieres más información de por qué es importante la educación integral en sexualidad, consulta:
+<br>
+<br>
+	<span class="hiper"> <a href="https://www.ciudadmujer.gob.hn/?page_id=3520" target="_blank">Módulo de atención a las adolescentes </a></span>
+    <br>
+	<span class="hiper"> <a href="https://www.unesco.org/es/articles/por-que-es-importante-la-educacion-integral-en-sexualidad" target="_blank">Por qué es importante la educación integral en sexualidad</a></span>
+                        </p>
 
                 </div>
             </div>
