@@ -20,6 +20,9 @@ class ApientradasModel extends Model {
         return $data;
     }
     public function getNoticiasPaginadas($page, $perPage) {
+        header("Access-Control-Allow-Origin: https://www.wreckless.media");
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+        header("Access-Control-Allow-Headers: Content-Type, Authorization");
         $page = max(1, (int) $page);
         $perPage = max(1, (int) $perPage);
 

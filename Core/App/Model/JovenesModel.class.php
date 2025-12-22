@@ -363,42 +363,42 @@ No todas las mujeres que se embarazan finalmente acaban deseando la maternidad y
 ',
                 1 => [
                     'q' => '<p>No mostró empatía ante tus preocupaciones de una  enfermedad de transmisión sexual</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'La falta de empatía por parte de tu pareja es una gran red flag. La empatía es muy importante, pues implica ponerse en el lugar del otro, comprender sus emociones y actuar con consideración.'
                 ],
                 2 => [
-                    'q' => '<p>No tuvo interés en cómo te sentías  o en tus emociones durante la experiencia sexual.</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    'q' => '<p>No tuvo interés en cómo te sentías o en tus emociones durante la experiencia sexual.</p>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'Si no pregunta cómo te sientes o no se interesa verdaderamente por escucharte, es una gran red flag. Debe existir interés genuino en lo que sientes y deseas, en tus tiempos, y en lo que te hace sentir en comodidad. Recuerda, nadie puede obligarte a tener relaciones sexuales si tu no quieres y no estas de acuerdo.'
                 ],
                 3 => [
                     'q' => '<p> Escuchó tus preocupaciones y sobrepuso tu bienestar emocional </p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '0',
                     'c' => 'El bienestar físico y emocional de ambos siempre será lo más importante.'
                 ],
                 4 => [
                     'q' => '<p>No le interesó cuando le contaste cómo podrían cuidarse durante la relación sexual </p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'La comunicación es importante en la primera y todas las veces que tengas relaciones sexuales. Es una gran red flag  cuando tu pareja no presta atención a tus palabras, deseos o preocupaciones.'
                 ],
                 5 => [
                     'q' => '<p>No usaron preservativos ni ningún otro método anticonceptivo </p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'Super red flag, la falta de prevención pone en riesgo la salud de ambos desde el contagio de una enfermedad de transmisión sexual hasta  un embarazo no deseado. La prevención es responsabilidad de ambas personas.'
                 ],
                 6 => [
                     'q' => '<p>No sentiste respeto hacia tu cuerpo durante el proceso</p>',
-                    '1' => '<i class="fas fa-flag"></i>',
+                    '1' => '<i class="fas fa-flag red-flag"></i>',
                     '0' => '<i class="far fa-flag"></i>',
                     'a' => '1',
                     'c' => 'El respeto mutuo es la base de cualquier relación sexual saludable. Si algo no se siente bien o si percibes que tu pareja no está actuando con respeto y consideración, es importante escuchar a tu intuición.'

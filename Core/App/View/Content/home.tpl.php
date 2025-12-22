@@ -124,50 +124,41 @@
             <div class="grid-bloque-tres-home">
                 <div class="row-datos">
                     <div class="bloque-dato">
-                        <p class="p-cifra">22.8%</p>
+                        <p class="p-cifra animated-number">22.8%</p>
                         <p class="p-info">de adolescentes eran madres o estaban embarazadas. Encuesta Nacional de
                             Demografía y Salud (ENDESA) </p>
                     </div>
-
                     <div class="bloque-dato">
-                        <p class="p-cifra">3.6% </p>
+                        <p class="p-cifra animated-number">3.6% </p>
                         <p class="p-info">de la población menor de 15 años ha dado a luz alguna vez </p>
                     </div>
 
                     <div class="bloque-dato">
-                        <p class="p-cifra">7.25% </p>
+                        <p class="p-cifra animated-number">7.25% </p>
                         <p class="p-info">de la población de Honduras es indígena</p>
-
                     </div>
-
                 </div>
 
                 <div class="row-datos">
-
                     <div class="bloque-dato">
-                        <p class="p-cifra">1 </p>
+                        <p class="p-cifra animated-number">1</p>
                         <p class="p-info">de cada cuatro embarazos registrados en Honduras corresponde a una menor de 19
                             años, Fondo de Población de las Naciones Unidas (UNFPA) </p>
-
                     </div>
-
                     <div class="bloque-dato">
-                        <p class="p-cifra">13,034 </p>
+                        <p class="p-cifra animated-number">13,034 </p>
                         <p class="p-info">denuncias de violencia doméstica y </p>
-                        <p class="p-cifra">15,647 </p>
+                        <p class="p-cifra animated-number">15,647 </p>
                         <p class="p-info">denuncias de maltrato familiar en Honduras, Centro de Derechos de la mujer en
                             Honduras CDM; del 01 de enero al 30 de abril del 2025
                         </p>
-
                     </div>
 
                     <div class="bloque-dato">
-                        <p class="p-cifra">6,914 </p>
+                        <p class="p-cifra animated-number">6,914 </p>
                         <p class="p-info">niñas, adolescentes y jóvenes, egresó de un hospital de Honduras después de un
                             parto en los primeros siete meses del 2024
                         </p>
-
-
                     </div>
 
                 </div>
@@ -205,22 +196,17 @@
         <!-- Inicio bloque cinco -->
 
         <div class="bloque-cinco-home">
-
             <div class="grid-bloque-cinco">
-
                 <div class="textos-intro-bloque-cinco">
                     <p class="cuerpo-texto">Todas las personas tenemos derechos sexuales y reproductivos</p>
                     <p class="cabecera-dos">Te compartimos información importante</p>
                 </div>
-
                 <div class="items-bloque-cinco">
-
+                    
                     <div class="item-info-cinco">
-
                         <div class="img-item-cinco">
                             <img src="Public/recursos/imagenes/info_jovenes.jpg" alt="">
                         </div>
-
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">¿Por qué es un tema importante hablar del embarazo
                                 adolescente?</p>
@@ -231,15 +217,12 @@
                                 <a href="<?php echo URL_BASE ?>madresypadres">Ir a información</a>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="item-info-cinco">
-
                         <div class="img-item-cinco">
                             <img src="Public/recursos/imagenes/embarazo_adolescente.jpg" alt="">
                         </div>
-
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">
                                 Información para las y los jóvenes </p>
@@ -249,15 +232,12 @@
                                 <a href="<?php echo URL_BASE ?>faq">Ir a información</a>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="item-info-cinco">
-
                         <div class="img-item-cinco">
                             <img src="Public/recursos/imagenes/centros_de_salud.jpg" alt="">
                         </div>
-
                         <div class="info-item-cinco">
                             <p class="info-uno-item-cinco">Centros de salud </p>
                             <p class="info-dos-item-cinco">Conoce el mapa interactivo Derechos ESI, en él podrás
@@ -268,14 +248,9 @@
                                 <a href="<?php echo URL_BASE ?>centrosdesalud">Ir a información</a>
                             </div>
                         </div>
-
                     </div>
-
-
                 </div>
-
             </div>
-
         </div>
 
         <!-- Fin bloque cinco -->

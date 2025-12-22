@@ -2,7 +2,7 @@
 
 ///////////// estilos home ////////
 
-.contenedor-home{
+.contenedor-home {
     display: flex;
     align-items: start;
     justify-content: center;
@@ -10,14 +10,13 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    background-image: url('../recursos/imagenes/fondo.jpg');
+    background-image: url("../recursos/imagenes/fondo.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
-.bloque-uno-home{
+.bloque-uno-home {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -33,7 +32,7 @@
     padding: 1rem 0rem;
 }
 
-.bienvenida-uno{
+.bienvenida-uno {
     color: vars.$primario;
     margin: 0;
     font-size: clamp(2rem, 0.2759rem + 8.6207vw, 5.125rem);
@@ -41,14 +40,14 @@
     font-weight: 700;
 }
 
-.bienvenida-dos{
+.bienvenida-dos {
     font-size: 2rem;
     font-weight: 600;
     margin-top: -1rem;
     font-size: clamp(1.5rem, 0.9483rem + 2.7586vw, 2.5rem);
 }
 
-.perfiles-home{
+.perfiles-home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +56,7 @@
     flex-direction: column;
 }
 
-.item-perfiles-home{
+.item-perfiles-home {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -68,11 +67,17 @@
     width: 100%;
 }
 
-.imagen-perfil img{
+.imagen-perfil img {
+    border-radius: 20px;
     width: 100%;
     height: auto;
-    border-radius: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+    transform-origin: center center;
+}
+
+.imagen-perfil:hover img {
+    transform: scale(1.05) rotate(1.5deg);
 }
 
 .info-item-perfiles {
@@ -81,40 +86,38 @@
     padding: 1rem 0rem 0rem 0rem;
 }
 
-.titulo-item{
+.titulo-item {
     font-family: "Baloo 2", sans-serif !important;
     font-weight: 700;
     color: vars.$dark;
     font-size: clamp(1.25rem, 0.8362rem + 2.069vw, 2rem);
-    line-height: 1; 
+    line-height: 1;
     padding: 0rem 0rem 0.8rem 0rem;
 }
 
-.btn-perfiles{
+.btn-perfiles {
     display: flex;
     padding: 1.5rem 0rem 0rem 0rem;
 }
 
-.btn-perfiles a{
-     font-weight: 600;
-    color:vars.$g0;
+.btn-perfiles a {
+    font-weight: 600;
+    color: vars.$g0;
     font-size: 0.8rem;
-    background-color:vars.$primario;
+    background-color: vars.$primario;
     padding: 0.5rem 0.8rem;
     cursor: pointer;
     border-radius: 40px;
-   
 }
 
-.btn-perfiles a:hover{
+.btn-perfiles a:hover {
     color: vars.$primario;
-    background-color:vars.$secundario;
+    background-color: vars.$secundario;
 }
-
 
 //////// bloque dos////////////////
 
-.bloque-dos-home{
+.bloque-dos-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,18 +125,16 @@
     width: 90%;
     height: auto;
     margin: 0 auto;
-   
 }
 
-.grid-bloque-dos-home{
+.grid-bloque-dos-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:start;
+    align-items: start;
     width: 100%;
     height: auto;
     padding: 2rem 0rem;
-
 }
 
 .txt-bloque-dos-home {
@@ -144,7 +145,7 @@
     padding: 1rem 0rem 2rem 0rem;
 }
 
-.info-bloque-dos-home{
+.info-bloque-dos-home {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -153,16 +154,14 @@
     padding: 1rem 0rem;
 }
 
-
-
-.bloque-dos-home-dos{
+.bloque-dos-home-dos {
     font-weight: 400;
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
     width: 100%;
     padding: 1rem 0rem;
 }
 
-.frase{
+.frase {
     font-style: italic;
     font-weight: 600;
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
@@ -170,78 +169,71 @@
     padding: 2rem 0;
 }
 
-
 .img-bloque-dos-home {
     width: 100%;
     height: 580px;
     margin: 0 auto;
-  
 }
 
-.img-bloque-dos-home img{
+.img-bloque-dos-home img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-      border-radius: 20px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.btn-enlace{
+.btn-enlace {
     display: flex;
     padding: 1.5rem 0rem 0rem 0rem;
 }
 
-.btn-enlace a{
+.btn-enlace a {
     font-weight: 600;
-    color:vars.$com;
+    color: vars.$com;
     font-size: 0.8rem;
-    background-color:transparent;
+    background-color: transparent;
     border-style: solid;
     border-width: 2px;
-    border-color:vars.$com;
+    border-color: vars.$com;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 40px;
-   
 }
 
-.btn-enlace a:hover{
-    color:vars.$com700;
-    border-color:vars.$com700;
-    background-color:transparent;
+.btn-enlace a:hover {
+    color: vars.$com700;
+    border-color: vars.$com700;
+    background-color: transparent;
 }
 
-
-.btn-enlace-dos{
+.btn-enlace-dos {
     display: flex;
     padding: 1.5rem 0rem 0rem 0rem;
 }
 
-.btn-enlace-dos a{
+.btn-enlace-dos a {
     font-weight: 600;
-    color:vars.$g0;
+    color: vars.$g0;
     font-size: 0.8rem;
-    background-color:transparent;
+    background-color: transparent;
     border-style: solid;
     border-width: 2px;
-    border-color:vars.$g0;
+    border-color: vars.$g0;
     padding: 0.5rem 1rem;
     cursor: pointer;
     border-radius: 40px;
-   
 }
 
-.btn-enlace-dos a:hover{
-    color:vars.$com900;
-    border-color:vars.$com900;
-    background-color:transparent;
+.btn-enlace-dos a:hover {
+    color: vars.$com900;
+    border-color: vars.$com900;
+    background-color: transparent;
 }
-
 
 //////// bloque tres ///////////
 
-
-.bloque-tres-home{
+.bloque-tres-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,11 +244,11 @@
     background-color: vars.$primario50;
 }
 
-.grid-bloque-tres-home{
+.grid-bloque-tres-home {
     display: flex;
-   flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
-    align-items:start;
+    align-items: start;
     width: 100%;
     height: auto;
 }
@@ -269,7 +261,6 @@
     padding: 1rem 0rem 2rem 0rem;
 }
 
-
 .row-datos {
     display: flex;
     justify-content: center;
@@ -280,7 +271,7 @@
     margin: 0 auto;
 }
 
-.bloque-dato{
+.bloque-dato {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -289,15 +280,15 @@
     padding: 2rem 1rem;
 }
 
-.p-cifra{
+.p-cifra {
     font-family: "Baloo 2", sans-serif !important;
     font-weight: 700;
     font-size: clamp(2rem, 0.8966rem + 5.5172vw, 4rem);
-    line-height: 1; 
+    line-height: 1;
     color: vars.$com-dos;
 }
 
-.p-info{
+.p-info {
     font-weight: 400;
     font-size: 1.1rem;
     max-width: 300px;
@@ -306,7 +297,7 @@
 }
 //////// bloque cuatro ////////////////
 
-.bloque-cuatro-home{
+.bloque-cuatro-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -322,39 +313,43 @@
     justify-content: center;
 }
 
-.banner{
+.banner {
+    overflow: hidden;
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 800px;
-    background: #C2984B;
+    background: #c2984b;
     background: linear-gradient(90deg, rgba(194, 152, 75, 1) 0%, rgba(240, 225, 209, 1) 100%);
     border-radius: 2rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.img-banner{
+.img-banner {
     width: 100%;
     display: flex;
     height: 400px;
-    
 }
 
-.img-banner img{
+.img-banner img {
     width: 100%;
     height: auto;
     object-fit: contain;
     object-position: left;
     opacity: 0.5;
-    border-radius: 2rem 0rem  0rem 2rem;
-
+    border-radius: 2rem 0rem 0rem 2rem;
+    translate: -10%;
+    transition: transform 0.6s ease-in-out;
 }
 
+.banner:hover .img-banner img {
+  transform: translateX(8%) rotate(-3deg);
+}
 
-.info-banner{
-    width:100%;
+.info-banner {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -362,52 +357,49 @@
     padding: 0rem 1rem;
 }
 
-.btn-banner{
+.btn-banner {
     display: flex;
     padding: 1.5rem 0rem 0rem 0rem;
 }
 
-.btn-banner a{
-     font-weight: 600;
-    color:vars.$g0;
+.btn-banner a {
+    font-weight: 600;
+    color: vars.$g0;
     font-size: 1rem;
-    background-color:vars.$com-dos;
+    background-color: vars.$com-dos;
     padding: 0.5rem 1.5rem;
     cursor: pointer;
     border-radius: 40px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.btn-banner a i{
+.btn-banner a i {
     margin: 0rem 0rem 0rem 0.5rem;
-   
 }
 
-.btn-banner a:hover{
-    color:vars.$g0;
-    background-color:vars.$com-dos800;
+.btn-banner a:hover {
+    color: vars.$g0;
+    background-color: vars.$com-dos800;
 }
 
-.texto-uno-banner{
-     font-family: "Baloo 2", sans-serif !important;
+.texto-uno-banner {
+    font-family: "Baloo 2", sans-serif !important;
     font-weight: 700;
     color: vars.$com-dos;
     font-size: clamp(1rem, 0.8966rem + 5.5172vw, 3rem);
-    line-height: 1; 
+    line-height: 1;
 }
 
-.texto-dos-banner{
+.texto-dos-banner {
     font-weight: 400;
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
     padding: 0rem 2rem 0rem 0rem;
     text-align: left;
 }
 
-
 //////// bloque cinco ////////////////
 
-.bloque-cinco-home{
+.bloque-cinco-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -415,7 +407,7 @@
     width: 100%;
     height: auto;
     padding: 3rem 2rem 5rem 2rem;
-    background-color:rgba(252,228,252, 0.65);
+    background-color: rgba(252, 228, 252, 0.65);
 }
 
 .grid-bloque-cinco {
@@ -436,15 +428,15 @@
     text-align: center;
 }
 
-.txt-dos-bloque-cinco{
-     font-family: "Baloo 2", sans-serif !important;
+.txt-dos-bloque-cinco {
+    font-family: "Baloo 2", sans-serif !important;
     font-weight: 700;
     font-size: clamp(1rem, 0.8966rem + 5.5172vw, 3rem);
-    line-height: 1; 
+    line-height: 1;
     text-align: center;
 }
 
-.txt-uno-bloque-cinco{
+.txt-uno-bloque-cinco {
     font-weight: 400;
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
     padding: 1rem 0rem;
@@ -458,32 +450,35 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem 0rem;
-
 }
 
-.item-info-cinco{
+.item-info-cinco {
     width: 100%;
     height: 100%;
     background-color: vars.$com;
     margin: 2rem 2rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-
 .img-item-cinco {
+    overflow: hidden;
     width: 100%;
     height: 50%;
 }
 
-.img-item-cinco img{
+.img-item-cinco img {
     width: 100%;
     height: 50%;
     object-fit: cover;
     object-position: center;
+    transition: transform 0.4s ease-out;
 }
 
-.info-item-cinco{
+.item-info-cinco:hover img {
+  transform: scale(1.05);
+}
+
+.info-item-cinco {
     width: 100%;
     height: 50%;
     display: flex;
@@ -500,7 +495,6 @@
     text-align: center;
     padding-bottom: 0.5rem;
     color: vars.$g0;
-    
 }
 
 .info-dos-item-cinco {
@@ -508,12 +502,11 @@
     font-weight: 500;
     text-align: center;
     color: vars.$g0;
-    
 }
 
 /////////////////seis/////////
 
-.bloque-seis-home{
+.bloque-seis-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -523,16 +516,14 @@
     padding: 3rem 3rem;
 }
 
-
-.grid-bloque-seis-home{
+.grid-bloque-seis-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:start;
+    align-items: start;
     width: 100%;
     height: auto;
     padding: 2rem 0rem;
-
 }
 
 .txt-bloque-seis-home {
@@ -543,7 +534,7 @@
     padding: 1rem 0rem 2rem 0rem;
 }
 
-.info-bloque-seis-home{
+.info-bloque-seis-home {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -552,15 +543,12 @@
     padding: 1rem 0rem;
 }
 
-
-.bloque-seis-home-seis{
+.bloque-seis-home-seis {
     font-weight: 400;
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.5rem);
     width: 100%;
     padding: 1rem 0rem;
 }
-
-
 
 .video-bloque-seis-home {
     position: relative;
@@ -576,18 +564,16 @@
     border: 0;
 }
 
-
-.info-bloque-seis-home{
-     width: 100%;
+.info-bloque-seis-home {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     padding: 1rem 0rem;
-
 }
 
-.cabecera-dos-inicio{
+.cabecera-dos-inicio {
     color: vars.$dark;
     font-size: clamp(2rem, 1.3103rem + 3.4483vw, 2.8rem);
     font-weight: 600;

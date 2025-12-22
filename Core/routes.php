@@ -141,7 +141,7 @@ $routeList->add(
                 ['Inicio ESI Honduras', ['home']],
                 [[],
                         []]],
-        []
+        ['home']
 );
 
 $routeList->add(

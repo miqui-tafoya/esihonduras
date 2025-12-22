@@ -64,10 +64,16 @@
 }
 
 .imagen-perfil img {
+  border-radius: 20px;
   width: 100%;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+  transform-origin: center center;
+}
+
+.imagen-perfil:hover img {
+  transform: scale(1.05) rotate(1.5deg);
 }
 
 .info-item-perfiles {
@@ -166,8 +172,7 @@
 .img-bloque-dos-home img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
@@ -300,13 +305,14 @@
 }
 
 .banner {
+  overflow: hidden;
   display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;
   width: 100%;
   height: 800px;
-  background: #C2984B;
+  background: #c2984b;
   background: linear-gradient(90deg, rgb(194, 152, 75) 0%, rgb(240, 225, 209) 100%);
   border-radius: 2rem;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -321,12 +327,16 @@
 .img-banner img {
   width: 100%;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: left;
-     object-position: left;
+  object-fit: contain;
+  object-position: left;
   opacity: 0.5;
   border-radius: 2rem 0rem 0rem 2rem;
+  translate: -10%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.banner:hover .img-banner img {
+  transform: translateX(8%) rotate(-3deg);
 }
 
 .info-banner {
@@ -440,6 +450,7 @@
 }
 
 .img-item-cinco {
+  overflow: hidden;
   width: 100%;
   height: 50%;
 }
@@ -447,10 +458,13 @@
 .img-item-cinco img {
   width: 100%;
   height: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.4s ease-out;
+}
+
+.item-info-cinco:hover img {
+  transform: scale(1.05);
 }
 
 .info-item-cinco {
