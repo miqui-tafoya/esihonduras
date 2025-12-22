@@ -11,7 +11,7 @@ const ACTIVITY_TITLES = {
     'slides-1': 'Menstruación',
     'slides-2': 'Fecundación, embarazo, parto y lactancia',
     'quiz-2': 'Quiz: Aspectos biológicos',
-    'slides-3': 'Alternativas para ejercer la sexualidad',
+    'slides-3': 'Para tener en cuenta antes de ejercer la sexualidad',
     'accordion-2': 'Las Infecciones de Transmisión Sexual',
     'quiz-3': 'Quiz: Infecciones de Transmisión Sexual',
     'accordion-3': 'El embarazo y sus consecuencias',

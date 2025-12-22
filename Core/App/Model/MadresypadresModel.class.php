@@ -39,9 +39,11 @@ Sin embargo, depende mucho de la actitud de madres y padres para que hijas e hij
                 ],
             ],
             'accordion-1' => [
-                'data-1' => '<p class="cabecera-one">¿Cuáles son los órganos sexuales masculinos?</p>
+                'data-1' => '
                 <p class="cuerpo-texto p-bottom">El sexo se refiere a los órganos sexuales primarios que se presentan al nacer, pero existen también personas con órganos sexuales ambiguos al nacer (personas intersexuales).
-Con el curso de los años, al llegar a la pubertad, el hipotálamo actúa sobre la glándula hipófisis dando lugar a que las hormonas actúen sobre los testículos y los ovarios.Estas hormonas dan lugar a los caracteres sexuales secundarios, que son todos los cambios que se presentan en la adolescencia. Por ejemplo, en los hombres se presenta mayor desarrollo del tejido muscular.</p>',
+                Con el curso de los años, al llegar a la pubertad, el hipotálamo actúa sobre la glándula hipófisis dando lugar a que las hormonas actúen sobre los testículos y los ovarios.Estas hormonas dan lugar a los caracteres sexuales secundarios, que son todos los cambios que se presentan en la adolescencia. Por ejemplo, en los hombres se presenta mayor desarrollo del tejido muscular.</p>
+                <p class="cabecera-bold">¿Cuáles son los órganos sexuales masculinos?</p>
+                ',
                 'El pene' => 'Es uno de los órganos sexuales masculinos. Por su interior pasa la uretra, conducto por donde se excreta tanto la orina como el semen. Su tamaño varía. A lo largo del pene existen tres columnas del tejido eréctil: dos cuerpos cavernosos juntos y un cuerpo esponjoso, por debajo, que aloja la uretra. En la punta del pene el cuerpo esponjoso se agranda para formar el glande y su corona.
  
 Una capa de piel, llamada prepucio, sobrepasa el pene cubriendo al glande cuando el pene se encuentra flácido. Los cuerpos del pene tienen una rica provisión de vasos sanguíneos, los cuales están vacíos cuando el pene está flácido, pero que se llenan de sangre cuando hay erección. Ésta se puede producir por medio de la manipulación física del pene, por pensamientos sexuales, por la presión producida por la vejiga o el recto cuando se encuentran llenos, por usar ropa muy ajustada o por cualquier otro motivo que origine una congestión sanguínea en la región del pene.',
@@ -55,7 +57,7 @@ Una capa de piel, llamada prepucio, sobrepasa el pene cubriendo al glande cuando
                 'Glándulas de Cowper' => 'También se les conoce como glándulas bulbo-uretrales. Estas dos glándulas se encuentran debajo de la próstata y su función es secretar un líquido alcalino que lubrica y neutraliza la acidez de la uretra antes del paso del semen en la eyaculación y que sale a través del pene durante la excitación. Este líquido contiene espermatozoides, por lo cual la práctica de retirar el pene de la vagina antes de la eyaculación no es un método anticonceptivo efectivo.',
                 'Uretra' => 'Conducto que se inicia en el cuello de la vejiga y termina a nivel del glande en el meato urinario. Su función es doble: elimina la orina y conduce el semen en el momento de la eyaculación.',
                 'Espermatozoides' => 'Están compuestos por cabeza, cuello y cola. En la cabeza están los 23 pares de cromosomas que representan la mitad de la herencia biológica del nuevo ser. La producción de espermatozoides, que dura entre 60 y 70 días, se inicia en la pubertad y termina con la muerte. Cada eyaculación contiene aproximadamente 100 millones de espermatozoides y tiene un volumen aproximado de 3 mililitros. Los espermatozoides pueden sobrevivir hasta cinco días en un moco cervical que ayuda a proteger los espermatozoides y los mantiene vivos para que lleguen al óvulo.',
-                'data-2' => '<p class="cabecera-one">¿Cuáles son los órganos sexuales femeninos?</p>
+                'data-2' => '<p 	class="cabecera-bold" >¿Cuáles son los órganos sexuales femeninos?</p>
 <p class="cuerpo-texto p-bottom">El cambio más obvio que ocurre en la mujer al llegar a la pubertad es el desarrollo de los senos o mamas, cuya función será alimentar al bebé con la leche que producen antes y después del parto. El tamaño de los senos no tiene ninguna relación con la capacidad de producir leche. Comúnmente se han identificado como fuente de placer erótico y a menudo juegan un papel importante en la autoimagen de la mujer.</p>',
                 'Los senos' => 'Están formados por seis elementos: el pezón, la areola (parte oscura que rodea el pezón), las glándulas mamarias, los conductos galactóforos (que transportan la leche desde las glándulas hasta el pezón), tejido muscular y tejido graso.',
                 'La vulva' => 'Es el conjunto de órganos y estructuras genitales externas, como son: el llamado monte de venus o monte púbico, los pliegues de piel llamados labios mayores y labios menores, el clítoris y el vestíbulo. Durante la pubertad empieza a crecer vello en algunas zonas de la vulva.',
@@ -78,7 +80,7 @@ La forma del útero es similar a la de una pera invertida y su tamaño es de 8 a
             'slides-1' => [
                 1 => '	<p class="cabecera-bold">Menstruación </p>
 <p 	class="cuerpo-texto">Aproximadamente cada 28 a 30 días, un ovario libera un óvulo. El óvulo viaja por una de las trompas de falopio hacia el útero; al mismo tiempo, el útero empieza a fabricar un revestimiento más grueso en el endometrio, formando una capa en la que se implantará el óvulo en caso de ser fecundado. De no haber fecundación, el óvulo se desintegra y los vasos sanguíneos del revestimiento del útero se van abriendo y liberando sangre. Este proceso dura de 3 a 7 días. Una vez concluido, se libera un óvulo y vuelve a empezar el proceso: el endometrio engrosa, se libera un óvulo que se dirige al útero y si no es fecundado se vuelve a presentar la menstruación entre 25 y 35 días después. A este proceso se le conoce como ciclo menstrual. 
-<strong>El organismo de cada mujer funciona de manera particular, lo que hace que no se pueda hablar de días exactos entre una menstruación y la siguiente como tampoco de un momento particular para la ovulación.><strong></p>
+<strong>El organismo de cada mujer funciona de manera particular, lo que hace que no se pueda hablar de días exactos entre una menstruación y la siguiente como tampoco de un momento particular para la ovulación.<strong></p>
 ',
                 2 => '	<p> En este ciclo se toman 28 como el promedio de días intermenstruales y 14 los días desde la ovulación hasta la menstruación. Por esta razón, los días fértiles del ciclo aproximadamente son los 9 días comprendidos entre el día 10 y el 18 a partir del día que comienza la menstruación.
 La menstruación puede provocar en algunas mujeres malestar (dolor en el vientre, aumento de peso, cefalea e hipersensibilidad en los senos) a lo cual los médicos denominan dismenorrea. También puede producir cambios emocionales y de conducta, lo cual se denomina Síndrome Premenstrual.
@@ -91,31 +93,31 @@ No hay ninguna actividad que se deba suspender como consecuencia de la menstruac
 '
             ],
             'slides-2' => [
-                1 => '<p 	class="cabecera-bold"> Fecundación, embarazo, parto y lactancia</p>
-<p>Honduras, al igual que muchos países Latinoamericanos, refleja un aumento en la maternidad entre adolescentes. Datos de la ENDESA indican que entre 2005-2006 y 2011-2012 el porcentaje de adolescentes que alguna vez estuvo embarazada pasó de 21.5% a 24%, lo que refleja un crecimiento de 2.5 puntos porcentuales. El mayor porcentaje de embarazos adolescentes se presenta en el área rural, en donde la cohabitación y la formación de familias se realizan de manera más temprana, lo que expone a las adolescentes a embarazos y a tener mayor número de hijos e hijas a lo largo de su vida reproductiva.</p>
+                1 => '<p class="cabecera-bold"> Fecundación, embarazo, parto y lactancia</p>
+                      <p class="txt-italic">Honduras, al igual que muchos países Latinoamericanos, refleja un aumento en la maternidad entre adolescentes. Datos de la ENDESA indican que entre 2005-2006 y 2011-2012 el porcentaje de adolescentes que alguna vez estuvo embarazada pasó de 21.5% a 24%, lo que refleja un crecimiento de 2.5 puntos porcentuales. El mayor porcentaje de embarazos adolescentes se presenta en el área rural, en donde la cohabitación y la formación de familias se realizan de manera más temprana, lo que expone a las adolescentes a embarazos y a tener mayor número de hijos e hijas a lo largo de su vida reproductiva.</p>
 ',
                 2 => '<p> La fecundación ocurre cuando un óvulo es fertilizado por un espermatozoide y se forma una nueva célula, que se implanta en la pared del útero y allí comienza a dividirse y crecer. El período de embarazo dura aproximadamente 9 meses y generalmente es resultado del coito.
-Los síntomas físicos asociados con el embarazo se pueden clasificar en tres tipos:
-a) Signos presuntivos. Varían de mujer a mujer y aunque no son definitivos para diagnosticar un embarazo, son los primeros cambios corporales que se presentan. Éstos son: suspensión de la menstruación, náuseas en la mañana, cambios en el tamaño y sensibilidad de los senos, oscurecimiento de la zona que rodea al pezón (areola), fatiga, aumento en la frecuencia de orinar y cambio en el color de la vulva.
-b) Signos probables. Aumento del tamaño del útero y del abdomen, el cual comienza a notarse alrededor del tercer mes; también se presenta reblandecimiento del cuello del útero.
-c) Signos de certeza. Son tres y la presencia de cualquiera de ellos confirma el embarazo: detección de latidos del corazón del feto, movimientos notorios del feto, detección del esqueleto fetal por radiografía o ultrasonido.
-Otras formas para saber si hay un embarazo son: la exploración pélvica que puede realizarla un médico dos semanas después del retraso menstrual, el análisis de orina, el análisis de sangre y las pruebas de embarazo a realizar en casa.</p>
+<br>Los síntomas físicos asociados con el embarazo se pueden clasificar en tres tipos:
+<br><br>a) Signos presuntivos. Varían de mujer a mujer y aunque no son definitivos para diagnosticar un embarazo, son los primeros cambios corporales que se presentan. Éstos son: suspensión de la menstruación, náuseas en la mañana, cambios en el tamaño y sensibilidad de los senos, oscurecimiento de la zona que rodea al pezón (areola), fatiga, aumento en la frecuencia de orinar y cambio en el color de la vulva.
+<br>b) Signos probables. Aumento del tamaño del útero y del abdomen, el cual comienza a notarse alrededor del tercer mes; también se presenta reblandecimiento del cuello del útero.
+<br>c) Signos de certeza. Son tres y la presencia de cualquiera de ellos confirma el embarazo: detección de latidos del corazón del feto, movimientos notorios del feto, detección del esqueleto fetal por radiografía o ultrasonido.
+<br><br>Otras formas para saber si hay un embarazo son: la exploración pélvica que puede realizarla un médico dos semanas después del retraso menstrual, el análisis de orina, el análisis de sangre y las pruebas de embarazo a realizar en casa.</p>
 ',
                 3 => '<p> Gestación. Normalmente, el embarazo (gestación o gravidez) tiene una duración de 9 meses. Después de la fecundación, la cual ocurre en una trompa, el óvulo se implanta en el útero y comienza a desarrollarse la placenta. Ella filtra el alimento y el oxígeno que el embrión recibe a través del cordón umbilical. Asimismo, los desechos del niño pasan a la madre por el cordón. Otra función de la placenta es crear hormonas que ayudan al proceso del embarazo.
 El saco amniótico también se forma pocos días después de la implantación. Éste rodea al embrión y se llena de un líquido que se renueva diariamente y protege al producto.
-Los nueve meses de gestación se pueden dividir en tres trimestres. En el primer trimestre, el embrión alcanza a medir unos 3 cm y ya tiene un corazón definido completamente; ojos, nariz, boca, orejas, manos y pies se desarrollan.</p>
+<br>Los nueve meses de gestación se pueden dividir en tres trimestres. En el primer trimestre, el embrión alcanza a medir unos 3 cm y ya tiene un corazón definido completamente; ojos, nariz, boca, orejas, manos y pies se desarrollan.</p>
 ',
                 4 => '<p> En el segundo trimestre se continúan formando estas estructuras, se forman las cejas y las pestañas y los ojos ya empiezan a abrirse y cerrarse. El feto mueve algunos músculos, los brazos y piernas, haciendo especialmente importante esta segunda etapa para los padres pues es cuando pueden sentir verdaderamente su presencia.
 En el tercer trimestre el feto da vueltas y su crecimiento alcanza aproximadamente 50 cm. Sus órganos están tan desarrollados que ya pueden funcionar independientemente.</p>
 ',
                 5 => '<p> Trabajo de parto. Éste es el proceso por medio del cual la madre expulsa el producto de la concepción. Se divide en tres fases: dilatación, expulsión o nacimiento del niño y alumbramiento o expulsión de la placenta.
-Primera etapa. Este período empieza con las primeras contracciones y dura hasta que el cérvix o cuello del útero se dilata unos 10 cm para que pase el producto. Las primeras contracciones son cortas y suaves, separadas por intervalos de diez o veinte minutos. Conforme progresa el trabajo, las contracciones se hacen más frecuentes (cada tres o cinco minutos) y las que preceden a la dilatación completa pueden ser bastante dolorosas.
-Segunda etapa. La expulsión empieza con la abertura total del cérvix y finaliza con el nacimiento del niño o niña. Las contracciones son fuertes y la presión de éstas generalmente provoca la ruptura del saco amniótico. Durante las contracciones, la madre empuja con fuerza. Cuando el cérvix se abre el niño o niña empieza a deslizarse hacia la vagina. Después de que aparece la cabeza, se gira y se acomoda para que con la siguiente contracción salgan el cuello y los hombros. En este punto el cuerpo del bebé es expulsado rápidamente, e inmediatamente después sale el resto del líquido amniótico.</p>
+<br>Primera etapa. Este período empieza con las primeras contracciones y dura hasta que el cérvix o cuello del útero se dilata unos 10 cm para que pase el producto. Las primeras contracciones son cortas y suaves, separadas por intervalos de diez o veinte minutos. Conforme progresa el trabajo, las contracciones se hacen más frecuentes (cada tres o cinco minutos) y las que preceden a la dilatación completa pueden ser bastante dolorosas.
+<br>Segunda etapa. La expulsión empieza con la abertura total del cérvix y finaliza con el nacimiento del niño o niña. Las contracciones son fuertes y la presión de éstas generalmente provoca la ruptura del saco amniótico. Durante las contracciones, la madre empuja con fuerza. Cuando el cérvix se abre el niño o niña empieza a deslizarse hacia la vagina. Después de que aparece la cabeza, se gira y se acomoda para que con la siguiente contracción salgan el cuello y los hombros. En este punto el cuerpo del bebé es expulsado rápidamente, e inmediatamente después sale el resto del líquido amniótico.</p>
 ',
                 6 => '<p> Tercera etapa. Las contracciones cesan durante un momento después que ha nacido el niño o niña, para empezar de nuevo a intervalos regulares hasta que la placenta se separa del útero y es expulsada.
-La etapa posterior al parto se denomina puerperio. El organismo de la madre regresa al estado previo al embarazo. Este período puede durar de 4 a 5 semanas. Algunas mujeres se deprimen en este período, llamándose “depresión post-parto”.
-En algunos casos se practica la cesárea que consiste en abrir el abdomen de la embarazada y su útero para sacar al bebé. Las razones para ello son diversas, algunas de las cuales pueden ser: sufrimiento del feto o la madre, que el cordón esté enredado en el bebé, mala posición del bebé, etcétera.
-Lactancia. Es el resultado de la acción de la hormona llamada prolactina, la cual estimula a las mamas para la secreción de leche. Este proceso se inicia normalmente de 24 a 48 horas después del parto. La leche materna contiene importantes elementos nutritivos y anticuerpos.</p>
+<br>La etapa posterior al parto se denomina puerperio. El organismo de la madre regresa al estado previo al embarazo. Este período puede durar de 4 a 5 semanas. Algunas mujeres se deprimen en este período, llamándose “depresión post-parto”.
+<br>En algunos casos se practica la cesárea que consiste en abrir el abdomen de la embarazada y su útero para sacar al bebé. Las razones para ello son diversas, algunas de las cuales pueden ser: sufrimiento del feto o la madre, que el cordón esté enredado en el bebé, mala posición del bebé, etcétera.
+<br>Lactancia. Es el resultado de la acción de la hormona llamada prolactina, la cual estimula a las mamas para la secreción de leche. Este proceso se inicia normalmente de 24 a 48 horas después del parto. La leche materna contiene importantes elementos nutritivos y anticuerpos.</p>
 '
             ],
             'quiz-2' => [
@@ -153,44 +155,51 @@ Lactancia. Es el resultado de la acción de la hormona llamada prolactina, la cu
             'slides-3' => [
                 1 => '<p> La adolescencia es una de las etapas más críticas del ser humano porque es el momento anterior a asumir una responsabilidad social adulta. Es por esto que una de las preguntas más recurrentes durante la  adolescencia está enfocada en buscar la propia identidad: ¿quién soy?
 Uno de los procesos cruciales durante la adolescencia es el descubrimiento de cambios en su cuerpo y el despertar  de un cúmulo de sensaciones sexuales  que desconoce. Todo este proceso se da en un contexto de una sociedad que presiona, directa o indirectamente, a las adolescencias para reproducir patrones y cumplir expectativas de vida vigentes.
-</strong> Culturalmente, la palabra sexualidad se reduce a la genitalidad o al acto sexual, quedando fuera otros aspectos que también están involucrados. Entre ellos se encuentran la forma en cómo nos vinculamos entre hombres y mujeres, el cómo establecer relaciones afectivas sanas, la diversidad de identidades sexuales, las diferentes orientaciones sexuales -es decir, hacia quienes nos podemos sentir atraídos romántica o sexualmente-, entre otras.</strong> </p>
+<br><strong> Culturalmente, la palabra sexualidad se reduce a la genitalidad o al acto sexual, quedando fuera otros aspectos que también están involucrados. Entre ellos se encuentran la forma en cómo nos vinculamos entre hombres y mujeres, el cómo establecer relaciones afectivas sanas, la diversidad de identidades sexuales, las diferentes orientaciones sexuales -es decir, hacia quienes nos podemos sentir atraídos romántica o sexualmente-, entre otras.</strong> </p>
 ',
                 2 => '<p>Los comportamientos sexuales y las alternativas para ejercer la sexualidad pueden ser desde cómo cada adolescente decide explorar las sensaciones de su cuerpo y autoconocerse, hasta cómo acercarse a otra persona y compartir su sexualidad.
-Existen muchos mitos o creencias limitantes acerca de cómo debemos ejercer nuestra sexualidad. Estos mitos o creencias pueden variar según la edad, la cultura específica de cada comunidad, el género, la personalidad,  las emociones, etc. 
+<br>Existen muchos mitos o creencias limitantes acerca de cómo debemos ejercer nuestra sexualidad. Estos mitos o creencias pueden variar según la edad, la cultura específica de cada comunidad, el género, la personalidad,  las emociones, etc. 
 Un ejemplo de estos mitos es que la masturbación, también conocida como autoerotismo, es mala. Otro ejemplo es que los hombres siempre deben estar dispuestos a tener  relaciones sexuales (coito) solo por el hecho de ser hombres, o que todo contacto erótico debe terminar en la penetración para ser complaciente.</p>
 ',
                 3 => '<p>¿Cuáles conoces mitos conoces o has escuchado?
-Para comenzar a desmitificar la sexualidad, es importante preguntarnos: 
-¿Qué tanto ciertas han sido estas creencias sobre la sexualidad según mi experiencia?  
-¿Qué información tengo para verificar si esas creencias sobre la sexualidad son reales?
-¿Cuándo tengo dudas sobre sexualidad, dónde busco información o a quién le pregunto?
-Existen muchos mitos, pero aquí te vamos a compartir cinco verdades: 
-1.- Todas las personas somos seres sexuados
-2.- En sexualidad, nadie lo sabe todo.
-3.- Preguntar sobre inquietudes en sexualidad está muy bien. 
-4.- La educación sexual integral también es aprender sobre el respeto a las diferencias. 
-5.- Nadie puede obligarnos a mantener relaciones sexuales si no queremos, no es no. 
-Es importante hablar con las adolescencias sobre consentimiento. 
-El consentimiento es tener un acuerdo voluntario para participar en algún acto sexual o erótico.</p>
+<br>Para comenzar a desmitificar la sexualidad, es importante preguntarnos: 
+<br> <span>&#8226;</span> ¿Qué tanto ciertas han sido estas creencias sobre la sexualidad según mi experiencia?  
+ <span>&#8226;</span> ¿Qué información tengo para verificar si esas creencias sobre la sexualidad son reales?
+ <span>&#8226;</span> ¿Cuándo tengo dudas sobre sexualidad, dónde busco información o a quién le pregunto?
+<br>Existen muchos mitos, pero aquí te vamos a compartir cinco verdades: 
+ 1.- Todas las personas somos seres sexuados
+ 2.- En sexualidad, nadie lo sabe todo.
+ 3.- Preguntar sobre inquietudes en sexualidad está muy bien. 
+ 4.- La educación sexual integral también es aprender sobre el respeto a las diferencias. 
+ 5.- Nadie puede obligarnos a mantener relaciones sexuales si no queremos, no es no. 
+<br>Es importante hablar con las adolescencias sobre consentimiento. 
+<br><span class="cabecera-bold" >El consentimiento es tener un acuerdo voluntario para participar en algún acto sexual o erótico.</span></p>
 ',
-                4 => '<iframe width="480" height="400" src="https://www.youtube.com/embed/IUxUsJ36jQA?autoplay=1&mute=1" title="YouTube" frameborder="0" allowfullscreen></iframe>',
-                5 => '<p> Es importante que el consentimiento ocurra en un entorno de libertad, consciencia e igualdad.
-LLas alternativas para ejercer la sexualidad también implican autoconocerse para saber qué se quiere elegir y con quién, reconocer el derecho a la propia sexualidad y el placer.
+                4 => '<p>Es importante hablar con las adolescencias sobre consentimiento.  
+                	<span class="cabecera-bold" >El consentimiento es tener un acuerdo voluntario para participar en algún acto sexual o erótico.</span>
+                    Te invitamos a ver el siguiente vídeo que habla de consentimiento: Consentimiento Sexual, tan simple como el ceviche
+                </p>
+                <iframe width="480" height="400" src="https://www.youtube.com/embed/IUxUsJ36jQA?autoplay=1&mute=1" title="YouTube" frameborder="0" allowfullscreen></iframe>
+                <p> Es importante que el consentimiento ocurra en un entorno de libertad, consciencia e igualdad.</p>',
+                5 => '<p> Las alternativas para ejercer la sexualidad también implican autoconocerse para saber qué se quiere elegir y con quién, reconocer el derecho a la propia sexualidad y el placer.
+
 Normalmente la educación sexual es en torno a la salud reproductiva (anticonceptivos, embarazo, menstruación, etc.) que está muy bien, pero pocas veces se nos educa para el placer.
-Como personas adultas, es importante que abramos canales de comunicación sin juicios para poder acompañar y hablar de las alternativas con las adolescencias que acompañamos.</p>
+
+Como personas adultas, es importante que abramos canales de comunicación sin juicios para poder acompañar y hablar de las alternativas con las adolescencias que acompañamos.
+</p>
 ',
-                6 => '	<p>A continuación, algunas preguntas que puedes explorar con tus hijos o hijas:
-Alternativas para ejercer la sexualidad
-¿Qué es el consentimiento?
-¿Qué hago  si después de haber dicho que sí, me arrepiento y/o cambio de opinión?
-¿Cómo puedo conocer mejor mi cuerpo y lo que siento?
-¿Te sientes lista o listo para tener experiencias eróticas con alguien?
-¿Siento algún temor al explorar mi sexualidad?
-¿Qué dudas tengo sobre la sexualidad? </p>
+                6 => '<p>A continuación, algunas preguntas que puedes explorar con tus hijos o hijas:
+
+ <span>&#8226;</span> ¿Qué es el consentimiento?
+ <span>&#8226;</span> ¿Qué hago  si después de haber dicho que sí, me arrepiento y/o cambio de opinión?
+ <span>&#8226;</span> ¿Cómo puedo conocer mejor mi cuerpo y lo que siento?
+ <span>&#8226;</span> ¿Te sientes lista o listo para tener experiencias eróticas con alguien?
+ <span>&#8226;</span> ¿Siento algún temor al explorar mi sexualidad?
+ <span>&#8226;</span> ¿Qué dudas tengo sobre la sexualidad? </p>
 '
             ],
             'accordion-2' => [
-                'data-1' => '<p class="cabecera-one "> Enfermedades de Transmisión Sexual</p>
+                'data-1' => '<p class="cabecera-bold "> Enfermedades de Transmisión Sexual</p>
                 <p class="cuerpo-texto p-bottom">Las Enfermedades de Transmisión Sexual (ETS) o Infecciones de Transmisión sexual (ITS) son padecimientos infecto contagiosos que se contraen generalmente por realizar el coito en condiciones de higiene inapropiadas y/o con personas ya infectadas.
 Las adolescencias son víctimas comunes de algunas de estas enfermedades debido, entre otras razones, a la falta de información verídica sobre cómo evitarlas y sobre los síntomas asociados a ellas, y a los sentimientos de vergüenza o temor para acercarse a centros de salud o a personas adultas (padres, madres, maestros, personal médico, etc.) que puedan orientarles y acompañarles adecuadamente.
 La OMS (Organización Mundial de la Salud) ha clasificado como ITS/ETS los siguientes padecimientos:
@@ -374,15 +383,15 @@ La gonorrea, por ejemplo, típicamente no desarrolla ningún síntoma en las muj
                 ]
             ],
             'accordion-3' => [
-                'data-1' => '<p class="cabecera-one">¿Por qué es un tema importante hablar del embarazo adolescente?</p>
+                'data-1' => '<p class="cabecera-bold">¿Por qué es un tema importante hablar del embarazo adolescente?</p>
                 <p class="cuerpo-texto p-bottom"">El embarazo durante la adolescencia puede cambiar profundamente la vida de las y los jóvenes. No se trata solo del bebé, sino de su salud, sus estudios, su futuro y sus emociones. Consecuencias principales:</p>',
                 'Salud física' => 'El cuerpo de una adolescente muchas veces no está listo para un embarazo. Esto puede causar anemia, partos prematuros o riesgos para el bebé.',
                 'Emociones' => 'Muchas y muchos jóvenes enfrentan miedo, ansiedad o tristeza. Si no tienen apoyo, pueden sufrir depresión o sentirse solas.
-                Entre los aspectos psicológicos provocados por el embarazo en adolescentes se encuentran:
-La posibilidad de tener que asumir responsabilidades de una persona adulta sin sentirse lista o listo.
-Miedo al abandono familiar. 
-Tensiones familiares y no contar con una red de apoyo.
-Rechazo por parte de la comunidad o de la familia. 
+                <br>Entre los aspectos psicológicos provocados por el embarazo en adolescentes se encuentran:
+ <br><span>&#8226;</span> La posibilidad de tener que asumir responsabilidades de una persona adulta sin sentirse lista o listo.
+ <span>&#8226;</span> Miedo al abandono familiar. 
+ <span>&#8226;</span> Tensiones familiares y no contar con una red de apoyo.
+ <span>&#8226;</span> Rechazo por parte de la comunidad o de la familia. 
 ',
                 'Educación' => 'La mayoría de las mamás o papás adolescentes dejan la escuela y  no regresan, lo que limita sus oportunidades de empleo y de tener un mejor futuro.',
                 'Economía' => 'Tener un bebé requiere mucho tiempo, dinero y apoyo. Muchas madres y padres adolescentes dependen de otras personas y no logran ser económicamente independientes.',
@@ -413,7 +422,7 @@ Rechazo por parte de la comunidad o de la familia.
                 ]
             ],
             'accordion-4' => [
-                'data-1' => '<p class="cabecera-one">Anticoncepción en Honduras</p>
+                'data-1' => '<p class="cabecera-bold">Anticoncepción en Honduras</p>
                 <p 	class="cuerpo-texto p-bottom">La anticoncepción en adolescentes debe estar basada en el respeto a sus derechos sexuales y reproductivos, y adaptarse a sus necesidades físicas, emocionales y sociales. En Honduras, los servicios de salud ofrecen diferentes métodos anticonceptivos, orientación médica y materiales educativos a través de los Servicios de Salud Amigables para Adolescentes (SSAA), promovidos por la Secretaría de Salud, el Fondo de Población de las Naciones Unidas (UNFPA) y otras instituciones. </p>',
                 'Preservativo masculino y femenino' => 'Los preservativos son un método de barrera que se usa una vez y se desecha. Ayudan a prevenir embarazos y proteger contra enfermedades  de transmisión sexual, incluido el VIH/SIDA.
 
@@ -425,16 +434,18 @@ Para asegurar un uso efectivo del condón, se debe colocar antes del contacto ge
  
 Ventajas:
  
-No requieren receta médica
-Es fácil de conseguir y usar
-Es ideal para jóvenes por su accesibilidad y doble protección
+<span>&#8226;</span> No requieren receta médica
+<span>&#8226;</span> Es fácil de conseguir y usar
+<span>&#8226;</span> Es ideal para jóvenes por su accesibilidad y doble protección
 
 Desventajas:
 
-Puede romperse durante el coito sin darnos cuenta
-Requiere de un uso correcto para garantizar protección
+<span>&#8226;</span> Puede romperse durante el coito sin darnos cuenta
+<span>&#8226;</span> Requiere de un uso correcto para garantizar protección
 
 Más información sobre preservativos:
+<span class="hiper"> <a href="https://www.who.int/es/news-room/fact-sheets/detail/condoms" target="_blank">Preservativos -OMS</a></span>
+<span class="hiper"> <a href="https://www.conlamujer.com/blog/preservativo-femenino-y-preservativo-masculino-cual-elegir" target="_blank">Preservativo Femenino vs Preservativo Masculino: ¿Cuál elegir? </a></span>
 
 ',
                 'Espermicidas (óvulos, jaleas, cremas, espumas)' => 'Los espermicidas son sustancias químicas que inmovilizan o destruyen los espermatozoides. Su presentación puede ser en óvulos, jaleas, cremas o espumas, y se aplican en la vagina antes del coito.
@@ -442,28 +453,28 @@ Su uso combinado con el condón aumenta su eficacia para prevenir embarazos.
  
 Ventajas:
  
-No requiere receta médica
-Se puede combinar con otros métodos anticonceptivos
+	<span>&#8226;</span> No requiere receta médica
+	<span>&#8226;</span> Se puede combinar con otros métodos anticonceptivos
  
 Desventajas:
  
-Tiene baja eficacia para prevenir embarazos si se usan solos
-No protege contra las enfermedades de transmisión sexual
-Pueden causar irritación o alergias
-Hay un acceso limitado en farmacias hondureñas
+	<span>&#8226;</span> Tiene baja eficacia para prevenir embarazos si se usan solos
+	<span>&#8226;</span> No protege contra las enfermedades de transmisión sexual
+	<span>&#8226;</span> Pueden causar irritación o alergias
+	<span>&#8226;</span> Hay un acceso limitado en farmacias hondureñas
 ',
                 'Anticonceptivos orales combinados (la píldora)' => 'Las píldoras anticonceptivas contienen hormonas que inhiben la ovulación. Se deben tomar diariamente por la mujer.
  
 Ventajas:
  
-Tiene una alta eficacia para prevenir embarazos si se toman correctamente, sin faltar un solo día
-Ayudan a regular el ciclo menstrual
+	<span>&#8226;</span> Tiene una alta eficacia para prevenir embarazos si se toman correctamente, sin faltar un solo día
+	<span>&#8226;</span> Ayudan a regular el ciclo menstrual
  
 Desventajas:
  
-Requieren evaluación médica previa y receta médica
-No protegen contra las enfermedades de transmisión sexual
-Requieren disciplina por parte de la persona 
+	<span>&#8226;</span> Requieren evaluación médica previa y receta médica
+	<span>&#8226;</span> No protegen contra las enfermedades de transmisión sexual
+	<span>&#8226;</span> Requieren disciplina por parte de la persona 
  
 En adolescentes, se recomienda iniciar su uso sólo si hay ciclos menstruales regulares por al menos dos años.
 ',
@@ -473,14 +484,14 @@ Duración: 3 a 5 años, según la marca del implante.
  
 Ventajas:
  
-Tiene alta eficacia para prevenir embarazos
-No requieren atención diaria
+	<span>&#8226;</span> Tiene alta eficacia para prevenir embarazos
+	<span>&#8226;</span> No requieren atención diaria
  
 Desventajas:
  
-No protegen contra las enfermedades de transmisión sexual
-Requieren inserción y retiro por profesional de la salud
-Puede provocar desbalances hormonales a corto plazo
+	<span>&#8226;</span> No protegen contra las enfermedades de transmisión sexual
+	<span>&#8226;</span> Requieren inserción y retiro por profesional de la salud
+	<span>&#8226;</span> Puede provocar desbalances hormonales a corto plazo
 ',
                 'Dispositivo intrauterino (DIU)' => 'Es un dispositivo en forma de "T" que se coloca dentro del útero (puede ser de cobre o hormonal).
 
@@ -488,15 +499,15 @@ Duración: 3 a 10 años, según el tipo.
  
 Ventajas:
  
-Tiene alta eficacia para prevenir embarazos
-Ideal para adolescentes con actividad sexual frecuente
-Requiere supervisión médica constante
+	<span>&#8226;</span> Tiene alta eficacia para prevenir embarazos
+	<span>&#8226;</span> Ideal para adolescentes con actividad sexual frecuente
+	<span>&#8226;</span> Requiere supervisión médica constante
  
 Desventajas:
  
-No protege contra las enfermedades de transmisión sexual 
-Requiere colocación por profesional de la salud
-Puede causar molestias o cólicos durante varios días después de la colocación
+	<span>&#8226;</span> No protege contra las enfermedades de transmisión sexual 
+	<span>&#8226;</span> Requiere colocación por profesional de la salud
+	<span>&#8226;</span> Puede causar molestias o cólicos durante varios días después de la colocación
  
 En Honduras, el uso del DIU y los implantes subdérmicos en adolescentes es aceptado médicamente si hay consentimiento informado, seguimiento y acompañamiento adecuado.
 ',
@@ -508,14 +519,10 @@ Se distribuye gratuitamente en centros de salud públicos, Ciudad Mujer, organiz
 
 Es importante tener en cuenta que este NO es un método de uso regular, solo para casos de emergencias.
 
-Conoce más sobre el tema en:
-La pastilla anticonceptiva de emergencia (PAE) en Honduras
-https://mdemujer.org/pae-honduras/
-
-La pastilla del día después vuelve a ser legal en Honduras
-https://elpais.com/america/sociedad/2023-03-09/la-pastilla-del-dia-despues-vuelve-a-ser-legal-en-honduras.html
-Honduras avanza en garantía de derechos al legalizar la anticoncepción oral de emergencia
-https://reproductiverights.org/news/honduras-anticoncepcion-oral-de-emergencia/#:~:text=Marzo%2023%20de%202023%2C%20(Declaraci%C3%B3n,de%20emergencia%2C%20conocida%20como%20PAE.
+Conoce más sobre el tema en:<br>
+	<span class="hiper"> <a href="https://mdemujer.org/pae-honduras/" target="_blank">La pastilla anticonceptiva de emergencia (PAE) en Honduras</a></span>
+	<span class="hiper"> <a href="https://elpais.com/america/sociedad/2023-03-09/la-pastilla-del-dia-despues-vuelve-a-ser-legal-en-honduras.html" target="_blank">La pastilla del día después vuelve a ser legal en Honduras</a></span>
+	<span class="hiper"> <a href="https://reproductiverights.org/news/honduras-anticoncepcion-oral-de-emergencia/" target="_blank">Honduras avanza en garantía de derechos al legalizar la anticoncepción oral de emergencia</a></span>
 ',
                 'Métodos NO recomendados como opción principal' => 'Los siguientes métodos no son recomendados como opción principal, pero en ocasiones pueden acompañar otros métodos anticonceptivos: 
 
@@ -539,13 +546,12 @@ El Código Penal de Honduras establece en el artículo 196 las diferentes sancio
 ',
                 'Recursos disponibles en Honduras' => 'Si requieres mayor información, puedes consultar los siguientes recursos ofrecidos por el Gobierno de Honduras:
 
-Servicios de Salud Amigables para Adolescentes (SSAA) en hospitales y centros de salud.
+	<span>&#8226;</span> Servicios de Salud Amigables para Adolescentes (SSAA) en hospitales, 	<span class="hiper"> <a href="https://www.ciudadmujer.gob.hn/?page_id=700" target="_blank">Módulo de Salud Sexual y Reproductiva,</a></span>	<span class="hiper"> <a href="https://www.ciudadmujer.gob.hn/?page_id=708" target="_blank">Módulo de atención a adolescentes.</a></span>  
+	<br><span>&#8226;</span> 	<span class="hiper"> <a href="https://consensomontevideo.cepal.org/es/instrument/estrategia-nacional-para-la-prevencion-del-embarazo-en-adolescentes-en-honduras-enapreah" target="_blank">Educación sexual integral incluida en programas escolares y campañas apoyadas por la Estrategia Nacional para la Prevención del Embarazo Adolescente (ENAPREAH).</a></span>
+	<br><span>&#8226;</span> Aplicación móvil “Reproductiva” para consultas sobre salud sexual y reproductiva.
  
-Educación sexual integral incluida en programas escolares y campañas apoyadas por la Estrategia Nacional para la Prevención del Embarazo Adolescente (ENAPREAH).
- 
-Aplicación móvil “Reproductiva” para consultas sobre salud sexual y reproductiva.
- 
-Distribución gratuita de condones, píldoras, implantes y PAE en centros públicos.
+	<span class="cabecera-bold" >En Honduras, las y los adolescentes tienen derecho a recibir información clara y basada en evidencia sobre su salud sexual y reproductiva. Existen métodos anticonceptivos seguros, accesibles y legales que se pueden adaptar a sus necesidades. El acompañamiento de profesionales de salud y el respeto a su autonomía son clave para prevenir embarazos no deseados y enfermedades de transmisión sexual.</span>
+
 ',
                 'data-2' => '<p class="cabecera-one">Reflexión</p>
                 <p class="cuerpo-texto p-bottom">En Honduras, las y los adolescentes tienen derecho a recibir información clara y basada en evidencia sobre su salud sexual y reproductiva. Existen métodos anticonceptivos seguros, accesibles y legales que se pueden adaptar a sus necesidades. El acompañamiento de profesionales de salud y el respeto a su autonomía son clave para prevenir embarazos no deseados y enfermedades de transmisión sexual.</p>',
@@ -593,46 +599,46 @@ La abreviatura LGBTTTIQ+ significa Lesbianas, Gays, Bisexuales, Travestis, Trans
  
 ¿Qué significa cada una?:
  
-Cisgénero: cuando la identidad de género coincide con el sexo asignado.
+	<span>&#8226;</span> Cisgénero: cuando la identidad de género coincide con el sexo asignado.
 
-Transgénero: cuando la identidad de género  NO coincide con el sexo asignado.
+	<span>&#8226;</span> Transgénero: cuando la identidad de género  NO coincide con el sexo asignado.
 
-No binario: persona que no se identifica exclusivamente como hombre o mujer. Puede sentirse como ambos, como ninguno, o fluctuar entre identidades.
+	<span>&#8226;</span> No binario: persona que no se identifica exclusivamente como hombre o mujer. Puede sentirse como ambos, como ninguno, o fluctuar entre identidades.
 
-Género fluido: persona cuya identidad de género varía con el tiempo.
+	<span>&#8226;</span> Género fluido: persona cuya identidad de género varía con el tiempo.
 
-Agénero: persona que no se identifica con ningún género.
+	<span>&#8226;</span> Agénero: persona que no se identifica con ningún género.
 
-Bigénero: persona que se identifica con dos géneros.
+	<span>&#8226;</span> Bigénero: persona que se identifica con dos géneros.
 
-Intergénero/intersexual: persona que también tiene una identidad de género no binaria (no siempre ocurre).
+	<span>&#8226;</span> Intergénero/intersexual: persona que también tiene una identidad de género no binaria (no siempre ocurre).
 
-Tercer género: es una identidad de género que no encaja en el binomio masculino-femenino, normalmente hace reconocimiento a identidades culturales o legales de géneros (como los muxes en México o los hijra en India).
+	<span>&#8226;</span> Tercer género: es una identidad de género que no encaja en el binomio masculino-femenino, normalmente hace reconocimiento a identidades culturales o legales de géneros (como los muxes en México o los hijra en India).
 
-Queer: persona que no se identifica como hombre o como mujer, su vestimenta, con quienes se relaciona no corresponde ni a lo femenino o a lo masculino. 
+	<span>&#8226;</span> Queer: persona que no se identifica como hombre o como mujer, su vestimenta, con quienes se relaciona no corresponde ni a lo femenino o a lo masculino. 
 
-
-Descarga Orientación sexual e identidad de género en el derecho internacional de los derechos humanos https://acnudh.org/wp-content/uploads/2013/11/orentaci%C3%B3n-sexual-e-identidad-de-g%C3%A9nero2.pdf 
+Para más información, revisa el documento  	<span class="hiper"> <a href="https://acnudh.org/wp-content/uploads/2013/11/orentaci%C3%B3n-sexual-e-identidad-de-g%C3%A9nero2.pdf" target="_blank">“Orientación sexual e identidad de género en el derecho internacional de los derechos humanos”  </a></span> 
 ',
                 '¿Qué es la orientación sexual?' => 'La orientación sexual es la capacidad de sentir atracción romántica, sexual o afectiva hacia otras personas.
 
 Algunas orientaciones sexuales son:
  
-Heterosexual: atracción hacia personas del sexo opuesto.
+	<span>&#8226;</span> Heterosexual: atracción hacia personas del sexo opuesto.
 
-Homosexual: atracción hacia personas del mismo sexo.
+	<span>&#8226;</span> Homosexual: atracción hacia personas del mismo sexo.
 
-Bisexual: atracción hacia más de un género.
+	<span>&#8226;</span> Bisexual: atracción hacia más de un género.
 
-Pansexual: atracción sin importar el género.
+	<span>&#8226;</span> Pansexual: atracción sin importar el género.
 
-Asexual: poca o ninguna atracción sexual.
+	<span>&#8226;</span> Asexual: poca o ninguna atracción sexual.
 
-Demisexual: atracción solo cuando hay un vínculo emocional fuerte.
+	<span>&#8226;</span> Demisexual: atracción solo cuando hay un vínculo emocional fuerte.
  
 Todas las orientaciones e identidades son válidas y merecen respeto. Lo importante es vivir de manera auténtica y con respeto hacia los demás.
 
-Te invitamos a ver el vídeo Terminologías LGBTI de la Comisión Interamericana de Derechos Humanos https://www.youtube.com/watch?v=rnArYr8vSAQ&list=PL5QlapyOGhXuYBw_XQqzG7qW9wF2fEbHk&index=17
+Para mayor referencia, te invitamos a ver el vídeo 	<span class="hiper"> <a href="https://youtu.be/rnArYr8vSAQ?si=_2fOVQfSLwfDVr9K" target="_blank">Terminologías LGBTI de la Comisión Interamericana de Derechos Humanos</a></span> 
+
 ',
                 'data-1' => '[imagen]',
                 'data-2' => '[imagen]',
@@ -667,50 +673,51 @@ Te invitamos a ver el vídeo Terminologías LGBTI de la Comisión Interamericana
             'slides-4' => [
                 1 => '	<p class="cuerpo-texto"> Las relaciones afectivas y sexuales en la adolescencia son una parte natural del crecimiento.
  
-Aprender a manejar el afecto implica entender y expresar emociones de forma sana y respetuosa, cuidando tanto a uno mismo como a la pareja.
+	<span class="cabecera-bold" >Aprender a manejar el afecto implica entender y expresar emociones de forma sana y respetuosa, cuidando tanto a uno mismo como a la pareja.</span>
 
-Las relaciones saludables se basan en el respeto mutuo, la comunicación abierta, la confianza y el consentimiento. Aprender a reconocer cuándo una relación es positiva o tóxica ayuda a protegerse de abusos, manipulaciones y violencia.
+<span class="cabecera-bold" >Las relaciones saludables </span> se basan en el respeto mutuo, la comunicación abierta, la confianza y el consentimiento. Aprender a reconocer cuándo una relación es positiva o tóxica ayuda a protegerse de abusos, manipulaciones y violencia.
  
 Es importante que niñas, niños y adolescentes reciban educación emocional para construir vínculos sanos que fortalezcan su bienestar físico y mental.
 </p>',
-                2 => '[imagen]',
-                3 => '<p class="cuerpo-texto">Para hablar de relaciones saludables es importante hablar sobre violencia de género en las relaciones:
+              
+                2 => '<p class="cuerpo-texto">
+                Para hablar de relaciones saludables es importante hablar sobre violencia de género en las relaciones:
 
 ¿Qué es violencia de género?
 
 La Organización de Naciones Unidas explica que “la violencia de género se refiere a los actos dañinos dirigidos contra una persona o un grupo de personas en razón de su género. Tiene su origen en la desigualdad de género, el abuso de poder y la existencia de normas dañinas. El término se utiliza principalmente para subrayar el hecho de que las diferencias estructurales de poder basadas en el género colocan a las mujeres y niñas en situación de riesgo frente a múltiples formas de violencia. Si bien las mujeres y niñas sufren violencia de género de manera desproporcionada, los hombres y los niños también pueden ser blanco de ella”. 
 
-Conoces más en La violencia de género es una de las violaciones más generalizadas de los derechos humanos en el mundo en
- <span class="btn-enlace"><a href="https://unric.org/es/la-violencia-de-genero-segun-la-onu/ "target="_blank">Ir a información</a>
-                    </span></p>',
-                4 => '<p class="cuerpo-texto"> Aspectos que sustentan la violencia de género:
+Conoce más sobre la <span class="hiper"> <a href="https://unric.org/es/la-violencia-de-genero-segun-la-onu/" target="_blank">violencia de género</a></span> 
 
-La exaltación de los valores masculinos
-Usar el lenguaje para violentar, humillar, se puede usar el lenguaje por ejemplo para no mencionar a las mujeres.
-La valoración de las mujeres por su físico
-El menosprecio hacia las labores relacionadas con la mujer, por ejemplo, la labor doméstica
-Negar la vulnerabilidad masculina
-Subrayar características que diferencian a las personas o grupos humanos
-Exagerar la incompatibilidad
-Exaltar objetivos de triunfo y logro
-Rigidizar lealtades y deslealtades
-Minimizar los costos de las violencias
-Negar los significados y su existencia
+                </p>',
+                3 => '<p class="cuerpo-texto"> Aspectos que sustentan la violencia de género:
+
+	<span>&#8226;</span> La exaltación de los valores masculinos
+	<span>&#8226;</span> Usar el lenguaje para violentar, humillar, se puede usar el lenguaje por ejemplo para no mencionar a las mujeres.
+	<span>&#8226;</span> La valoración de las mujeres por su físico
+	<span>&#8226;</span> El menosprecio hacia las labores relacionadas con la mujer, por ejemplo, la labor doméstica
+	<span>&#8226;</span> Negar la vulnerabilidad masculina
+	<span>&#8226;</span> Subrayar características que diferencian a las personas o grupos humanos
+	<span>&#8226;</span> Exagerar la incompatibilidad
+	<span>&#8226;</span> Exaltar objetivos de triunfo y logro
+	<span>&#8226;</span> Rigidizar lealtades y deslealtades
+	<span>&#8226;</span> Minimizar los costos de las violencias
+	<span>&#8226;</span> Negar los significados y su existencia
 </p>
 ',
-                5 => '<p 	class="cuerpo-texto"> ¿Por qué es importante hablar sobre violencia con nuestros hijos e hijas para fomentar que construyan relaciones saludables? 
-¿Por qué es importante la educación sexual integral en este tema?
+                4 => '<p 	class="cuerpo-texto"> 	<span 	class="cabecera-bold" >¿Por qué es importante hablar sobre violencia con nuestros hijos e hijas para fomentar que construyan relaciones saludables? </span>
+	<span 	class="cabecera-bold" >¿Por qué es importante la educación sexual integral en este tema?</span>
 
-Para que puedan identificarla si la viven.
-Para que puedan pedir ayuda si lo necesitan.
-Para que no normalicen situaciones que les hacen daño o de riesgo.
-Porque la violencia está inserta y normalizada en nuestras culturas (es una problemática global).
-Porque tienen derecho a vivir una vida libre de violencia.
-Porque pueden cambiar patrones familiares o culturales.
-Porque en el ejercicio de la sexualidad es importante relacionarse sin violencia.
-Porque muchas adolescencias viven violencia en sus noviazgos o vínculos “amorosos”.
-Porque estar consciente de la violencia y de nuestros derechos nos permite ser dueñas y dueños de nuestros cuerpos y decisiones.
-Porque pueden tener la oportunidad que muchos padres y madres no tuvieron.</p>
+<span>&#8226;</span> Para que puedan identificarla si la viven.
+<span>&#8226;</span> Para que puedan pedir ayuda si lo necesitan.
+<span>&#8226;</span> Para que no normalicen situaciones que les hacen daño o de riesgo.
+<span>&#8226;</span> Porque la violencia está inserta y normalizada en nuestras culturas (es una problemática global).
+<span>&#8226;</span> Porque tienen derecho a vivir una vida libre de violencia.
+<span>&#8226;</span> Porque pueden cambiar patrones familiares o culturales.
+<span>&#8226;</span> Porque en el ejercicio de la sexualidad es importante relacionarse sin violencia.
+<span>&#8226;</span> Porque muchas adolescencias viven violencia en sus noviazgos o vínculos “amorosos”.
+<span>&#8226;</span> Porque estar consciente de la violencia y de nuestros derechos nos permite ser dueñas y dueños de nuestros cuerpos y decisiones.
+<span>&#8226;</span> Porque pueden tener la oportunidad que muchos padres y madres no tuvieron.</p>
 ',
             ]
         ];

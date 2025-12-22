@@ -44,40 +44,36 @@
             </div>
             <div class="bloque-slide">
                 <div id="esi-presentation">
-                    <p class="cuerpo-texto">La educación sexual y la educación para la salud reproductiva son elementos
-                        que se han hecho
-                        indispensables en la formación de los seres humanos.
-                        Por razones religiosas, políticas, económicas y socioculturales la información sobre sexualidad
-                        se ha ocultado y se ha tergiversado, se ha cubierto de mitos.
-                        Para prevenir situaciones tales como enfermedades de transmisión sexual no tratadas, embarazos
-                        no deseados, el haber sido víctima de abuso sexual, es necesario cambiar las creencias erróneas,
-                        y dar información sobre todos estos tema. Además, la educación sexual integral favorece las
-                        relaciones saludables, previene la violencia de género y propicia la inclusión de las
-                        diversidades.<br><br>
-                        Como madres y padres es importante estar informados para poder guiar y acompañar a las hijas e
-                        hijos, es importante tener en cuenta que muchas veces madres y padres necesitan apoyo, y
-                        entender el proceso por el que están atravesando sus hijas e hijos.
-                        <br><br>
-                        Es necesario que mamás y papás, las y los jóvenes aprendan a comunicar sus sentimientos y a
-                        expresarlos de manera honesta, así como buscar información clara y actualizada, resolver sus
-                        propias dudas y cuestionar sus propias creencias acerca de la sexualidad.
-                        <br><br>
-                        A continuación se sugieren algunos temas para abordar en la educación sexual integral de las
-                        adolescencias. <br><br>
-
+                    <p class="cuerpo-texto">
+                        La educación sexual y la educación para la salud reproductiva son elementos que se han hecho
+                        indispensables en la formación de los seres humanos. Sin embargo, por razones religiosas,
+                        políticas, económicas y socioculturales la información sobre sexualidad se ha ocultado, se ha
+                        tergiversado y se ha cubierto de mitos. Para prevenir situaciones tales como enfermedades de
+                        transmisión sexual no tratadas, embarazos no deseados y casos de abuso sexual, es necesario
+                        cambiar estas creencias erróneas y dar información sobre todos estos tema. A través de la
+                        educación sexual integral se pueden favorecer las relaciones saludables, prevenir la violencia
+                        de género y propiciar la inclusión de las diversidades. Es responsabilidad de las madres y
+                        padres guiar y acompañar de manera correcta a sus hijas e hijos en este proceso. Para ello, es
+                        necesario que mamás y papás aprendan a comunicar sus sentimientos y a expresarlos de manera
+                        honesta, a buscar información clara y actualizada, a resolver sus propias dudas y a cuestionar
+                        sus propias creencias acerca de la sexualidad.
                     </p>
-                    <p class="cabecera-one-dos">En esta secciones encontrarás información sobre: </p>
-                    <p class="cuerpo-texto"><span>&#8226;</span>Aspectos biológicos de la sexualidad<br>
-                        <span>&#8226;</span>Alternativas para ejercer la sexualidad<br>
-                        <span>&#8226;</span>Infecciones de Transmisión Sexual<br>
-                        <span>&#8226;</span>Embarazo<br>
-                        <span>&#8226;</span>Anticoncepción para adolescentes<br>
-                        <span>&#8226;</span>Sexo, Género, Identidad de Género<br>
-                        <span>&#8226;</span>Manejo de afecto y relaciones saludables en adolescentes<br>
-                        <span>&#8226;</span>Asertividad y comunicación verbal entre adolescentes,
+                    <p class="cabecera-one-dos">A continuación, se sugieren algunos temas sobre educación sexual
+                        integral para abordar con las adolescencias.</p>
+                    <p class="cuerpo-texto">
+                        <span>&#8226;</span> Aspectos biológicos de la sexualidad<br>
+                        <span>&#8226;</span> Aspectos biológicos de la sexualidad<br>
+                        <span>&#8226;</span> Alternativas para ejercer la sexualidad<br>
+                        <span>&#8226;</span> Enfermedades de Transmisión Sexual<br>
+                        <span>&#8226;</span> Embarazo<br>
+                        <span>&#8226;</span> Métodos anticonceptivos <br>
+                        <span>&#8226;</span> Sexo, Género, Identidad de Género<br>
+                        <span>&#8226;</span> Manejo de afecto y relaciones saludables en adolescentes<br>
+                        <span>&#8226;</span> Asertividad y comunicación verbal entre adolescentes y
                         padres/madres/tutores<br>
-                        <span>&#8226;</span>favorecer autoestima en adolescentes<br>
-                        <span>&#8226;</span>Acompañamiento en toma de decisiones y proyecto de vida en adolescencias
+                        <span>&#8226;</span> Favorecer autoestima en adolescentes<br>
+                        <span>&#8226;</span> Acompañamiento en toma de decisiones y proyecto de vida en adolescencias<br>
+
                     </p>
                 </div>
             </div>
