@@ -5,7 +5,7 @@ $usuarios = $body['usuarios'];
 ?>
 <div class="dash">
   <div class="configuraciones">
-    <h1>Administrar Usuarios</h1>
+    <p class="cabecera-uno">Administrar Usuarios</p>
     <div class="botn-grupo">
       <a href="<?php echo URL_BASE ?>usuarios/">Administrar Usuarios</a>
       <a href="<?php echo URL_BASE ?>nuevousuario">Nuevo Usuario</a>
