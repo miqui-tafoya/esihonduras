@@ -28,7 +28,7 @@ if (!empty($responseParams)) {
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Nuevo Centro de Salud</h1>
+        <p class="cabecera-uno">Nuevo Centro de Salud</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>mapa/">Administrar Centros de Salud</a>
             <a href="<?php echo URL_BASE ?>nuevomapa">Nuevo Centro de Salud</a>
@@ -76,7 +76,7 @@ if (!empty($responseParams)) {
                 class="form-error"><?php echo $error['error_coordenadas'] ?? '' ?></span></label>
         <input placeholder="15.00000000, -87.0000000000" class="adm-txt" class="campo" type="text" name="coordenadas" value="<?php echo $post['coordenadas'] ?? '' ?>">
 
-        <button style="margin-top:2rem;" class="btn" type="submit" name="submit-nuevo">Agregar Centro de Salud</button>
+        <button style="margin-top:2rem;" class="btn-primario" type="submit" name="submit-nuevo">Agregar Centro de Salud</button>
     </form>
 </div>
 </div>

@@ -5,7 +5,7 @@ $medios = $body['medios'];
 ?>
 <div class="dash">
   <div class="configuraciones">
-    <h1>Galería de Medios</h1>
+    <p class="cabecera-uno">Galería de Medios</p>
     <div class="botn-grupo">
       <a href="<?php echo URL_BASE ?>medios/">Galería de Medios</a>
     </div>

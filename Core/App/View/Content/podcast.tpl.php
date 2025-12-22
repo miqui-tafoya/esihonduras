@@ -3,7 +3,7 @@ $podcast = $body['podcast'];
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Administrar Podcast</h1>
+        <p class="cabecera-uno">Administrar Podcast</p>
     </div>
     <div class="lista">
         <table>

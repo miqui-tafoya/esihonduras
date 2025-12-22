@@ -19,7 +19,7 @@ $categorias = $body['categorias'];
 </div>
 <div class="dash-entradas">
     <div class="configuraciones-entradas">
-        <h1>Nueva Noticia</h1>
+        <p class="cabecera-uno">Nueva Noticia</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrynoticias/">Administrar Noticias</a>
             <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticias</a>
@@ -73,7 +73,7 @@ $categorias = $body['categorias'];
     </div>
 
     <div class="configuraciones-2">
-        <h1>Configuración</h1>
+        <p class="cabecera-uno">Configuración</p>
         <label style="margin-bottom:0.5rem;" for="portada">Imagen Portada <span
                 class="form-error"><?php echo $error['error_imagen'] ?? '' ?></span></label>
         <fieldset class="fieldgroup-edit">
@@ -107,7 +107,7 @@ $categorias = $body['categorias'];
             <?php endforeach; ?>
         </select>
 
-        <button style="margin-top:2rem;display:flex;" class="btn" type="submit" name="submit-nuevo">Agregar
+        <button class="btn-primario" type="submit" name="submit-nuevo">Agregar
             Borrador</button>
         </form>
     </div>

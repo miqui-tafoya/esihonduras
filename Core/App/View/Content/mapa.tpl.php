@@ -29,7 +29,7 @@ $region = $regiones[$query] ?? null;
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Administrar Mapas por Región</h1>
+        <p class="cabecera-uno">Administrar Mapas por Región</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>mapa/">Administrar Centros de Salud</a>
             <a href="<?php echo URL_BASE ?>nuevomapa">Nuevo Centro de Salud</a>
@@ -63,12 +63,12 @@ $region = $regiones[$query] ?? null;
             <tbody>
                 <?php foreach ($mapas as $key => $mapa): ?>
                     <tr>
-                        <td style="text-align:center;color:green;"><?php echo $mapa['municipio'] ?? 'N/A'; ?></td>
-                        <td style="text-align:center;color:green;"><?php echo $mapa['aldea'] ?? 'N/A'; ?></td>
-                        <td style="text-align:center;color:green;"><?php echo $mapa['nombre'] ?? 'N/A'; ?></td>
-                        <td style="text-align:center;color:green;"><?php echo $mapa['direccion'] ?? 'N/A'; ?></td>
-                        <td style="text-align:center;color:green;"><?php echo $mapa['info'] ?? 'N/A'; ?></td>
-                        <td style="text-align:center;color:green;"><?php echo $mapa['coordenadas'] ?? 'N/A'; ?></td>
+                        <td><?php echo $mapa['municipio'] ?? 'N/A'; ?></td>
+                        <td><?php echo $mapa['aldea'] ?? 'N/A'; ?></td>
+                        <td><?php echo $mapa['nombre'] ?? 'N/A'; ?></td>
+                        <td><?php echo $mapa['direccion'] ?? 'N/A'; ?></td>
+                        <td><?php echo $mapa['info'] ?? 'N/A'; ?></td>
+                        <td><?php echo $mapa['coordenadas'] ?? 'N/A'; ?></td>
 
                         <td><a href="<?php echo URL_BASE ?>editarmapa/<?php echo $mapa['tb_centros_id']; ?>" class="editar"><i
                                     class="fas fa-pen"></i></a></td>

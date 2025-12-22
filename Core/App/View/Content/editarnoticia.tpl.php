@@ -22,7 +22,7 @@ $categoria_id = $post['categoria'] ?? $noticia['categoria'];
 </div>
 <div class="dash-entradas">
     <div class="configuraciones-entradas">
-        <h1>Editar Noticia</h1>
+        <p class="cabecera-uno">Editar Noticia</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrynoticias/">Administrar Noticias</a>
             <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticias</a>
@@ -76,7 +76,7 @@ $categoria_id = $post['categoria'] ?? $noticia['categoria'];
     </div>
 
     <div class="configuraciones-2">
-        <h1>Configuración</h1>
+        <p class="cabecera-uno">Configuración</p>
         <label style="margin-bottom:0.5rem;" for="portada">Imagen Portada <span
                 class="form-error"><?php echo $error['error_imagen'] ?? '' ?></span></label>
         <fieldset class="fieldgroup-edit">
@@ -102,7 +102,7 @@ $categoria_id = $post['categoria'] ?? $noticia['categoria'];
 
         <label style="margin-bottom:0.5rem;" for="categoria">Categoría <span
                 class="form-error"><?php echo $error['error_tema_id'] ?? '' ?></span></label>
-        <select class="adm-sel" style="display: block;width: 100%;margin-bottom: 1rem;" class="campo" name="categoria">
+        <select class="adm-sel"  class="campo" name="categoria">
             <?php foreach ($categorias as $cat): ?>
                 <option <?php if (!empty($categoria_id) && $categoria_id == $cat['tb_categorias_id']): ?>
                     <?php echo "selected"; ?>
@@ -112,7 +112,7 @@ $categoria_id = $post['categoria'] ?? $noticia['categoria'];
             <?php endforeach; ?>
         </select>
 
-        <button style="margin-top:2rem;display:flex;" class="btn" type="submit" name="submit-update">Actualizar
+        <button class="btn-primario" type="submit" name="submit-update">Actualizar
             Noticia</button>
         </form>
     </div>

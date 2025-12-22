@@ -30,7 +30,7 @@ $selectRegion = $post['region'] ?? $centro['region'] ?? '';
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Actualizar Centro de Salud</h1>
+        <p class="cabecera-uno">Actualizar Centro de Salud</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>mapa/">Administrar Centros de Salud</a>
             <a href="<?php echo URL_BASE ?>nuevomapa">Nuevo Centro de Salud</a>
@@ -81,7 +81,7 @@ $selectRegion = $post['region'] ?? $centro['region'] ?? '';
         <input placeholder="15.00000000, -87.0000000000" class="adm-txt" class="campo" type="text" name="coordenadas"
             value="<?php echo $post['coordenadas'] ?? $centro['coordenadas'] ?>">
 
-        <button style="margin-top:2rem;" class="btn" type="submit" name="submit-update">Actualizar Centro de
+        <button style="margin-top:2rem;" class="btn-primario" type="submit" name="submit-update">Actualizar Centro de
             Salud</button>
     </form>
 </div>

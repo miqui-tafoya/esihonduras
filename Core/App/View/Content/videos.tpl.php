@@ -3,7 +3,7 @@ $videos = $body['videos'];
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Administrar Videos</h1>
+        <p class="cabecera-uno">Administrar Videos</p>
     </div>
     <div class="lista">
         <table>
