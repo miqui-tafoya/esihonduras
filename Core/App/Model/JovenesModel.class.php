@@ -51,7 +51,8 @@ Los derechos humanos = la dignidad que todas las personas tenemos
 ',
                 4 => '<p> Observa la línea que dibujaste, ¿en qué parte de la línea te quedaste? 
 
-Si bien los derechos humanos no se pueden medir en una línea recta, este ejercicio nos ayuda a entender cómo nuestras diferentes características y condiciones de vida pueden facilitarnos o no el acceso a ciertos derechos. Por ello, es importante recordar que por ley, todas las personas tenemos derechos y estos se deben reconocer y garantizar sin distinción alguna de nacionalidad, lugar de residencia, sexo, origen nacional o étnico, color de piel, religión, lengua, o cualquier otra condición. Todas y todos tenemos los mismos derechos humanos, sin discriminación alguna. 
+Si bien los derechos humanos no se pueden medir en una línea recta, este ejercicio nos ayuda a entender cómo nuestras diferentes características y condiciones de vida pueden facilitarnos o no el acceso a ciertos derechos. Por ello, es importante recordar que por ley, <span class="txt-underline">todas las personas</span> tenemos derechos y estos se deben reconocer y garantizar sin distinción alguna de nacionalidad, lugar de residencia, sexo, origen nacional o étnico, color de piel, religión, lengua, o cualquier otra condición. Todas y todos tenemos los mismos derechos humanos, sin discriminación alguna. 
+
 Además, para que los derechos humanos sean efectivos, se deben aplicar en conjunto ya que se relacionan, se necesitan entre sí y no se pueden dividir. Es decir, estos derechos están interrelacionados, y son interdependientes e indivisibles.
  </p>
 ',
