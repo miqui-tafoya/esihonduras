@@ -1,4 +1,108 @@
 <?php
+/**
+ * Configuración de Rutas
+ *
+ * Aquí se definen todas las rutas existentes de tu proyecto.
+ *
+ * TIPOS DE RUTAS PERMITIDAS POR PHP-ALFv1:
+ * - Ruta dinámica para errores
+ * - Ruta estática GET/POST
+ * - Ruta dinámica GET/POST
+ * - Pseudoruta GET/POST con función que llama método AJAX de Controlador
+ * - Pseudoruta GET/POST con función declarada por el usuario
+ * - Endpoint GET/POST
+ *
+ * ESTRUCTURA DEL MÉTODO add():
+ *
+ * Sintaxis: add(HTTP method, URI(path), callback, parameters, javascript)
+ *
+ * Parámetros:
+ * - HTTP method: 'get' o 'post'
+ * - URI(path): '/ruta' para rutas estáticas, o '/ruta/' para rutas dinámicas
+ * - callback: string (nombre de MVC a invocar) o callable (función anónima).
+ *   Aquí se registra el nombre que el framework buscará en Controller, Model y View
+ * - parameters: [layout, [Título de ventana, [css]], [[propiedades de módulos], [propiedades locales]]]
+ *   Los layouts se registran en Render y se crean sus archivos correspondientes en Core/View/Layouts
+ * - javascript: array de scripts específicos de la ruta
+ *
+ * Formato legible:
+ * $routeList->add(
+ *     'método',                                 // HTTP method (get o post)
+ *     '/ruta',                                  // URI
+ *     'MVC',                                    // callback
+ *     ['layout',                                // layout a usar
+ *         ['Título de ventana', ['css1', ...]], // título y estilos específicos (nombres de archivos sin la extensión .css)
+ *         [['módulo' => ['propiedad', ...]],    // módulos GET
+ *          ['propiedad', ...]]                  // propiedades locales
+ *     ],
+ *     ['script1', ...]                    // scripts específicos (nombres de archivos sin la extensión .js)
+ * );
+ * 
+ * NOTA IMPORTANTE:
+ * Las rutas con formularios, por ejemplo, deben tener sus dos rutas: la ruta get y la ruta post.
+ *
+ * EJEMPLOS DE USO:
+ *
+ * Ruta estática GET:
+ * $routeList->add(
+ *      'get',
+ *      '/contacto',
+ *      'contacto',
+ *      ['layout_simple',
+ *           ['Contáctanos', ['estilos-contacto', 'estilos-formularios']],
+ *           [['head' => ['usuario', 'fecha'], ['footer' => ['usuario', 'fecha']],
+ *            ['directorio', 'nombres', 'apellidos']]
+ *      ],
+ *      ['script-enviar']
+ * );
+ *
+ * Ruta estática POST:
+ * $routeList->add(
+ *      'post',
+ *      '/contacto',
+ *      'contacto',
+ *      ['layout_simple',
+ *           ['Contáctanos', ['estilos-contacto', 'estilos-formularios']],
+ *           [['head' => ['usuario', 'fecha'], ['footer' => ['usuario', 'fecha']],
+ *            ['directorio', 'nombres', 'apellidos']]
+ *      ],
+ *      ['script-enviar']
+ * );
+ *
+ * Ruta dinámica GET (con parámetro):
+ * $routeList->add('get', '/usuario/{id}', 'usuario', ['main', ['Usuario', []], [[],[]]], []);
+ *
+ * Pseudoruta con función (AJAX):
+ * $routeList->add('post', '/api/guardar', function() {
+ *     MainCtrl::guardarDatos();
+ * }, ['', ['', []], [[],[]]], []);
+ *
+ * - Instancia Controllers
+ *   Aquí se hace referencia a aquellos controladores que sean requerimiento para
+ *   métodos utilizados en las pseudorutas, por ejemplo, para llamadas AJAX.
+ *
+ * - Instancia Globales
+ *
+ *   default_styles: Define hojas de estilo globales con dos posiciones ('start' y 'end').
+ *   Orden de carga: 'start' → estilos específicos de ruta → 'end'.
+ *   Útil para librerías como FontAwesome (inicio) o Media Queries (final).
+ *   Ruta base: Public/styles
+ *   Ejemplo: 'fonts/css/all.min' (sin extensión .css)
+ *   $default_styles = ['start' => ['fonts/css/all.min', 'html'], 'end' => ['media-query']];
+ *
+ *   default_GET: Propiedades globales requeridas en todo el sistema.
+ *   Deben estar registradas en Render y en sus respectivas clases.
+ *   Ejemplo: ['head' => ['foo'], 'footer' => ['bar']] invoca las propiedades
+ *   'foo' y 'bar' de los Controladores-Modelo 'Head' y 'Footer'.
+ *
+ *   default_js: Define scripts globales con dos posiciones ('start' y 'end').
+ *   Orden de carga: 'start' → scripts específicos de ruta → 'end'.
+ *   Útil para librerías como jQuery que deben cargarse primero.
+ *   Ruta base: Public/js
+ *   Ejemplo: 'dir/script' (sin extensión .js)
+ *   $default_js = ['start' => ['jquery-3.6.1.min'], 'end' => ['script1-final', 'script2-final']];
+ */
+
 // Instancia Router
 use Router\RouteList;
 
@@ -18,19 +122,6 @@ $default_js = ['start' => ['jquery-3.6.1.min', 'dir', 'menu', 'activePage'], 'en
 
 $routeList = new RouteList($default_styles, $default_js, $default_GET);
 
-/*
-  estructura: add( HTTP method, URI(path), callback, parameters: [layout, [window-title , [css]], GET [[módulos], [local]], POST], [javascript] )
-
-  HTTP method,
-  URI(path),
-  callback,
-  [layout, 
-         [window-title , [css]], 
-         [[módulos], [local]], 
-         POST],
-  [javascript]
-*/
-
 $routeList->add(
         'get',
         '/error/',
@@ -38,8 +129,7 @@ $routeList->add(
         ['error',
                 ['Error', ['error']],
                 [[],
-                        []],
-                []],
+                        []]],
         []
 );
 
@@ -50,8 +140,7 @@ $routeList->add(
         ['main',
                 ['Inicio ESI Honduras', ['home']],
                 [[],
-                        []],
-                []],
+                        []]],
         []
 );
 
@@ -62,8 +151,7 @@ $routeList->add(
         ['main',
                 ['Centros de Salud', ['centros']],
                 [[],
-                        []],
-                []],
+                        []]],
         []
 );
 
@@ -74,8 +162,7 @@ $routeList->add(
         ['main',
                 ['Centros de Salud', ['centros', 'leaflet']],
                 [[],
-                        ['centros']],
-                []],
+                        ['centros']]],
         ['leaflet', 'regionsaludHandler']
 );
 
@@ -86,8 +173,7 @@ $routeList->add(
         ['main',
                 ['Contacto', ['contacto']],
                 [[],
-                        []],
-                []],
+                        []]],
         []
 );
 
@@ -98,8 +184,7 @@ $routeList->add(
         ['main',
                 ['Quiénes Somos', ['quienes']],
                 [[],
-                        []],
-                []],
+                        []]],
         []
 );
 
@@ -110,8 +195,7 @@ $routeList->add(
         ['main',
                 ['Quiénes Somos - Educadores', ['slideseducadores', 'educadores']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['slideseducadores']
 );
 
@@ -122,8 +206,7 @@ $routeList->add(
         ['main',
                 ['Quiénes Somos - Madres y Padres', ['madresypadres', 'actividades']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['actividadespadres']
 );
 
@@ -134,8 +217,7 @@ $routeList->add(
         ['main',
                 ['Quiénes Somos - Jóvenes', ['jovenes', 'actividades']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['actividadesjovenes']
 );
 
@@ -146,8 +228,7 @@ $routeList->add(
         ['main',
                 ['Preguntas Frecuentes', ['faq']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['acordeon']
 );
 
@@ -158,8 +239,7 @@ $routeList->add(
         ['main',
                 ['Información Pública', ['infopublica']],
                 [[],
-                        ['categorias', 'publicaciones']],
-                []],
+                        ['categorias', 'publicaciones']]],
         []
 );
 
@@ -170,8 +250,7 @@ $routeList->add(
         ['main',
                 ['Información Pública', ['infopublica', 'paginado']],
                 [[],
-                        ['categorias']],
-                $_POST],
+                        ['categorias']]],
         ['informacionPublicaHandler']
 );
 
@@ -182,8 +261,7 @@ $routeList->add(
         ['main',
                 ['Multimedia', ['infopublica', 'slider', 'multimedia', 'noticias']],
                 [[],
-                        ['audio', 'video', 'publicaciones']],
-                []],
+                        ['audio', 'video', 'publicaciones']]],
         ['slider']
 );
 
@@ -194,8 +272,7 @@ $routeList->add(
         ['main',
                 ['Noticias', ['noticias']],
                 [[],
-                        ['hoy', 'destacados', 'noticias', 'categorias']],
-                []],
+                        ['hoy', 'destacados', 'noticias', 'categorias']]],
         []
 );
 
@@ -206,8 +283,7 @@ $routeList->add(
         ['main',
                 ['Archivo', ['infopublica', 'paginado']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['archivoHandler']
 );
 
@@ -218,8 +294,7 @@ $routeList->add(
         ['main',
                 ['Categiría', ['infopublica', 'paginado', 'entrada']],
                 [[],
-                        ['categoria', 'entradas']],
-                []],
+                        ['categoria', 'entradas']]],
         ['categoriasHandler']
 );
 
@@ -230,8 +305,7 @@ $routeList->add(
         ['main',
                 ['', ['entrada', 'posts']],
                 [[],
-                        ['entrada']],
-                []],
+                        ['entrada']]],
         []
 );
 
@@ -242,8 +316,7 @@ $routeList->add(
         ['main',
                 ['Salud Sexual', ['saludsexual']],
                 [[],
-                        []],
-                []],
+                        []]],
         []
 );
 
@@ -254,8 +327,7 @@ $routeList->add(
         ['main',
                 ['Login Administrativo', ['login']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['login']
 );
 
@@ -266,8 +338,7 @@ $routeList->add(
         ['main',
                 ['Login Administrativo', ['login']],
                 [[],
-                        []],
-                $_POST],
+                        []]],
         ['login']
 );
 
@@ -278,8 +349,7 @@ $routeList->add(
         ['admin',
                 ['Administración', ['admin']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['admin']
 );
 
@@ -290,8 +360,7 @@ $routeList->add(
         ['admin',
                 ['Administración de Noticias', ['admin']],
                 [[],
-                        ['paginado', 'posts']],
-                []],
+                        ['paginado', 'posts']]],
         ['admin']
 );
 
@@ -302,8 +371,7 @@ $routeList->add(
         ['admin',
                 ['Administración de Noticias', ['admin']],
                 [[],
-                        ['paginado', 'posts']],
-                $_POST],
+                        ['paginado', 'posts']]],
         ['admin']
 );
 
@@ -314,8 +382,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias']],
-                []],
+                        ['categorias']]],
         ['admin', 'session']
 );
 
@@ -326,8 +393,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias']],
-                $_POST],
+                        ['categorias']]],
         ['admin', 'session']
 );
 
@@ -338,8 +404,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias', 'noticia']],
-                []],
+                        ['categorias', 'noticia']]],
         ['admin', 'session']
 );
 
@@ -350,8 +415,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias', 'noticia']],
-                $_POST],
+                        ['categorias', 'noticia']]],
         ['admin', 'session']
 );
 
@@ -362,8 +426,7 @@ $routeList->add(
         ['admin',
                 ['Administración de Información Pública', ['admin']],
                 [[],
-                        ['paginado', 'posts']],
-                []],
+                        ['paginado', 'posts']]],
         ['admin']
 );
 
@@ -374,8 +437,7 @@ $routeList->add(
         ['admin',
                 ['Administración de Información Pública', ['admin']],
                 [[],
-                        ['paginado', 'posts']],
-                $_POST],
+                        ['paginado', 'posts']]],
         ['admin']
 );
 
@@ -386,8 +448,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias']],
-                []],
+                        ['categorias']]],
         ['admin', 'session']
 );
 
@@ -398,8 +459,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias']],
-                $_POST],
+                        ['categorias']]],
         ['admin', 'session']
 );
 
@@ -410,8 +470,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias', 'publica']],
-                []],
+                        ['categorias', 'publica']]],
         ['admin', 'session']
 );
 
@@ -422,8 +481,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
                 [[],
-                        ['categorias', 'publica']],
-                $_POST],
+                        ['categorias', 'publica']]],
         ['admin', 'session']
 );
 
@@ -434,8 +492,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'categorias']],
-                []],
+                        ['paginado', 'categorias']]],
         ['admin']
 );
 
@@ -446,8 +503,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'categorias']],
-                $_POST],
+                        ['paginado', 'categorias']]],
         ['admin']
 );
 
@@ -458,8 +514,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['admin']
 );
 
@@ -470,8 +525,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        []],
-                $_POST],
+                        []]],
         ['admin']
 );
 
@@ -482,8 +536,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['categoria']],
-                []],
+                        ['categoria']]],
         ['admin']
 );
 
@@ -494,8 +547,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['categoria']],
-                $_POST],
+                        ['categoria']]],
         ['admin']
 );
 
@@ -506,8 +558,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['videos']],
-                []],
+                        ['videos']]],
         ['admin']
 );
 
@@ -518,8 +569,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['videos']],
-                $_POST],
+                        ['videos']]],
         ['admin']
 );
 
@@ -530,8 +580,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['podcast']],
-                []],
+                        ['podcast']]],
         ['admin']
 );
 
@@ -542,8 +591,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['podcast']],
-                $_POST],
+                        ['podcast']]],
         ['admin']
 );
 
@@ -554,8 +602,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'medios']],
-                []],
+                        ['paginado', 'medios']]],
         ['admin']
 );
 
@@ -566,8 +613,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'medios']],
-                $_POST],
+                        ['paginado', 'medios']]],
         ['admin']
 );
 
@@ -578,8 +624,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'mapa']],
-                []],
+                        ['paginado', 'mapa']]],
         ['admin']
 );
 
@@ -590,8 +635,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'mapa']],
-                $_POST],
+                        ['paginado', 'mapa']]],
         ['admin']
 );
 
@@ -602,8 +646,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['admin']
 );
 
@@ -614,8 +657,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        []],
-                $_POST],
+                        []]],
         ['admin']
 );
 
@@ -626,8 +668,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['centro']],
-                []],
+                        ['centro']]],
         ['admin']
 );
 
@@ -638,8 +679,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['centro']],
-                $_POST],
+                        ['centro']]],
         ['admin']
 );
 
@@ -650,8 +690,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'usuarios']],
-                []],
+                        ['paginado', 'usuarios']]],
         ['admin']
 );
 
@@ -662,8 +701,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['paginado', 'usuarios']],
-                $_POST],
+                        ['paginado', 'usuarios']]],
         ['admin']
 );
 
@@ -674,8 +712,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        []],
-                []],
+                        []]],
         ['admin']
 );
 
@@ -686,8 +723,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        []],
-                $_POST],
+                        []]],
         ['admin']
 );
 
@@ -698,8 +734,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['usuario']],
-                []],
+                        ['usuario']]],
         ['admin']
 );
 
@@ -710,8 +745,7 @@ $routeList->add(
         ['admin',
                 ['', ['admin']],
                 [[],
-                        ['usuario']],
-                $_POST],
+                        ['usuario']]],
         ['admin']
 );
 
@@ -724,7 +758,7 @@ $routeList->add(
                 $captcha = new Captcha;
                 $captcha->GET_captcha();
         },
-        ['', '', [], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -735,7 +769,7 @@ $routeList->add(
                 MainCtrl::logout();
                 header('Location: ' . URL_BASE);
         },
-        ['', ['', []], [[], []], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -745,7 +779,7 @@ $routeList->add(
         function () {
                 session_start();
         },
-        ['', ['', []], [[], []], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -756,7 +790,7 @@ $routeList->add(
                 $post = new Medios;
                 $post->POST_handler_AJAX();
         },
-        ['', '', [], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -767,7 +801,7 @@ $routeList->add(
                 $post = new Cargarmedio;
                 $post->POST_handler_AJAX();
         },
-        ['', '', [], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -778,7 +812,7 @@ $routeList->add(
                 $post = new Educadores;
                 $post->GET_AJAX_handler();
         },
-        ['', '', [], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -789,7 +823,7 @@ $routeList->add(
                 $post = new Madresypadres();
                 $post->GET_AJAX_handler();
         },
-        ['', '', [], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -800,7 +834,7 @@ $routeList->add(
                 $post = new Jovenes();
                 $post->GET_AJAX_handler();
         },
-        ['', '', [], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -811,7 +845,7 @@ $routeList->add(
                 header('Location:' . URL_BASE . 'temas/1');
                 exit;
         },
-        ['', '', [], []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -821,11 +855,7 @@ $routeList->add(
         'get',
         '/apientradas',
         'apientradas',
-        ['',
-                ['', ['']],
-                [[],
-                        []],
-                []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -833,11 +863,7 @@ $routeList->add(
         'get',
         '/apicategorias',
         'apicategorias',
-        ['',
-                ['', ['']],
-                [[],
-                        []],
-                []],
+        ['', ['', []], [[],[]]],
         []
 );
 
@@ -845,10 +871,6 @@ $routeList->add(
         'post',
         '/apiinfopublica',
         'apiinfopublica',
-        ['',
-                ['', ['']],
-                [[],
-                        []],
-                $_POST],
+        ['', ['', []], [[],[]]],
         []
 );

@@ -640,8 +640,7 @@ Todas las orientaciones e identidades son válidas y merecen respeto. Lo importa
 Para mayor referencia, te invitamos a ver el vídeo 	<span class="hiper"> <a href="https://youtu.be/rnArYr8vSAQ?si=_2fOVQfSLwfDVr9K" target="_blank">Terminologías LGBTI de la Comisión Interamericana de Derechos Humanos</a></span> 
 
 ',
-                'data-1' => '[imagen]',
-                'data-2' => '[imagen]',
+                'data-1' => '<img src="' . URL_PUBLIC . 'recursos/imagenes/gender.png">',
             ],
             'quiz-6' => [
                 1 => [

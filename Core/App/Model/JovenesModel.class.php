@@ -181,7 +181,7 @@ Hembra = vagina y ovarios
 Macho = testículos y pene
 Intersexual = una combinación de ambos
 ',
-                'data-2' => '[imagen]
+                'data-2' => '<img src="' . URL_PUBLIC . 'recursos/imagenes/gender.png">
 Vamos a hacer una actividad para poner en práctica estos conceptos:
 
 1.- Dibuja en tu cuaderno la galleta
