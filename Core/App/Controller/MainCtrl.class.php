@@ -1,8 +1,45 @@
 <?php
 
+/**
+ * MainCtrl - Controlador Principal del Sistema
+ *
+ * Orquesta la comunicación entre Router, Controladores y Modelos.
+ * Procesa rutas GET/POST, extrae valores de módulos, maneja query strings
+ * y valida modelos para rutas dinámicas.
+ *
+ * RESPONSABILIDADES:
+ * - Procesar parámetros de rutas GET/POST
+ * - Extraer valores de módulos globales y locales
+ * - Procesar query strings estáticos y dinámicos
+ * - Validar existencia de modelos en rutas dinámicas
+ * - Instanciar controladores específicos y ejecutar handlers
+ *
+ * FLUJO DE PROCESAMIENTO:
+ * 1. Recibe ruta desde Router
+ * 2. Procesa módulos GET globales y locales
+ * 3. Procesa query strings si existen
+ * 4. Construye controlador específico
+ * 5. Ejecuta GET_handler() o POST_handler()
+ *
+ * @file MainCtrl.class.php
+ * @package Controller
+ */
+
 namespace Controller;
 
 class MainCtrl {
+
+  /**
+   * Procesa la ruta y ejecuta el handler correspondiente
+   *
+   * Extrae valores de módulos GET, procesa query strings y delega
+   * al controlador específico según el método HTTP.
+   *
+   * @param array $route Parámetros de ruta [callback, params, js]
+   * @param string $method Método HTTP ('get' o 'post')
+   * @param array $querystring Query string parseado
+   * @return mixed Resultado del handler del controlador
+   */
   public function fetchController($route, $method, $querystring) {
     $route[1][1]['route'] = $route[0]; // agrega ruta a MetaParams
     if ($method == 'get') { // GET
@@ -16,7 +53,7 @@ class MainCtrl {
             }
           }
           if (!empty($querystring)) {
-            $route[1][2][1]['querystring'] = $querystring;// obtiene valores GET del Query String para esta ruta
+            $route[1][2][1]['querystring'] = $querystring; // obtiene valores GET del Query String para esta ruta
           }
           $route[1][2][1] = $this->fetchValues($route[0], $route[1][2][1]); // obtiene valores GET para esta ruta
         } else { // la ruta SÍ tiene query dinámico
@@ -83,18 +120,44 @@ class MainCtrl {
       return $selectedObject->POST_handler($route[0], $route[1], $route[2]); // POST_handler(ruta, parámetros, javascript)
     }
   }
+
+  /**
+   * Extrae valores locales del controlador específico
+   *
+   * @param string $ctrl Nombre del controlador
+   * @param array $params Parámetros locales
+   * @param mixed $query Query dinámico (opcional)
+   * @return array Valores extraídos del controlador
+   */
   public function fetchValues($ctrl, $params = [], $query = null) {
     $buildClass = '\\Controller\\' . ucfirst($ctrl);
     $selectedObject = new $buildClass;
     $arr = $selectedObject->values($params, $query);
     return $arr;
   }
+
+  /**
+   * Extrae valores globales del controlador específico
+   *
+   * @param string $ctrl Nombre del controlador
+   * @param array $params Parámetros globales
+   * @param mixed $query Query dinámico (opcional)
+   * @return array Valores extraídos del controlador
+   */
   public function fetchGlobalValues($ctrl, $params = [], $query = null) {
     $buildClass = '\\Controller\\' . ucfirst($ctrl);
     $selectedObject = new $buildClass;
     $arr = $selectedObject->values($params, $query);
     return $arr;
   }
+
+  /**
+   * Valida existencia del modelo para rutas dinámicas
+   *
+   * @param string $route Nombre de la ruta/modelo
+   * @param mixed $path Parámetro dinámico (ID, slug, etc.)
+   * @return bool True si el modelo es válido
+   */
   public function validateModel($route, $path) {
     $buildClass = '\\Model\\' . ucfirst($route) . 'Model';
     $selectedObject = new $buildClass;

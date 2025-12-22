@@ -170,16 +170,18 @@ Existen muchos mitos, pero aquí te vamos a compartir cinco verdades:
 3.- Preguntar sobre inquietudes en sexualidad está muy bien. 
 4.- La educación sexual integral también es aprender sobre el respeto a las diferencias. 
 5.- Nadie puede obligarnos a mantener relaciones sexuales si no queremos, no es no. 
-Es importante hablar con las adolescencias sobre consentimiento. 
-El consentimiento es tener un acuerdo voluntario para participar en algún acto sexual o erótico.</p>
+</p>
 ',
-                4 => '<iframe width="480" height="400" src="https://www.youtube.com/embed/IUxUsJ36jQA?autoplay=1&mute=1" title="YouTube" frameborder="0" allowfullscreen></iframe>',
-                5 => '<p> Es importante que el consentimiento ocurra en un entorno de libertad, consciencia e igualdad.
-LLas alternativas para ejercer la sexualidad también implican autoconocerse para saber qué se quiere elegir y con quién, reconocer el derecho a la propia sexualidad y el placer.
+                4 => '<p>Es importante hablar con las adolescencias sobre consentimiento. 
+El consentimiento es tener un acuerdo voluntario para participar en algún acto sexual o erótico.</p>',
+                5 => '<iframe width="480" height="400" src="https://www.youtube.com/embed/IUxUsJ36jQA?autoplay=1&mute=1" title="YouTube" frameborder="0" allowfullscreen></iframe>',
+                6 => '<p> Es importante que el consentimiento ocurra en un entorno de libertad, consciencia e igualdad.
+                
+Las alternativas para ejercer la sexualidad también implican autoconocerse para saber qué se quiere elegir y con quién, reconocer el derecho a la propia sexualidad y el placer.
 Normalmente la educación sexual es en torno a la salud reproductiva (anticonceptivos, embarazo, menstruación, etc.) que está muy bien, pero pocas veces se nos educa para el placer.
 Como personas adultas, es importante que abramos canales de comunicación sin juicios para poder acompañar y hablar de las alternativas con las adolescencias que acompañamos.</p>
 ',
-                6 => '	<p>A continuación, algunas preguntas que puedes explorar con tus hijos o hijas:
+                7 => '	<p>A continuación, algunas preguntas que puedes explorar con tus hijos o hijas:
 Alternativas para ejercer la sexualidad
 ¿Qué es el consentimiento?
 ¿Qué hago  si después de haber dicho que sí, me arrepiento y/o cambio de opinión?
@@ -634,8 +636,7 @@ Todas las orientaciones e identidades son válidas y merecen respeto. Lo importa
 
 Te invitamos a ver el vídeo Terminologías LGBTI de la Comisión Interamericana de Derechos Humanos https://www.youtube.com/watch?v=rnArYr8vSAQ&list=PL5QlapyOGhXuYBw_XQqzG7qW9wF2fEbHk&index=17
 ',
-                'data-1' => '[imagen]',
-                'data-2' => '[imagen]',
+                'data-1' => '<img src="' . URL_PUBLIC . 'recursos/imagenes/gender.png">',
             ],
             'quiz-6' => [
                 1 => [
