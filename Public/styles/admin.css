@@ -328,6 +328,9 @@
   margin: 0.9rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .campos-admin-entradas {
@@ -341,6 +344,15 @@
   margin: 0.9rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.form-error {
+  color: red;
+  font-weight: 300;
 }
 
 .fieldgroup-edit {
@@ -363,6 +375,9 @@
   margin: 0.9rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .fieldgroup-edit-cont > span {
@@ -592,13 +607,13 @@
 
 .checkbox3 input[type=checkbox]:checked + label {
   left: 15px;
-  background-color: yellow;
+  background-color: #c2984b;
 }
 
 .checkbox4 {
   width: 35px;
   height: 20px;
-  background: red;
+  background: #ff7a00;
   margin: 1.2rem 3rem 1rem 0.5rem;
   position: relative;
   border-radius: 5px;
@@ -619,7 +634,7 @@
 
 .checkbox4 input[type=checkbox]:checked + label {
   left: 15px;
-  background-color: yellow;
+  background-color: #e74eed;
 }
 
 .checkbox5 {
@@ -926,4 +941,10 @@
 
 .btn-primario:hover {
   background-color: #ffa710;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }/*# sourceMappingURL=admin.css.map */

@@ -1309,8 +1309,8 @@ Define y lleva a cabo acciones dirigidas a lograr tu proyecto de vida. Piensa qu
 Da seguimiento periódico a este plan de vida. Cada cierto tiempo evalúa qué has logrado, qué falta por hacer y ajusta tu plan de vida si es necesario 
 </p> 
 ',
-                3 => '<p> Si quieres más información consulta Construcción de Plan de vida disponible en: https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2555/mod_resource/content/3/UAPA-Construccion-Plan-Vida/index.html 
-
+                3 => '<p> Si quieres más información consulta Construcción de Plan de vida disponible en:
+                     	<span class="btn-enlace"><a href="https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2555/mod_resource/content/3/UAPA-Construccion-Plan-Vida/index.html"> Ir a información</a> </span>
 Consideraciones. Para un plan de vida también es importante observar la realidad de nuestro entorno. 
 
 1.- Lo que te puede frenar: sabemos que nos gustaría lograrlo todo, pero seamos sinceras y sinceros con nuestro plan de vida. Siempre habrá circunstancias que pueden cambiar o retrasar algún elemento de nuestro plan de vida. No se trata solo de decir “sí se puede”, es identificar qué es factible y qué puede vulnerar nuestro plan. 

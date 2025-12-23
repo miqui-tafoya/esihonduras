@@ -30,6 +30,7 @@
     opacity: 0;
     flex-direction: column;
     animation: apareceModal 0.3s ease forwards;
+   font-family: "Onest", sans-serif;
 }#modal_container_media {
     position: fixed;
     margin: 0;
@@ -80,8 +81,8 @@
     padding: 1rem;
     height: 9vh;
     border-radius: 20px 20px 0 0;
-    background-color: green;
-    color: black;
+    background-color: vars.$primario;
+    color:  vars.$dark;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -125,7 +126,7 @@
     cursor: pointer;
 }
 .aceptar {
-    background-color: yellow;
+    background-color:  vars.$com-dos;
     height: 3rem;
     border-radius: 16px;
     margin: 0 2rem;
@@ -136,7 +137,7 @@
 }
 
 .aceptar:hover {
-    background-color: red;
+    background-color: vars.$com-dos800;
 }
 .cancelar {
     background-color: grey;
