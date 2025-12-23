@@ -51,7 +51,8 @@ Los derechos humanos = la dignidad que todas las personas tenemos
 ',
                 4 => '<p> Observa la línea que dibujaste, ¿en qué parte de la línea te quedaste? 
 
-Si bien los derechos humanos no se pueden medir en una línea recta, este ejercicio nos ayuda a entender cómo nuestras diferentes características y condiciones de vida pueden facilitarnos o no el acceso a ciertos derechos. Por ello, es importante recordar que por ley, todas las personas tenemos derechos y estos se deben reconocer y garantizar sin distinción alguna de nacionalidad, lugar de residencia, sexo, origen nacional o étnico, color de piel, religión, lengua, o cualquier otra condición. Todas y todos tenemos los mismos derechos humanos, sin discriminación alguna. 
+Si bien los derechos humanos no se pueden medir en una línea recta, este ejercicio nos ayuda a entender cómo nuestras diferentes características y condiciones de vida pueden facilitarnos o no el acceso a ciertos derechos. Por ello, es importante recordar que por ley, <span class="txt-underline">todas las personas</span> tenemos derechos y estos se deben reconocer y garantizar sin distinción alguna de nacionalidad, lugar de residencia, sexo, origen nacional o étnico, color de piel, religión, lengua, o cualquier otra condición. Todas y todos tenemos los mismos derechos humanos, sin discriminación alguna. 
+
 Además, para que los derechos humanos sean efectivos, se deben aplicar en conjunto ya que se relacionan, se necesitan entre sí y no se pueden dividir. Es decir, estos derechos están interrelacionados, y son interdependientes e indivisibles.
  </p>
 ',
@@ -1277,8 +1278,8 @@ Define y lleva a cabo acciones dirigidas a lograr tu proyecto de vida. Piensa qu
 Da seguimiento periódico a este plan de vida. Cada cierto tiempo evalúa qué has logrado, qué falta por hacer y ajusta tu plan de vida si es necesario 
 </p> 
 ',
-                3 => '<p> Si quieres más información consulta Construcción de Plan de vida disponible en: https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2555/mod_resource/content/3/UAPA-Construccion-Plan-Vida/index.html 
-
+                3 => '<p> Si quieres más información consulta Construcción de Plan de vida disponible en:
+                     	<span class="btn-enlace"><a href="https://repositorio-uapa.cuaed.unam.mx/repositorio/moodle/pluginfile.php/2555/mod_resource/content/3/UAPA-Construccion-Plan-Vida/index.html"> Ir a información</a> </span>
 Consideraciones. Para un plan de vida también es importante observar la realidad de nuestro entorno. 
 
 1.- Lo que te puede frenar: sabemos que nos gustaría lograrlo todo, pero seamos sinceras y sinceros con nuestro plan de vida. Siempre habrá circunstancias que pueden cambiar o retrasar algún elemento de nuestro plan de vida. No se trata solo de decir “sí se puede”, es identificar qué es factible y qué puede vulnerar nuestro plan. 

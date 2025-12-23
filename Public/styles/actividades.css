@@ -399,6 +399,12 @@ td, th {
   
 }
 
+.txt-underline {
+    text-decoration: underline;
+    font-weight: 500;
+  
+}
+
 .hiper a{
     color:#e74eed;
     font-weight: 700;

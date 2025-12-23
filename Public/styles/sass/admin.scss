@@ -285,6 +285,9 @@
   margin: 0.9rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .campos-admin-entradas {
   display: flex;
@@ -296,7 +299,16 @@
   margin: 0.9rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: start;
 }
+.form-error{
+  color:red;
+  font-weight: 300;
+}
+
 .fieldgroup-edit {
   border: 1px grey solid;
   padding: 0.8rem;
@@ -315,6 +327,9 @@
   margin: 0.9rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 .fieldgroup-edit-cont > span {
   display: block;
@@ -517,12 +532,12 @@
 }
 .checkbox3 input[type="checkbox"]:checked + label {
   left: 15px;
-  background-color: yellow;
+  background-color: vars.$primario;
 }
 .checkbox4 {
   width: 35px;
   height: 20px;
-  background: red;
+  background: vars.$com-dos;
   margin: 1.2rem 3rem 1rem 0.5rem;
   position: relative;
   border-radius: 5px;
@@ -541,7 +556,7 @@
 }
 .checkbox4 input[type="checkbox"]:checked + label {
   left: 15px;
-  background-color: yellow;
+  background-color: vars.$com;
 }
 .checkbox5 {
   width: 35px;
@@ -749,7 +764,7 @@
 }
 .id_gal > span:first-child {
   justify-content: flex-start;
-  color: cyan;
+  color: vars.$g0;
   font-weight: 500;
   padding: 5px;
   font-size: 0.9rem;
@@ -757,7 +772,7 @@
 }
 .id_gal > span:last-child {
   margin-left: auto;
-  color: cyan;
+  color: vars.$g0;
   font-weight: 500;
   padding: 5px;
   font-size: 0.9rem;
@@ -819,4 +834,10 @@
 
 .btn-primario:hover {
   background-color: vars.$com-dos800;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }

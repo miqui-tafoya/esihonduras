@@ -6,7 +6,7 @@ if (!empty($responseParams)) {
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Nueva Categoría</h1>
+        <p class="cabecera-uno">Nueva Categoría</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrycategorias/">Administrar Categorias</a>
             <a href="<?php echo URL_BASE ?>nuevacategoria">Nueva Categoria</a>
@@ -33,7 +33,7 @@ if (!empty($responseParams)) {
             endif; ?>
                 value="noticia">Noticias</option>
         </select>
-        <button style="margin-top:2rem;" class="btn" type="submit" name="submit-nuevo">Agregar Categoria</button>
+        <button style="margin-top:2rem;" class="btn-primario" type="submit" name="submit-nuevo">Agregar Categoria</button>
     </form>
 </div>
 </div>

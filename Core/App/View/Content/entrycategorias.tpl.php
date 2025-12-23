@@ -6,7 +6,7 @@ $cat_nombres = ['Noticias', 'Información Pública']
 ?>
 <div class="dash">
   <div class="configuraciones">
-    <h1>Administrar Categorias</h1>
+    <p class="cabecera-uno">Administrar Categorias</p>
     <div class="botn-grupo">
       <a href="<?php echo URL_BASE ?>entrycategorias/">Administrar Categorias</a>
       <a href="<?php echo URL_BASE ?>nuevacategoria">Nueva Categoria</a>

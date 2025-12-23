@@ -7,7 +7,7 @@ if (!empty($responseParams)) {
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Editar Usuario</h1>
+        <p class="cabecera-uno">Editar Usuario</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>usuarios/">Administrar Usuarios</a>
             <a href="<?php echo URL_BASE ?>nuevousuario">Nuevo Usuario</a>
@@ -33,7 +33,7 @@ if (!empty($responseParams)) {
             <label for="passwordConf">Confirma Contraseña <span
                     class="form-error"><?php echo $error['error_passwordConf'] ?? '' ?></span></label>
             <input class="adm-txt" type="password" name="passwordConf">
-            <button style="margin-top:2rem;" class="btn" type="submit" name="submit-update">Actualizar Usuario</button>
+            <button style="margin-top:2rem;" class="btn-primario" type="submit" name="submit-update">Actualizar Usuario</button>
         </form>
     </div>
 </div>
