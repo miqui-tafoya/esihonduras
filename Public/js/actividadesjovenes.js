@@ -7,12 +7,12 @@ let activityKeys = [];
 
 const ACTIVITY_TITLES = {
     'slides-1': 'Derechos Humanos',
-    'casillas-1': 'Actividad: Discriminación',
+    'slides-17': 'Actividad 1: Discriminación',
+    'casillas-1': 'Actividad 2: Discriminación',
     'slides-2': 'Discriminación',
     'accordion-1': 'Diversidad e inclusión',
     'options-1': 'Quiz: Discriminación',
     'slides-3': 'Preguntas para reflexionar',
-    'slides-4': 'Sexualidad',
     'options-2': 'Actividad: Mi Primera vez',
     'slides-5': 'Embarazo temprano',
     'slides-6': 'Actividad: La entrevista',

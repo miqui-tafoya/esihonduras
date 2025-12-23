@@ -68,6 +68,25 @@ Naciones Unidas Derechos Humanos, oficina del alto Comisionado, Honduras, ¿En q
 
 ',
             ],
+            'slides-17' => [
+                1 => '<p>Lee la siguiente frase: 
+
+<b>“La discriminación vulnera la dignidad humana” </b>
+
+Piensa en la frase que acabas de leer y realiza la siguiente actividad</p>
+',
+                2 => '<p>Actividad: 
+
+1.- Lee la siguiente lista de frases
+2.-. Cada frase tiene una casilla, marca si has escuchado o te han dicho alguna de esas frases. 
+3.- Busca lápiz y papel y responde a las siguientes preguntas: 
+
+¿Dónde has escuchado esas frases? 
+¿Quién te ha dicho esas frases? 
+¿En qué contexto se mencionaron esas frases? 
+¿Qué sentiste cuándo te dijeron o escuchaste esas frases? </p>
+',
+            ],
             'casillas-1' => [
                 'data-1' => '<p class="cuerpo-texto cabecera-bold p-bottom" >Discriminación</p>
 
@@ -124,14 +143,16 @@ Lee cada una de las siguientes frases y marca si la has escuchado o te la han di
             ],
             'slides-2' => [
                 1 => '	<p> Todas las frases que leíste en el ejercicio anterior hacen referencia a la discriminación. La discrimianción afecta directamente el ejercicio de los derechos de las personas por el simple hecho de cómo se ve qué le gusta o qué  creencias tiene.
-De acuerdo con Amnistía Internacional, “la discriminación tiene lugar cuando una persona no puede disfrutar de sus derechos humanos o de otros derechos legales en condiciones de igualdad con otras personas debido a una distinción injustificada”. 
-Pero recuerda, todas las personas tenemos derecho a ser tratados por igual, sin importar nuestra raza, nacionanidad, clase, religión, sexo, genero, orientación sexual, identdiadd de género, edad, estado de salud. 
 
-</p>',
-                2 => '	<p> “La discriminación en América Central, y Honduras en particular, se manifiesta de múltiples formas. Por una parte, continúa existiendo un trato desigual hacia los pueblos indígenas y las personas afrodescendientes, el cual se refleja tanto en la vida pública como en la privada, afectando ámbitos como la educación, la salud, el acceso a servicios y la representación en los medios de comunicación. Por otra parte, también enfrentan discriminación otros grupos, entre ellos las mujeres, las personas migrantes, las personas con discapacidad y las diversidades sexuales. 
+                De acuerdo con Amnistía Internacional, “la discriminación tiene lugar cuando una persona no puede disfrutar de sus derechos humanos o de otros derechos legales en condiciones de igualdad con otras personas debido a una distinción injustificada”. 
+
+                Pero recuerda, todas las personas tenemos derecho a ser tratados por igual, sin importar nuestra raza, nacionanidad, clase, religión, sexo, genero, orientación sexual, identdiadd de género, edad, estado de salud.</p>',
+                2 => '<p>¿Cómo se ve la discriminación en Honduras?
+
+La discriminación en América Central, y Honduras en particular, se manifiesta de múltiples formas. Por una parte, continúa existiendo un trato desigual hacia los pueblos indígenas y las personas afrodescendientes, el cual se refleja tanto en la vida pública como en la privada, afectando ámbitos como la educación, la salud, el acceso a servicios y la representación en los medios de comunicación. Por otra parte, también enfrentan discriminación otros grupos, entre ellos las mujeres, las personas migrantes, las personas con discapacidad y las diversidades sexuales. 
+
 Cuando estas formas de exclusión se combinan en una misma persona, se habla de discriminación múltiple, lo que incrementa su situación de vulnerabilidad frente a la violación de derechos. En muchos casos, estas prácticas limitan el desarrollo personal y profesional; en situaciones más graves, pueden derivar en agresiones directas contra la libertad, la integridad física e incluso la vida de las personas.
 
-<br>
                 Disponible en:
                     <span class="btn-enlace"><a href="https://www.oacnudh.org/areas-de-trabajo/discriminacion/" target="_blank">Ir a información</a></span>  
 </p>',
@@ -140,9 +161,6 @@ Cuando estas formas de exclusión se combinan en una misma persona, se habla de 
 Porque todas las personas tenemos los mismos derechos, y los derechos sexuales son parte de esos derechos humanos.  Si se nos prohibe el acceso a metodos anticonceptivos, a información sobre el embarazo, o se nos niega atención médicapor nuestras características físcas (por ejemplo, por nuestro color de piel o edad), eso es discriminación. 
 
 Mientras más información sobre el tema tengamos, menos propensos y propensas seremos a vivir discriminación. Recuerda que nos toca a todas las personas exigir que se garanticen y reconozcan nuestros derechos. 
-
-
-Nos toca a todas las personas exigir que se garanticen y reconozcan nuestros derechos. 
 </p>',
                 4 => '<p class="cabecera-bold"> Consulta </p>
 	<p> La discriminación vulnera la dignidad humana, Gaceta UNAM, 
@@ -307,55 +325,6 @@ Disponible en:
 Estereotipos de género, 
 Disponible en:
 <span class="btn-enlace"><a href="https://www.ohchr.org/es/women/gender-stereotyping#:~:text=Un%20estereotipo%20de%20g%C3%A9nero%20es,las%20mujeres%20y%20los%20hombres." target="_blank">Ir a información</a></span> 
-</p>'
-            ],
-            'slides-4' => [
-                1 => '<p class="cabecera-bold" > ¿Conoces qué son los derechos sexuales y reproductivos?</p>
-
-
-	<p> ¿Es lo mismo sexo, salud sexual, sexualidad y derechos sexuales?
-
-Para que exista uno, deben existir los demás.
-El sexo son las características biológicas que nos definen y diferencian como mujeres u hombres.
-La Organización Mundial de la Salud señala: Aunque estos conjuntos de características biológicas no son excluyentes entre sí, ya que hay personas que poseen características de ambos conjuntos, estos tienden a diferenciar a los seres humanos como hombres o mujeres.En el uso general de muchos idiomas, el término «sexo» significa «actividad sexual», pero a los fines técnicos, en el contexto de las deliberaciones sobre sexualidad y salud sexual, se prefiere la definición precedente.</p>',
-                2 => '	<p> La salud sexual hace referencia al estado de bienestar físico, mental y social en relación con la sexualidad.
-
-La Organización Mundial de la Salud señala: La salud sexual requiere un enfoque positivo y respetuoso de la sexualidad y de las relaciones sexuales, así como la posibilidad de tener experiencias sexuales placenteras y seguras, libres de toda coacción, discriminación y violencia. Para que la salud sexual se logre y se mantenga, los derechos sexuales de todas las personas deben ser respetados, protegidos y ejercidos a plenitud.
-
-Entonces ¿dónde queda la sexualidad? </p>
-',
-                3 => '	<p>La sexualidad es parte importante pero debe considerarse en un sentido amplio, no como un elemento solitario:
-
-¿Qué nos dice la Organización Mundial de la Salud?, “la salud sexual no se puede definir, comprender ni poner en práctica si no se considera la sexualidad en sentido amplio, como un elemento subyacente de importantes comportamientos y resultados relativos a la salud sexual. Según la definición de trabajo, la sexualidad es:
-«...un aspecto central del ser humano, presente a lo largo de su vida. Abarca al sexo, las identidades y los papeles de género, el erotismo, el placer, la intimidad, la reproducción y la orientación sexual. Se vivencia y se expresa a través de pensamientos, fantasías, deseos, creencias, actitudes, valores, conductas, prácticas, papeles y relaciones interpersonales. La sexualidad puede incluir todas estas dimensiones, no obstante, no todas ellas se vivencian o se expresan siempre. La sexualidad está influida por la interacción de factores biológicos, psicológicos, sociales, económicos, políticos, culturales, éticos, legales, históricos, religiosos y espirituales »”
- </p>',
-                4 => '	<p> Y llegamos a los derechos sexuales, la salud sexual no se puede alcanzar y lograr sin el respeto y la protección de los derechos humanos.
-“Los derechos sexuales constituyen la aplicación de los derechos humanos existentes a la sexualidad y a la salud sexual. Protegen el derecho de todas las personas a satisfacer y expresar su sexualidad y a disfrutar de la salud sexual, con el debido respeto por los derechos de los demás, dentro de un marco de protección frente a la discriminación»”
-</p>',
-                5 => '	<p>¿Qué dicen los datos sobre la educación sexual integral? 
-La educación sexual tiene efectos positivos, como el reforzamiento de los conocimientos de los jóvenes y la mejora de sus actitudes en relación con la salud y los comportamientos sexuales y reproductivos.
-
-La educación sexual hace que los educandos retrasen la edad de su iniciación sexual, aumenten el uso de los preservativos y otros anticonceptivos cuando son sexualmente activos, aumenten sus conocimientos sobre su propio cuerpo y sus relaciones, disminuyan la toma de riesgos y reduzcan la frecuencia de las relaciones sexuales sin protección.
-
-La educación sexual integral tiene cinco veces más probabilidades de éxito en la prevención de embarazos no deseados y enfermedades de transmisión sexual cuando presta atención explícita a los temas de género y poder.
-
-Información retomada de: Educación integral en sexualidad: Para educandos sanos, informados y empoderados, 
-Disponible en 
-<span class="btn-enlace"><a href="https://www.unesco.org/es/health-education/cse" target="_blank">Ir a información</a></span>
- </p>',
-                6 => '<p> ¿Qué ideas debemos evitar respecto a la educación integral en sexualidad?
-
-La educación integral en sexualidad no sólo es hablar de sexo, ni debe ser un tabú que sólo se habla en la intimidad de cada familia o incluso en ocasiones no se habla de ello.
-
-Esta educación no interfiere con los valores y educación que cada familia proporciona a sus hijas e hijos, no vulnera su inocencia, ni estimula la iniciación sexual temprana.
-
-Dar información sobre métodos antifecundativos a las y los adolescentes, no es fomentar que los usen. Las niñas, niños y adolescentes informados sobre educación integral en sexualidad no son cada vez más precoces y sexualmente irresponsables.
-
-Creer que la educación integral en sexualidad no es prioritaria en la currícula educativa contribuye de manera negativa al desempeño de las y los estudiantes.
-
-Creer que las adolescentes que se embarazan sin planearlo, es porque fueron irresponsables o no se cuidaron.
-
-No todas las mujeres que se embarazan finalmente acaban deseando la maternidad y aceptando el embarazo.
 </p>'
             ],
             'options-2' => [
@@ -1319,7 +1288,7 @@ Consideraciones. Para un plan de vida también es importante observar la realida
 </p>',
             ],
             'slides-16' => [
-                1 => '<p class="cabecera-bold"> Para construir tu plan de vida, te compartimos algunas preguntas que pueden servir como guía::</p>
+                1 => '<p class="cabecera-bold"> Para construir tu plan de vida, te compartimos algunas preguntas que pueden servir como guía:</p>
 
 <p>1. ¿Cuál es mi realidad en estos momentos?
 
