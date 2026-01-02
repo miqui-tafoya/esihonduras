@@ -8,7 +8,7 @@ $selectTipo = $post['tipo'] ?? $categoria['tipo'] ?? '';
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Actualizar Categoría</h1>
+        <p class="cabecera-uno">Actualizar Categoría</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrycategorias/">Administrar Categorias</a>
             <a href="<?php echo URL_BASE ?>nuevacategoria">Nueva Categoria</a>
@@ -36,7 +36,7 @@ $selectTipo = $post['tipo'] ?? $categoria['tipo'] ?? '';
             endif; ?>
                 value="noticia">Noticias</option>
         </select>
-        <button style="margin-top:2rem;" class="btn" type="submit" name="submit-update">Actualizar Categoria</button>
+        <button style="margin-top:2rem;" class="btn-primario" type="submit" name="submit-update">Actualizar Categoria</button>
     </form>
 </div>
 </div>

@@ -6,3 +6,7 @@ function ver() {
     x.type = "password";
   }
 }
+function refreshCaptcha() {
+  const img = document.getElementById('captcha_image');
+  img.src = 'captcha?' + new Date().getTime();
+}

@@ -90,6 +90,15 @@ label {
     font-size: clamp(1rem, 0.7241rem + 1.3793vw, 1.3rem);
     font-family: "Onest", sans-serif;
 }
+
+.bloque-form span {
+  color:red;
+  font-weight: 300;
+}
+
+.ver-pass{
+    color: vars.$com900 !important;
+}
 //////////// captcha////////
 
 .bloque-captcha{
