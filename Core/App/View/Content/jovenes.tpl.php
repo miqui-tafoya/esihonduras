@@ -6,9 +6,7 @@
         <!-- Start Bloque uno -->
 
         <div class="back-color">
-
             <div class="grid-doble">
-
                 <div class="img-grid-doble">
                     <img src="Public/recursos/imagenes/jovenes.jpg" alt=""></a>
                 </div>
@@ -33,11 +31,8 @@
                         <span>&#8226;</span> Violencias<br>
                         <span>&#8226;</span> Proyecto de vida<br>
                     </p>
-
-
                 </div>
             </div>
-
         </div>
         <!-- End Bloque uno -->
 

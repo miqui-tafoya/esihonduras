@@ -7,9 +7,7 @@
         <!-- Start Bloque uno -->
 
         <div class="back-color">
-
             <div class="grid-doble">
-
                 <div class="img-grid-doble">
                     <img src="Public/recursos/imagenes/padres.jpg" alt=""></a>
                 </div>
@@ -25,15 +23,9 @@
                         válido preguntar y buscar información.
                         <br>
                         <br>
-
                     </p>
-
-
                 </div>
             </div>
-
-
-
         </div>
         <!-- End Bloque uno -->
 

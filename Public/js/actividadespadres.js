@@ -37,9 +37,6 @@ function loadActivity(index) {
             renderActivity(response);
             renderActivityList();
         },
-        // error: function () {
-        //     alert('Error al cargar la actividad.');
-        // }
     });
 }
 
@@ -381,6 +378,7 @@ function renderActivityList() {
         btn.addEventListener('click', function () {
             const idx = parseInt(this.getAttribute('data-index'), 10);
             if (!isNaN(idx)) {
+                goTo();
                 loadActivity(idx);
             }
         });
@@ -401,6 +399,10 @@ function getActivityLabel(key) {
     }
 
     return key;
+}
+
+function goTo(){
+    document.getElementById('actividad-container').scrollIntoView();
 }
 
 // INICIALIZACIÓN
