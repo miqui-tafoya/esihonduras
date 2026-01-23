@@ -30,6 +30,8 @@ class Medios extends Render {
     }
 
     public function POST_handler_AJAX() {
+        header('Content-Type: application/json');
+        header('Access-Control-Allow-Origin: *');
         $model = new MediosModel();
         if (isset($_POST['action']) && $_POST['action'] == 'getMedios') {
             $page = isset($_POST['page']) ? (int) $_POST['page'] : 1;
