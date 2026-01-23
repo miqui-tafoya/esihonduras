@@ -61,6 +61,12 @@
   font-size: 1.3rem;
 }
 
+.bloque input::-moz-placeholder {
+  border-color: #c2984b !important;
+  color: #9e9e9e;
+  font-style: italic;
+}
+
 .bloque input::placeholder {
   border-color: #c2984b !important;
   color: #9e9e9e;
@@ -119,6 +125,12 @@ label {
   padding: 0 0.5rem;
   margin: 1rem 0;
   font-size: 1.3rem;
+}
+
+.bloque-captcha input::-moz-placeholder {
+  border-color: #c2984b !important;
+  color: #9e9e9e;
+  font-style: italic;
 }
 
 .bloque-captcha input::placeholder {

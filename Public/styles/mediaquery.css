@@ -114,7 +114,7 @@
     flex-direction: unset;
   }
   .info-bloque-seis-home {
-    padding: 0rem 4rem;
+    padding: 0rem 1rem;
   }
   .bloque-seis-home-seis {
     padding: 0rem 0rem;
@@ -181,11 +181,13 @@
   #head {
     height: 2rem;
   }
-  .ul-logos {
-    margin: 0 -20px;
+  .info-bloque-seis-home {
+    padding: 0rem 4rem;
   }
+  /*  .ul-logos {
+     margin: 0 -40px;
+    } */
   .ul-logos li {
-    margin: 0rem 1rem;
     width: auto;
     height: 120px;
   }

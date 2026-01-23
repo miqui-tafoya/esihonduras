@@ -454,6 +454,7 @@
   height: auto;
   color: white;
   font-weight: bold;
+  width: -moz-fit-content;
   width: fit-content;
   opacity: 0;
   margin: -15rem 0 0 0.25rem;
@@ -736,6 +737,7 @@
   border: 1px grey solid;
   padding: 1rem;
   border-radius: 5px;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -818,6 +820,7 @@
 
 .gal li {
   flex-direction: column;
+  height: -moz-fit-content;
   height: fit-content;
   max-width: 25rem;
   flex-grow: 1;
