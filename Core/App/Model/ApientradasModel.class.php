@@ -25,22 +25,15 @@ class ApientradasModel extends Model {
         header("Access-Control-Allow-Headers: Content-Type, Authorization");
         $page = max(1, (int) $page);
         $perPage = max(1, (int) $perPage);
-
         $offset = ($page - 1) * $perPage;
 
-        $sqlCount = "SELECT COUNT(*) as total FROM tb_entradas WHERE tipo = ? AND publicado = ?";
-        $cond = ['noticia', 1];
-        $stmtCount = $this->db->exeQuery($sqlCount, $cond);
-        $resultCount = $stmtCount->get_result()->fetch_assoc();
-        $total = (int) $resultCount['total'];
+        $total = $this->db->dbCount('tb_entradas', ['tipo' => 'noticia', 'publicado' => 1]);
 
-        $sql = "SELECT * FROM tb_entradas 
-            WHERE tipo = 'noticia' AND publicado = 1 
-            ORDER BY entradas_timestamp DESC 
-            LIMIT ? OFFSET ?";
-        $cond = [$perPage, $offset];
-        $stmt = $this->db->exeQuery($sql, $cond);
-        $data = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+        $cols = ['all'];
+        $data = ['tipo' => 'noticia', 'publicado' => 1];
+        $order = ['DESC' => 'entradas_timestamp'];
+        $limits = ['limit' => $perPage, 'offset' => $offset];
+        $data = $this->db->dbCall('limit', false, $cols, 'tb_entradas', $data, $order, $limits);
 
         foreach ($data as &$value) {
             $portada = $this->getPortada($value['tb_galeria_id']);

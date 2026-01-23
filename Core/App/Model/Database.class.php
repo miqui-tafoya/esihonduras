@@ -77,7 +77,7 @@ class Database {
     return $data;
   }
 
-  public function dbCall(string $type, $join, $cols, string $table, $data = [], $order = []) {
+  public function dbCall(string $type, $join, $cols, string $table, $data = [], $order = [], $limits = []) {
     $sql = "SELECT ";
     $i = 0;
     if (!is_array($join) && $join === false) {
@@ -200,6 +200,19 @@ class Database {
       $sql .= " LIMIT 1";
       $stmt = $this->exeQuery($sql, $data);
       $records = $stmt->get_result()->fetch_assoc();
+    } elseif ($type == 'limit') {
+      $limit = isset($limits['limit']) ? (int) $limits['limit'] : 0;
+      $offset = isset($limits['offset']) ? (int) $limits['offset'] : 0;
+      $sql .= " LIMIT $limit";
+      $sql .= " OFFSET $offset";
+      if (empty($data)) {
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute();
+        $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+      } else {
+        $stmt = $this->exeQuery($sql, $data);
+        $records = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+      }
     } elseif ($type == 'all') {
       if (empty($data)) {
         $stmt = $this->conn->prepare($sql);
@@ -222,6 +235,35 @@ class Database {
       }
     }
     return $records;
+  }
+
+  public function dbCount(string $table, $data = []) {
+    $sql = "SELECT COUNT(*) as total FROM $table";
+    if (!empty($data)) {
+      $i = 0;
+      foreach ($data as $key => $value) {
+        $but = preg_match('/^!/', $key) ? true : false;
+        $key = ($but === true) ? substr($key, 1) : $key;
+
+        if ($i === 0) {
+          $sql .= " WHERE $key";
+          $sql .= ($but === true) ? '!=?' : '=?';
+        } else {
+          $sql .= " AND $key";
+          $sql .= ($but === true) ? '!=?' : '=?';
+        }
+        $i++;
+      }
+    }
+    if (empty($data)) {
+      $stmt = $this->conn->prepare($sql);
+      $stmt->execute();
+      $result = $stmt->get_result()->fetch_assoc();
+    } else {
+      $stmt = $this->exeQuery($sql, $data);
+      $result = $stmt->get_result()->fetch_assoc();
+    }
+    return $result['total'];
   }
 
   public function crudCall(string $type, string $table, $data, $id, $context) {
