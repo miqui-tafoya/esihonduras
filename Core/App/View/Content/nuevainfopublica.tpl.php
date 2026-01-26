@@ -114,7 +114,7 @@ $categorias = $body['categorias'];
         <input class="adm-txt" class="campo" type="text" name="tags" value="<?php echo $post['tags'] ?? '' ?>"
             maxlength="223">
 
-        <button style="margin-top:2rem;display:flex;" class="btn" type="submit" name="submit-nuevo">Agregar
+        <button style="margin-top:2rem;display:flex;" class="btn-primario" type="submit" name="submit-nuevo">Agregar
             Borrador</button>
         </form>
     </div>
