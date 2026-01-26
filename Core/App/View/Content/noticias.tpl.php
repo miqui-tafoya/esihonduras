@@ -50,7 +50,7 @@ $categorias = $body['categorias'];
                     </div>
                     <div class="txt-item-destacadas">
                         <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
-                            <h5>' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
+                            <h5 class="titulo-destacadas">' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
                         </a>
                     </div>
 
@@ -78,7 +78,7 @@ $categorias = $body['categorias'];
                         </div>
                         <div class="txt-item-reciente">
                             <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
-                                <h5>' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
+                                <h5 class="titulo-destacadas">' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
                             </a>
                         </div>
 

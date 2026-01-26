@@ -166,6 +166,10 @@
     
 }
 
+.items-destacadas:last-child {
+  border-bottom: none; 
+}
+
 .img-item-destacada{
     width: 70%;
     height: 130px;
@@ -363,4 +367,9 @@
     color:vars.$com700;
     border-color:vars.$com700;
     background-color:transparent;
+}
+
+.titulo-destacadas {
+    color: vars.$primario;
+    font-size: 1.1rem;
 }

@@ -154,6 +154,10 @@
   padding: 0.7rem 0;
 }
 
+.items-destacadas:last-child {
+  border-bottom: none;
+}
+
 .img-item-destacada {
   width: 70%;
   height: 130px;
@@ -345,4 +349,9 @@
   color: #aa00d3;
   border-color: #aa00d3;
   background-color: transparent;
+}
+
+.titulo-destacadas {
+  color: #c2984b;
+  font-size: 1.1rem;
 }/*# sourceMappingURL=noticias.css.map */
