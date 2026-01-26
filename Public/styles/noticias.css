@@ -110,14 +110,14 @@
 
 .link-info-destacado a {
   text-decoration: none;
-  color: #e74eed;
+  color: #f0e1d1;
   font-size: 0.9rem;
   font-weight: 700;
 }
 
 .link-info-destacado a:hover {
   text-decoration: underline !important;
-  color: #aa00d3;
+  color: #c2984b;
 }
 
 .img-grid-noticias {
