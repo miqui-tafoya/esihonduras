@@ -31,7 +31,7 @@ $categorias = $body['categorias'];
                 echo '<div class="img-grid-noticias">
                     <div class="link-destacada">
                         <p class="txt-destacada-uno">' . $hoy['entradas_titulo'] . ' </p>
-                        <p class="txt-destacada-dos">' . substr($hoy['cuerpo'], 0, 120) . '...</p>
+                        <div class="txt-destacada-dos">' . substr($hoy['cuerpo'], 0, 120) . '...</div>
                         <div class="link-info-destacado">
                             <a href="' . URL_BASE . 'entrada/' . $hoy['tb_entradas_id'] . '">Leer más</a>
                         </div>
