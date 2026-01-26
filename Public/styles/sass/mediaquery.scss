@@ -227,13 +227,10 @@
     #head {
         height: 2rem;
     }
-.info-bloque-seis-home {
+    .info-bloque-seis-home {
     padding: 0rem 4rem;
-}
+    }
 
- /*  .ul-logos {
-    margin: 0 -40px;
-   } */
 
     .ul-logos li {
         width: auto;
@@ -265,20 +262,21 @@
         display: flex;
         flex-direction: unset;
     }
-.bloque-dos-home{
+    
+    .bloque-dos-home{
     padding: 3rem 3rem;
     width: 80%;
-}
-
+    }
 
  .banner {
     width: 90%;
-}
-.items-bloque-cinco {
+    }
+
+    .items-bloque-cinco {
     flex-direction: unset;
      align-items: start;
 
-}
+    }
 
 .grid-bloque-seis-home{
     width: 80%;
@@ -423,10 +421,6 @@
     width: 80%;
 }
 
-.bloque-publicaciones {
-    width: 80%;
-   
-}
 
 .bloque-audio {
     width: 80%;
@@ -442,4 +436,14 @@
    
 }
 
+
+.ytslide {
+    width: 80%;
+}
+.ytright {
+    margin-right: 13%;
+}
+.ytleft {
+    margin-left: 13%,
+}
 }

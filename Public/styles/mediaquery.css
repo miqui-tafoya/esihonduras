@@ -184,9 +184,6 @@
   .info-bloque-seis-home {
     padding: 0rem 4rem;
   }
-  /*  .ul-logos {
-     margin: 0 -40px;
-    } */
   .ul-logos li {
     width: auto;
     height: 120px;
@@ -336,9 +333,6 @@
   .cabecera-publica {
     width: 80%;
   }
-  .bloque-publicaciones {
-    width: 80%;
-  }
   .bloque-audio {
     width: 80%;
   }
@@ -347,5 +341,14 @@
   }
   .item-perfiles-quienes {
     margin: 1rem 1rem;
+  }
+  .ytslide {
+    width: 80%;
+  }
+  .ytright {
+    margin-right: 13%;
+  }
+  .ytleft {
+    margin-left: 13%;
   }
 }/*# sourceMappingURL=mediaquery.css.map */
