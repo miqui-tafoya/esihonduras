@@ -119,7 +119,7 @@ $categoria_id = $post['categoria'] ?? $publica['categoria'];
         <input class="adm-txt" class="campo" type="text" name="tags" value="<?php echo $post['tags'] ?? $publica['tags'] ?>"
             maxlength="223">
 
-        <button style="margin-top:2rem;display:flex;" class="btn" type="submit" name="submit-update">Actualizar
+        <button style="margin-top:2rem;display:flex;" class="btn-primario" type="submit" name="submit-update">Actualizar
             Noticia</button>
         </form>
     </div>

@@ -8,8 +8,6 @@
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/stlcc.png" alt=""></li>
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/agah.png" alt=""></li>
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/paeah.png" alt=""></li>
-            <!-- </lu>
-            <lu class="ul-logos"> -->
 
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/sedesol.png" alt=""></li>
                 <li><img src="<?php echo URL_PUBLIC ?>recursos/imagenes/cultivando.png" alt=""></li>
