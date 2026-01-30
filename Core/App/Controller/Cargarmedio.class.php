@@ -22,8 +22,11 @@ class Cargarmedio extends Render {
     }
 
     public function POST_handler_AJAX() {
+        $cors = new Middleware;
         header('Content-Type: application/json');
-        header('Access-Control-Allow-Origin: *');
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+        header("Access-Control-Allow-Origin: " . $cors->getCorsOrigin());
+
         $model = new CargarmedioModel;
         $params['file'] = $_FILES;
         $returnAdjuntos = $this->processAJAX($params);

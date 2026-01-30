@@ -41,7 +41,22 @@ class MainCtrl {
    * @return mixed Resultado del handler del controlador
    */
   public function fetchController($route, $method, $querystring) {
+    if ($method == 'options') { // OPTIONS
+      $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
+      $baseDomain = str_replace(['https://', 'http://', 'www.'], '', SITE_URL);
+
+      if (strpos($origin, $baseDomain) !== false) {
+        header("Access-Control-Allow-Origin: $origin");
+      }
+
+      header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+      header("Access-Control-Allow-Headers: Content-Type");
+      http_response_code(200);
+      exit;
+    }
+
     $route[1][1]['route'] = $route[0]; // agrega ruta a MetaParams
+
     if ($method == 'get') { // GET
       if (!empty($route[1][2])) {
         if (!array_key_exists('query', $route[1][2][1])) { // la ruta NO tiene query dinámico

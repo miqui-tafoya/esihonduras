@@ -2,6 +2,7 @@
 namespace Model;
 
 use Model\Database;
+use Middleware;
 
 class ApicategoriasModel extends Model {
 
@@ -21,9 +22,10 @@ class ApicategoriasModel extends Model {
         return $data;
     }
     public function getNoticiasPaginadas($page, $perPage, $categoria) {
-        header("Access-Control-Allow-Origin: https://www.wreckless.media");
+        $cors = new Middleware;
+        header("Access-Control-Allow-Origin: " . $cors->getCorsOrigin());
         header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-        header("Access-Control-Allow-Headers: Content-Type, Authorization");
+        header("Access-Control-Allow-Headers: Content-Type, X-Requested-With");
         $page = max(1, (int) $page);
         $perPage = max(1, (int) $perPage);
         $offset = ($page - 1) * $perPage;

@@ -2,6 +2,7 @@
 namespace Model;
 
 use Model\Database;
+use Middleware;
 
 class ApiinfopublicaModel extends Model {
 
@@ -40,9 +41,10 @@ class ApiinfopublicaModel extends Model {
         return $data;
     }
     public function getEntradas($id) {
-        header("Access-Control-Allow-Origin: https://www.wreckless.media");
+        $cors = new Middleware;
+        header("Access-Control-Allow-Origin: " . $cors->getCorsOrigin());
         header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-        header("Access-Control-Allow-Headers: Content-Type, Authorization");
+        header("Access-Control-Allow-Headers: Content-Type, X-Requested-With");
         $cols = ['all'];
         $data = $this->db->dbCall('one', false, $cols, 'tb_entradas', ['tipo' => 'publica', 'publicado' => 1, 'tb_entradas_id' => $id]);
         $portada = $this->getPortada($data['tb_galeria_id']);
@@ -52,9 +54,10 @@ class ApiinfopublicaModel extends Model {
         return $data;
     }
     public function getEntradasFiltradas($filtros, $id) {
-        header("Access-Control-Allow-Origin: https://www.wreckless.media");
+        $cors = new Middleware;
+        header("Access-Control-Allow-Origin: " . $cors->getCorsOrigin());
         header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-        header("Access-Control-Allow-Headers: Content-Type, Authorization");
+        header("Access-Control-Allow-Headers: Content-Type, X-Requested-With");
         $cols = ['all'];
         $data = [];
         foreach ($filtros as $key => $value) {
