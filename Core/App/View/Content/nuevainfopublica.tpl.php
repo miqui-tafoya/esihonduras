@@ -19,7 +19,7 @@ $categorias = $body['categorias'];
 </div>
 <div class="dash-entradas">
        <div class="configuraciones">
-        <h1>Nueva Información Pública</h1>
+        <h1 class="cabecera-uno">Nueva Información Pública</h1>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entryinfopublica/">Administrar Información Pública</a>
             <a href="<?php echo URL_BASE ?>nuevainfopublica">Nueva Información Pública</a>
@@ -73,7 +73,7 @@ $categorias = $body['categorias'];
     </div>
 
     <div class="configuraciones-2">
-        <h1>Configuración</h1>
+        <h1 class="cabecera-uno">Configuración</h1>
         <label style="margin-bottom:0.5rem;" for="portada">Imagen Portada <span
                 class="form-error"><?php echo $error['error_imagen'] ?? '' ?></span></label>
         <fieldset class="fieldgroup-edit">

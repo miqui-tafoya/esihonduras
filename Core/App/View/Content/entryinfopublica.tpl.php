@@ -5,7 +5,7 @@ $posts = $body['posts'];
 ?>
 <div class="dash">
     <div class="configuraciones">
-        <h1>Administrar Información Pública</h1>
+        <h1 class="cabecera-uno">Administrar Información Pública</h1>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entryinfopublica/">Administrar Información Pública</a>
             <a href="<?php echo URL_BASE ?>nuevainfopublica">Nueva Información Pública</a>
