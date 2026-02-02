@@ -8,13 +8,17 @@ RewriteEngine On
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# 301 de /index a /
 RewriteCond %{THE_REQUEST} ^.*/index
-RewriteRule ^(.*)index$ /prod/esihonduras/ [R=301,L]
+RewriteRule ^(.*)index$ / [R=301,L]
 
+# Detenerse si ya se encuentra en /Public
 RewriteRule ^Public/ - [L]
 
+# Existe recurso estático?
 RewriteCond %{DOCUMENT_ROOT}/Public/$1 -f
 RewriteRule (.+) Public/$1 [L]
 
+# Usar Router para lo demás
 RewriteRule (.*) Public/index.php?route=$1 [L,QSA]
 </IfModule>

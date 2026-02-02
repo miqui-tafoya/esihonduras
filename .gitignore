@@ -19,3 +19,6 @@ Factory/
 build
 # Ignora Error Logs
 Public/logs
+# Ignora recursos no críticos
+Public/recursos/entradas/
+Public/recursos/portadas/

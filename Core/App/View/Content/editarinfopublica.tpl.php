@@ -51,8 +51,8 @@ $categoria_id = $post['categoria'] ?? $publica['categoria'];
             <script type="importmap">
     {
       "imports": {
-        "ckeditor5": "../Public/vendor/ckeditor5/ckeditor5.js",
-        "ckeditor5/": "../Public/vendor/ckeditor5/"
+        "ckeditor5": "../Public/ckeditor5/ckeditor5.js",
+        "ckeditor5/": "../Public/ckeditor5/"
       }
     }
     </script>
