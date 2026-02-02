@@ -2,7 +2,7 @@
 ?>
 <div id="menu-large">
     <div class="back-menu">
-        <div class="logo-menu"> <img src="<?php echo URL_PUBLIC ?>recursos/imagenes/logo_color.png" alt=""></div>
+        <div class="logo-menu"> <img src="<?php echo URL_PUBLIC ?>recursos/imagenes/logo_esi.png" alt=""></div>
         <ul>
             <li><a href="<?php echo URL_BASE ?>">Inicio</a></li>
             <div class="dropdown">
@@ -30,7 +30,7 @@
 
 
 <div id="menu-movil" class="slide-out back-menu-movil" style="visibility: hidden;">
-    <div class="logo-menu-movil"> <img src="<?php echo URL_PUBLIC ?>recursos/imagenes/logotipo-bn.png" alt=""></div>
+    <div class="logo-menu-movil"> <img src="<?php echo URL_PUBLIC ?>recursos/imagenes/logo_esi.png" alt=""></div>
     <div class="menu-area">
         <ul>
             <li><a href="<?php echo URL_BASE ?>">Inicio</a></li>
