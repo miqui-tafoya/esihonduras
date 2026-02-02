@@ -380,7 +380,7 @@ $routeList->add(
         '/nuevanoticia',
         'nuevanoticia',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias']]],
         ['admin', 'session']
@@ -391,7 +391,7 @@ $routeList->add(
         '/nuevanoticia',
         'nuevanoticia',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias']]],
         ['admin', 'session']
@@ -402,7 +402,7 @@ $routeList->add(
         '/editarnoticia/',
         'editarnoticia',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias', 'noticia']]],
         ['admin', 'session']
@@ -413,7 +413,7 @@ $routeList->add(
         '/editarnoticia/',
         'editarnoticia',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias', 'noticia']]],
         ['admin', 'session']
@@ -446,7 +446,7 @@ $routeList->add(
         '/nuevainfopublica',
         'nuevainfopublica',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias']]],
         ['admin', 'session']
@@ -457,7 +457,7 @@ $routeList->add(
         '/nuevainfopublica',
         'nuevainfopublica',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias']]],
         ['admin', 'session']
@@ -468,7 +468,7 @@ $routeList->add(
         '/editarinfopublica/',
         'editarinfopublica',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias', 'publica']]],
         ['admin', 'session']
@@ -479,7 +479,7 @@ $routeList->add(
         '/editarinfopublica/',
         'editarinfopublica',
         ['admin',
-                ['', ['admin', 'ckstyle', '../vendor/ckeditor5/ckeditor5']],
+                ['', ['admin', 'ckstyle', '../ckeditor5/ckeditor5']],
                 [[],
                         ['categorias', 'publica']]],
         ['admin', 'session']
