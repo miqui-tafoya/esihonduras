@@ -5,16 +5,15 @@
 <link rel="icon" type="image/png" sizes="16x16" href="<?php echo URL_PUBLIC ?>recursos/16.png">
 <meta property="og:title" content="x" />
 <meta property="og:url" content="https://www.url.com" />
-<meta property="og:image" content="https://www.url.com/recursos/x.png" />
+<meta property="og:image" content="./recursos/og.jpg" />
 <meta property="og:type" content="website" />
-<meta property="og:description" content="..." />
-<meta property="fb:app_id" content="" />
+<meta property="og:description" content="ESI Honduras" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="x" />
 <meta name="twitter:site" content="@x" />
-<meta name="twitter:image" content="https://www.url.com/recursos/x.png" />
+<meta name="twitter:image" content="./recursos/og.jpg" />
 <meta name="twitter:creator" content="@x" />
-<meta name="twitter:description" content="" />
+<meta name="twitter:description" content="ESI Honduras" />
 <link rel="canonical" href="https://www.url.com" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
