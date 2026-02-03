@@ -27,4 +27,7 @@ Para comenzar, se renombra el archivo init.php.example por init.php
 Encontraremos dos datos importantes a configurar en este archivo. El primero será "define('APP_SUBFOLDER', 'produccion/esihonduras');" en donde declaramos si la raíz de la Platafoma será directamente en la raíz del directorio actual (es decir, sin subdirectorios, por lo que esta constante se declara vacía) o si se encuentra dentro de algún subdirectorio (por ejemplo /produccion/esihonduras/)
 Dentro de init.php también encontramos las siguientes líneas "define('DEBUG', true);" y "define('PRODUCTION', false);" con las cuales se habilitan o deshabilitan las herramientas de debug del sistema. Una vez en producción es lo óptimo desactivar debug, y activar producción.
 
+5. **Base de Datos**:
+Se hace entrega de respaldo de base de datos inicial en formato .sql, mismo que deberá ser importado en la misma base de datos para la cuál se configuró el archivo .env en el paso 3 del presente documento. Se recomienda ampliamente utilizar cotejamiento "utf8mb4_unicode_ci" para la base de datos de esta Plataforma
+
 Como medida final, es buena idea tomar en cuenta configuraciones adicionales dentro de php.ini para asegurar la habilitación de todo lo necesario para carga de archivos, como la configuración correcta del directorio temporal, los tamaños máximos de carga de archivos, y la cantidad máxima de cargas simultáneas.
