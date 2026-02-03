@@ -64,7 +64,7 @@ class Nuevainfopublica extends Render {
         }
 
         if (empty($input['categoria'])) {
-            $errors = MainCtrl::pushAssoc($errors, 'error_tema_id', '<i class="fas fa-exclamation-triangle"></i>Elige al menos un tema');
+            $errors = MainCtrl::pushAssoc($errors, 'error_tema_id', '<i class="fas fa-exclamation-triangle"></i>Elige una categoría');
         }
 
         if (!isset($input['omitir-portada'])) {
@@ -105,6 +105,7 @@ class Nuevainfopublica extends Render {
                     $params['tipo'] = 'publica';
                     $params['tb_usuarios_id'] = $_SESSION['id'];
                     $params['entradas_titulo'] = htmlentities($params['entradas_titulo'], ENT_QUOTES, "UTF-8");
+                    $params['resumen'] = MainCtrl::resumir($params['cuerpo']);
                     $params['cuerpo'] = htmlentities($params['cuerpo'], ENT_QUOTES, "UTF-8");
                     $params['publicado'] = 0;
                     $params['destacado'] = 0;

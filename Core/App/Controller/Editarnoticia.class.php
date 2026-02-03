@@ -92,6 +92,7 @@ class Editarnoticia extends Render {
                     }
                     $params_post['categoria'] = $params['categoria'];
                     $params_post['entradas_titulo'] = htmlentities($params['entradas_titulo'], ENT_QUOTES, "UTF-8");
+                    $params_post['resumen'] = MainCtrl::resumir($params['cuerpo']);
                     $params_post['cuerpo'] = htmlentities($params['cuerpo'], ENT_QUOTES, "UTF-8");
                     if (!isset($params['mantener-portada'])) {
                         $params_post['tb_galeria_id'] = $gID;

@@ -69,7 +69,7 @@ if (isset($responseParams['post']['busca'])) {
                     </div>
                     <div class="info-item-quienes">
                         <p class="titulo-item-quienes">' . $value['entradas_titulo'] . '</p>
-                        <p>' . substr($value['cuerpo'], 0, 120) . '...</p>
+                        <p>' . $value['resumen'] . '...</p>
                         <div class="btn-perfiles">
                             <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">Ir a contenido <i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
