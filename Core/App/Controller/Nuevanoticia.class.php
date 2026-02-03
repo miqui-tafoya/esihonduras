@@ -60,7 +60,7 @@ class Nuevanoticia extends Render {
         }
 
         if (empty($input['categoria'])) {
-            $errors = MainCtrl::pushAssoc($errors, 'error_tema_id', '<i class="fas fa-exclamation-triangle"></i>Elige al menos un tema');
+            $errors = MainCtrl::pushAssoc($errors, 'error_tema_id', '<i class="fas fa-exclamation-triangle"></i>Elige una categoría');
         }
 
         if (!isset($input['omitir-portada'])) {
@@ -101,6 +101,7 @@ class Nuevanoticia extends Render {
                     $params['tipo'] = 'noticia';
                     $params['tb_usuarios_id'] = $_SESSION['id'];
                     $params['entradas_titulo'] = htmlentities($params['entradas_titulo'], ENT_QUOTES, "UTF-8");
+                    $params['resumen'] = MainCtrl::resumir($params['cuerpo']);
                     $params['cuerpo'] = htmlentities($params['cuerpo'], ENT_QUOTES, "UTF-8");
                     $params['publicado'] = 0;
                     $params['tb_galeria_id'] = $tb_galeria_id;

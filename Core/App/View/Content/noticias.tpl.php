@@ -20,43 +20,59 @@ $categorias = $body['categorias'];
             <div class="list-categorias" style="overflow-y:auto">
                 <p class="cabecera-blog-uno">Categorias</p>
                 <ul class="bloque-list-categorias">
-                    <?php foreach ($categorias as $value) {
-                        echo '<li><a href="' . URL_BASE . 'categoria/' . $value['slug_categoria'] . '">' . $value['nombre_categoria'] . '</a></li>';
-                    } ?>
+                    <?php
+                    if (empty($categorias)) {
+                        echo '<p>No hay Categorías registradas</p>';
+                    } else {
+                        foreach ($categorias as $value) {
+                            echo '<li><a href="' . URL_BASE . 'categoria/' . $value['slug_categoria'] . '">' . $value['nombre_categoria'] . '</a></li>';
+                        }
+                    }
+                    ?>
                 </ul>
             </div>
-
+            
             <div class="bloque-foto-noticias">
                 <?php
-                echo '<div class="img-grid-noticias">
+                if (empty($hoy['entradas_titulo'])) {
+                    echo '<p>No hay Noticia destacada reciente</p>';
+                } else {
+                    echo '<div class="img-grid-noticias">
                     <div class="link-destacada">
                         <p class="txt-destacada-uno">' . $hoy['entradas_titulo'] . ' </p>
-                        <div class="txt-destacada-dos">' . substr($hoy['cuerpo'], 0, 120) . '...</div>
+                        <div class="txt-destacada-dos">' . $hoy['resumen'] . '...</div>
                         <div class="link-info-destacado">
                             <a href="' . URL_BASE . 'entrada/' . $hoy['tb_entradas_id'] . '">Leer más</a>
                         </div>
                     </div>
                     <img src="' . URL_PUBLIC . 'recursos/portadas/' . $hoy['portada'] . '" alt="">
                 </div>';
+                }
                 ?>
             </div>
 
             <div class="bloque-destacadas">
                 <p class="cabecera-blog-uno">Entradas destacadas</p>
-                <?php foreach ($destacados as $value) {
-                    echo '<div class="items-destacadas">
+                <?php
+                if (empty($destacados)) {
+                    echo '<p>No hay Noticias destacadas</p>';
+                } else {
+                    foreach ($destacados as $value) {
+                        echo '<div class="items-destacadas">
                     <div class="img-item-destacada">
                         <img src="' . URL_PUBLIC . 'recursos/portadas/' . $value['portada'] . '" alt="">
                     </div>
                     <div class="txt-item-destacadas">
                         <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
-                            <h5 class="titulo-destacadas">' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
+                            <h5 class="titulo-destacadas">' . $value['entradas_titulo'] . '</h5>' . $value['resumen'] . '...</p>
                         </a>
                     </div>
 
                 </div>';
 
-                } ?>
+                    }
+                }
+                ?>
             </div>
         </div>
         <!-- Fin uno -->
@@ -78,7 +94,7 @@ $categorias = $body['categorias'];
                         </div>
                         <div class="txt-item-reciente">
                             <a href="' . URL_BASE . 'entrada/' . $value['tb_entradas_id'] . '">
-                                <h5 class="titulo-destacadas">' . $value['entradas_titulo'] . '</h5>' . substr($value['cuerpo'], 0, 120) . '...</p>
+                                <h5 class="titulo-destacadas">' . $value['entradas_titulo'] . '</h5>' . $value['resumen'] . '...</p>
                             </a>
                         </div>
 

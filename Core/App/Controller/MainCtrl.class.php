@@ -247,6 +247,14 @@ class MainCtrl {
     return $string;
   }
 
+  public static function resumir($texto) {
+    $textoLimpio = strip_tags($texto);
+    if (mb_strlen($textoLimpio, 'UTF-8') > 120) {
+        $textoLimpio = mb_substr($textoLimpio, 0, 120, 'UTF-8');
+    }
+    return $textoLimpio;
+}
+
   /////////////Logout
 
   public static function logout() {
