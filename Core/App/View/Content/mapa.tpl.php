@@ -1,7 +1,7 @@
 <?php
 $pagina = $body['query'];
 $paginado = $body['paginado'];
-$mapas = $body['mapa'];
+$mapas = $body['mapa'] ?? [];
 $regiones = [
     1 => 'Atlántida',
     2 => 'Colón',
@@ -33,6 +33,7 @@ $region = $regiones[$query] ?? null;
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>mapa/">Administrar Centros de Salud</a>
             <a href="<?php echo URL_BASE ?>nuevomapa">Nuevo Centro de Salud</a>
+            <a href="<?php echo URL_BASE ?>subircsv"><i class="fas fa-database"></i> Subir .csv</a>
         </div>
     </div>
     <div class="selection">

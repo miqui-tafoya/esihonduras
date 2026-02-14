@@ -20,10 +20,16 @@ class MapaModel extends Model {
 
     // GETTERS
     private function getMapa($query) {
-        $sql = "SELECT * FROM tb_centros c
+        if (empty($query)) {
+            $sql = "SELECT * FROM tb_centros c
+        ORDER BY c.aldea DESC";
+            $data = $this->db->dbMYSQLCall_raw_ALL_ASSOC($sql);
+        } else {
+            $sql = "SELECT * FROM tb_centros c
         WHERE c.region = $query
         ORDER BY c.aldea DESC";
-        $data = $this->db->dbMYSQLCall_raw_ALL_ASSOC($sql);
+            $data = $this->db->dbMYSQLCall_raw_ALL_ASSOC($sql);
+        }
         return $data;
     }
 
@@ -31,12 +37,12 @@ class MapaModel extends Model {
     public function setIds() {
         $sql = "SELECT c.region FROM tb_centros c";
         $result = $this->db->dbMYSQLCall_raw_ALL_NUM($sql);
-        $temp = array_column($result,0);
+        $temp = array_column($result, 0);
         $temp = array_unique($temp);
         $temp = array_values($temp);
-        $temp = array_map('intval',$temp);
+        $temp = array_map('intval', $temp);
         sort($temp);
-        $this->existe = $temp;
+        $this->existe = !empty($temp) ? $temp : [1];
         $this->paginado = count($temp);
     }
     public function setMapa($query) {
@@ -48,7 +54,7 @@ class MapaModel extends Model {
             header('Location:' . URL_BASE . 'mapa/1');
             exit;
         }
-        $validation = in_array((int)$id, $this->existe, true);
+        $validation = in_array((int) $id, $this->existe, true);
         return $validation;
     }
 

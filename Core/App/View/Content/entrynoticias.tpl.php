@@ -23,7 +23,7 @@ if (isset($error)) {
         <p class="cabecera-uno">Administrar Noticias</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrynoticias/">Administrar Noticias</a>
-            <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticias</a>
+            <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticia</a>
         </div>
     </div>
     <div class="selection">

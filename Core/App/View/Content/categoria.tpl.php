@@ -1,7 +1,6 @@
 <?php
 $categoria = $body['categoria'];
 ?>
-<span id="breadcrumbs"><?php echo ($categoria['tipo'] === 'publica') ? 'informacionpublica' : 'noticias'; ?></span>
 <div id="main">
     <div class="contenedor-publica">
         <div class="cabecera-entrada">

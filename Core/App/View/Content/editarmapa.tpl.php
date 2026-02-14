@@ -34,6 +34,7 @@ $selectRegion = $post['region'] ?? $centro['region'] ?? '';
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>mapa/">Administrar Centros de Salud</a>
             <a href="<?php echo URL_BASE ?>nuevomapa">Nuevo Centro de Salud</a>
+            <a href="<?php echo URL_BASE ?>subircsv"><i class="fas fa-database"></i> Subir .csv</a>
         </div>
     </div>
     <form class="campos-admin" method="post">

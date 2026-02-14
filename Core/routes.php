@@ -114,6 +114,7 @@ use Controller\Madresypadres;
 use Controller\Jovenes;
 use Controller\Medios;
 use Controller\Cargarmedio;
+use Controller\Subircsv;
 
 // Instancia Globales
 $default_styles = ['start' => ['fonts/css/all.min', 'html', 'general', 'cabecera', 'footer', 'modal'], 'end' => ['mediaquery']];
@@ -685,6 +686,17 @@ $routeList->add(
 
 $routeList->add(
         'get',
+        '/subircsv',
+        'subircsv',
+        ['admin',
+                ['', ['admin']],
+                [[],
+                        []]],
+        ['admin', 'subircsv']
+);
+
+$routeList->add(
+        'get',
         '/usuarios/',
         'usuarios',
         ['admin',
@@ -789,6 +801,17 @@ $routeList->add(
         function () {
                 $post = new Medios;
                 $post->POST_handler_AJAX();
+        },
+        ['', ['', []], [[],[]]],
+        []
+);
+
+$routeList->add(
+        'post',
+        '/procesarcsv',
+        function () {
+                $post = new Subircsv;
+                $post->POST_handler_ASYNC();
         },
         ['', ['', []], [[],[]]],
         []

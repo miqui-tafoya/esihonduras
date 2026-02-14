@@ -22,7 +22,7 @@ $categorias = $body['categorias'];
         <p class="cabecera-uno">Nueva Noticia</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrynoticias/">Administrar Noticias</a>
-            <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticias</a>
+            <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticia</a>
         </div>
         <form class="campos-admin-entradas" method="post" enctype="multipart/form-data">
             <label for="entradas_titulo">Título <span

@@ -310,6 +310,101 @@ class Database {
     }
   }
 
+  // MÉTODOS PARA FETCH
+  public function truncateTable(string $table) {
+    $sql = "TRUNCATE TABLE $table";
+    $result = $this->conn->query($sql);
+    if (!$result) {
+      throw new \Exception('Error al vaciar la tabla: ' . $this->conn->error);
+    }
+    return true;
+  }
+
+  public function beginTransaction() {
+    return $this->conn->begin_transaction();
+  }
+
+  public function commit() {
+    return $this->conn->commit();
+  }
+
+  public function rollback() {
+    return $this->conn->rollback();
+  }
+
+  public function insertFromCSV(string $table, array $headers, $fileHandle) {
+    $types = str_repeat('s', count($headers));
+    $placeholders = implode(',', array_fill(0, count($headers), '?'));
+    $columns = implode(',', $headers);
+
+    $sql = "INSERT INTO $table ($columns) VALUES ($placeholders)";
+    $stmt = $this->conn->prepare($sql);
+
+    if (!$stmt) {
+      throw new \Exception('Error al preparar consulta: ' . $this->conn->error);
+    }
+
+    $rowCount = 0;
+
+    while (($data = fgetcsv($fileHandle, 1000, ',')) !== false) {
+      if (count($data) !== count($headers)) {
+        throw new \Exception("Fila inválida en línea " . ($rowCount + 2) . ": se esperaban " . count($headers) . " columnas, se encontraron " . count($data));
+      }
+
+      $stmt->bind_param($types, ...$data);
+
+      if (!$stmt->execute()) {
+        throw new \Exception('Error al insertar fila ' . ($rowCount + 1) . ': ' . $stmt->error);
+      }
+
+      $rowCount++;
+    }
+
+    $stmt->close();
+    return $rowCount;
+  }
+
+  public function replaceTableFromCSV(string $table, string $csvFilePath, array $expectedHeaders) {
+    $handle = fopen($csvFilePath, 'r');
+
+    if ($handle === false) {
+      throw new \Exception('No se pudo leer el archivo CSV');
+    }
+
+    try {
+      $headers = fgetcsv($handle, 1000, ',');
+
+      if ($headers === false) {
+        throw new \Exception('El archivo CSV está vacío');
+      }
+
+      if ($expectedHeaders !== null && $headers !== $expectedHeaders) {
+        throw new \Exception('Formato de CSV inválido. Columnas esperadas: ' . implode(', ', $expectedHeaders));
+      }
+
+      $this->beginTransaction();
+
+      $this->truncateTable($table);
+
+      $rowCount = $this->insertFromCSV($table, $headers, $handle);
+
+      $this->commit();
+
+      fclose($handle);
+
+      return [
+        'success' => true,
+        'message' => "Base de Datos actualizada exitosamente.",
+        'rowCount' => $rowCount
+      ];
+
+    } catch (\Exception $e) {
+      $this->rollback();
+      fclose($handle);
+      throw $e;
+    }
+  }
+
   public function __destruct() {
     mysqli_close($this->conn);
   }

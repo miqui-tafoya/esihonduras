@@ -25,7 +25,7 @@ $categoria_id = $post['categoria'] ?? $noticia['categoria'];
         <p class="cabecera-uno">Editar Noticia</p>
         <div class="botn-grupo">
             <a href="<?php echo URL_BASE ?>entrynoticias/">Administrar Noticias</a>
-            <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticias</a>
+            <a href="<?php echo URL_BASE ?>nuevanoticia">Nueva Noticia</a>
         </div>
         <form class="campos-admin-entradas" method="post" enctype="multipart/form-data">
                         <input type="hidden" name="tb_entradas_id"

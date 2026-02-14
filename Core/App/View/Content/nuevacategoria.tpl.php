@@ -17,11 +17,11 @@ if (!empty($responseParams)) {
                 class="form-error"><?php echo $error['error_tema'] ?? '' ?></span></label>
         <input id="tema-n" class="adm-txt" class="campo" type="text" name="nombre_categoria"
             value="<?php echo $post['nombre_categoria'] ?? '' ?>" onchange="llenar()">
-        <label for="slug_categoria">Slug <span class="form-error"><?php echo $error['error_slug'] ?? '' ?></span></label>
+        <label for="slug_categoria">Slug <span
+                class="form-error"><?php echo $error['error_slug'] ?? '' ?></span></label>
         <input id="tema-s" class="adm-txt" class="campo" type="text" name="slug_categoria"
             value="<?php echo $post['slug_categoria'] ?? '' ?>">
-        <label for="seccion">Sección <span
-                class="form-error"><?php echo $error['error_tipo'] ?? '' ?></span></label>
+        <label for="seccion">Sección <span class="form-error"><?php echo $error['error_tipo'] ?? '' ?></span></label>
         <select style="padding:0 0.5rem;text-transform:uppercase;" class="adm-txt" name="tipo">
             <option value=""></option>
             <option <?php if (isset($post['tipo']) && $post['tipo'] == 'publica'):
@@ -33,7 +33,7 @@ if (!empty($responseParams)) {
             endif; ?>
                 value="noticia">Noticias</option>
         </select>
-        <button style="margin-top:2rem;" class="btn-primario" type="submit" name="submit-nuevo">Agregar Categoria</button>
+        <button style="margin-top:2rem;" class="btn-primario" type="submit" name="submit-nuevo">Agregar
+            Categoria</button>
     </form>
-</div>
 </div>
