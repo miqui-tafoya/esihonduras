@@ -21,6 +21,12 @@ const ACTIVITY_TITLES = {
     'accordion-5': 'Entender lo esencial: Sexo, Género, Estudios de Género e Identidad',
     'quiz-6': 'Quiz: Diversidad sexual',
     'slides-4': 'Manejo del afecto y relaciones saludables en adolescentes',
+    'slides-5': '¿Cuáles son los tipos de violencia?',
+    'slides-6': 'Relaciones saludables y cambios',
+    'quiz-7': 'Quiz: Relaciones saludables y sexualidad',
+    'slides-7': 'Asertividad y comunicación verbal entre adolescentes y padres/madres',
+    'quiz-8': 'Quiz: Asertividad',
+    'slides-8': 'Cómo pueden madres y padres favorecer la autoestima en adolescentes',
 }
 function loadActivity(index) {
     $.ajax({
@@ -401,7 +407,7 @@ function getActivityLabel(key) {
     return key;
 }
 
-function goTo(){
+function goTo() {
     document.getElementById('actividad-container').scrollIntoView();
 }
 

@@ -678,7 +678,7 @@ Para mayor referencia, te invitamos a ver el vídeo 	<span class="hiper"> <a hre
  
 Es importante que niñas, niños y adolescentes reciban educación emocional para construir vínculos sanos que fortalezcan su bienestar físico y mental.
 </p>',
-              
+
                 2 => '<p class="cuerpo-texto">
                 Para hablar de relaciones saludables es importante hablar sobre violencia de género en las relaciones:
 
@@ -718,7 +718,372 @@ Conoce más sobre la <span class="hiper"> <a href="https://unric.org/es/la-viole
 <span>&#8226;</span> Porque estar consciente de la violencia y de nuestros derechos nos permite ser dueñas y dueños de nuestros cuerpos y decisiones.
 <span>&#8226;</span> Porque pueden tener la oportunidad que muchos padres y madres no tuvieron.</p>
 ',
-            ]
+            ],
+            'slides-5' => [
+                1 => '<p class="cuerpo-texto"> Violencia económica:
+Algunos ejemplos de violencia económica incluyen:</p>
+<p class="cuerpo-texto"> Aspectos que sustentan la violencia de género:
+
+	<span>&#8226;</span> Limitar o impedir que la víctima tenga acceso a dinero o bienes propios.
+	<span>&#8226;</span> Restringir su autonomía para trabajar o estudiar.
+	<span>&#8226;</span> Hacer que la víctima dependa económicamente de la persona agresora, dificultándole salir de la situación de violencia.
+	<span>&#8226;</span> Robar o destruir los recursos económicos de la víctima.
+	<span>&#8226;</span> Asignar tareas domésticas sin reconocimiento económico o sin permitirle obtener ingresos propios.
+</p>
+<p class="cuerpo-texto">Este tipo de violencia tiene un impacto profundo en la autonomía y libertad de la víctima, dificultando su capacidad para escapar de situaciones abusivas y afectando su dignidad y derechos.</p>',
+
+                2 => '<p class="cuerpo-texto">
+                Violencia emocional y psicológica:
+Consiste en el maltrato verbal, por ejemplo, insultos, comentarios descalificantes o degradantes. También ocurre cuando se minimizan los sentimientos de la otra persona, cuando se le manipula psicológicamente, cuando la interacción degrada y desgasta el autoestima.
+El maltrato emocional y psicológico, a diferencia del físico, muchas veces no se ve, pero tiene efectos importantes a corto, mediano y largo plazo.
+Las personas que viven violencia psicológica experimentan mucha confusión, generalmente se sienten culpables de la conducta del agresor, o buscan justificarlo.
+                </p>',
+                3 => '<p class="cuerpo-texto">Quienes son agresores se comportan como una buena pareja al principio y comienzan el maltrato después que la relación se ha establecido. Cuando este cambio de comportamiento ocurre, la persona puede sentir sorpresa, confusión, y hasta vergüenza. Sin embargo, el maltrato nunca es su culpa aunque el o la agresora diga lo contrario o aunque sus familiares o amistades le culpen por “permitir” el maltrato. 
+Muchas veces es difícil decidir si ciertos comportamientos son emocionalmente o psicológicamente maltratantes, especialmente si la persona  creció presenciando maltrato. Sin embargo, al igual que con otros tipos de violencia doméstica, este comportamiento tiene la intención de ganar y mantener poder y control. 
+</p>
+',
+                4 => '<p class="cuerpo-texto">Algunas señales de que una pareja está siendo emocional y psicológicamente maltratante incluyen:</span>
+<span>&#8226;</span> Humillarle frente a otras personas
+<span>&#8226;</span> Llamarle “estúpido/a”, “asqueroso/a”, o “inútil”
+<span>&#8226;</span> Enojarse de manera exagerada o sobre reaccionar al punto de causar miedo
+<span>&#8226;</span> Amenazar con hacer daño a personas importantes o a sus mascotas
+<span>&#8226;</span> Amenazar con hacerse daño a sí mismo/a cuando se molesta 
+<span>&#8226;</span> Decir cosas como: “si yo no puedo tenerte, entonces nadie podrá”;
+<span>&#8226;</span> Hablar o tomar decisiones e por la persona víctima , como la ropa que usará o lo que comerá
+<span>&#8226;</span> Comportarse de forma celosa y acusar constantemente de ser infiel
+<span>&#8226;</span> Fingir que no entiende lo que la otra persona está diciendo, haciéndole sentir estúpido/a o negándose a escuchar sus ideas y opiniones
+<span>&#8226;</span> Cuestionar los recuerdos o negar que un suceso haya ocurrido de la forma que la persona víctima dijo que ocurrió, aun cuando la persona agresora  sabe que la otra persona tiene la razón.
+<span>&#8226;</span> Cuestionar las ideas de la persona víctima  ideas de una forma que le haga sentir indigno/a
+<span>&#8226;</span> Hacer que sus necesidades o sentimientos parezcan insignificantes o menos importantes que los de la persona agresora.
+</p>
+',
+                5 => '<p class="cuerpo-texto">“Gaslighting” significa (manipular su percepción de la realidad)  es un tipo de maltrato emocional y psicológico que tiende a ocurrir poco a poco en una relación. El término “gaslighting” se usa para describir un patrón de comportamiento en el cual el/la agresor/a intencionalmente niega las acciones o eventos que ocurrieron de la forma en que usted sabe que ocurrieron. Muchas veces, un/a agresor/a distorsionar sus emociones, palabras y experiencias y las usará en su contra, lo cual causará que usted se cuestione su realidad, para que dude de su propio juicio y memoria, y para hacerle sentir que usted se está “volviendo loco/a”. Las señales de que usted está experimentando “gaslighting” incluyen:</p>
+<p class="cuerpo-texto">
+	<span>&#8226;</span> Sentirse confundido/a, “loco/a”, cuestionarse a usted mismo/a constantemente;
+<span>&#8226;</span> Preguntarse a sí mismo/a si está siendo “demasiado sensible”;
+<span>&#8226;</span> Tener problemas tomando decisiones sencillas;
+<span>&#8226;</span> Pedirle perdón a su pareja constantemente;
+<span>&#8226;</span> Inventar excusas frecuentemente para el comportamiento de su pareja;
+<span>&#8226;</span> Darse cuenta que está ocultando información a sus seres queridos;
+<span>&#8226;</span> Comenzar a mentir para evitar las humillaciones o distorsiones de la realidad;
+<span>&#8226;</span> Sentirse como que no puede hacer nada bien.
+<span>&#8226;</span> Preguntarse si usted es una pareja “lo suficientemente buena”.
+</p>
+<p class="cuerpo-texto">A la larga, estos comportamientos tienen el propósito de controlar, aislar o asustar, y a pesar que no dejan cicatrices físicas, pueden dejar traumas a largo plazo.</p>',
+
+                6 => '<p class="cuerpo-texto">
+                Violencia Sexual:
+La violencia sexual es -lamentablemente- una de las violencias más comunes en mujeres, niñas y adolescentes. La violencia sexual consiste en degradar, dañar el cuerpo y/o sexualidad de la persona, este tipo de violencia afecta su libertad pero también su dignidad, integridad, su salud. 
+La violencia sexual se puede dar de varias formas, por ejemplo: 
+                </p>
+                <p class="cuerpo-texto">
+<span>&#8226;</span> Acoso sexual
+<span>&#8226;</span> Violación 
+<span>&#8226;</span> Explotación sexual
+<span>&#8226;</span> Manipular, enganchar, forzar a tener relaciones sexuales 
+</p>',
+                7 => '<p class="cuerpo-texto">Violencia física:
+La violencia física es cualquier acción que busca dañar a una persona usando la fuerza física o algún tipo de objeto para generar intencionalmente un daño, este tipo de violencia puede darse desde las patadas, quemándola, pellizcándola, empujándola, dándole bofetadas, tirándole del cabello, mordiéndole, así como empleando cualquier otro tipo de fuerza física contra ella.
+</p>
+',
+                8 => '<p class="cuerpo-texto">Violencia Vicaria:
+La violencia vicaria es una forma de violencia de género por la cual los hijos e hijas de las mujeres víctimas de violencia de género son instrumentalizados como objeto para maltratar y ocasionar dolor a sus madres.
+La violencia vicaria puede tener diversas manifestaciones, pero entre las más comunes se encuentran:
+</span>
+<span>&#8226;</span> Amenazas de llevarse a los niños y niñas, quitarle la custodia o incluso matarlos.
+<span>&#8226;</span> Aprovechar la presencia de los hijos e hijas para insultar a la madre, hablar mal de ella, humillarla y amenazarla.
+<span>&#8226;</span> Interrumpir los tratamientos médicos o farmacológicos de los niños y niñas cuando deberían de estar en tratamiento.
+<span>&#8226;</span> Utilizar los momentos del régimen de visitas para inventarse información dolorosa acerca de las hijas e hijos o la ausencia de información durante esos días.
+</p>
+',
+                9 => '<p class="cuerpo-texto">Violencia digital 
+En las redes sociales, plataformas, videojuegos, haciendo uso de la Inteligencia artificial generativa para editar fotos y vídeos para molestar, hacer enojar a otras personas, compartir información que violente, todo lo antes mencionado es lo que llamamos violencia digital.
+La violencia digital es cualquier acción violenta realizada desde Internet o usando dispositivos tecnológicos que buscan agredir, violentar, vulnerar o exhibir la intimidad de una persona.
+</p>
+',
+                10 => '<p class="cuerpo-texto">Es importante  recordar que  la violencia digital:
+1.- La violencia digital es esa misma violencia que se da en las calles, escuelas, casas, pero ahora en otro lugar: Internet, las redes sociales, los videojuegos, etc.
+2.- La violencia digital se puede dar de muchas formas como ciberbullying, acoso, extorsión, fraude, suplantación de la identidad, etc. Este tema lo vamos a ver más adelante.
+3.-La violencia digital no sólo se queda en el celular o redes sociales, también sale de ahí,  afectando nuestro cuerpo, y lo que sentimos.
+4.- La violencia digital tiene efectos, causa daños, dolor, sufrimiento.
+5.- La violencia digital se puede viralizar.
+6.- No es necesario que te peguen para que sea violencia. </p>
+',
+                11 => '<p class="cuerpo-texto">Existen diferentes tipos de violencia digital, te compartimos algunos: 
+1.- Acceso o control no autorizado
+Cuando alguien entra a tus cuentas sin que tú estés de acuerdo o le dieras autorización.
+A veces decimos: ¡me hackearon!
+Este tipo de violencia también se puede dar dentro de la violencia en el noviazgo como una forma de control, pedir compartir cuenta de redes sociales, compartir  la contraseña con el pretexto de “seguridad”
+También esta presente como fraude desde el engaño solicitando información o enviando links para acceder a las cuentas sin autorización y suplantar la identidad.
+
+2.- Control y manipulación de la información
+Alteran o modifican información que tenías en tus redes sociales, en tu correo o en cualquier plataforma, sin que tú estuvieras de acuerdo o te dieras cuenta. Buscan dañar tu reputación.
+Ese chismecito de pasillo cuando llegas a la escuela.
+La manipulación de la información o contenido se puede realizar con cualquier editor incluyendo herramientas de Inteligencia artificial.</p>
+',
+                12 => '<p class="cuerpo-texto">3.- Suplantación y robo de identidad
+Se hacen pasar por ti, crean un perfil idéntico al tuyo.
+Por ejemplo, crean perfiles casi igualitos en Instagram, usan las mismas fotos, nombre, stories para hacerse pasar por ti.
+También desde el acceso no autorizado, pidiendo dinero desde WhatsApp.
+
+4.- Acoso
+Se puede dar de varias formas, por ejemplo, el envío reiterado de mensajes, comentarios en tus redes sociales, que te manden fotos o imágenes que tú no solicitaste, incluso aunque tú hayas pedido que dejaran de hacerlo.
+ 
+5.- Amenazas
+Recibir mensajes de contenido violento o también que hagan comentarios agresivos con la intención de dañarte, amenazándote a ti o a tus personas cercanas.
+</p>',
+                13 => '<p class="cuerpo-texto">6.- Difusión de información personal:
+Compartir o publicar información privada o datos tuyos (dirección, teléfono, nombre completo), por supuesto ¡sin tu autorización!
+En redes sociales y plataformas suelen mencionar esta violencia como Doxxing o me doxearon.
+ 
+7.- Difusión de contenido íntimo:
+Compartir o publicar fotografías, vídeos, o capturas de pantalla tuyas donde sales en ropa interior, desnuda o semi desnuda, sin tu consentimiento
+También pueden ser fotografías o vídeos donde aparezca tu rostro pero usando alguna herramienta digital la editan para desnudar el cuerpo. 
+Te invitamos a consultar 
+Mamás, papás y responsables  de crianza acompañando en sexualidad digital
+https://cultivandogeneroac.org/manual-de-sexualidad-digital-y-prevencion-de-la-violencia-digital-para-personas-con-discapacidad-visual/
+
+Mamás y papás en lo virtual, un viaje para conectarnos
+https://cultivandogeneroac.org/mamas-y-papas-en-lo-virtual-un-viaje-para-conectarnos/
+</p>',
+                14 => '<p class="cuerpo-texto">Violencia estructural y simbólica:
+Es todo tipo de ejercicio de poder que se ejecuta hacia una persona (generalmente mujeres o personas de grupos de opresión) que por pertenecer a ese grupo se consideran inferiores, de menor valor, con menos capacidad , etc.
+Esto lo podemos observar en lo simbólico, por ejemplo: el lenguaje, cuando se masculiniza y no se incluyen a las mujeres u otros grupos diversos. Otro ejemplo: cuando a una mujer se le paga menos por desempeñar el mismo trabajo que el hombre. 
+La violencia estructural o simbólica se refiere a aquella violencia que se ejerce de manera sistemática desde las Instituciones, los discursos, las prácticas sociales y que tiene un nivel de representación a nivel colectivo. Forma parte del sistema de creencias y muchas veces está tan incorporada que es difícil identificarla.
+</p>',
+                15 => '<p class="cuerpo-texto">¿Qué podemos hacer para generar un cambio?
+
+1.- Escuchar y creer a las víctimas y sobrevivientes 
+3.- Exigir respuestas y servicios adecuados para su prevenir y atender la violencia de género 
+4.- Comprender qué es el consentimiento y educar sobre ello
+5.- Conocer más sobre el tema de violencia de género e identificar organizaciones en las que  puedes ayudar 
+6.- Iniciar una conversación con tu grupo de amistades, familia, personas del trabajo, y comunidad
+7.- No callarte  ante la violencia de género, ¡denuncia!
+</p>',
+                16 => 'Directorios de prevención y atención a las Violencias 
+https://www.ciudadmujer.gob.hn/?page_id=3996
+Manda un mensaje de WhatsApp al 50412345678
+Ubicaciones y calendarios mensuales de los Centro Ciudad Mujer
+https://www.ciudadmujer.gob.hn/?page_id=3489
+',
+                17 => '<p class="cuerpo-texto">Consulta las 10 maneras para contribuir a erradicar la violencia contra las mujeres
+
+Acabar con la violencia de género es posible
+
+¿Qué puedes hacer tú?
+
+¿Qué pueden hacer los hombres para frenar la violencia?
+
+Para erradicar la violencia se necesita del trabajo de todas las personas. Es importante y necesario que los hombres se cuestionen las actitudes violentas, se informen, compartan con otros hombres, señalen, reflexionen y cambien actitudes. 
+
+<span>&#8226;</span> Te compartimos una lista de temas que puedes consultar y cuestionar con tus hijos: 
+<span>&#8226;</span> Reconocer que la violencia existe 
+<span>&#8226;</span> Posicionarse ante la violencia, no permitirla ni aplaudirla
+<span>&#8226;</span> Ser empático 
+<span>&#8226;</span> Buscar espacios para reflexionar sobre las violencias
+<span>&#8226;</span> Informarse sobre las causas y consecuencias de las violencias
+<span>&#8226;</span> Buscar apoyo y ayuda para prevenir factores de riesgo
+</p>
+'
+            ],
+            'slides-6' => [
+                1 => 'Como sociedad, queda  mucho por hacer con las juventudes. Proteger a las niñas y niños, su cuidado y educación es responsabilidad de todas las personas. Hay que:
+
+Educar en equidad a las niñas y niños 
+Evitar reforzar los estereotipos de género
+Dar oportunidad a las niñas, niños y adolescentes de ser quienes son.
+
+Para lograr relaciones saludables, se necesita difundir los valores de::
+Responsabilidad
+Autogestión
+Respeto 
+Empatía
+Prevención 
+
+Para favorecer relaciones saludables es importante trabajar, cultivar y desarrollar el BUEN TRATO
+',
+                2 => '¿Cómo se ejerce el buen trato?
+Resolución no violenta de conflictos: si no se puede solucionar, hay que despedirnos de manera no violenta.
+Hay que partir del buen trato personal para llevarlo a lo social y a proyectos de amor.
+Cuidarme, cuidar y dejarme cuidar.
+Tener espacios personales, reconocer emociones, reconocer deseos, respetar  mis límites, saber pedir, agradecer, pedir perdón, responsabilizarme de mi vida, tener proyectos propios (Fina Sanz)
+
+Las relaciones saludables se desarrollan y construyen desde el respeto, la equidad, la reciprocidad, la consideración mutua y la compasión. Implican un reto, ya que no es algo que  aprendimos, para muchas personas significa romper con antiguos aprendizajes, implica  un proceso de deconstrucción constante.
+',
+            ],
+            'quiz-7' => [
+                1 => [
+                    'q' => '<p>Si vivo violencia en el noviazgo o en mi relación de pareja, debo mantenerlo en secreto porque es algo humillante o que nadie debe saber</p>',
+                    'a' => false,
+                    'c' => '<p><b>Falso.</b><br>Si identificas violencia o te sientes muy mal dentro de tu relación, es importante que hables con alguien, eso podría ayudar a recibir ayuda y poder entender lo que te sucede y salir de esa situación, ¡no es tu culpa!</p>'
+                ],
+                2 => [
+                    'q' => '<p>Está bien acceder a tener relaciones sexuales si no me siento segura o seguro</p>',
+                    'a' => false,
+                    'c' => '<p><b>Falso.</b><br>A veces por temor a perder a la otra persona, por dar “una prueba de amor”, por sentirnos presionados, podemos acceder a tener relaciones sexuales sin estar seguros y segura. Es muy importante que esa decisión sea tuya, independientemente de lo que la otra persona quiera. Es importante hablar con un adulto(a) de confianza.</p>'
+                ],
+                3 => [
+                    'q' => '<p>Es normal sentir miedo a las reacciones de mi pareja, es decir, tener miedo a su enojo todo el tiempo</p>',
+                    'a' => false,
+                    'c' => '<p><b>Falso.</b><br>El vivir con miedo en una relación de noviazgo o pareja puede ser un indicador de que se está viviendo violencia de tipo psicológica o emocional. En las relaciones sanas una se puede sentir libre y sin miedo.</p>'
+                ],
+                4 => [
+                    'q' => '<p>En las relaciones sanas hay libertad para ser una misma</p>',
+                    'a' => true,
+                    'c' => '<p><b>Verdadero.</b><br>En las relaciones sanas, las personas  se deben sentir libres  de poder ser quienes son, no existen mecanismos de control y cada persona puede desarrollarse. Las dos personas dan y reciben, existe el buen trato y el interés mutuo por el bienestar.</p>'
+                ]
+            ],
+            'slides-7' => [
+                1 => 'La comunicación abierta y asertiva entre adolescentes y sus madres, padres o personas cuidadoras es fundamental para fortalecer los lazos familiares y acompañar el crecimiento sano.
+ 
+Ser asertivo significa expresar pensamientos, emociones y necesidades de manera clara y respetuosa, sin miedo ni agresividad. Esto permite resolver conflictos, entender puntos de vista distintos y construir confianza.
+ 
+Las madres y padres que practican la escucha activa, muestran interés genuino y respetan la opinión de sus hijas e hijos fomentan un ambiente seguro donde se puede hablar de temas difíciles, como sexualidad y emociones.
+',
+                2 => '¿Cómo puedo ser una madre o padre asertivo con mis hijas e hijos?
+
+Ser una persona asertiva no es fácil, a veces podemos ser agresivas y agresivos al comunicar algo, o bien, ser pasivos, es decir, no decimos las cosas para evitar conflictos.
+Esta forma de comunicarnos puede hacer que lo que queremos transmitir no sea escuchado, para ser asertivas y asertivos es importante comunicar lo que queremos o lo que necesitamos de manera clara y directa.
+Una buena manera de hacerlo es la siguiente:
+
+Expresar lo que sentimos o pensamos
+Expresar lo que queremos
+Evitar juzgar
+Evitar culpar
+Evitar sentenciar o regañar
+',
+                3 => 'Es importante preguntar a nuestro hijo o hija ¿Cómo se siente con lo que le estamos comunicando? ¿Qué piensa al respecto?
+Explicar el por qué le decimos o le pedimos algo puede ayudar, ya que tenemos alguna razón importante para decirle lo que le estamos pidiendo.
+
+Para ser asertivas y asertivos también nos permite acercarnos emocionalmente, poner límites cuando son necesarios y ayuda a generar empatía, es decir que la otra persona pueda entendernos, ya que al expresar nuestros sentimientos, pensamientos o necesidades la otra persona puede saber más a profundidad lo que nos pasa.
+',
+                4 => 'En ocasiones las madres o padres reaccionamos desde nuestras emociones, pero no somos claras en lo que realmente queremos transmitir.
+
+La asertividad nos ayuda a mantener conversaciones incómodas sin que la otra persona se cierre, ayuda a abrir el diálogo.
+
+En los temas de sexualidad es de vital importancia sabernos comunicar con los hijos e hijas, ya que nosotras las madres y padres podemos ser un soporte importante y acompañar.',
+                5 => '¿Cómo ser parte de la red de apoyo de mi hijo o hija adolescente?
+
+La red de apoyo es el sostén físico, emocional o psicológico al que suele acudir alguien cuando está en apuros, se siente mal o vive alguna situación importante. También la red de apoyo es para compartir noticias importantes, alegrías, festejos.
+Desafortunadamente no siempre la familia representa una red de apoyo real para las y los jóvenes, muchas veces los padres o madres por cuestiones económicas o sociales no están cerca emocionalmente, o bien, no se encuentran disponibles.
+',
+                6 => 'Aquí hay algunas recomendaciones para favorecer y facilitar ser parte de la red de apoyo de tus hijos o hijas:
+<span>&#8226;</span> Es mi lugar seguro
+<span>&#8226;</span> No me juzga
+<span>&#8226;</span> Puedo hablar en cualquier momento si lo necesito
+<span>&#8226;</span> Puedo hablar de cualquier tema
+<span>&#8226;</span> No me hace sentir condicionado(a)
+<span>&#8226;</span> Le tengo confianza
+<span>&#8226;</span> No me invalida
+<span>&#8226;</span> Tiene capacidad de escucha
+<span>&#8226;</span> No opina, si no le pido opinión
+<span>&#8226;</span> Puede ayudarme a tomar decisiones buenas para mi
+<span>&#8226;</span> Puede ayudar a resolver situaciones cuando yo no puedo
+',
+            ],
+            'quiz-8' => [
+                1 => [
+                    'q' => '<p>¿Una manera de mostrar madurez es ocultando los sentimientos?</p>',
+                    'a' => false,
+                    'c' => '<p><b>Falso.</b><br>La madurez no consiste en ocultar nuestros sentimientos sino es saberlos expresar.</p>'
+                ],
+                2 => [
+                    'q' => '<p>Se puede ser asertiva o asertivo con los hijos e hijas adolescentes</p>',
+                    'a' => true,
+                    'c' => '<p><b>Verdadero.</b><br>Podemos expresar lo que sentimos y pensamos sin regañar, diciendo claramente lo que nos preocupa o poner límites sin necesidad de agredir. las adolescencias pueden responder de manera receptiva y positiva cuando hay escucha y empatía.</p>'
+                ],
+                3 => [
+                    'q' => '<p>¿Si algo ya se comunicó una vez, no hace falta repetirlo?</p>',
+                    'a' => false,
+                    'c' => '<p><b>Falso.</b><br>Muchas veces lo que decimos no queda claro la primera vez, pero si se plantea de formas diferentes se va aclarando, solo hay que tener en cuenta el cómo lo hacemos y el cuándo lo hacemos.</p>'
+                ],
+                4 => [
+                    'q' => '<p>¿Para ser asertivo y asertiva se requiere práctica?</p>',
+                    'a' => true,
+                    'c' => '<p><b>Verdadero.</b><br>Ser asertivo requiere mucho ensayo y error, ya que no nos enseñaron a expresar de manera adecuada nuestras emociones y necesidades.</p>'
+                ],
+                5 => [
+                    'q' => '<p>¿Es mejor evitar conversaciones incómodas con los hijos e hijas?</p>',
+                    'a' => false,
+                    'c' => '<p><b>Falso.</b><br>A veces evitar el conflicto solo es una manera de aplazarlo, tarde o temprano el malestar que no se habla termina expresándose de otras maneras, de manera física o con el comportamiento de los hijos o de nosotros mismos como padres o madres. Es preferible expresar de manera clara, directa y oportuna que postergar el conflicto.</p>'
+                ]
+            ],
+            'slides-8' => [
+                1 => 'La autoestima es la valoración que una persona tiene de sí misma. Para las niñas, niños y adolescentes, una autoestima saludable es clave para su desarrollo integral.
+
+Madres y padres pueden ayudar fortaleciendo el cariño, reconociendo los logros y esfuerzos, apoyando sus intereses y respetando sus decisiones. Evitar comparaciones, críticas destructivas o exigir perfección contribuye a que las y los adolescentes se sientan seguros y capaces.
+',
+                2 => 'Un ambiente familiar de apoyo y respeto les permite enfrentar retos, desarrollar resiliencia y construir un proyecto de vida positivo.
+
+Ayudar a que los hijos e hijas se conozcan a sí mismos puede ser vital para entenderse, aceptarse y valorarse.
+Hay necesidades básicas que las y los hijos necesitan por parte de las personas adultas que les rodean:
+
+Amor
+Aceptación
+Aprobación
+Reconocimiento
+',
+                3 => 'Actividad 3: Reconocimiento de logros
+A menudo recuerda a tus hijas e hijos sus logros e invitales a que ellas y ellos mismos lo hagan, por más pequeños o cotidianos que sean. 
+Los logros no siempre deben ser académicos, también hay logros cuando enfrentamos algún miedo o situación que nos es difícil.
+El reconocer logros nos da una sensación de capacidad y suficiencia.
+',
+                4 => 'Actividad 4: Aceptar el malestar y los fallos también es parte de cultivar el autoestima
+Culturalmente nos enseñan a que siempre debemos poder con todo y sentirnos bien en todo momento, pero la realidad es que humanamente esto no es posible. El poder reconocer y aceptar que no puedo con todo, me ayuda a aceptar mi verdadera capacidad.
+El poder aceptar que en ocasiones la tristeza, el cansancio, el enojo, son parte de la vida. la aceptación de nuestra realidad emocional nos permite lidiar mejor con nuestras emociones y favorece nuestra valía personal.
+
+Ayuda a tu hijo e hija a identificar sus emociones:
+¿Cómo te sientes?
+¿Cómo se siente tu cuerpo con esto que te pasa?
+¿Dónde lo sientes?
+Está bien sentirse —------------- (triste, enojado, confundido, etc)
+',
+                5 => 'La importancia de la autoestima y su relación con la sexualidad en adolescentes
+La autoestima influye directamente en cómo niñas, niños y adolescentes viven su sexualidad. Quienes se valoran y respetan a sí mismos tienen más probabilidades de tomar decisiones responsables, proteger su salud y exigir respeto en sus relaciones. 
+Una autoestima sana también ayuda a prevenir embarazos no deseados, infecciones de transmisión sexual y relaciones abusivas. Por eso, promover el amor propio y el autocuidado debe ser parte de la educación sexual integral.
+La importancia de la educación sexual para que adolescentes decidan sobre su cuerpo y vida.
+',
+                6 => 'La educación sexual integral brinda a niñas, niños y adolescentes información veraz, herramientas y habilidades para conocer y cuidar su cuerpo, entender sus emociones y tomar decisiones libres y responsables.
+Con educación sexual, pueden reconocer sus derechos, identificar situaciones de riesgo y buscar ayuda. Esta educación debe incluir temas de género, identidad, orientación, afectividad y prevención de embarazos e infecciones.
+El derecho a decidir sobre el propio cuerpo es fundamental para una vida plena y libre de violencia.
+',
+                7 => 'La importancia de la participación de madres y padres en la planificación del proyecto de vida de sus hijas e hijos
+
+El acompañamiento de madres, padres y personas cuidadoras en la vida de las y los adolescentes es esencial para que puedan construir un proyecto de vida con sentido.
+Cuando las familias participan, escuchan y apoyan los sueños y aspiraciones de sus hijas e hijos, fomentan la confianza, la motivación y la autoestima. Esto reduce riesgos de embarazos tempranos, abandono escolar o conductas de riesgo. 
+Una comunicación respetuosa y el acompañamiento activo fortalecen la autonomía y las capacidades para enfrentar los desafíos del presente y futuro.
+',
+                8 => 'Algunas preguntas que puedes hacer a tus hijos e hijas para apoyar en la proyección de su proyecto de vida.
+¿Cómo te gustaría vivir cuando seas grande?
+¿Qué no te gustaría que pasara con tu vida?
+¿Hay algo que te apasione?
+¿Cuáles son tus talentos?
+¿A qué te gustaría dedicarte?
+¿Te gustaría tener hijos o hijas?
+¿Cómo te imaginas tu vida en unos años?
+¿Qué sientes que en el presente te gustaría hacer para construir tu futuro?
+',
+                9 => 'Bibliografía Actualizada sobre Educación Sexual Integral para Adolescentes
+
+Libros y Guías Recomendadas
+"La Soberanía de Nuestros Cuerpos" – Fabiana Taul (2022)
+Una obra escrita por la ginecóloga y activista transfeminista Fabiana Taul, que aborda temas de salud sexual y reproductiva desde una perspectiva inclusiva y empoderadora.
+ 
+"Hablemos de Eso, Sexo" – Silvia Delgado (2024)
+Guía diseñada para facilitar la educación sexual en familias y colegios, incluyendo temas como el impacto de la pornografía y el manejo de contenidos inapropiados en la era digital.
+ 
+"Educación Sexual Integral" – UNESCO (2021)
+Documento oficial que establece los lineamientos para una educación sexual integral, destacando su importancia para el desarrollo saludable de los adolescentes.
+ 
+"Educación Sexual Integral: Un Derecho de Niñas, Niños y Adolescentes" – Ministerio de las Mujeres, Géneros y Diversidad de Argentina (2020)
+Publicación que resalta la ESI como un derecho fundamental, abordando su implementación y beneficios en el ámbito educativo.
+ 
+"Educación Sexual Integral para Adolescentes" – UNFPA (2022)
+Guía práctica que ofrece estrategias para la implementación de la ESI en contextos formales y no formales, enfocándose en adolescentes.
+
+100 preguntas sobre sexualidad adolescente
+',
+            ],
         ];
         return $data;
     }
