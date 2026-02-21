@@ -720,9 +720,9 @@ Conoce más sobre la <span class="hiper"> <a href="https://unric.org/es/la-viole
 ',
             ],
             'slides-5' => [
-                1 => '<p class="cuerpo-texto"> Violencia económica:
-Algunos ejemplos de violencia económica incluyen:</p>
-<p class="cuerpo-texto"> Aspectos que sustentan la violencia de género:
+                1 => '<p class="cuerpo-texto cabecera-bold"> Violencia económica:</p>
+<p class="cuerpo-texto">Algunos ejemplos de violencia económica incluyen:</br>
+ Aspectos que sustentan la violencia de género:
 
 	<span>&#8226;</span> Limitar o impedir que la víctima tenga acceso a dinero o bienes propios.
 	<span>&#8226;</span> Restringir su autonomía para trabajar o estudiar.
@@ -732,9 +732,9 @@ Algunos ejemplos de violencia económica incluyen:</p>
 </p>
 <p class="cuerpo-texto">Este tipo de violencia tiene un impacto profundo en la autonomía y libertad de la víctima, dificultando su capacidad para escapar de situaciones abusivas y afectando su dignidad y derechos.</p>',
 
-                2 => '<p class="cuerpo-texto">
-                Violencia emocional y psicológica:
-Consiste en el maltrato verbal, por ejemplo, insultos, comentarios descalificantes o degradantes. También ocurre cuando se minimizan los sentimientos de la otra persona, cuando se le manipula psicológicamente, cuando la interacción degrada y desgasta el autoestima.
+                2 => '<p class="cabecera-bold">
+                Violencia emocional y psicológica:</p>
+<p class="cuerpo-texto">Consiste en el maltrato verbal, por ejemplo, insultos, comentarios descalificantes o degradantes. También ocurre cuando se minimizan los sentimientos de la otra persona, cuando se le manipula psicológicamente, cuando la interacción degrada y desgasta el autoestima.
 El maltrato emocional y psicológico, a diferencia del físico, muchas veces no se ve, pero tiene efectos importantes a corto, mediano y largo plazo.
 Las personas que viven violencia psicológica experimentan mucha confusión, generalmente se sienten culpables de la conducta del agresor, o buscan justificarlo.
                 </p>',
@@ -742,8 +742,8 @@ Las personas que viven violencia psicológica experimentan mucha confusión, gen
 Muchas veces es difícil decidir si ciertos comportamientos son emocionalmente o psicológicamente maltratantes, especialmente si la persona  creció presenciando maltrato. Sin embargo, al igual que con otros tipos de violencia doméstica, este comportamiento tiene la intención de ganar y mantener poder y control. 
 </p>
 ',
-                4 => '<p class="cuerpo-texto">Algunas señales de que una pareja está siendo emocional y psicológicamente maltratante incluyen:</span>
-<span>&#8226;</span> Humillarle frente a otras personas
+                4 => '<p class="cabecera-bold">Algunas señales de que una pareja está siendo emocional y psicológicamente maltratante incluyen:</p>
+<p class="cuerpo-texto"><span>&#8226;</span> Humillarle frente a otras personas
 <span>&#8226;</span> Llamarle “estúpido/a”, “asqueroso/a”, o “inútil”
 <span>&#8226;</span> Enojarse de manera exagerada o sobre reaccionar al punto de causar miedo
 <span>&#8226;</span> Amenazar con hacer daño a personas importantes o a sus mascotas
@@ -757,9 +757,8 @@ Muchas veces es difícil decidir si ciertos comportamientos son emocionalmente o
 <span>&#8226;</span> Hacer que sus necesidades o sentimientos parezcan insignificantes o menos importantes que los de la persona agresora.
 </p>
 ',
-                5 => '<p class="cuerpo-texto">“Gaslighting” significa (manipular su percepción de la realidad)  es un tipo de maltrato emocional y psicológico que tiende a ocurrir poco a poco en una relación. El término “gaslighting” se usa para describir un patrón de comportamiento en el cual el/la agresor/a intencionalmente niega las acciones o eventos que ocurrieron de la forma en que usted sabe que ocurrieron. Muchas veces, un/a agresor/a distorsionar sus emociones, palabras y experiencias y las usará en su contra, lo cual causará que usted se cuestione su realidad, para que dude de su propio juicio y memoria, y para hacerle sentir que usted se está “volviendo loco/a”. Las señales de que usted está experimentando “gaslighting” incluyen:</p>
-<p class="cuerpo-texto">
-	<span>&#8226;</span> Sentirse confundido/a, “loco/a”, cuestionarse a usted mismo/a constantemente;
+                5 => '<p class="cuerpo-texto"><span class="cabecera-bold" >“Gaslighting”</span> significa (manipular su percepción de la realidad)  es un tipo de maltrato emocional y psicológico que tiende a ocurrir poco a poco en una relación. El término “gaslighting” se usa para describir un patrón de comportamiento en el cual el/la agresor/a intencionalmente niega las acciones o eventos que ocurrieron de la forma en que usted sabe que ocurrieron. Muchas veces, un/a agresor/a distorsionar sus emociones, palabras y experiencias y las usará en su contra, lo cual causará que usted se cuestione su realidad, para que dude de su propio juicio y memoria, y para hacerle sentir que usted se está “volviendo loco/a”. Las señales de que usted está experimentando “gaslighting” incluyen:</br>
+<span>&#8226;</span> Sentirse confundido/a, “loco/a”, cuestionarse a usted mismo/a constantemente;
 <span>&#8226;</span> Preguntarse a sí mismo/a si está siendo “demasiado sensible”;
 <span>&#8226;</span> Tener problemas tomando decisiones sencillas;
 <span>&#8226;</span> Pedirle perdón a su pareja constantemente;
@@ -768,40 +767,37 @@ Muchas veces es difícil decidir si ciertos comportamientos son emocionalmente o
 <span>&#8226;</span> Comenzar a mentir para evitar las humillaciones o distorsiones de la realidad;
 <span>&#8226;</span> Sentirse como que no puede hacer nada bien.
 <span>&#8226;</span> Preguntarse si usted es una pareja “lo suficientemente buena”.
-</p>
-<p class="cuerpo-texto">A la larga, estos comportamientos tienen el propósito de controlar, aislar o asustar, y a pesar que no dejan cicatrices físicas, pueden dejar traumas a largo plazo.</p>',
+
+A la larga, estos comportamientos tienen el propósito de controlar, aislar o asustar, y a pesar que no dejan cicatrices físicas, pueden dejar traumas a largo plazo.</p>',
 
                 6 => '<p class="cuerpo-texto">
-                Violencia Sexual:
+                <span class="cabecera-bold">Violencia Sexual:</span></br>
 La violencia sexual es -lamentablemente- una de las violencias más comunes en mujeres, niñas y adolescentes. La violencia sexual consiste en degradar, dañar el cuerpo y/o sexualidad de la persona, este tipo de violencia afecta su libertad pero también su dignidad, integridad, su salud. 
-La violencia sexual se puede dar de varias formas, por ejemplo: 
-                </p>
-                <p class="cuerpo-texto">
+La violencia sexual se puede dar de varias formas, por ejemplo: </br>
 <span>&#8226;</span> Acoso sexual
 <span>&#8226;</span> Violación 
 <span>&#8226;</span> Explotación sexual
 <span>&#8226;</span> Manipular, enganchar, forzar a tener relaciones sexuales 
 </p>',
-                7 => '<p class="cuerpo-texto">Violencia física:
+                7 => '<p class="cuerpo-texto"> <span class="cabecera-bold">Violencia física: </span></br>
 La violencia física es cualquier acción que busca dañar a una persona usando la fuerza física o algún tipo de objeto para generar intencionalmente un daño, este tipo de violencia puede darse desde las patadas, quemándola, pellizcándola, empujándola, dándole bofetadas, tirándole del cabello, mordiéndole, así como empleando cualquier otro tipo de fuerza física contra ella.
 </p>
 ',
-                8 => '<p class="cuerpo-texto">Violencia Vicaria:
+                8 => '<p class="cuerpo-texto"><span class="cabecera-bold">Violencia Vicaria:</span> </br>
 La violencia vicaria es una forma de violencia de género por la cual los hijos e hijas de las mujeres víctimas de violencia de género son instrumentalizados como objeto para maltratar y ocasionar dolor a sus madres.
-La violencia vicaria puede tener diversas manifestaciones, pero entre las más comunes se encuentran:
-</span>
+La violencia vicaria puede tener diversas manifestaciones, pero entre las más comunes se encuentran:</br>
 <span>&#8226;</span> Amenazas de llevarse a los niños y niñas, quitarle la custodia o incluso matarlos.
 <span>&#8226;</span> Aprovechar la presencia de los hijos e hijas para insultar a la madre, hablar mal de ella, humillarla y amenazarla.
 <span>&#8226;</span> Interrumpir los tratamientos médicos o farmacológicos de los niños y niñas cuando deberían de estar en tratamiento.
 <span>&#8226;</span> Utilizar los momentos del régimen de visitas para inventarse información dolorosa acerca de las hijas e hijos o la ausencia de información durante esos días.
 </p>
 ',
-                9 => '<p class="cuerpo-texto">Violencia digital 
+                9 => '<p class="cuerpo-texto"><span class="cabecera-bold">Violencia digital </span></br>
 En las redes sociales, plataformas, videojuegos, haciendo uso de la Inteligencia artificial generativa para editar fotos y vídeos para molestar, hacer enojar a otras personas, compartir información que violente, todo lo antes mencionado es lo que llamamos violencia digital.
 La violencia digital es cualquier acción violenta realizada desde Internet o usando dispositivos tecnológicos que buscan agredir, violentar, vulnerar o exhibir la intimidad de una persona.
 </p>
 ',
-                10 => '<p class="cuerpo-texto">Es importante  recordar que  la violencia digital:
+                10 => '<p class="cuerpo-texto"><span class="cabecera-bold">Es importante  recordar que  la violencia digital:</span></br>
 1.- La violencia digital es esa misma violencia que se da en las calles, escuelas, casas, pero ahora en otro lugar: Internet, las redes sociales, los videojuegos, etc.
 2.- La violencia digital se puede dar de muchas formas como ciberbullying, acoso, extorsión, fraude, suplantación de la identidad, etc. Este tema lo vamos a ver más adelante.
 3.-La violencia digital no sólo se queda en el celular o redes sociales, también sale de ahí,  afectando nuestro cuerpo, y lo que sentimos.
@@ -809,49 +805,50 @@ La violencia digital es cualquier acción violenta realizada desde Internet o us
 5.- La violencia digital se puede viralizar.
 6.- No es necesario que te peguen para que sea violencia. </p>
 ',
-                11 => '<p class="cuerpo-texto">Existen diferentes tipos de violencia digital, te compartimos algunos: 
-1.- Acceso o control no autorizado
+                11 => '<p class="cuerpo-texto">	<span class="cabecera-bold"> Existen diferentes tipos de violencia digital, te compartimos algunos:</span></br> 
+<span class="cabecera-bold">1.- Acceso o control no autorizado</span>
 Cuando alguien entra a tus cuentas sin que tú estés de acuerdo o le dieras autorización.
 A veces decimos: ¡me hackearon!
 Este tipo de violencia también se puede dar dentro de la violencia en el noviazgo como una forma de control, pedir compartir cuenta de redes sociales, compartir  la contraseña con el pretexto de “seguridad”
 También esta presente como fraude desde el engaño solicitando información o enviando links para acceder a las cuentas sin autorización y suplantar la identidad.
 
-2.- Control y manipulación de la información
+<span class="cabecera-bold">2.- Control y manipulación de la información</span>
 Alteran o modifican información que tenías en tus redes sociales, en tu correo o en cualquier plataforma, sin que tú estuvieras de acuerdo o te dieras cuenta. Buscan dañar tu reputación.
 Ese chismecito de pasillo cuando llegas a la escuela.
 La manipulación de la información o contenido se puede realizar con cualquier editor incluyendo herramientas de Inteligencia artificial.</p>
 ',
-                12 => '<p class="cuerpo-texto">3.- Suplantación y robo de identidad
+                12 => '<p class="cuerpo-texto">	<span class="cabecera-bold">3.- Suplantación y robo de identidad</span>
 Se hacen pasar por ti, crean un perfil idéntico al tuyo.
 Por ejemplo, crean perfiles casi igualitos en Instagram, usan las mismas fotos, nombre, stories para hacerse pasar por ti.
 También desde el acceso no autorizado, pidiendo dinero desde WhatsApp.
 
-4.- Acoso
+<span class="cabecera-bold">4.- Acoso</span>
 Se puede dar de varias formas, por ejemplo, el envío reiterado de mensajes, comentarios en tus redes sociales, que te manden fotos o imágenes que tú no solicitaste, incluso aunque tú hayas pedido que dejaran de hacerlo.
  
-5.- Amenazas
+<span class="cabecera-bold">5.- Amenazas</span>
 Recibir mensajes de contenido violento o también que hagan comentarios agresivos con la intención de dañarte, amenazándote a ti o a tus personas cercanas.
 </p>',
-                13 => '<p class="cuerpo-texto">6.- Difusión de información personal:
+                13 => '<p class="cuerpo-texto">	<span class="cabecera-bold">6.- Difusión de información personal:</span>
 Compartir o publicar información privada o datos tuyos (dirección, teléfono, nombre completo), por supuesto ¡sin tu autorización!
 En redes sociales y plataformas suelen mencionar esta violencia como Doxxing o me doxearon.
  
-7.- Difusión de contenido íntimo:
+	<span class="cabecera-bold">7.- Difusión de contenido íntimo:</span>
 Compartir o publicar fotografías, vídeos, o capturas de pantalla tuyas donde sales en ropa interior, desnuda o semi desnuda, sin tu consentimiento
-También pueden ser fotografías o vídeos donde aparezca tu rostro pero usando alguna herramienta digital la editan para desnudar el cuerpo. 
+También pueden ser fotografías o vídeos donde aparezca tu rostro pero usando alguna herramienta digital la editan para desnudar el cuerpo.</br> 
 Te invitamos a consultar 
+	
 Mamás, papás y responsables  de crianza acompañando en sexualidad digital
-https://cultivandogeneroac.org/manual-de-sexualidad-digital-y-prevencion-de-la-violencia-digital-para-personas-con-discapacidad-visual/
+<span class="btn-enlace"><a href="https://cultivandogeneroac.org/manual-de-sexualidad-digital-y-prevencion-de-la-violencia-digital-para-personas-con-discapacidad-visual/"target="_blank">Ir a información</a>  </span>
 
 Mamás y papás en lo virtual, un viaje para conectarnos
-https://cultivandogeneroac.org/mamas-y-papas-en-lo-virtual-un-viaje-para-conectarnos/
+<span class="btn-enlace"> <a href="https://cultivandogeneroac.org/mamas-y-papas-en-lo-virtual-un-viaje-para-conectarnos/" target="_blank">Ir a información </a>   </span>
 </p>',
-                14 => '<p class="cuerpo-texto">Violencia estructural y simbólica:
+                14 => '<p class="cuerpo-texto">	<span class="cabecera-bold"> Violencia estructural y simbólica:</span> </br>
 Es todo tipo de ejercicio de poder que se ejecuta hacia una persona (generalmente mujeres o personas de grupos de opresión) que por pertenecer a ese grupo se consideran inferiores, de menor valor, con menos capacidad , etc.
 Esto lo podemos observar en lo simbólico, por ejemplo: el lenguaje, cuando se masculiniza y no se incluyen a las mujeres u otros grupos diversos. Otro ejemplo: cuando a una mujer se le paga menos por desempeñar el mismo trabajo que el hombre. 
 La violencia estructural o simbólica se refiere a aquella violencia que se ejerce de manera sistemática desde las Instituciones, los discursos, las prácticas sociales y que tiene un nivel de representación a nivel colectivo. Forma parte del sistema de creencias y muchas veces está tan incorporada que es difícil identificarla.
 </p>',
-                15 => '<p class="cuerpo-texto">¿Qué podemos hacer para generar un cambio?
+                15 => '<p class="cuerpo-texto">	<span class="cabecera-bold">¿Qué podemos hacer para generar un cambio?</span>
 
 1.- Escuchar y creer a las víctimas y sobrevivientes 
 3.- Exigir respuestas y servicios adecuados para su prevenir y atender la violencia de género 
@@ -860,13 +857,15 @@ La violencia estructural o simbólica se refiere a aquella violencia que se ejer
 6.- Iniciar una conversación con tu grupo de amistades, familia, personas del trabajo, y comunidad
 7.- No callarte  ante la violencia de género, ¡denuncia!
 </p>',
-                16 => 'Directorios de prevención y atención a las Violencias 
-https://www.ciudadmujer.gob.hn/?page_id=3996
-Manda un mensaje de WhatsApp al 50412345678
+                16 => '<p class="cuerpo-texto">Directorios de prevención y atención a las Violencias 
+
+Manda un mensaje de WhatsApp al <span class="cabecera-bold"> 50412345678</span>
+<span class="btn-enlace"><a href="https://www.ciudadmujer.gob.hn/?page_id=3996" target="_blank"> Ir a información </a> </span>
 Ubicaciones y calendarios mensuales de los Centro Ciudad Mujer
-https://www.ciudadmujer.gob.hn/?page_id=3489
+<span class="btn-enlace"><a href="https://www.ciudadmujer.gob.hn/?page_id=3489" target="_blank"> Ir a información </a></span>
+</p>
 ',
-                17 => '<p class="cuerpo-texto">Consulta las 10 maneras para contribuir a erradicar la violencia contra las mujeres
+                17 => '<p class="cuerpo-texto">	<span class="cabecera-bold">Consulta las 10 maneras para contribuir a erradicar la violencia contra las mujeres</span>
 
 Acabar con la violencia de género es posible
 
