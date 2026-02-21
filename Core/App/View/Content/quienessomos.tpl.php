@@ -140,7 +140,7 @@
                             Puede que tu como madre y padre tengas dudas, lo sabemos, tener dudas es parte de acompañar,
                             es válido preguntar y buscar información.</p>
                         <div class="btn-perfiles">
-                            <a href="educadores">Ir a Educadores</a>
+                            <a href="madresypadres">Ir a Madres y Padres</a>
                         </div>
 
                     </div>
@@ -159,7 +159,7 @@
 
                         </p>
                         <div class="btn-perfiles">
-                            <a href="educadores">Ir a Jóvenes</a>
+                            <a href="jovenes">Ir a Jóvenes</a>
                         </div>
 
                     </div>
