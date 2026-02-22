@@ -886,29 +886,31 @@ Para erradicar la violencia se necesita del trabajo de todas las personas. Es im
 '
             ],
             'slides-6' => [
-                1 => 'Como sociedad, queda  mucho por hacer con las juventudes. Proteger a las niñas y niños, su cuidado y educación es responsabilidad de todas las personas. Hay que:
+                1 => '<p>	<span class="cabecera-bold"> Como sociedad, queda  mucho por hacer con las juventudes. Proteger a las niñas y niños, su cuidado y educación es responsabilidad de todas las personas. Hay que:</span>
 
 Educar en equidad a las niñas y niños 
 Evitar reforzar los estereotipos de género
 Dar oportunidad a las niñas, niños y adolescentes de ser quienes son.
 
-Para lograr relaciones saludables, se necesita difundir los valores de::
-Responsabilidad
-Autogestión
-Respeto 
-Empatía
-Prevención 
+Para lograr relaciones saludables, se necesita difundir los valores de:
 
-Para favorecer relaciones saludables es importante trabajar, cultivar y desarrollar el BUEN TRATO
-',
-                2 => '¿Cómo se ejerce el buen trato?
+<span>&#8226;</span> Responsabilidad
+<span>&#8226;</span> Autogestión
+<span>&#8226;</span> Respeto 
+<span>&#8226;</span> Empatía
+<span>&#8226;</span> Prevención 
+
+Para favorecer relaciones saludables es importante trabajar, cultivar y desarrollar el 	<span class="cabecera-bold"> BUEN TRATO</span>
+</p>',
+                2 => '<p>	<span class="cabecera-bold"> ¿Cómo se ejerce el buen trato?</span>
+
 Resolución no violenta de conflictos: si no se puede solucionar, hay que despedirnos de manera no violenta.
 Hay que partir del buen trato personal para llevarlo a lo social y a proyectos de amor.
 Cuidarme, cuidar y dejarme cuidar.
 Tener espacios personales, reconocer emociones, reconocer deseos, respetar  mis límites, saber pedir, agradecer, pedir perdón, responsabilizarme de mi vida, tener proyectos propios (Fina Sanz)
 
 Las relaciones saludables se desarrollan y construyen desde el respeto, la equidad, la reciprocidad, la consideración mutua y la compasión. Implican un reto, ya que no es algo que  aprendimos, para muchas personas significa romper con antiguos aprendizajes, implica  un proceso de deconstrucción constante.
-',
+</p>',
             ],
             'quiz-7' => [
                 1 => [
@@ -933,40 +935,41 @@ Las relaciones saludables se desarrollan y construyen desde el respeto, la equid
                 ]
             ],
             'slides-7' => [
-                1 => 'La comunicación abierta y asertiva entre adolescentes y sus madres, padres o personas cuidadoras es fundamental para fortalecer los lazos familiares y acompañar el crecimiento sano.
+                1 => '<p>La comunicación abierta y asertiva entre adolescentes y sus madres, padres o personas cuidadoras es fundamental para fortalecer los lazos familiares y acompañar el crecimiento sano.
  
 Ser asertivo significa expresar pensamientos, emociones y necesidades de manera clara y respetuosa, sin miedo ni agresividad. Esto permite resolver conflictos, entender puntos de vista distintos y construir confianza.
  
 Las madres y padres que practican la escucha activa, muestran interés genuino y respetan la opinión de sus hijas e hijos fomentan un ambiente seguro donde se puede hablar de temas difíciles, como sexualidad y emociones.
-',
-                2 => '¿Cómo puedo ser una madre o padre asertivo con mis hijas e hijos?
+</p>',
+                2 => '<p>¿Cómo puedo ser una madre o padre asertivo con mis hijas e hijos?
 
 Ser una persona asertiva no es fácil, a veces podemos ser agresivas y agresivos al comunicar algo, o bien, ser pasivos, es decir, no decimos las cosas para evitar conflictos.
 Esta forma de comunicarnos puede hacer que lo que queremos transmitir no sea escuchado, para ser asertivas y asertivos es importante comunicar lo que queremos o lo que necesitamos de manera clara y directa.
 Una buena manera de hacerlo es la siguiente:
 
-Expresar lo que sentimos o pensamos
-Expresar lo que queremos
-Evitar juzgar
-Evitar culpar
-Evitar sentenciar o regañar
-',
-                3 => 'Es importante preguntar a nuestro hijo o hija ¿Cómo se siente con lo que le estamos comunicando? ¿Qué piensa al respecto?
+<span>&#8226;</span> Expresar lo que sentimos o pensamos
+<span>&#8226;</span> Expresar lo que queremos
+<span>&#8226;</span> Evitar juzgar
+<span>&#8226;</span> Evitar culpar
+<span>&#8226;</span> Evitar sentenciar o regañar
+</p>',
+                3 => '<p>Es importante preguntar a nuestro hijo o hija ¿Cómo se siente con lo que le estamos comunicando? ¿Qué piensa al respecto?
 Explicar el por qué le decimos o le pedimos algo puede ayudar, ya que tenemos alguna razón importante para decirle lo que le estamos pidiendo.
 
 Para ser asertivas y asertivos también nos permite acercarnos emocionalmente, poner límites cuando son necesarios y ayuda a generar empatía, es decir que la otra persona pueda entendernos, ya que al expresar nuestros sentimientos, pensamientos o necesidades la otra persona puede saber más a profundidad lo que nos pasa.
-',
-                4 => 'En ocasiones las madres o padres reaccionamos desde nuestras emociones, pero no somos claras en lo que realmente queremos transmitir.
+</p>',
+                4 => '<p>En ocasiones las madres o padres reaccionamos desde nuestras emociones, pero no somos claras en lo que realmente queremos transmitir.
 
 La asertividad nos ayuda a mantener conversaciones incómodas sin que la otra persona se cierre, ayuda a abrir el diálogo.
 
 En los temas de sexualidad es de vital importancia sabernos comunicar con los hijos e hijas, ya que nosotras las madres y padres podemos ser un soporte importante y acompañar.',
-                5 => '¿Cómo ser parte de la red de apoyo de mi hijo o hija adolescente?
+                5 => '<p>	<span class="cabecera-bold"> ¿Cómo ser parte de la red de apoyo de mi hijo o hija adolescente?</span>
 
 La red de apoyo es el sostén físico, emocional o psicológico al que suele acudir alguien cuando está en apuros, se siente mal o vive alguna situación importante. También la red de apoyo es para compartir noticias importantes, alegrías, festejos.
 Desafortunadamente no siempre la familia representa una red de apoyo real para las y los jóvenes, muchas veces los padres o madres por cuestiones económicas o sociales no están cerca emocionalmente, o bien, no se encuentran disponibles.
-',
-                6 => 'Aquí hay algunas recomendaciones para favorecer y facilitar ser parte de la red de apoyo de tus hijos o hijas:
+</p>',
+                6 => '<p>Aquí hay algunas recomendaciones para favorecer y facilitar ser parte de la red de apoyo de tus hijos o hijas:
+
 <span>&#8226;</span> Es mi lugar seguro
 <span>&#8226;</span> No me juzga
 <span>&#8226;</span> Puedo hablar en cualquier momento si lo necesito
@@ -978,7 +981,7 @@ Desafortunadamente no siempre la familia representa una red de apoyo real para l
 <span>&#8226;</span> No opina, si no le pido opinión
 <span>&#8226;</span> Puede ayudarme a tomar decisiones buenas para mi
 <span>&#8226;</span> Puede ayudar a resolver situaciones cuando yo no puedo
-',
+</p>',
             ],
             'quiz-8' => [
                 1 => [
@@ -1008,61 +1011,72 @@ Desafortunadamente no siempre la familia representa una red de apoyo real para l
                 ]
             ],
             'slides-8' => [
-                1 => 'La autoestima es la valoración que una persona tiene de sí misma. Para las niñas, niños y adolescentes, una autoestima saludable es clave para su desarrollo integral.
+                1 => '<p>La autoestima es la valoración que una persona tiene de sí misma. Para las niñas, niños y adolescentes, una autoestima saludable es clave para su desarrollo integral.
 
 Madres y padres pueden ayudar fortaleciendo el cariño, reconociendo los logros y esfuerzos, apoyando sus intereses y respetando sus decisiones. Evitar comparaciones, críticas destructivas o exigir perfección contribuye a que las y los adolescentes se sientan seguros y capaces.
-',
-                2 => 'Un ambiente familiar de apoyo y respeto les permite enfrentar retos, desarrollar resiliencia y construir un proyecto de vida positivo.
+</p>',
+                2 => '<p>Un ambiente familiar de apoyo y respeto les permite enfrentar retos, desarrollar resiliencia y construir un proyecto de vida positivo.
 
 Ayudar a que los hijos e hijas se conozcan a sí mismos puede ser vital para entenderse, aceptarse y valorarse.
 Hay necesidades básicas que las y los hijos necesitan por parte de las personas adultas que les rodean:
 
-Amor
-Aceptación
-Aprobación
-Reconocimiento
-',
-                3 => 'Actividad 3: Reconocimiento de logros
+<span>&#8226;</span> Amor
+<span>&#8226;</span> Aceptación
+<span>&#8226;</span> Aprobación
+<span>&#8226;</span> Reconocimiento
+</p>',
+                3 => '<p><span class="cabecera-bold">Actividad 3: Reconocimiento de logros</span>
+
 A menudo recuerda a tus hijas e hijos sus logros e invitales a que ellas y ellos mismos lo hagan, por más pequeños o cotidianos que sean. 
 Los logros no siempre deben ser académicos, también hay logros cuando enfrentamos algún miedo o situación que nos es difícil.
 El reconocer logros nos da una sensación de capacidad y suficiencia.
-',
-                4 => 'Actividad 4: Aceptar el malestar y los fallos también es parte de cultivar el autoestima
+</p>',
+                4 => '<p><span class="cabecera-bold"> Actividad 4: Aceptar el malestar y los fallos también es parte de cultivar el autoestima</span>
+
 Culturalmente nos enseñan a que siempre debemos poder con todo y sentirnos bien en todo momento, pero la realidad es que humanamente esto no es posible. El poder reconocer y aceptar que no puedo con todo, me ayuda a aceptar mi verdadera capacidad.
 El poder aceptar que en ocasiones la tristeza, el cansancio, el enojo, son parte de la vida. la aceptación de nuestra realidad emocional nos permite lidiar mejor con nuestras emociones y favorece nuestra valía personal.
 
 Ayuda a tu hijo e hija a identificar sus emociones:
-¿Cómo te sientes?
-¿Cómo se siente tu cuerpo con esto que te pasa?
-¿Dónde lo sientes?
-Está bien sentirse —------------- (triste, enojado, confundido, etc)
-',
-                5 => 'La importancia de la autoestima y su relación con la sexualidad en adolescentes
+
+<span>&#8226;</span> ¿Cómo te sientes?
+<span>&#8226;</span> ¿Cómo se siente tu cuerpo con esto que te pasa?
+<span>&#8226;</span> ¿Dónde lo sientes?
+<span>&#8226;</span> Está bien sentirse —------------- (triste, enojado, confundido, etc)
+</p>',
+                5 => '<p>	<span class="cabecera-bold"> La importancia de la autoestima y su relación con la sexualidad en adolescentes </span>
+
 La autoestima influye directamente en cómo niñas, niños y adolescentes viven su sexualidad. Quienes se valoran y respetan a sí mismos tienen más probabilidades de tomar decisiones responsables, proteger su salud y exigir respeto en sus relaciones. 
+
 Una autoestima sana también ayuda a prevenir embarazos no deseados, infecciones de transmisión sexual y relaciones abusivas. Por eso, promover el amor propio y el autocuidado debe ser parte de la educación sexual integral.
+
 La importancia de la educación sexual para que adolescentes decidan sobre su cuerpo y vida.
-',
-                6 => 'La educación sexual integral brinda a niñas, niños y adolescentes información veraz, herramientas y habilidades para conocer y cuidar su cuerpo, entender sus emociones y tomar decisiones libres y responsables.
+</p>',
+                6 => '<p>La educación sexual integral brinda a niñas, niños y adolescentes información veraz, herramientas y habilidades para conocer y cuidar su cuerpo, entender sus emociones y tomar decisiones libres y responsables.
+
 Con educación sexual, pueden reconocer sus derechos, identificar situaciones de riesgo y buscar ayuda. Esta educación debe incluir temas de género, identidad, orientación, afectividad y prevención de embarazos e infecciones.
+
 El derecho a decidir sobre el propio cuerpo es fundamental para una vida plena y libre de violencia.
-',
-                7 => 'La importancia de la participación de madres y padres en la planificación del proyecto de vida de sus hijas e hijos
+</p>',
+                7 => '<p>La importancia de la participación de madres y padres en la planificación del proyecto de vida de sus hijas e hijos
 
 El acompañamiento de madres, padres y personas cuidadoras en la vida de las y los adolescentes es esencial para que puedan construir un proyecto de vida con sentido.
+
 Cuando las familias participan, escuchan y apoyan los sueños y aspiraciones de sus hijas e hijos, fomentan la confianza, la motivación y la autoestima. Esto reduce riesgos de embarazos tempranos, abandono escolar o conductas de riesgo. 
+
 Una comunicación respetuosa y el acompañamiento activo fortalecen la autonomía y las capacidades para enfrentar los desafíos del presente y futuro.
-',
-                8 => 'Algunas preguntas que puedes hacer a tus hijos e hijas para apoyar en la proyección de su proyecto de vida.
-¿Cómo te gustaría vivir cuando seas grande?
-¿Qué no te gustaría que pasara con tu vida?
-¿Hay algo que te apasione?
-¿Cuáles son tus talentos?
-¿A qué te gustaría dedicarte?
-¿Te gustaría tener hijos o hijas?
-¿Cómo te imaginas tu vida en unos años?
-¿Qué sientes que en el presente te gustaría hacer para construir tu futuro?
-',
-                9 => 'Bibliografía Actualizada sobre Educación Sexual Integral para Adolescentes
+</p>',
+                8 => '<p>Algunas preguntas que puedes hacer a tus hijos e hijas para apoyar en la proyección de su proyecto de vida.
+
+<span>&#8226;</span> ¿Cómo te gustaría vivir cuando seas grande?
+<span>&#8226;</span> ¿Qué no te gustaría que pasara con tu vida?
+<span>&#8226;</span> ¿Hay algo que te apasione?
+<span>&#8226;</span> ¿Cuáles son tus talentos?
+<span>&#8226;</span> ¿A qué te gustaría dedicarte?
+<span>&#8226;</span> ¿Te gustaría tener hijos o hijas?
+<span>&#8226;</span> ¿Cómo te imaginas tu vida en unos años?
+<span>&#8226;</span> ¿Qué sientes que en el presente te gustaría hacer para construir tu futuro?
+</p>',
+                9 => '<p>Bibliografía Actualizada sobre Educación Sexual Integral para Adolescentes
 
 Libros y Guías Recomendadas
 "La Soberanía de Nuestros Cuerpos" – Fabiana Taul (2022)
@@ -1081,7 +1095,7 @@ Publicación que resalta la ESI como un derecho fundamental, abordando su implem
 Guía práctica que ofrece estrategias para la implementación de la ESI en contextos formales y no formales, enfocándose en adolescentes.
 
 100 preguntas sobre sexualidad adolescente
-',
+</p>',
             ],
         ];
         return $data;
