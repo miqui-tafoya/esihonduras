@@ -87,10 +87,8 @@
 .img-entrada img {
   width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
+  object-fit: cover;
+  object-position: top;
   border-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }

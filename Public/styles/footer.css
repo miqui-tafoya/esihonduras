@@ -27,10 +27,8 @@
 .ul-logos li img {
   width: auto;
   height: 70%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
+  object-fit: contain;
+  object-position: center;
 }
 
 .info-footer {
