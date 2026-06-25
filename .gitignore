@@ -22,3 +22,4 @@ Public/logs
 # Ignora recursos no críticos
 Public/recursos/entradas/
 Public/recursos/portadas/
+Public/analytics/
